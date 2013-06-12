@@ -368,3 +368,14 @@ D:\LoveJourney\LoveJourney_Working\LoveJourneyAPILayer\bin\Debug\DAL.pdb
 D:\LoveJourney\LoveJourney_Working\LoveJourneyAPILayer\obj\Debug\ResolveAssemblyReference.cache
 D:\LoveJourney\LoveJourney_Working\LoveJourneyAPILayer\obj\Debug\BusAPILayer.dll
 D:\LoveJourney\LoveJourney_Working\LoveJourneyAPILayer\obj\Debug\BusAPILayer.pdb
+C:\Users\LoveJourney\Documents\GitHub\LoveJourney_Working\Lovejourney_Working\lovejourney_working\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll.config
+C:\Users\LoveJourney\Documents\GitHub\LoveJourney_Working\Lovejourney_Working\lovejourney_working\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll
+C:\Users\LoveJourney\Documents\GitHub\LoveJourney_Working\Lovejourney_Working\lovejourney_working\LoveJourneyAPILayer\bin\Debug\BusAPILayer.pdb
+C:\Users\LoveJourney\Documents\GitHub\LoveJourney_Working\Lovejourney_Working\lovejourney_working\LoveJourneyAPILayer\bin\Debug\BAL.dll
+C:\Users\LoveJourney\Documents\GitHub\LoveJourney_Working\Lovejourney_Working\lovejourney_working\LoveJourneyAPILayer\bin\Debug\CookComputing.XmlRpcV2.dll
+C:\Users\LoveJourney\Documents\GitHub\LoveJourney_Working\Lovejourney_Working\lovejourney_working\LoveJourneyAPILayer\bin\Debug\DAL.dll
+C:\Users\LoveJourney\Documents\GitHub\LoveJourney_Working\Lovejourney_Working\lovejourney_working\LoveJourneyAPILayer\bin\Debug\BAL.pdb
+C:\Users\LoveJourney\Documents\GitHub\LoveJourney_Working\Lovejourney_Working\lovejourney_working\LoveJourneyAPILayer\bin\Debug\DAL.pdb
+C:\Users\LoveJourney\Documents\GitHub\LoveJourney_Working\Lovejourney_Working\lovejourney_working\LoveJourneyAPILayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\LoveJourney\Documents\GitHub\LoveJourney_Working\Lovejourney_Working\lovejourney_working\LoveJourneyAPILayer\obj\Debug\BusAPILayer.dll
+C:\Users\LoveJourney\Documents\GitHub\LoveJourney_Working\Lovejourney_Working\lovejourney_working\LoveJourneyAPILayer\obj\Debug\BusAPILayer.pdb

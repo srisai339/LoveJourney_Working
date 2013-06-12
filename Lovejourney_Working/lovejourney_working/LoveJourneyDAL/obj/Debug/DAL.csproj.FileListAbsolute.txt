@@ -162,3 +162,8 @@ D:\LoveJourney\LoveJourney_Working\LoveJourneyDAL\bin\Debug\DAL.pdb
 D:\LoveJourney\LoveJourney_Working\LoveJourneyDAL\obj\Debug\ResolveAssemblyReference.cache
 D:\LoveJourney\LoveJourney_Working\LoveJourneyDAL\obj\Debug\DAL.dll
 D:\LoveJourney\LoveJourney_Working\LoveJourneyDAL\obj\Debug\DAL.pdb
+C:\Users\LoveJourney\Documents\GitHub\LoveJourney_Working\Lovejourney_Working\lovejourney_working\LoveJourneyDAL\bin\Debug\DAL.dll
+C:\Users\LoveJourney\Documents\GitHub\LoveJourney_Working\Lovejourney_Working\lovejourney_working\LoveJourneyDAL\bin\Debug\DAL.pdb
+C:\Users\LoveJourney\Documents\GitHub\LoveJourney_Working\Lovejourney_Working\lovejourney_working\LoveJourneyDAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\LoveJourney\Documents\GitHub\LoveJourney_Working\Lovejourney_Working\lovejourney_working\LoveJourneyDAL\obj\Debug\DAL.dll
+C:\Users\LoveJourney\Documents\GitHub\LoveJourney_Working\Lovejourney_Working\lovejourney_working\LoveJourneyDAL\obj\Debug\DAL.pdb

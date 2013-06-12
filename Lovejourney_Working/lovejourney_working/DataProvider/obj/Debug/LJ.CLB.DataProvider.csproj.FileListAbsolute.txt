@@ -199,3 +199,10 @@ D:\LoveJourney\LoveJourney_Working\DataProvider\bin\Debug\I2S.CLB.DTO.pdb
 D:\LoveJourney\LoveJourney_Working\DataProvider\obj\Debug\ResolveAssemblyReference.cache
 D:\LoveJourney\LoveJourney_Working\DataProvider\obj\Debug\I2S.CLB.DP.dll
 D:\LoveJourney\LoveJourney_Working\DataProvider\obj\Debug\I2S.CLB.DP.pdb
+C:\Users\LoveJourney\Documents\GitHub\LoveJourney_Working\Lovejourney_Working\lovejourney_working\DataProvider\bin\Debug\I2S.CLB.DP.dll
+C:\Users\LoveJourney\Documents\GitHub\LoveJourney_Working\Lovejourney_Working\lovejourney_working\DataProvider\bin\Debug\I2S.CLB.DP.pdb
+C:\Users\LoveJourney\Documents\GitHub\LoveJourney_Working\Lovejourney_Working\lovejourney_working\DataProvider\bin\Debug\I2S.CLB.DTO.dll
+C:\Users\LoveJourney\Documents\GitHub\LoveJourney_Working\Lovejourney_Working\lovejourney_working\DataProvider\bin\Debug\I2S.CLB.DTO.pdb
+C:\Users\LoveJourney\Documents\GitHub\LoveJourney_Working\Lovejourney_Working\lovejourney_working\DataProvider\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\LoveJourney\Documents\GitHub\LoveJourney_Working\Lovejourney_Working\lovejourney_working\DataProvider\obj\Debug\I2S.CLB.DP.dll
+C:\Users\LoveJourney\Documents\GitHub\LoveJourney_Working\Lovejourney_Working\lovejourney_working\DataProvider\obj\Debug\I2S.CLB.DP.pdb

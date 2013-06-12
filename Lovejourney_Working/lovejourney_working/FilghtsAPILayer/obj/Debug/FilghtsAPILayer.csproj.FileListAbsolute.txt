@@ -201,3 +201,9 @@ D:\LoveJourney\LoveJourney_Working\FilghtsAPILayer\bin\Debug\FilghtsAPILayer.pdb
 D:\LoveJourney\LoveJourney_Working\FilghtsAPILayer\obj\Debug\ResolveAssemblyReference.cache
 D:\LoveJourney\LoveJourney_Working\FilghtsAPILayer\obj\Debug\FilghtsAPILayer.dll
 D:\LoveJourney\LoveJourney_Working\FilghtsAPILayer\obj\Debug\FilghtsAPILayer.pdb
+C:\Users\LoveJourney\Documents\GitHub\LoveJourney_Working\Lovejourney_Working\lovejourney_working\FilghtsAPILayer\bin\Debug\FilghtsAPILayer.dll.config
+C:\Users\LoveJourney\Documents\GitHub\LoveJourney_Working\Lovejourney_Working\lovejourney_working\FilghtsAPILayer\bin\Debug\FilghtsAPILayer.dll
+C:\Users\LoveJourney\Documents\GitHub\LoveJourney_Working\Lovejourney_Working\lovejourney_working\FilghtsAPILayer\bin\Debug\FilghtsAPILayer.pdb
+C:\Users\LoveJourney\Documents\GitHub\LoveJourney_Working\Lovejourney_Working\lovejourney_working\FilghtsAPILayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\LoveJourney\Documents\GitHub\LoveJourney_Working\Lovejourney_Working\lovejourney_working\FilghtsAPILayer\obj\Debug\FilghtsAPILayer.dll
+C:\Users\LoveJourney\Documents\GitHub\LoveJourney_Working\Lovejourney_Working\lovejourney_working\FilghtsAPILayer\obj\Debug\FilghtsAPILayer.pdb

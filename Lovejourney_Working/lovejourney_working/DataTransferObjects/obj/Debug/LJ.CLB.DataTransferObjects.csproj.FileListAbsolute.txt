@@ -158,3 +158,8 @@ D:\LoveJourney\LoveJourney_Working\DataTransferObjects\bin\Debug\I2S.CLB.DTO.pdb
 D:\LoveJourney\LoveJourney_Working\DataTransferObjects\obj\Debug\ResolveAssemblyReference.cache
 D:\LoveJourney\LoveJourney_Working\DataTransferObjects\obj\Debug\I2S.CLB.DTO.dll
 D:\LoveJourney\LoveJourney_Working\DataTransferObjects\obj\Debug\I2S.CLB.DTO.pdb
+C:\Users\LoveJourney\Documents\GitHub\LoveJourney_Working\Lovejourney_Working\lovejourney_working\DataTransferObjects\bin\Debug\I2S.CLB.DTO.dll
+C:\Users\LoveJourney\Documents\GitHub\LoveJourney_Working\Lovejourney_Working\lovejourney_working\DataTransferObjects\bin\Debug\I2S.CLB.DTO.pdb
+C:\Users\LoveJourney\Documents\GitHub\LoveJourney_Working\Lovejourney_Working\lovejourney_working\DataTransferObjects\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\LoveJourney\Documents\GitHub\LoveJourney_Working\Lovejourney_Working\lovejourney_working\DataTransferObjects\obj\Debug\I2S.CLB.DTO.dll
+C:\Users\LoveJourney\Documents\GitHub\LoveJourney_Working\Lovejourney_Working\lovejourney_working\DataTransferObjects\obj\Debug\I2S.CLB.DTO.pdb

@@ -251,3 +251,12 @@ D:\LoveJourney\LoveJourney_Working\BusinessLogic\bin\Debug\I2S.CLB.DTO.pdb
 D:\LoveJourney\LoveJourney_Working\BusinessLogic\obj\Debug\ResolveAssemblyReference.cache
 D:\LoveJourney\LoveJourney_Working\BusinessLogic\obj\Debug\I2S.CLB.BL.dll
 D:\LoveJourney\LoveJourney_Working\BusinessLogic\obj\Debug\I2S.CLB.BL.pdb
+C:\Users\LoveJourney\Documents\GitHub\LoveJourney_Working\Lovejourney_Working\lovejourney_working\BusinessLogic\bin\Debug\I2S.CLB.BL.dll
+C:\Users\LoveJourney\Documents\GitHub\LoveJourney_Working\Lovejourney_Working\lovejourney_working\BusinessLogic\bin\Debug\I2S.CLB.BL.pdb
+C:\Users\LoveJourney\Documents\GitHub\LoveJourney_Working\Lovejourney_Working\lovejourney_working\BusinessLogic\bin\Debug\I2S.CLB.DP.dll
+C:\Users\LoveJourney\Documents\GitHub\LoveJourney_Working\Lovejourney_Working\lovejourney_working\BusinessLogic\bin\Debug\I2S.CLB.DTO.dll
+C:\Users\LoveJourney\Documents\GitHub\LoveJourney_Working\Lovejourney_Working\lovejourney_working\BusinessLogic\bin\Debug\I2S.CLB.DP.pdb
+C:\Users\LoveJourney\Documents\GitHub\LoveJourney_Working\Lovejourney_Working\lovejourney_working\BusinessLogic\bin\Debug\I2S.CLB.DTO.pdb
+C:\Users\LoveJourney\Documents\GitHub\LoveJourney_Working\Lovejourney_Working\lovejourney_working\BusinessLogic\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\LoveJourney\Documents\GitHub\LoveJourney_Working\Lovejourney_Working\lovejourney_working\BusinessLogic\obj\Debug\I2S.CLB.BL.dll
+C:\Users\LoveJourney\Documents\GitHub\LoveJourney_Working\Lovejourney_Working\lovejourney_working\BusinessLogic\obj\Debug\I2S.CLB.BL.pdb

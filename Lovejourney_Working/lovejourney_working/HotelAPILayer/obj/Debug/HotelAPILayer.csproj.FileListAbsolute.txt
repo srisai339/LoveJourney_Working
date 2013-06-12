@@ -269,3 +269,11 @@ D:\LoveJourney\LoveJourney_Working\HotelAPILayer\bin\Debug\I2S.CLB.DTO.pdb
 D:\LoveJourney\LoveJourney_Working\HotelAPILayer\obj\Debug\ResolveAssemblyReference.cache
 D:\LoveJourney\LoveJourney_Working\HotelAPILayer\obj\Debug\HotelAPILayer.dll
 D:\LoveJourney\LoveJourney_Working\HotelAPILayer\obj\Debug\HotelAPILayer.pdb
+C:\Users\LoveJourney\Documents\GitHub\LoveJourney_Working\Lovejourney_Working\lovejourney_working\HotelAPILayer\bin\Debug\HotelAPILayer.dll.config
+C:\Users\LoveJourney\Documents\GitHub\LoveJourney_Working\Lovejourney_Working\lovejourney_working\HotelAPILayer\bin\Debug\HotelAPILayer.dll
+C:\Users\LoveJourney\Documents\GitHub\LoveJourney_Working\Lovejourney_Working\lovejourney_working\HotelAPILayer\bin\Debug\HotelAPILayer.pdb
+C:\Users\LoveJourney\Documents\GitHub\LoveJourney_Working\Lovejourney_Working\lovejourney_working\HotelAPILayer\bin\Debug\I2S.CLB.DTO.dll
+C:\Users\LoveJourney\Documents\GitHub\LoveJourney_Working\Lovejourney_Working\lovejourney_working\HotelAPILayer\bin\Debug\I2S.CLB.DTO.pdb
+C:\Users\LoveJourney\Documents\GitHub\LoveJourney_Working\Lovejourney_Working\lovejourney_working\HotelAPILayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\LoveJourney\Documents\GitHub\LoveJourney_Working\Lovejourney_Working\lovejourney_working\HotelAPILayer\obj\Debug\HotelAPILayer.dll
+C:\Users\LoveJourney\Documents\GitHub\LoveJourney_Working\Lovejourney_Working\lovejourney_working\HotelAPILayer\obj\Debug\HotelAPILayer.pdb
