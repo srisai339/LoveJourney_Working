@@ -1,0 +1,127 @@
+﻿<%@ Page Title="Search Bus" Language="C#" MasterPageFile="~/Users/Bus/MasterPage.master" AutoEventWireup="true"
+    CodeFile="Bus_Search.aspx.cs" Inherits="_Default" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
+    
+    <table cellpadding="15">
+        <tr>
+            <td colspan="2" height="50px">
+            </td>
+        </tr>
+        <tr>
+            <td>
+            </td>
+            <td align="left" class="hidden">
+                <input id="rbOneWay" name="triptype" type="radio" value="single" checked="checked" />
+                &nbsp;&nbsp;&nbsp;One Way&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input id="rbRoundTrip" name="triptype" type="radio" value="return" />
+                &nbsp;&nbsp;&nbsp;Round Trip
+            </td>
+        </tr>
+        <tr>
+            <td align="left">
+                From
+            </td>
+            <td align="left">
+                <%--text box to load source cities--%>
+                <input type="text" id="txtSource" name="txtSource" style="width: 300px; padding: 3px;" />
+                <input type="hidden" id="hdnSources" name="hdnSources" />
+                <input type="hidden" id="hdnSelectedSource" name="hdnSelectedSource" />
+            </td>
+        </tr>
+        <tr>
+            <td align="left">
+                To
+            </td>
+            <td align="left">
+                <%--text box to load destination cities--%>
+                <input type="text" id="txtDestination" name="txtDestination" style="width: 300px;
+                    padding: 3px;" />
+                <input type="hidden" id="hdnDestinations" name="hdnDestinations" />
+                <input type="hidden" id="hdnSelectedDestination" name="hdnSelectedDestination" />
+            </td>
+        </tr>
+        <tr>
+            <td align="left">
+                Journey Date
+            </td>
+            <td align="left">
+                <input type="text" id="txtDOJ" name="txtDOJ" style="width: 100px; padding: 3px;" />
+            </td>
+        </tr>
+        <tr id="trDOR" class="hidden">
+            <td align="left">
+                Return Date
+            </td>
+            <td align="left">
+                <input type="text" id="txtDOR" name="txtDOR" style="width: 100px; padding: 3px;" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+            </td>
+            <td align="center" height="40px" valign="bottom">
+                <input type="button" value="Search Buses" class="et_srch" onclick="return fnGetTrips()" />
+            </td>
+        </tr>
+    </table>
+    
+    <script runat="server">
+        protected String GetServerDate()
+        {
+            return DateTime.Now.ToString("yyyy/MM/dd");
+        }
+    </script>
+    <script type="text/javascript">
+        var baseURL = '../../';
+
+        var serverDate = "<%= GetServerDate()%>";
+
+        //initialize fields and set default properties
+       fnSetFields();
+        /** load from and to cities autocomplete dropdowns **/
+        fnLoadCities();
+
+        //function to validate user input and redirect user to search results page
+        function fnGetTrips() {
+            //check if all required fields are entered
+            if ($('#hdnSelectedSource').val() != '' && $('#hdnSelectedDestination').val() != '' && $('#txtDOJ').val() != '') {
+
+                //check if round trip is selected and validate if return date is selected
+                if ($("input[name=triptype]:checked").val() == 'return' && $('#txtDOR').val() == '') {
+                    alert('Please select return journey date');
+                    return false;
+                }
+
+                //set values to window.name and use it in select bus page
+                window.name = "fromCityId=" + $('#hdnSelectedSource').val() +
+                                                        "&fromCityName=" + $('#txtSource').val() +
+                                                        "&toCityId=" + $('#hdnSelectedDestination').val() +
+                                                        "&toCityName=" + $('#txtDestination').val() +
+                                                        "&doj=" + $('#txtDOJ').val() +
+                                                        "&dor=" + $('#txtDOR').val() +
+                                                        "&busType=Any" +
+                                                        "&tripType=" + $("input[name=triptype]:checked").val();
+                //redirect user to SelectBus page
+                window.location.href = "SelectBus.aspx";
+            }
+            else {
+                alert('Please select source, destination and travel date.');
+            }
+        }
+        //show/hide round trip date based on triptype selection
+        $('input[name=triptype]').change(function () {
+            //single trip
+            if ($("input[name=triptype]:checked").val() == 'single')
+                $('#trDOR').hide();
+            //round trip
+            else if ($("input[name=triptype]:checked").val() == 'return') {
+                var myDate = new Date(serverDate);
+                var nextDay = new Date(myDate.getFullYear(), myDate.getMonth(), myDate.getDate() + 1);
+                $('#trDOR').show();
+                $('#txtDOR').val($.datepicker.formatDate('dd-mm-yy', nextDay));
+            }
+        });
+
+    </script>
+</asp:Content>

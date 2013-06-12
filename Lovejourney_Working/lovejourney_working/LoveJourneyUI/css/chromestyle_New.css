@@ -1,0 +1,241 @@
+.lj_chromestyle{
+width:100%;
+background-color:none;
+}
+
+
+
+.lj_chromestyle:after{ /*Add margin between menu and rest of content in Firefox*/
+content: "."; 
+display: block; 
+height: 0; 
+clear: both; 
+visibility: hidden;
+}
+
+.lj_chromestyle ul{
+border: 0px solid #BBB;
+width: 100%;
+background: url(chromebg.gif) center center repeat-x; /*THEME CHANGE HERE*/
+padding:0;
+margin: 0;
+text-align: left; /*set value to "left", "center", or "right"*/
+}
+
+.lj_chromestyle ul li{
+display: inline;
+}
+
+.lj_chromestyle ul li a{
+ width:50px;
+    height:35px;
+    background:url(../Newimages/flight_i.png) no-repeat center left ;
+    display:block;
+    padding:0px 0px 0px 42px;
+    line-height:35px;
+float:left;
+}
+
+.lj_chromestyle ul li a:hover, .chromestyle ul li a.selected{
+	 width:50px;
+    height:35px;
+    background:url(../Newimages/flight_i.png) no-repeat center left ;
+    display:block;
+    padding:0px 0px 0px 42px;
+    line-height:35px;
+	color:#000;
+}
+
+/* ######### Style for Drop Down Menu ######### */
+
+.ljdropmenudiv{
+position:absolute;
+top: 0px;
+border: 1px solid #f29b22; /*THEME CHANGE HERE*/
+border-bottom-width: 0;
+font:normal 12px Verdana;
+line-height:18px;
+z-index:100;
+background-color:#e8ae42;
+width:150px;
+color:#000;
+
+font-weight:bold;
+visibility: hidden;
+text-align:left;
+margin-top:1px;
+}
+
+
+.ljdropmenudiv a{
+width: auto;
+display: block;
+text-indent: 3px;
+border-bottom: 1px solid #f29b22; /*THEME CHANGE HERE*/
+padding:1px 3px;
+text-decoration: none;
+font-weight:normal;
+color:#000;
+font-weight:bold;
+font-family:Arial, Helvetica, sans-serif;
+background-image:none;
+}
+
+.ljdropmenudiv a:hover{ /*THEME CHANGE HERE*/
+background-color: #9c2019;
+color:#ffffff;
+font-weight:bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dropmenudivnew{
+position:absolute;
+top: 0px;
+border: 1px solid #f29b22; /*THEME CHANGE HERE*/
+border-bottom-width: 0;
+font:normal 12px Verdana;
+line-height:18px;
+z-index:100;
+background-color:#e8ae42;
+width:150px;
+color:#000;
+
+font-weight:bold;
+visibility: hidden;
+text-align:left;
+margin-top:1px;
+}
+
+
+.dropmenudivnew a{
+width: auto;
+display: block;
+text-indent: 3px;
+border-bottom: 1px solid #f29b22; /*THEME CHANGE HERE*/
+padding:1px 3px;
+text-decoration: none;
+font-weight:normal;
+color:#000;
+font-weight:bold;
+font-family:Arial, Helvetica, sans-serif;
+background-image:none;
+}
+
+.dropmenudivnew a:hover{ /*THEME CHANGE HERE*/
+background-color:red;
+color:#ffffff;
+padding:1px 3px;
+font-weight:bold;
+}
+
+
+
+
+/*pan*/
+
+
+.panchromestyle{
+width:100%;
+background-color:none;
+}
+
+
+
+.panchromestyle:after{ /*Add margin between menu and rest of content in Firefox*/
+content: "."; 
+display: block; 
+height: 0; 
+clear: both; 
+visibility: hidden;
+}
+
+.panchromestyle ul{
+border: 0px solid #BBB;
+width: 100%;
+background: url(chromebg.gif) center center repeat-x; /*THEME CHANGE HERE*/
+padding:0;
+margin: 0;
+text-align: left; /*set value to "left", "center", or "right"*/
+}
+
+.panchromestyle ul li{
+display: inline;
+}
+
+.panchromestyle ul li a{
+ width:50px;
+    height:35px;
+    background:url(../Newimages/pa_i.png) no-repeat center left ;
+    display:block;
+    padding:0px 0px 0px 35px;
+    line-height:35px;
+float:left;
+}
+
+.panchromestyle ul li a:hover, .panchromestyle ul li a.selected{
+	 width:50px;
+    height:35px;
+    background:url(../Newimages/pa_i.png) no-repeat center left ;
+    display:block;
+    padding:0px 0px 0px 35px;
+    line-height:35px;
+	color:#000;
+}
+
+/* ######### Style for Drop Down Menu ######### */
+
+.pandropmenudiv{
+position:absolute;
+top: 0px;
+border: 1px solid #f29b22; /*THEME CHANGE HERE*/
+border-bottom-width: 0;
+font:normal 12px Verdana;
+line-height:18px;
+z-index:100;
+background-color:#e8ae42;
+width:320px;
+color:#000;
+
+font-weight:bold;
+visibility: hidden;
+text-align:left;
+margin-top:1px;
+}
+
+
+.pandropmenudiv a{
+width: auto;
+display: block;
+text-indent: 3px;
+border-bottom: 1px solid #f29b22; /*THEME CHANGE HERE*/
+padding:1px 3px;
+text-decoration: none;
+font-weight:normal;
+color:#000;
+font-weight:bold;
+font-family:Arial, Helvetica, sans-serif;
+background-image:none;
+}
+
+.pandropmenudiv a:hover{ /*THEME CHANGE HERE*/
+background-color: #9c2019;
+color:#ffffff;
+font-weight:bold;
+}

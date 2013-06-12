@@ -1,0 +1,435 @@
+
+.modalBackground
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    filter: Alpha(Opacity=30);
+    -moz-opacity: 0.3;
+    opacity: 0.3;
+    width: 100%;
+    height: 1000px;
+    background-color: #000;
+    position: fixed;
+    z-index: 500;
+    top: 0px;
+    left: 0px;
+}
+.i2s_jp_logobg
+{
+    padding: 10px 0 0 30px;
+}
+.i2s_topmenu
+{
+    background: url(../images/topmenubg.jpg) no-repeat top;
+    height: 176px;
+}
+.i2s_jb_loginbg
+{
+    padding: 8px 0 0 10px;
+    margin: 0;
+    background: url(../images/loginbg.jpg) no-repeat top left;
+    height: 44px;
+}
+.i2s_jb_logintext
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: #fff;
+}
+.i2s_jb_logintext a
+{
+    text-decoration: none;
+    color: #fff;
+}
+.i2s_jb_logintext a:hover
+{
+    text-decoration: underline;
+    color: #000;
+}
+.i2s_jp_mainmenu
+{
+    background: url(../images/curve-menubg.jpg) repeat-x top left;
+    height: 38px;
+}
+.i2s_jp_mainmenu ul
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.i2s_jp_mainmenu li
+{
+    display: inline;
+}
+.i2s_jp_mainmenu a
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: #fff;
+    padding: 12px 8px;
+    margin: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    display: block;
+    float: left;
+}
+.i2s_jp_mainmenu a:hover
+{
+    background: url(../images/curve-menuhover.jpg) repeat-x;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: #000;
+    padding: 12px 8px;
+    margin: 0;
+    text-decoration: none;
+    display: block;
+    float: left;
+    vertical-align: middle;
+}
+.i2s_jp_mainmenu a:hover, .i2s_jp_mainmenu a.selected
+{
+    background: url(../images/curve-menuhover.jpg) repeat-x;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 12px 8px;
+    color: #000;
+    margin: 0;
+    text-decoration: none;
+    display: block;
+    float: left;
+    vertical-align: middle;
+}
+.i2s_jp_leftbg
+{
+    background: url(../images/left-cubg.jpg) repeat-y;
+}
+.i2s_jp_rightbg
+{
+    background: url(../images/right-cubg.jpg) repeat-y;
+}
+.i2s_jp_midbg
+{
+    background: url(../images/curve-menubg.jpg) repeat-x;
+    background-color: #fff;
+}
+.i2s_jp_booking
+{
+    background: url(../images/booking-topbg.jpg) no-repeat;
+    height: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #000;
+    padding: 0 0 0 15px;
+}
+.i2s_jp_book-bg
+{
+    background: url(../images/booking-bg.jpg) no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: #000;
+    height: 207px;
+}
+.i2s_jp_book-textbg
+{
+    background: url(../images/book-textbg.jpg) no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 170px;
+    font-size: 12px;
+    font-weight: normal;
+    color: #000;
+    height: 23px;
+    border: 0;
+    padding-left: 8px;
+    line-height: 23px;
+}
+.i2s_jp_managebg
+{
+    background: url(../images/manage-bg.jpg) no-repeat center bottom;
+    height: 132px;
+}
+.i2s_jp_managetext
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #ad001e;
+    border-bottom: 1px dashed #000;
+    padding-left: 10px;
+}
+.i2s_jp_managetext02
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: #000;
+    padding-left: 10px;
+}
+.i2s_jp_managebottonbg
+{
+    background: url(../images/manage-bo-bg.jpg) no-repeat right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: #fff;
+    padding-right: 10px;
+}
+.i2s_jp_managebottonbg a
+{
+    text-decoration: none;
+    color: #fff;
+}
+.i2s_jp_managebottonbg a:hover
+{
+    text-decoration: underline;
+    color: #000;
+}
+.i2s_jp_bottombg
+{
+    background: url(../images/bottom-midbg.jpg) repeat-x top;
+}
+.i2s_jp_fooetrbg
+{
+    background: url(../images/footer-midbg.jpg) repeat-x top;
+}
+.i2s_jp_text01
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 30px;
+    color: #000;
+}
+.i2s_jp_text01 a
+{
+    text-decoration: none;
+    color: #000;
+}
+.i2s_jp_text01 a:hover
+{
+    text-decoration: underline;
+    color: #b0041f;
+}
+/* inner pages */
+
+.i2s_jp_recharge
+{
+    background: url(../images/recharge-midbg.jpg) repeat-x top;
+    background-color: #fff;
+}
+.i2s_jp_rech-head
+{
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #fff;
+    padding-left: 10px;
+}
+.i2s_jp_travel
+{
+    background: url(../images/tra-bg.jpg) repeat-x;
+}
+.i2s_jp_bus
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 25px;
+    color: #000;
+}
+.i2s_jp_bustext
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 25px;
+    color: #b0041f;
+}
+.i2s_jp_status1
+{
+    background: url(../images/status-bg1.gif) no-repeat center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: #fff;
+    border: 0;
+    width: 55px;
+    height: 18px;
+}
+.i2s_jp_status2
+{
+    background: url(../images/status-bg2.gif) no-repeat center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: #fff;
+    border: 0;
+    width: 68px;
+    height: 18px;
+}
+.i2s_jp_status3
+{
+    background-color:brown;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: #fff;
+    border: 0px;
+    padding:2px;
+  
+}
+.i2s_jp_status4
+{
+    background: url(../images/status-bg4.gif) no-repeat center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: #fff;
+    border: 0;
+    width: 90px;
+    height: 18px;
+}
+.i2s_jp_status5
+{
+    background: url(../images/status-bg5.gif) no-repeat center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: #fff;
+    border: 0;
+    width: 102px;
+    padding:0px;
+    height: 18px;
+}
+.i2s_jp_status6
+{
+    background: url(../images/status-bg6.gif) no-repeat center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: #fff;
+    border: 0;
+    width: 115px;
+    height: 18px;
+}
+.i2s_jp_details
+{
+    background: url(../images/detail-img.jpg) no-repeat left;
+    height: 33px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #000;
+    padding-left: 20px;
+    width: 800px;
+}
+.i2s_jp_details02
+{
+    background: url(../images/detail-img02.jpg) no-repeat left;
+    height: 33px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #000;
+    padding-left: 20px;
+    width: 800px;
+}
+.i2s_jp_detail-bg
+{
+    background-color: #fee9c6;
+    border-left: 1px solid #fa6e1a;
+    border-right: 1px solid #fa6e1a;
+}
+.i2s_jp_layoutleft
+{
+    background: url(../images/layout-leftbg.jpg) repeat-y;
+}
+.i2s_jp_layoutright
+{
+    background: url(../images/layout-rightbg.jpg) repeat-y;
+}
+.i2s_jp_layouttop
+{
+    background: url(../images/layout-topbg.jpg) repeat-x;
+}
+.i2s_jp_layoutbottom
+{
+    background: url(../images/layout-bottombg.jpg) repeat-x;
+}
+.i2s_jp_seats
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    color: #000000;
+    text-decoration: none;
+    text-align: justify;
+    background-color:#FFFBD6;
+    border: 1px solid #c5dbb2;
+    height: 16px;
+}
+.i2s_jp_continue
+{
+    background: url(../images/continuebg.jpg) no-repeat center;
+    height: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: #fff;
+}
+.i2s_jp_continue a
+{
+    text-decoration: none;
+    color: #fff;
+}
+.i2s_jp_continue a:hover
+{
+    text-decoration: underline;
+    color: #000;
+}
+.i2s_jp_backbg
+{
+    background: url(../images/backbg.jpg) no-repeat center;
+    height: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: #fff;
+}
+.i2s_jp_backbg a
+{
+    text-decoration: none;
+    color: #fff;
+}
+.i2s_jp_backbg a:hover
+{
+    text-decoration: underline;
+    color: #000;
+}
+.i2s_jp_confirmbg
+{
+    background: url(../images/confirmbg.jpg) no-repeat center;
+    height: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: #fff;
+}
+
+.i2s_jp_button
+{
+    background: url(../images/curve-menuhover.jpg) repeat-x;
+}
+.headred
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: #FF0000;
+    text-decoration: none;
+}
+

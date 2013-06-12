@@ -1,0 +1,67 @@
+
+
+
+
+
+
+
+	
+
+
+
+
+a:link {
+	color: #0060c3;
+	text-decoration: none;
+	font-family:Gabriola;
+	font-size:20px;
+}
+
+a:visited {
+	color: #3a7ec3;
+	text-decoration: none;
+}
+
+a:hover,
+a:active {
+	color: #007eff;
+	text-decoration: none;
+}
+
+
+
+
+/* Breite beschränken */
+
+
+
+ul {
+	margin-bottom: 2em;
+	list-style:none;
+}
+
+/* Listen */
+ul#news {
+	
+	font-family:Gabriola;
+	
+}
+
+
+
+
+.fade{
+	margin-bottom: 2em;
+}
+
+.fade p{
+	margin-bottom: 2em;
+	text-align: center;
+	width: 100%;
+	background: #fff;
+}
+
+
+/**** noscript-Hinweis ****/
+
+

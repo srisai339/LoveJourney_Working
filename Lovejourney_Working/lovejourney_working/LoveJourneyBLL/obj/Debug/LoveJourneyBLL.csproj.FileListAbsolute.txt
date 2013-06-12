@@ -1,0 +1,7 @@
+E:\RajuKatare\LoveJourney\LoveJourneyCode\LoveJourneySolution\LoveJourneyBLL\obj\Debug\ResolveAssemblyReference.cache
+E:\RajuKatare\LoveJourney\LoveJourneyCode\LoveJourneySolution\LoveJourneyBLL\bin\Debug\LoveJourneyBLL.dll
+E:\RajuKatare\LoveJourney\LoveJourneyCode\LoveJourneySolution\LoveJourneyBLL\bin\Debug\LoveJourneyBLL.pdb
+E:\RajuKatare\LoveJourney\LoveJourneyCode\LoveJourneySolution\LoveJourneyBLL\bin\Debug\LoveJourneyDAL.dll
+E:\RajuKatare\LoveJourney\LoveJourneyCode\LoveJourneySolution\LoveJourneyBLL\bin\Debug\LoveJourneyDAL.pdb
+E:\RajuKatare\LoveJourney\LoveJourneyCode\LoveJourneySolution\LoveJourneyBLL\obj\Debug\LoveJourneyBLL.dll
+E:\RajuKatare\LoveJourney\LoveJourneyCode\LoveJourneySolution\LoveJourneyBLL\obj\Debug\LoveJourneyBLL.pdb

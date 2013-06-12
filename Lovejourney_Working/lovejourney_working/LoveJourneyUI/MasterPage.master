@@ -1,0 +1,645 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>booking bus tickets, cheap flights ticket, best hotels, recharge online</title>
+    <meta name="alexaVerifyID" content="EfFKC3QV_q2bfL-KW7ZhApSHOpg" />
+    <meta name="keywords" content="keyword1,keyword2, EfFKC3QV_q2bfL-KW7ZhApSHOpg" />
+    <meta name="description" content="lovejourney.in providing the services booking bus tickets, cheap flights ticket, best hotels, recharge online with the best affordable prices." />
+    <meta name="keywords" content="booking bus tickets, bus booking online, bus reservation online, reservation for bus, online bus ticket   booking,  cheap flights ticket, flight ticket booking, flight ticket reservation, flight tickets online,   flights ticket, online hotel booking, hotel booking, cheapest hotels, best hotels, luxury hotel, 	 air tel online recharge, online mobile recharge, recharge online, recharge air tel, idea" />
+    <meta name="robot" content="index,follow" />
+    <meta name="copyright" content="Copyright Copyright 2012 - 2013 | www.lovejourney.in. All Rights Reserved." />
+    <meta name="author" content="booking bus tickets, cheap flights ticket, best hotels, recharge online" />
+    <meta name="language" content="English" />
+    <meta name="revisit-after" content="7 days" />
+    <meta name="Yahoo bot" content="index, follow" />
+    <script src="JS/chrome.js" type="text/javascript"></script>
+    <link href="css/chromestyle1.css" rel="stylesheet" type="text/css" />
+    <link href="css/love_%20journey.css" rel="stylesheet" type="text/css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js" type="text/javascript"></script>
+    <link href="css/lj_style.css" type="text/css" rel="stylesheet" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js"
+        type="text/javascript"></script>
+    <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/ui-lightness/jquery-ui.css"
+        rel="stylesheet" type="text/css" />
+    <link href="css/mak_style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="crawler.js"></script>
+    <link href="images/favicon.png" rel="Shortcut Icon" type="text/css" />
+    <link href="css/NewStyle.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="css/chromestyle.css" />
+    <script type="text/javascript" src="js/chrome.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js "></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+    <script src="Scripts/ajaxservice.js" type="text/javascript"></script>
+    <script src="Scripts/validationsscript.js" type="text/javascript"></script>
+    <link href="style/et_style.css" rel="stylesheet" type="text/css" />
+    <script src="JS/chrome.js" type="text/javascript"></script>
+    <link href="css/chromestyle_New.css" rel="stylesheet" type="text/css" />
+    <link href="style/style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="https://jquery.malsup.com/block/jquery.blockUI.js?v2.38"></script>
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-37274655-1']);
+        _gaq.push(['_setDomainName', 'lovejourney.in']);
+        _gaq.push(['_setAllowLinker', true]);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <script type="text/javascript">
+        function printPage(id) {
+            var html = "<html>";
+            html += document.getElementById(id).innerHTML;
+            html += "</html>";
+            var printWin = window.open('', '', 'left=0,top=0,toolbar=0,scrollbars=0,status  =0');
+            printWin.document.write(html);
+            printWin.document.close();
+            printWin.focus();
+            printWin.print();
+        }
+        function Load() {
+            Sys.WebForms.PageRequestManager.getInstance().add_endRequest(EndRequestHandler);
+            function EndRequestHandler(sender, args) {
+                var dateToday = new Date();
+                $(".datepicker").datepicker({
+                    dateFormat: 'dd-MM-yy',
+                    numberOfMonths: 2,
+                    showOn: "button",
+                    buttonImage: "images/calendar.jpg",
+                    buttonImageOnly: true,
+                    showAnim: 'fadeIn',
+                    minDate: dateToday,
+                    maxDate: +100
+                });
+                $("[id$='txtFromDate']").datepicker('setDate', 'today');
+                $(".datepicker1").datepicker({
+                    dateFormat: 'dd-MM-yy',
+                    showOn: "button",
+                    numberOfMonths: 2,
+                    buttonImage: "images/calendar.jpg",
+                    buttonImageOnly: true,
+                    showAnim: 'fadeIn',
+                    minDate: dateToday,
+                    maxDate: +100
+                });
+            }
+        }
+        
+    </script>
+    <style type="text/css">
+        .modalContainer
+        {
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            position: fixed;
+            left: 25%;
+            top: 25%;
+            z-index: 750;
+            background-color: inherit;
+            padding: 0px;
+        }
+        .registerhead
+        {
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            color: #044cb5;
+            padding: 22px 0 10px 0;
+        }
+        .loadingBackground
+        {
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            filter: Alpha(Opacity=30);
+            -moz-opacity: 0.3;
+            opacity: 0.6;
+            width: 100%;
+            height: 1000px;
+            background-color: #000;
+            position: fixed;
+            z-index: 500;
+            top: 0px;
+            left: 0px;
+        }
+    </style>
+</head>
+<body onload="Load();">
+    <form id="form1" runat="server">
+    <asp:ToolkitScriptManager ID="ToolkitScriptManager1" runat="server">
+    </asp:ToolkitScriptManager>
+    <table align="center" width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+        <tr>
+            <td align="center" valign="top">
+                <!------1004tablestart------->
+                <table align="center" width="1004" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td align="center" valign="top">
+                            <!----------contentstart-------------->
+                            <table align="center" width="1004" border="0" cellspacing="0" cellpadding="0">
+                                <%--<tr>
+                                    <td align="center" valign="top" height="90">
+                                        <!------Header-------->
+                                        <table align="center" width="1004" height="90" border="0" cellspacing="0" cellpadding="0">
+                                       
+                                            <tr height="90">
+                                                <td width="249" align="left">
+                                                    <a href="Default.aspx">
+                                                        <img src="images/logo.gif" /></a>
+                                                </td>
+                                              <td>
+                                              <table>
+                                              <tr>
+                                              <td>
+                                            <marquee scrollamount="3" onmouseover="stop()" onmouseout="start()"><asp:Label ID="lblno" runat="server" ForeColor="Black" Font-Bold="true" Text="Contact Us : 080-32561727 / 080-25220265"></asp:Label></marquee>
+                                              </td>
+                                              </tr>
+                                              <tr>
+                                              <td width="755" align="right" class="lj_agent" style="padding-left: 150px;">
+                                                    <asp:LinkButton ID="LinkButton3" runat="server" Text="Agent Registration" ForeColor="Black"
+                                                        Font-Size="small" Font-Bold="true" PostBackUrl="~/BecomeAnAgent.aspx"></asp:LinkButton>
+                                                    <asp:LinkButton ID="LinkButton4" runat="server" Text="User Registration" ForeColor="Black"
+                                                        Font-Bold="true" Font-Size="small" PostBackUrl="~/UserRegistration.aspx"></asp:LinkButton>
+                                                    <asp:LinkButton ID="LinkButton2" runat="server" Text="Print Ticket" ForeColor="Black"
+                                                        Font-Bold="true" Font-Size="small" PostBackUrl="~/PrintTicket.aspx"></asp:LinkButton>
+                                                    <asp:LinkButton ID="LinkButton1" runat="server" Text="Cancel Ticket" ForeColor="Black"
+                                                        Font-Bold="true" Font-Size="small" PostBackUrl="~/CancelTicket.aspx"></asp:LinkButton>
+                                                    <asp:LinkButton ID="lbtnLogin" runat="server" Text="Login" ForeColor="Black" Font-Bold="true"
+                                                        Font-Size="small" PostBackUrl="~/Login.aspx"></asp:LinkButton>&nbsp;&nbsp;
+
+                                                           <asp:LinkButton ID="btncareer" runat="server" Text="Careers" ForeColor="Blue" Font-Bold="true"
+                                                        Font-Size="13px" PostBackUrl="Careers.aspx"></asp:LinkButton>&nbsp;&nbsp;
+                                                </td>
+                                              </tr>
+                                              </table>
+                                              </td>
+                                            </tr>
+                                        </table>
+                                        <!------Headerend-------->
+                                    </td>
+                                </tr>--%>
+                                <tr>
+                                    <td valign="top">
+                                        <!--header-->
+                                        <table width="1000" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td align="left" height="90" valign="middle" width="328">
+                                                    <a href="Default.aspx">
+                                                        <img src="Newimages/New_Logo.png" width="226" height="79" /></a>
+                                                </td>
+                                                <td align="right">
+                                                    <table width="500" border="0" cellspacing="0" cellpadding="0">
+                                                        <tr>
+                                                        <td align="right">
+                                                        <table width="500" border="0" cellspacing="0" cellpadding="0">
+                                                        <tr>
+                                                        <td valign="middle" align="right" height="34" style="padding-right: 10px;" id="applicationform" runat="server" visible="false">
+                                                        <a href="Downloads/Application.pdf" style="font-size: medium; color: blue; font-weight: bold;" target="_blank">
+                                                                        <blink> Application Form</blink>
+                                                                    </a>
+                                                        </td>
+                                                            <td valign="middle" align="right" height="34" style="padding-right: 10px;">
+                                                            
+                                                                <a href="http://www.facebook.com/pages/Love-Journey-Techno-Pvt-Ltd/121356568035694">
+                                                                    <img src="images/facebook_New.png" width="24" height="24" /></a> <a href="https://twitter.com/Lovejourneyin">
+                                                                        <img src="images/Twitter_New.png" width="24" height="24" /></a>
+                                                            </td>
+                                                            </tr>
+                                                        </table>
+                                                        </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="lj_Tmenu">
+                                                                <ul>
+                                                                    <li><a href="AgentUser-login.aspx" >Agent/User</a></li>
+                                                                    <li><a href="NewLogin.aspx">Employee/Corporate</a></li>
+                                                                    <li><a href="PrintTicket.aspx">Print</a></li>
+                                                                    <li><a href="CancelTicket.aspx">Cancel</a></li>
+                                                                    <li><a href="Careers.aspx" style="font-size: medium; color: #1A74BC; font-weight: bold;">
+                                                                        <blink> Careers</blink>
+                                                                    </a></li>
+                                                                  <%--  <li><a href="Login.aspx" style="border-right: none; padding-right: none;">Login</a></li>--%>
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="right" valign="top">
+                                                                <table width="470" border="0" cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                        <td align="left" width="31">
+                                                                            <img src="Newimages/contact_icon.png" width="21" height="21" />
+                                                                        </td>
+                                                                        <td align="left" class="lj_cn" style="font-size:18px;">
+                                                                            080-32561727 / 080-25220265
+                                                                        </td>
+                                                                        <td width="33" align="left">
+                                                                            <img src="Newimages/mail_icon.png" width="23" height="22" />
+                                                                        </td>
+                                                                        <td align="left" class="lj_cn">
+                                                                            <a href="mailto:info@lovejourney.in">info@lovejourney.in</a>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <!--headerEnd-->
+                                    </td>
+                                </tr>
+                                <asp:Panel ID="pnlHeader" runat="server">
+                                    <tr>
+                                        <td width="1009" align="left">
+                                            <table width="990" border="0" cellspacing="0" cellpadding="0">
+                                                <tr>
+                                                    <td>
+                                                        <table width="108" border="0" cellspacing="0" cellpadding="0">
+                                                            <tr>
+                                                                <td width="8" align="left">
+                                                                    <img src="Newimages/m1.png" width="8" height="37" />
+                                                                </td>
+                                                                <td class="lj_men_bg">
+                                                                    <table width="92" border="0" cellspacing="0" cellpadding="0">
+                                                                        <tr>
+                                                                            <td width="35" align="left" valign="middle">
+                                                                                <img src="Newimages/bus.png" width="32" height="32" />
+                                                                            </td>
+                                                                            <td align="center">
+                                                                                <a href="Default.aspx">Buses</a>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                                <td width="8">
+                                                                    <img src="Newimages/m2.png" width="8" height="37" />
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                    
+                                                    <td>
+                                                        <table width="108" border="0" cellspacing="0" cellpadding="0">
+                                                            <tr>
+                                                                <td width="8" align="left">
+                                                                    <img src="Newimages/m1.png" width="8" height="37" />
+                                                                </td>
+                                                                <td class="lj_men_bg">
+                                                                    <table width="92" border="0" cellspacing="0" cellpadding="0">
+                                                                        <tr>
+                                                                            <td align="center">
+                                                                                <div id="chromemenu" class="lj_chromestyle">
+                                                                                    <ul>
+                                                                                        <li><a href="#" rel="dropmenu1">Flights</a></li>
+                                                                                    </ul>
+                                                                                    <!--1st drop down menu -->
+                                                                                    <div id="dropmenu1" class="ljdropmenudiv">
+                                                                                        <a href="frmFlightsAvailability.aspx">Domestic Flights</a> <a href="frmIntFlightsAvailability.aspx">
+                                                                                            International Flights</a>
+                                                                                    </div>
+                                                                                    <script type="text/javascript">
+
+                                                                                        cssdropdown.startchrome("chromemenu")
+
+                                                                                    </script>
+                                                                                </div>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                                <td width="8">
+                                                                    <img src="Newimages/m2.png" width="8" height="37" />
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                    <td align="left">
+                                                        <table width="108" border="0" cellspacing="0" cellpadding="0">
+                                                            <tr>
+                                                                <td width="8" align="left">
+                                                                    <img src="Newimages/m1.png" width="8" height="37" />
+                                                                </td>
+                                                                <td class="lj_men_bg">
+                                                                    <table width="92" border="0" cellspacing="0" cellpadding="0">
+                                                                        <tr>
+                                                                            <td width="35" align="left" valign="middle">
+                                                                                <img src="Newimages/hotel_i.png" width="33" height="25" />
+                                                                            </td>
+                                                                            <td align="center">
+                                                                                <a href="HotelSearch.aspx">Hotels</a>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                                <td width="8">
+                                                                    <img src="Newimages/m2.png" width="8" height="37" />
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                    <td>
+                                                        <table width="88" border="0" cellspacing="0" cellpadding="0">
+                                                            <tr>
+                                                                <td width="8" align="left">
+                                                                    <img src="Newimages/m1.png" width="8" height="37" />
+                                                                </td>
+                                                                <td class="lj_men_bg">
+                                                                    <table width="72" border="0" cellspacing="0" cellpadding="0">
+                                                                        <tr>
+                                                                            <td width="35" align="left" valign="middle">
+                                                                                <img src="Newimages/car.png" width="32" height="32" />
+                                                                            </td>
+                                                                            <td align="center">
+                                                                                <a href="Cab.aspx" >Cars</a>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                                <td width="8">
+                                                                    <img src="Newimages/m2.png" width="8" height="37" />
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                    <%--<td><table width="108" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="8" align="left"><img src="Newimages/m1.png" width="8" height="37"  /></td>
+            <td class="lj_men_bg"><table width="92" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="35" align="left" valign="middle"><img src="Newimages/ut_i.png" width="32" height="32"  /></td>
+                <td align="center"><a href="car.html" >Utilities</a></td>
+              </tr>
+            </table></td>
+            <td width="8"><img src="Newimages/m2.png" width="8" height="37"  /></td>
+          </tr>
+        </table></td>--%>
+                                                    <%--<td>
+        <table width="108" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="8" align="left"><img src="Newimages/m1.png" width="8" height="37"  /></td>
+            <td class="lj_men_bg"><table width="92" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="35" align="left" valign="middle"><img src="Newimages/r_i.png" width="32" height="32"  /></td>
+                <td align="center"><a href="RDefault.aspx" >Recharge</a></td>
+              </tr>
+            </table></td>
+            <td width="8"><img src="Newimages/m2.png" width="8" height="37"  /></td>
+          </tr>
+        </table></td>--%>
+                                                    <td>
+                                                        <table width="108" border="0" cellspacing="0" cellpadding="0">
+                                                            <tr>
+                                                                <td width="8" align="left">
+                                                                    <img src="Newimages/m1.png" width="8" height="37" />
+                                                                </td>
+                                                                <td class="lj_men_bg">
+                                                                    <table width="92" border="0" cellspacing="0" cellpadding="0">
+                                                                        <tr>
+                                                                            <td align="center">
+                                                                                <%--  <a href="Train.aspx" >Pancard</a>--%>
+                                                                                <div id="chromemenu1" class="panchromestyle">
+                                                                                    <ul>
+                                                                                        <li><a href="#" rel="dropmenu2">Pancard</a></li>
+                                                                                    </ul>
+                                                                                    <!--1st drop down menu -->
+                                                                                    <div id="dropmenu2" class="pandropmenudiv">
+                                                                                        <a href="Downloads/CSF.pdf" target="_blank">Change Request Application</a> <a href="Downloads/Form 49AA.pdf" target="_blank">
+                                                                                            New PAN Application ( for NRI F49AA)</a> <a href="Downloads/Form 49A.pdf" target="_blank">New PAN Application(for
+                                                                                                Indian Resident F49A)</a>
+                                                                                    </div>
+                                                                                    <script type="text/javascript">
+
+                                                                                        cssdropdown.startchrome("chromemenu1")
+
+                                                                                    </script>
+                                                                                </div>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                                <td width="8">
+                                                                    <img src="Newimages/m2.png" width="8" height="37" />
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                    <td>
+                                                        <table width="108" border="0" cellspacing="0" cellpadding="0">
+                                                            <tr>
+                                                                <td width="8" align="left">
+                                                                    <img src="Newimages/m1.png" width="8" height="37" />
+                                                                </td>
+                                                                <td class="lj_men_bg">
+                                                                    <table width="92" border="0" cellspacing="0" cellpadding="0">
+                                                                        <tr>
+                                                                         <td width="35" align="left" valign="middle">
+                                                                                <img src="Newimages/packages.jpg" width="32" height="32" />
+                                                                            </td>
+                                                                            <td align="center">
+                                                                             <a href="Default.aspx?Type=Tours">Tours</a>
+                                                                            </td>
+                                                                          
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                                <td width="8">
+                                                                    <img src="Newimages/m2.png" width="8" height="37" />
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                    <%--<td align="left"><table width="88" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="8" align="left"><img src="Newimages/m1.png" width="8" height="37"  /></td>
+            <td class="lj_men_bg"><table width="72" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="35" align="left" valign="middle"><img src="Newimages/rs_i.png" width="33" height="25"  /></td>
+                <td align="center"><a href="DMR.aspx">Dmr</a></td>
+              </tr>
+            </table></td>
+            <td width="8"><img src="Newimages/m2.png" width="8" height="37"  /></td>
+          </tr>
+        </table></td>--%>
+                                                    <%--<td><table width="148" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="8" align="left"><img src="Newimages/m1.png" width="8" height="37"  /></td>
+            <td class="lj_men_bg"><table width="132" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="35" align="left" valign="middle"><img src="Newimages/tk_i.png" width="32" height="32"  /></td>
+                <td align="center"><a href="DMR.aspx" >Movie Tickets</a></td>
+              </tr>
+            </table></td>
+            <td width="8"><img src="Newimages/m2.png" width="8" height="37"  /></td>
+          </tr>
+        </table></td>--%>
+                                                    <td width="460">
+                                                        &nbsp;
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </asp:Panel>
+                                <%-- <tr>
+    <td height="26" align="center" valign="top"></td>
+  </tr>--%>
+                                <tr>
+                                    <td align="center" valign="top">
+                                        <!--------form------->
+                                        <table width="1004" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td width="1004" align="center" valign="top">
+                                                    <!--------forminnertable1---------->
+                                                    <table width="1004" border="0" cellpadding="0" cellspacing="0">
+                                                        <tr>
+                                                            <td valign="top">
+                                                                <%--<div class="contnt-bdr">--%>
+                                                                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                                                </asp:ContentPlaceHolder>
+                                                                <%--</div>--%>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                    <!--------forminnertable1end---------->
+                                                </td>
+                                                <td>
+                                                    &nbsp;
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <!--------form------->
+                                    </td>
+                                </tr>
+                                <%--<tr>
+                                    <td align="center" valign="top">
+                                        <!-------fotter-------->
+                                        <table width="1004" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td height="59" colspan="2" align="center" valign="top" class="footer">
+                                                    <a href="Default.aspx">Home</a> &nbsp;</a> |<a href="PrintTicket.aspx"> Print Ticket
+                                                        &nbsp;</a> | <a href="CancelTicket.aspx">Cancel Ticket &nbsp;</a>|<a href="BecomeAnAgent.aspx">Agent Registration</a>|
+                                                     &nbsp;<a href="Login.aspx">Login</a> | &nbsp;<a href="ContactUs.aspx">Contact Us</a><br />
+                                                    <span style="font-size: 11px;">© Copyright 2012 - 2013 | <a href="#">www.Lovejourney.in.</a>
+                                                        All Rights Reserved. </span>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>--%>
+                                <tr>
+                                    <td valign="top">
+                                        <table width="1000" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td width="1000" valign="top">
+                                                    <table width="1000" border="0" cellspacing="0" cellpadding="0">
+                                                        <tr>
+                                                            <td align="left" width="54" height="72">
+                                                                <img src="Newimages/best_office.png" width="44" height="48" />
+                                                            </td>
+                                                            <td align="left">
+                                                                <span class="lj_choice">Choice!</span>
+                                                                <br />
+                                                                Over 100,000<br />
+                                                                Hotels & Activities
+                                                            </td>
+                                                            <td width="40">
+                                                                &nbsp;
+                                                            </td>
+                                                            <td align="left" width="54">
+                                                                <img src="Newimages/rupees_tag.png" width="44" height="48" />
+                                                            </td>
+                                                            <td align="left">
+                                                                <span class="lj_choice">Price!</span>
+                                                                <br />
+                                                                Guaranteed<br />
+                                                                Low Prices Every
+                                                            </td>
+                                                            <td align="left" width="54" height="72">
+                                                                <img src="Newimages/trust.png" width="44" height="48" />
+                                                            </td>
+                                                            <td align="left" valign="middle">
+                                                                <span class="lj_choice">Trust!</span>
+                                                                <br />
+                                                                Need a trip Brand<br />
+                                                                that you can trust
+                                                            </td>
+                                                            <td>
+                                                                &nbsp;
+                                                            </td>
+                                                            <td align="left" width="54">
+                                                                <img src="Newimages/points.png" width="44" height="48" />
+                                                            </td>
+                                                            <td align="left">
+                                                                <span class="lj_choice">Points!</span>
+                                                                <br />
+                                                                Earn BIGGIES!<br />
+                                                                (Loyalty Points)
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="6" height="1" bgcolor="#aaabad">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!--footer-->
+                            <table width="1000" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td height="16">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="lj_foot" align="center" style="padding-left:140px;">
+                                        <ul>
+                                            <li><a href="Default.aspx">Home</a></li>
+                                            <%--<li><a href="PrintTicket.aspx">Print Ticket</a></li>
+                                            <li><a href="CancelTicket.aspx">Cancel Ticket</a></li>
+                                            <li><a href="BecomeAnAgent.aspx">Agent Registration</a>--%>
+                                                <li><a href="Login.aspx">Login</a></li>
+                                                <li><a href="AboutUs.aspx">About Us</a></li>
+                                                <li><a href="ContactUs.aspx">Contact Us</a> </li>
+                                                <li><a href="TermsAndConditions.aspx">Terms & Conditions</a></li>
+                                               <%-- <li><a href="Sitemap.aspx">SiteMap</a></li>--%>
+                                                <li><a href="PrivacyPolicy.aspx">Privacy Policy</a></li>
+                                                <li><a href="DisclaimerPolicy.aspx">Disclaimer Policy</a></li>
+                                                <li><a href="CancellationPolicy.aspx" style="border-right: none;">Cancel policy</a></li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center" style="font-weight:bold;">
+                                        © Copyright 2012 - 2013 | www.Lovejourney.in. All Rights Reserved.
+                                    </td>
+                                </tr>
+                            </table>
+                            <!--footerEnd-->
+                        </td>
+                    </tr>
+                </table>
+                <!-------fotterend-------->
+            </td>
+        </tr>
+        <!--  <tr>
+    <td>&nbsp;</td>
+  </tr>-->
+    </table>
+    <!----------contentstartend-------------->
+    </td> </tr> </table>
+    </form>
+</body>
+</html>

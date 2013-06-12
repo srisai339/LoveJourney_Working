@@ -1,0 +1,278 @@
+@charset "utf-8";
+/* CSS Document */
+
+*
+{
+	margin:0px;
+	padding:0px;
+}
+body
+{
+	/*background:url(../img/bg.png) no-repeat top #f7f6f6;*/
+}
+.menu_bg
+{
+	background:url(../img/menu_bg.png) top repeat-x;
+}
+
+.flights
+{
+	font-family:arial;
+	font-size:12px;
+	color:#FFF;
+	font-weight:bold;
+}
+.flights a
+{
+	font-family:LeeToscanini5;
+	font-size:15px;
+	color:#FFF;
+	text-decoration:none;
+}
+.form_left
+{
+	background:url(../images/img/form_left.png) repeat-y right;
+}
+.form_top
+{
+	background:url(../images/img/form_top.png) repeat-x top;
+}
+.form_bottom
+{
+	background:url(../images/img/form_bottom.png) repeat-x top;
+}
+.form_right
+{
+	background:url(../images/img/form_right.png) repeat-y left;
+}
+.online_booking
+{
+	font-family:Calibri;
+	font-size:18px;
+	color:#fe0000;
+	padding:0px 0px 0px 5px;
+	text-transform:uppercase;
+}
+.border_top
+{
+	border-top:#057db9 solid 3px;
+}
+.middle
+{
+	background:url(../img/middle.png) repeat-x left;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	text-align:center;
+	color:#FFF;
+}
+.middle a
+{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	text-align:center;
+	color:#FFF;
+	text-decoration:none
+}
+.middle a:hover
+{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	text-align:center;
+	color:#000;
+	text-decoration:none
+}
+		.living
+	{
+		font-family:arial;
+		font-size:12px;
+		color:#020202;
+		font-weight:bold;
+		padding:0px 0px 0px 11px;
+	}
+	
+	.select_box
+	{
+		width:160px;
+		padding:2px;
+		font-family:Verdana, Geneva, sans-serif;
+		font-weight:normal;
+		color:#000;
+		font-size:11px;
+		border:1px solid #0099ff;
+	}
+		.text_box
+	{
+		width:150px;
+		padding:4px;
+		font-family:Verdana, Geneva, sans-serif;
+		font-weight:normal;
+		color:#000;
+		font-size:11px;
+		border:1px solid #0099ff;
+	}
+.redmiddle
+{
+	background:url(../img/red_middle.png) repeat-x left;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#FFF;
+	text-decoration:none;
+}
+.redmiddle a
+{	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#FFF;
+	text-decoration:none;
+}
+.footer{
+		width:1004px;
+		height:57px;
+		font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:normal;
+color:#000;
+	line-height:18px;
+	}
+	.footer a{
+		font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:normal;
+color:#000;
+	line-height:18px;
+	text-decoration:none;
+	padding-left:5px;
+	padding-right:5px;
+	}
+	.footer a:hover{
+		font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	color:#666;
+	line-height:18px;
+	}
+	.fli
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#f9dfc1;
+}
+.fli a
+{
+font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#fcb059;
+	text-decoration:none;
+}
+	
+	
+	
+	/*november12*/
+	
+	.link_rt
+	{
+		border:1px solid #2578af;
+		/*background:url(../images/bg_rt.png) repeat top;*/
+		background:url(../img/rt_bg.png) repeat top;
+		padding:10px;
+		border-radius:10px;
+		-moz-border-radius:10px;
+	}
+	
+	.link_flights
+{
+	font-family:Arial;
+	font-size:12px;
+	color:#F00;
+
+	font-weight:bold;
+}
+
+	.link_flights a
+{
+	font-family:Arial;
+	font-size:12px;
+	color:#F00;
+    text-decoration:none;
+	font-weight:bold;
+}
+
+	.link_flights a:hover
+{
+	font-family:Arial;
+	font-size:12px;
+	color:#F00;
+    text-decoration:none;
+	font-weight:bold;
+}
+
+
+
+
+.md_menu
+{
+	/*background:url(../images/menu_bg.jpg) repeat-x top;*/
+	background:#4f91cd;
+}
+
+.md_menu ul
+{
+	margin:0px;
+	padding:0px;
+}
+
+.md_menu ul li
+{
+	margin:0px;
+	padding:0px;
+	float:left;
+	list-style:none;
+}
+
+.md_menu ul li a
+{
+	font-size:13px;
+	color:#fff;
+	text-decoration:none;
+	padding:7px 30px;
+	font-weight:bold;
+	border-right:1px solid #c9d7e4;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.md_menu ul li a:hover
+{
+	
+	text-decoration:none;
+	color:#FC0;
+	font-weight:bold;
+	background:#013e7f;
+}
+
+.tmenu
+{
+	background:url(../images/img/lc.png) repeat-x top;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	color:#000;
+	font-size:12px; 
+	cursor:pointer;
+	text-shadow:1px #fff;
+	line-height:15px;
+}
+
+
+.tmenu a
+{
+    font-family:Arial;
+    font-size:12px;
+    color:#000;
+    text-decoration:none;
+}
+

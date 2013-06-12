@@ -1,0 +1,164 @@
+E:\RajuKatare\LoveJourney\LoveJourneyCode\LoveJourneySolution\LoveJourneyDAL\bin\Debug\DAL.dll
+E:\RajuKatare\LoveJourney\LoveJourneyCode\LoveJourneySolution\LoveJourneyDAL\bin\Debug\DAL.pdb
+E:\RajuKatare\LoveJourney\LoveJourneyCode\LoveJourneySolution\LoveJourneyDAL\obj\Debug\DAL.dll
+E:\RajuKatare\LoveJourney\LoveJourneyCode\LoveJourneySolution\LoveJourneyDAL\obj\Debug\DAL.pdb
+D:\Rajini Projetcs\Main Projects\vss_LoveJourney\LoveJourneyCode\LoveJourneySolution\LoveJourneyDAL\bin\Debug\DAL.dll
+D:\Rajini Projetcs\Main Projects\vss_LoveJourney\LoveJourneyCode\LoveJourneySolution\LoveJourneyDAL\bin\Debug\DAL.pdb
+D:\Rajini Projetcs\Main Projects\vss_LoveJourney\LoveJourneyCode\LoveJourneySolution\LoveJourneyDAL\obj\Debug\ResolveAssemblyReference.cache
+D:\Rajini Projetcs\Main Projects\vss_LoveJourney\LoveJourneyCode\LoveJourneySolution\LoveJourneyDAL\obj\Debug\DAL.dll
+D:\Rajini Projetcs\Main Projects\vss_LoveJourney\LoveJourneyCode\LoveJourneySolution\LoveJourneyDAL\obj\Debug\DAL.pdb
+E:\LoveJourney\LoveJourneySolution\LoveJourneyDAL\bin\Debug\DAL.dll
+E:\LoveJourney\LoveJourneySolution\LoveJourneyDAL\bin\Debug\DAL.pdb
+E:\LoveJourney\LoveJourneySolution\LoveJourneyDAL\obj\Debug\ResolveAssemblyReference.cache
+E:\LoveJourney\LoveJourneySolution\LoveJourneyDAL\obj\Debug\DAL.dll
+E:\LoveJourney\LoveJourneySolution\LoveJourneyDAL\obj\Debug\DAL.pdb
+G:\Ravikanth_Projects\LoveJourney\LoveJourneySolution\LoveJourneyDAL\bin\Debug\DAL.dll
+G:\Ravikanth_Projects\LoveJourney\LoveJourneySolution\LoveJourneyDAL\bin\Debug\DAL.pdb
+G:\Ravikanth_Projects\LoveJourney\LoveJourneySolution\LoveJourneyDAL\obj\Debug\ResolveAssemblyReference.cache
+G:\Ravikanth_Projects\LoveJourney\LoveJourneySolution\LoveJourneyDAL\obj\Debug\DAL.dll
+G:\Ravikanth_Projects\LoveJourney\LoveJourneySolution\LoveJourneyDAL\obj\Debug\DAL.pdb
+E:\LoveJourney\Lovejourney_2013-02-04\LoveJourneyDAL\bin\Debug\DAL.dll
+E:\LoveJourney\Lovejourney_2013-02-04\LoveJourneyDAL\bin\Debug\DAL.pdb
+E:\LoveJourney\Lovejourney_2013-02-04\LoveJourneyDAL\obj\Debug\ResolveAssemblyReference.cache
+E:\LoveJourney\Lovejourney_2013-02-04\LoveJourneyDAL\obj\Debug\DAL.dll
+E:\LoveJourney\Lovejourney_2013-02-04\LoveJourneyDAL\obj\Debug\DAL.pdb
+E:\LoveJourneyDesignedPages(2013-02-07)\LoveJourneyDAL\bin\Debug\DAL.dll
+E:\LoveJourneyDesignedPages(2013-02-07)\LoveJourneyDAL\bin\Debug\DAL.pdb
+E:\LoveJourneyDesignedPages(2013-02-07)\LoveJourneyDAL\obj\Debug\ResolveAssemblyReference.cache
+E:\LoveJourneyDesignedPages(2013-02-07)\LoveJourneyDAL\obj\Debug\DAL.dll
+E:\LoveJourneyDesignedPages(2013-02-07)\LoveJourneyDAL\obj\Debug\DAL.pdb
+E:\LoveJourneyDesignedPages(2013-02-08)\LoveJourneyDAL\bin\Debug\DAL.dll
+E:\LoveJourneyDesignedPages(2013-02-08)\LoveJourneyDAL\bin\Debug\DAL.pdb
+E:\LoveJourneyDesignedPages(2013-02-08)\LoveJourneyDAL\obj\Debug\ResolveAssemblyReference.cache
+E:\LoveJourneyDesignedPages(2013-02-08)\LoveJourneyDAL\obj\Debug\DAL.dll
+E:\LoveJourneyDesignedPages(2013-02-08)\LoveJourneyDAL\obj\Debug\DAL.pdb
+E:\LoveJourneyDesignedPages(2013-02-12)\LoveJourneyDAL\bin\Debug\DAL.dll
+E:\LoveJourneyDesignedPages(2013-02-12)\LoveJourneyDAL\bin\Debug\DAL.pdb
+E:\LoveJourneyDesignedPages(2013-02-12)\LoveJourneyDAL\obj\Debug\ResolveAssemblyReference.cache
+E:\LoveJourneyDesignedPages(2013-02-12)\LoveJourneyDAL\obj\Debug\DAL.dll
+E:\LoveJourneyDesignedPages(2013-02-12)\LoveJourneyDAL\obj\Debug\DAL.pdb
+E:\LoveJourneyDesignedPages(2013-02-16)\LoveJourneyDAL\bin\Debug\DAL.dll
+E:\LoveJourneyDesignedPages(2013-02-16)\LoveJourneyDAL\bin\Debug\DAL.pdb
+E:\LoveJourneyDesignedPages(2013-02-16)\LoveJourneyDAL\obj\Debug\ResolveAssemblyReference.cache
+E:\LoveJourneyDesignedPages(2013-02-16)\LoveJourneyDAL\obj\Debug\DAL.dll
+E:\LoveJourneyDesignedPages(2013-02-16)\LoveJourneyDAL\obj\Debug\DAL.pdb
+G:\Ravikanth_Projects\LoveJourneySolution(2013-02-19)\LoveJourneyDAL\bin\Debug\DAL.dll
+G:\Ravikanth_Projects\LoveJourneySolution(2013-02-19)\LoveJourneyDAL\bin\Debug\DAL.pdb
+G:\Ravikanth_Projects\LoveJourneySolution(2013-02-19)\LoveJourneyDAL\obj\Debug\ResolveAssemblyReference.cache
+G:\Ravikanth_Projects\LoveJourneySolution(2013-02-19)\LoveJourneyDAL\obj\Debug\DAL.dll
+G:\Ravikanth_Projects\LoveJourneySolution(2013-02-19)\LoveJourneyDAL\obj\Debug\DAL.pdb
+G:\LoveJourneySolution(2013-02-21)FinalUpdate\LoveJourneyDAL\bin\Debug\DAL.dll
+G:\LoveJourneySolution(2013-02-21)FinalUpdate\LoveJourneyDAL\bin\Debug\DAL.pdb
+G:\LoveJourneySolution(2013-02-21)FinalUpdate\LoveJourneyDAL\obj\Debug\ResolveAssemblyReference.cache
+G:\LoveJourneySolution(2013-02-21)FinalUpdate\LoveJourneyDAL\obj\Debug\DAL.dll
+G:\LoveJourneySolution(2013-02-21)FinalUpdate\LoveJourneyDAL\obj\Debug\DAL.pdb
+H:\LoveJourney\LoveJourneySolution(2013-02-21)FinalUpdate\LoveJourneyDAL\bin\Debug\DAL.dll
+H:\LoveJourney\LoveJourneySolution(2013-02-21)FinalUpdate\LoveJourneyDAL\bin\Debug\DAL.pdb
+H:\LoveJourney\LoveJourneySolution(2013-02-21)FinalUpdate\LoveJourneyDAL\obj\Debug\ResolveAssemblyReference.cache
+H:\LoveJourney\LoveJourneySolution(2013-02-21)FinalUpdate\LoveJourneyDAL\obj\Debug\DAL.dll
+H:\LoveJourney\LoveJourneySolution(2013-02-21)FinalUpdate\LoveJourneyDAL\obj\Debug\DAL.pdb
+E:\LoveJourneySolution(2013-02-21)FinalUpdate\LoveJourneyDAL\bin\Debug\DAL.dll
+E:\LoveJourneySolution(2013-02-21)FinalUpdate\LoveJourneyDAL\bin\Debug\DAL.pdb
+E:\LoveJourneySolution(2013-02-21)FinalUpdate\LoveJourneyDAL\obj\Debug\ResolveAssemblyReference.cache
+E:\LoveJourneySolution(2013-02-21)FinalUpdate\LoveJourneyDAL\obj\Debug\DAL.dll
+E:\LoveJourneySolution(2013-02-21)FinalUpdate\LoveJourneyDAL\obj\Debug\DAL.pdb
+G:\25-02-2013\LoveJourneySolution(2013-02-21)FinalUpdate\LoveJourneyDAL\bin\Debug\DAL.dll
+G:\25-02-2013\LoveJourneySolution(2013-02-21)FinalUpdate\LoveJourneyDAL\bin\Debug\DAL.pdb
+G:\25-02-2013\LoveJourneySolution(2013-02-21)FinalUpdate\LoveJourneyDAL\obj\Debug\ResolveAssemblyReference.cache
+G:\25-02-2013\LoveJourneySolution(2013-02-21)FinalUpdate\LoveJourneyDAL\obj\Debug\DAL.dll
+G:\25-02-2013\LoveJourneySolution(2013-02-21)FinalUpdate\LoveJourneyDAL\obj\Debug\DAL.pdb
+G:\25-02-2013\LoveJourneySolution(2013-02-25)FinalUpdate\LoveJourneyDAL\bin\Debug\DAL.dll
+G:\25-02-2013\LoveJourneySolution(2013-02-25)FinalUpdate\LoveJourneyDAL\bin\Debug\DAL.pdb
+G:\25-02-2013\LoveJourneySolution(2013-02-25)FinalUpdate\LoveJourneyDAL\obj\Debug\ResolveAssemblyReference.cache
+G:\25-02-2013\LoveJourneySolution(2013-02-25)FinalUpdate\LoveJourneyDAL\obj\Debug\DAL.dll
+G:\25-02-2013\LoveJourneySolution(2013-02-25)FinalUpdate\LoveJourneyDAL\obj\Debug\DAL.pdb
+E:\March2\LoveJourneySolution(2013-02-26)FinalUpdate\LoveJourneyDAL\bin\Debug\DAL.dll
+E:\March2\LoveJourneySolution(2013-02-26)FinalUpdate\LoveJourneyDAL\bin\Debug\DAL.pdb
+E:\March2\LoveJourneySolution(2013-02-26)FinalUpdate\LoveJourneyDAL\obj\Debug\ResolveAssemblyReference.cache
+E:\March2\LoveJourneySolution(2013-02-26)FinalUpdate\LoveJourneyDAL\obj\Debug\DAL.dll
+E:\March2\LoveJourneySolution(2013-02-26)FinalUpdate\LoveJourneyDAL\obj\Debug\DAL.pdb
+E:\LoveJourneySolution(2013-03-16)FinalUpdate\LoveJourneyDAL\bin\Debug\DAL.dll
+E:\LoveJourneySolution(2013-03-16)FinalUpdate\LoveJourneyDAL\bin\Debug\DAL.pdb
+E:\LoveJourneySolution(2013-03-16)FinalUpdate\LoveJourneyDAL\obj\Debug\ResolveAssemblyReference.cache
+E:\LoveJourneySolution(2013-03-16)FinalUpdate\LoveJourneyDAL\obj\Debug\DAL.dll
+E:\LoveJourneySolution(2013-03-16)FinalUpdate\LoveJourneyDAL\obj\Debug\DAL.pdb
+E:\LoveJourneySolution(2013-03-19)FinalUpdate\LoveJourneyDAL\bin\Debug\DAL.dll
+E:\LoveJourneySolution(2013-03-19)FinalUpdate\LoveJourneyDAL\bin\Debug\DAL.pdb
+E:\LoveJourneySolution(2013-03-19)FinalUpdate\LoveJourneyDAL\obj\Debug\ResolveAssemblyReference.cache
+E:\LoveJourneySolution(2013-03-19)FinalUpdate\LoveJourneyDAL\obj\Debug\DAL.dll
+E:\LoveJourneySolution(2013-03-19)FinalUpdate\LoveJourneyDAL\obj\Debug\DAL.pdb
+E:\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\LoveJourneyDAL\bin\Debug\DAL.dll
+E:\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\LoveJourneyDAL\bin\Debug\DAL.pdb
+E:\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\LoveJourneyDAL\obj\Debug\ResolveAssemblyReference.cache
+E:\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\LoveJourneyDAL\obj\Debug\DAL.dll
+E:\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\LoveJourneyDAL\obj\Debug\DAL.pdb
+F:\H\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\LoveJourneyDAL\bin\Debug\DAL.dll
+F:\H\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\LoveJourneyDAL\bin\Debug\DAL.pdb
+F:\H\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\LoveJourneyDAL\obj\Debug\ResolveAssemblyReference.cache
+F:\H\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\LoveJourneyDAL\obj\Debug\DAL.dll
+F:\H\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\LoveJourneyDAL\obj\Debug\DAL.pdb
+G:\LoveJourneySolution(6 april 2013 )FinalUpdate\LoveJourneyDAL\bin\Debug\DAL.dll
+G:\LoveJourneySolution(6 april 2013 )FinalUpdate\LoveJourneyDAL\bin\Debug\DAL.pdb
+G:\LoveJourneySolution(6 april 2013 )FinalUpdate\LoveJourneyDAL\obj\Debug\ResolveAssemblyReference.cache
+G:\LoveJourneySolution(6 april 2013 )FinalUpdate\LoveJourneyDAL\obj\Debug\DAL.dll
+G:\LoveJourneySolution(6 april 2013 )FinalUpdate\LoveJourneyDAL\obj\Debug\DAL.pdb
+G:\LoveJourneySolution(8 april 2013 )FinalUpdate\LoveJourneyDAL\bin\Debug\DAL.dll
+G:\LoveJourneySolution(8 april 2013 )FinalUpdate\LoveJourneyDAL\bin\Debug\DAL.pdb
+G:\LoveJourneySolution(8 april 2013 )FinalUpdate\LoveJourneyDAL\obj\Debug\ResolveAssemblyReference.cache
+G:\LoveJourneySolution(8 april 2013 )FinalUpdate\LoveJourneyDAL\obj\Debug\DAL.dll
+G:\LoveJourneySolution(8 april 2013 )FinalUpdate\LoveJourneyDAL\obj\Debug\DAL.pdb
+G:\LoveJourneySolution(10 april 2013 )FinalUpdate\LoveJourneyDAL\bin\Debug\DAL.dll
+G:\LoveJourneySolution(10 april 2013 )FinalUpdate\LoveJourneyDAL\bin\Debug\DAL.pdb
+G:\LoveJourneySolution(10 april 2013 )FinalUpdate\LoveJourneyDAL\obj\Debug\ResolveAssemblyReference.cache
+G:\LoveJourneySolution(10 april 2013 )FinalUpdate\LoveJourneyDAL\obj\Debug\DAL.dll
+G:\LoveJourneySolution(10 april 2013 )FinalUpdate\LoveJourneyDAL\obj\Debug\DAL.pdb
+F:\H\14-4-2013\LoveJourneySolution(13 april 2013 )FinalUpdate\LoveJourneyDAL\bin\Debug\DAL.dll
+F:\H\14-4-2013\LoveJourneySolution(13 april 2013 )FinalUpdate\LoveJourneyDAL\bin\Debug\DAL.pdb
+F:\H\14-4-2013\LoveJourneySolution(13 april 2013 )FinalUpdate\LoveJourneyDAL\obj\Debug\ResolveAssemblyReference.cache
+F:\H\14-4-2013\LoveJourneySolution(13 april 2013 )FinalUpdate\LoveJourneyDAL\obj\Debug\DAL.dll
+F:\H\14-4-2013\LoveJourneySolution(13 april 2013 )FinalUpdate\LoveJourneyDAL\obj\Debug\DAL.pdb
+G:\LoveJourneySolution(13 april 2013 )FinalUpdate\LoveJourneyDAL\bin\Debug\DAL.dll
+G:\LoveJourneySolution(13 april 2013 )FinalUpdate\LoveJourneyDAL\bin\Debug\DAL.pdb
+G:\LoveJourneySolution(13 april 2013 )FinalUpdate\LoveJourneyDAL\obj\Debug\ResolveAssemblyReference.cache
+G:\LoveJourneySolution(13 april 2013 )FinalUpdate\LoveJourneyDAL\obj\Debug\DAL.dll
+G:\LoveJourneySolution(13 april 2013 )FinalUpdate\LoveJourneyDAL\obj\Debug\DAL.pdb
+G:\LoveJourneySolution(14 april 2013 )FinalUpdate\LoveJourneyDAL\bin\Debug\DAL.dll
+G:\LoveJourneySolution(14 april 2013 )FinalUpdate\LoveJourneyDAL\bin\Debug\DAL.pdb
+G:\LoveJourneySolution(14 april 2013 )FinalUpdate\LoveJourneyDAL\obj\Debug\ResolveAssemblyReference.cache
+G:\LoveJourneySolution(14 april 2013 )FinalUpdate\LoveJourneyDAL\obj\Debug\DAL.dll
+G:\LoveJourneySolution(14 april 2013 )FinalUpdate\LoveJourneyDAL\obj\Debug\DAL.pdb
+G:\LoveJourneySolution(17 april 2013 )FinalUpdate\LoveJourneyDAL\bin\Debug\DAL.dll
+G:\LoveJourneySolution(17 april 2013 )FinalUpdate\LoveJourneyDAL\bin\Debug\DAL.pdb
+G:\LoveJourneySolution(17 april 2013 )FinalUpdate\LoveJourneyDAL\obj\Debug\ResolveAssemblyReference.cache
+G:\LoveJourneySolution(17 april 2013 )FinalUpdate\LoveJourneyDAL\obj\Debug\DAL.dll
+G:\LoveJourneySolution(17 april 2013 )FinalUpdate\LoveJourneyDAL\obj\Debug\DAL.pdb
+G:\LoveJourneySolution(26 april 2013 )FinalUpdate\LoveJourneyDAL\bin\Debug\DAL.dll
+G:\LoveJourneySolution(26 april 2013 )FinalUpdate\LoveJourneyDAL\bin\Debug\DAL.pdb
+G:\LoveJourneySolution(26 april 2013 )FinalUpdate\LoveJourneyDAL\obj\Debug\ResolveAssemblyReference.cache
+G:\LoveJourneySolution(26 april 2013 )FinalUpdate\LoveJourneyDAL\obj\Debug\DAL.dll
+G:\LoveJourneySolution(26 april 2013 )FinalUpdate\LoveJourneyDAL\obj\Debug\DAL.pdb
+F:\H\may 5 2013\LoveJourneySolution(05 may 2013 )FinalUpdate\LoveJourneyDAL\bin\Debug\DAL.dll
+F:\H\may 5 2013\LoveJourneySolution(05 may 2013 )FinalUpdate\LoveJourneyDAL\bin\Debug\DAL.pdb
+F:\H\may 5 2013\LoveJourneySolution(05 may 2013 )FinalUpdate\LoveJourneyDAL\obj\Debug\ResolveAssemblyReference.cache
+F:\H\may 5 2013\LoveJourneySolution(05 may 2013 )FinalUpdate\LoveJourneyDAL\obj\Debug\DAL.dll
+F:\H\may 5 2013\LoveJourneySolution(05 may 2013 )FinalUpdate\LoveJourneyDAL\obj\Debug\DAL.pdb
+D:\LoveJourney\Lovejournry6-5-2013\LoveJourneySolution(05 may 2013 )FinalUpdate\LoveJourneyDAL\bin\Debug\DAL.dll
+D:\LoveJourney\Lovejournry6-5-2013\LoveJourneySolution(05 may 2013 )FinalUpdate\LoveJourneyDAL\bin\Debug\DAL.pdb
+D:\LoveJourney\Lovejournry6-5-2013\LoveJourneySolution(05 may 2013 )FinalUpdate\LoveJourneyDAL\obj\Debug\ResolveAssemblyReference.cache
+D:\LoveJourney\Lovejournry6-5-2013\LoveJourneySolution(05 may 2013 )FinalUpdate\LoveJourneyDAL\obj\Debug\DAL.dll
+D:\LoveJourney\Lovejournry6-5-2013\LoveJourneySolution(05 may 2013 )FinalUpdate\LoveJourneyDAL\obj\Debug\DAL.pdb
+D:\LoveJourney\LovejourneyBackup\13-may-2013_BeforeNewDesign\LoveJourneySolution(05 may 2013 )FinalUpdate\LoveJourneyDAL\bin\Debug\DAL.dll
+D:\LoveJourney\LovejourneyBackup\13-may-2013_BeforeNewDesign\LoveJourneySolution(05 may 2013 )FinalUpdate\LoveJourneyDAL\bin\Debug\DAL.pdb
+D:\LoveJourney\LovejourneyBackup\13-may-2013_BeforeNewDesign\LoveJourneySolution(05 may 2013 )FinalUpdate\LoveJourneyDAL\obj\Debug\ResolveAssemblyReference.cache
+D:\LoveJourney\LovejourneyBackup\13-may-2013_BeforeNewDesign\LoveJourneySolution(05 may 2013 )FinalUpdate\LoveJourneyDAL\obj\Debug\DAL.dll
+D:\LoveJourney\LovejourneyBackup\13-may-2013_BeforeNewDesign\LoveJourneySolution(05 may 2013 )FinalUpdate\LoveJourneyDAL\obj\Debug\DAL.pdb
+D:\ljworking11jun\LoveJourney_Working\LoveJourneyDAL\bin\Debug\DAL.dll
+D:\ljworking11jun\LoveJourney_Working\LoveJourneyDAL\bin\Debug\DAL.pdb
+D:\ljworking11jun\LoveJourney_Working\LoveJourneyDAL\obj\Debug\ResolveAssemblyReference.cache
+D:\ljworking11jun\LoveJourney_Working\LoveJourneyDAL\obj\Debug\DAL.dll
+D:\ljworking11jun\LoveJourney_Working\LoveJourneyDAL\obj\Debug\DAL.pdb
+D:\LoveJourney\LoveJourney_Working\LoveJourneyDAL\bin\Debug\DAL.dll
+D:\LoveJourney\LoveJourney_Working\LoveJourneyDAL\bin\Debug\DAL.pdb
+D:\LoveJourney\LoveJourney_Working\LoveJourneyDAL\obj\Debug\ResolveAssemblyReference.cache
+D:\LoveJourney\LoveJourney_Working\LoveJourneyDAL\obj\Debug\DAL.dll
+D:\LoveJourney\LoveJourney_Working\LoveJourneyDAL\obj\Debug\DAL.pdb

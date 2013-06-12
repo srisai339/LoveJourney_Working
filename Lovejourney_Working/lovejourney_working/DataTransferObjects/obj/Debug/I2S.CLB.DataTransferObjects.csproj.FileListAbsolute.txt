@@ -1,0 +1,15 @@
+D:\Ravikanth Projects\Vss_I2SServer\Libraries\DataTransferObjects\bin\Debug\I2S.CLB.DTO.dll
+D:\Ravikanth Projects\Vss_I2SServer\Libraries\DataTransferObjects\bin\Debug\I2S.CLB.DTO.pdb
+D:\Ravikanth Projects\Vss_I2SServer\Libraries\DataTransferObjects\obj\Debug\ResolveAssemblyReference.cache
+D:\Ravikanth Projects\Vss_I2SServer\Libraries\DataTransferObjects\obj\Debug\I2S.CLB.DTO.dll
+D:\Ravikanth Projects\Vss_I2SServer\Libraries\DataTransferObjects\obj\Debug\I2S.CLB.DTO.pdb
+C:\Users\GLOW WORM\Desktop\Vss_I2SServer\Libraries\DataTransferObjects\bin\Debug\I2S.CLB.DTO.dll
+C:\Users\GLOW WORM\Desktop\Vss_I2SServer\Libraries\DataTransferObjects\bin\Debug\I2S.CLB.DTO.pdb
+C:\Users\GLOW WORM\Desktop\Vss_I2SServer\Libraries\DataTransferObjects\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\GLOW WORM\Desktop\Vss_I2SServer\Libraries\DataTransferObjects\obj\Debug\I2S.CLB.DTO.dll
+C:\Users\GLOW WORM\Desktop\Vss_I2SServer\Libraries\DataTransferObjects\obj\Debug\I2S.CLB.DTO.pdb
+G:\Ravikanth_Projects\Vss_I2SServer\Libraries\DataTransferObjects\bin\Debug\I2S.CLB.DTO.dll
+G:\Ravikanth_Projects\Vss_I2SServer\Libraries\DataTransferObjects\bin\Debug\I2S.CLB.DTO.pdb
+G:\Ravikanth_Projects\Vss_I2SServer\Libraries\DataTransferObjects\obj\Debug\ResolveAssemblyReference.cache
+G:\Ravikanth_Projects\Vss_I2SServer\Libraries\DataTransferObjects\obj\Debug\I2S.CLB.DTO.dll
+G:\Ravikanth_Projects\Vss_I2SServer\Libraries\DataTransferObjects\obj\Debug\I2S.CLB.DTO.pdb

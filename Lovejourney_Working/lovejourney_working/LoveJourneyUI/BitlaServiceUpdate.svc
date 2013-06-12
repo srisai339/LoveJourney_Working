@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="BitlaServiceUpdate" CodeBehind="~/App_Code/BitlaServiceUpdate.cs" %>

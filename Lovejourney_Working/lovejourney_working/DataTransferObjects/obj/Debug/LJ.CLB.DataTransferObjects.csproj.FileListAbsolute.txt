@@ -1,0 +1,160 @@
+G:\Ravikanth_Projects\Vss_I2SServer\Libraries\DataTransferObjects\bin\Debug\I2S.CLB.DTO.dll
+G:\Ravikanth_Projects\Vss_I2SServer\Libraries\DataTransferObjects\bin\Debug\I2S.CLB.DTO.pdb
+G:\Ravikanth_Projects\Vss_I2SServer\Libraries\DataTransferObjects\obj\Debug\ResolveAssemblyReference.cache
+G:\Ravikanth_Projects\Vss_I2SServer\Libraries\DataTransferObjects\obj\Debug\I2S.CLB.DTO.dll
+G:\Ravikanth_Projects\Vss_I2SServer\Libraries\DataTransferObjects\obj\Debug\I2S.CLB.DTO.pdb
+G:\Ravikanth_Projects\LoveJourney\LoveJourneySolution\DataTransferObjects\bin\Debug\I2S.CLB.DTO.dll
+G:\Ravikanth_Projects\LoveJourney\LoveJourneySolution\DataTransferObjects\bin\Debug\I2S.CLB.DTO.pdb
+G:\Ravikanth_Projects\LoveJourney\LoveJourneySolution\DataTransferObjects\obj\Debug\ResolveAssemblyReference.cache
+G:\Ravikanth_Projects\LoveJourney\LoveJourneySolution\DataTransferObjects\obj\Debug\I2S.CLB.DTO.dll
+G:\Ravikanth_Projects\LoveJourney\LoveJourneySolution\DataTransferObjects\obj\Debug\I2S.CLB.DTO.pdb
+E:\LoveJourney\Lovejourney_2013-02-04\DataTransferObjects\bin\Debug\I2S.CLB.DTO.dll
+E:\LoveJourney\Lovejourney_2013-02-04\DataTransferObjects\bin\Debug\I2S.CLB.DTO.pdb
+E:\LoveJourney\Lovejourney_2013-02-04\DataTransferObjects\obj\Debug\ResolveAssemblyReference.cache
+E:\LoveJourney\Lovejourney_2013-02-04\DataTransferObjects\obj\Debug\I2S.CLB.DTO.dll
+E:\LoveJourney\Lovejourney_2013-02-04\DataTransferObjects\obj\Debug\I2S.CLB.DTO.pdb
+E:\LoveJourney\Lovejourney_2013-02-06\DataTransferObjects\bin\Debug\I2S.CLB.DTO.dll
+E:\LoveJourney\Lovejourney_2013-02-06\DataTransferObjects\bin\Debug\I2S.CLB.DTO.pdb
+E:\LoveJourney\Lovejourney_2013-02-06\DataTransferObjects\obj\Debug\ResolveAssemblyReference.cache
+E:\LoveJourney\Lovejourney_2013-02-06\DataTransferObjects\obj\Debug\I2S.CLB.DTO.dll
+E:\LoveJourney\Lovejourney_2013-02-06\DataTransferObjects\obj\Debug\I2S.CLB.DTO.pdb
+E:\LoveJourneyDesignedPages(2013-02-07)\DataTransferObjects\bin\Debug\I2S.CLB.DTO.dll
+E:\LoveJourneyDesignedPages(2013-02-07)\DataTransferObjects\bin\Debug\I2S.CLB.DTO.pdb
+E:\LoveJourneyDesignedPages(2013-02-07)\DataTransferObjects\obj\Debug\ResolveAssemblyReference.cache
+E:\LoveJourneyDesignedPages(2013-02-07)\DataTransferObjects\obj\Debug\I2S.CLB.DTO.dll
+E:\LoveJourneyDesignedPages(2013-02-07)\DataTransferObjects\obj\Debug\I2S.CLB.DTO.pdb
+E:\LoveJourneyDesignedPages(2013-02-08)\DataTransferObjects\bin\Debug\I2S.CLB.DTO.dll
+E:\LoveJourneyDesignedPages(2013-02-08)\DataTransferObjects\bin\Debug\I2S.CLB.DTO.pdb
+E:\LoveJourneyDesignedPages(2013-02-08)\DataTransferObjects\obj\Debug\ResolveAssemblyReference.cache
+E:\LoveJourneyDesignedPages(2013-02-08)\DataTransferObjects\obj\Debug\I2S.CLB.DTO.dll
+E:\LoveJourneyDesignedPages(2013-02-08)\DataTransferObjects\obj\Debug\I2S.CLB.DTO.pdb
+E:\LoveJourneyDesignedPages(2013-02-12)\DataTransferObjects\bin\Debug\I2S.CLB.DTO.dll
+E:\LoveJourneyDesignedPages(2013-02-12)\DataTransferObjects\bin\Debug\I2S.CLB.DTO.pdb
+E:\LoveJourneyDesignedPages(2013-02-12)\DataTransferObjects\obj\Debug\ResolveAssemblyReference.cache
+E:\LoveJourneyDesignedPages(2013-02-12)\DataTransferObjects\obj\Debug\I2S.CLB.DTO.dll
+E:\LoveJourneyDesignedPages(2013-02-12)\DataTransferObjects\obj\Debug\I2S.CLB.DTO.pdb
+E:\LoveJourneyDesignedPages(2013-02-16)\DataTransferObjects\bin\Debug\I2S.CLB.DTO.dll
+E:\LoveJourneyDesignedPages(2013-02-16)\DataTransferObjects\bin\Debug\I2S.CLB.DTO.pdb
+E:\LoveJourneyDesignedPages(2013-02-16)\DataTransferObjects\obj\Debug\ResolveAssemblyReference.cache
+E:\LoveJourneyDesignedPages(2013-02-16)\DataTransferObjects\obj\Debug\I2S.CLB.DTO.dll
+E:\LoveJourneyDesignedPages(2013-02-16)\DataTransferObjects\obj\Debug\I2S.CLB.DTO.pdb
+G:\Ravikanth_Projects\LoveJourneySolution(2013-02-19)\DataTransferObjects\bin\Debug\I2S.CLB.DTO.dll
+G:\Ravikanth_Projects\LoveJourneySolution(2013-02-19)\DataTransferObjects\bin\Debug\I2S.CLB.DTO.pdb
+G:\Ravikanth_Projects\LoveJourneySolution(2013-02-19)\DataTransferObjects\obj\Debug\ResolveAssemblyReference.cache
+G:\Ravikanth_Projects\LoveJourneySolution(2013-02-19)\DataTransferObjects\obj\Debug\I2S.CLB.DTO.dll
+G:\Ravikanth_Projects\LoveJourneySolution(2013-02-19)\DataTransferObjects\obj\Debug\I2S.CLB.DTO.pdb
+G:\LoveJourneySolution(2013-02-21)FinalUpdate\DataTransferObjects\bin\Debug\I2S.CLB.DTO.dll
+G:\LoveJourneySolution(2013-02-21)FinalUpdate\DataTransferObjects\bin\Debug\I2S.CLB.DTO.pdb
+G:\LoveJourneySolution(2013-02-21)FinalUpdate\DataTransferObjects\obj\Debug\ResolveAssemblyReference.cache
+G:\LoveJourneySolution(2013-02-21)FinalUpdate\DataTransferObjects\obj\Debug\I2S.CLB.DTO.dll
+G:\LoveJourneySolution(2013-02-21)FinalUpdate\DataTransferObjects\obj\Debug\I2S.CLB.DTO.pdb
+H:\LoveJourney\LoveJourneySolution(2013-02-21)FinalUpdate\DataTransferObjects\bin\Debug\I2S.CLB.DTO.dll
+H:\LoveJourney\LoveJourneySolution(2013-02-21)FinalUpdate\DataTransferObjects\bin\Debug\I2S.CLB.DTO.pdb
+H:\LoveJourney\LoveJourneySolution(2013-02-21)FinalUpdate\DataTransferObjects\obj\Debug\ResolveAssemblyReference.cache
+H:\LoveJourney\LoveJourneySolution(2013-02-21)FinalUpdate\DataTransferObjects\obj\Debug\I2S.CLB.DTO.dll
+H:\LoveJourney\LoveJourneySolution(2013-02-21)FinalUpdate\DataTransferObjects\obj\Debug\I2S.CLB.DTO.pdb
+E:\LoveJourneySolution(2013-02-21)FinalUpdate\DataTransferObjects\bin\Debug\I2S.CLB.DTO.dll
+E:\LoveJourneySolution(2013-02-21)FinalUpdate\DataTransferObjects\bin\Debug\I2S.CLB.DTO.pdb
+E:\LoveJourneySolution(2013-02-21)FinalUpdate\DataTransferObjects\obj\Debug\ResolveAssemblyReference.cache
+E:\LoveJourneySolution(2013-02-21)FinalUpdate\DataTransferObjects\obj\Debug\I2S.CLB.DTO.dll
+E:\LoveJourneySolution(2013-02-21)FinalUpdate\DataTransferObjects\obj\Debug\I2S.CLB.DTO.pdb
+G:\25-02-2013\LoveJourneySolution(2013-02-21)FinalUpdate\DataTransferObjects\bin\Debug\I2S.CLB.DTO.dll
+G:\25-02-2013\LoveJourneySolution(2013-02-21)FinalUpdate\DataTransferObjects\bin\Debug\I2S.CLB.DTO.pdb
+G:\25-02-2013\LoveJourneySolution(2013-02-21)FinalUpdate\DataTransferObjects\obj\Debug\ResolveAssemblyReference.cache
+G:\25-02-2013\LoveJourneySolution(2013-02-21)FinalUpdate\DataTransferObjects\obj\Debug\I2S.CLB.DTO.dll
+G:\25-02-2013\LoveJourneySolution(2013-02-21)FinalUpdate\DataTransferObjects\obj\Debug\I2S.CLB.DTO.pdb
+G:\25-02-2013\LoveJourneySolution(2013-02-25)FinalUpdate\DataTransferObjects\bin\Debug\I2S.CLB.DTO.dll
+G:\25-02-2013\LoveJourneySolution(2013-02-25)FinalUpdate\DataTransferObjects\bin\Debug\I2S.CLB.DTO.pdb
+G:\25-02-2013\LoveJourneySolution(2013-02-25)FinalUpdate\DataTransferObjects\obj\Debug\ResolveAssemblyReference.cache
+G:\25-02-2013\LoveJourneySolution(2013-02-25)FinalUpdate\DataTransferObjects\obj\Debug\I2S.CLB.DTO.dll
+G:\25-02-2013\LoveJourneySolution(2013-02-25)FinalUpdate\DataTransferObjects\obj\Debug\I2S.CLB.DTO.pdb
+E:\March2\LoveJourneySolution(2013-02-26)FinalUpdate\DataTransferObjects\bin\Debug\I2S.CLB.DTO.dll
+E:\March2\LoveJourneySolution(2013-02-26)FinalUpdate\DataTransferObjects\bin\Debug\I2S.CLB.DTO.pdb
+E:\March2\LoveJourneySolution(2013-02-26)FinalUpdate\DataTransferObjects\obj\Debug\ResolveAssemblyReference.cache
+E:\March2\LoveJourneySolution(2013-02-26)FinalUpdate\DataTransferObjects\obj\Debug\I2S.CLB.DTO.dll
+E:\March2\LoveJourneySolution(2013-02-26)FinalUpdate\DataTransferObjects\obj\Debug\I2S.CLB.DTO.pdb
+E:\LoveJourneySolution(2013-03-16)FinalUpdate\DataTransferObjects\bin\Debug\I2S.CLB.DTO.dll
+E:\LoveJourneySolution(2013-03-16)FinalUpdate\DataTransferObjects\bin\Debug\I2S.CLB.DTO.pdb
+E:\LoveJourneySolution(2013-03-16)FinalUpdate\DataTransferObjects\obj\Debug\ResolveAssemblyReference.cache
+E:\LoveJourneySolution(2013-03-16)FinalUpdate\DataTransferObjects\obj\Debug\I2S.CLB.DTO.dll
+E:\LoveJourneySolution(2013-03-16)FinalUpdate\DataTransferObjects\obj\Debug\I2S.CLB.DTO.pdb
+E:\LoveJourneySolution(2013-03-19)FinalUpdate\DataTransferObjects\bin\Debug\I2S.CLB.DTO.dll
+E:\LoveJourneySolution(2013-03-19)FinalUpdate\DataTransferObjects\bin\Debug\I2S.CLB.DTO.pdb
+E:\LoveJourneySolution(2013-03-19)FinalUpdate\DataTransferObjects\obj\Debug\ResolveAssemblyReference.cache
+E:\LoveJourneySolution(2013-03-19)FinalUpdate\DataTransferObjects\obj\Debug\I2S.CLB.DTO.dll
+E:\LoveJourneySolution(2013-03-19)FinalUpdate\DataTransferObjects\obj\Debug\I2S.CLB.DTO.pdb
+E:\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\DataTransferObjects\bin\Debug\I2S.CLB.DTO.dll
+E:\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\DataTransferObjects\bin\Debug\I2S.CLB.DTO.pdb
+E:\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\DataTransferObjects\obj\Debug\ResolveAssemblyReference.cache
+E:\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\DataTransferObjects\obj\Debug\I2S.CLB.DTO.dll
+E:\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\DataTransferObjects\obj\Debug\I2S.CLB.DTO.pdb
+F:\H\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\DataTransferObjects\bin\Debug\I2S.CLB.DTO.dll
+F:\H\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\DataTransferObjects\bin\Debug\I2S.CLB.DTO.pdb
+F:\H\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\DataTransferObjects\obj\Debug\ResolveAssemblyReference.cache
+F:\H\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\DataTransferObjects\obj\Debug\I2S.CLB.DTO.dll
+F:\H\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\DataTransferObjects\obj\Debug\I2S.CLB.DTO.pdb
+G:\LoveJourneySolution(6 april 2013 )FinalUpdate\DataTransferObjects\bin\Debug\I2S.CLB.DTO.dll
+G:\LoveJourneySolution(6 april 2013 )FinalUpdate\DataTransferObjects\bin\Debug\I2S.CLB.DTO.pdb
+G:\LoveJourneySolution(6 april 2013 )FinalUpdate\DataTransferObjects\obj\Debug\ResolveAssemblyReference.cache
+G:\LoveJourneySolution(6 april 2013 )FinalUpdate\DataTransferObjects\obj\Debug\I2S.CLB.DTO.dll
+G:\LoveJourneySolution(6 april 2013 )FinalUpdate\DataTransferObjects\obj\Debug\I2S.CLB.DTO.pdb
+G:\LoveJourneySolution(8 april 2013 )FinalUpdate\DataTransferObjects\bin\Debug\I2S.CLB.DTO.dll
+G:\LoveJourneySolution(8 april 2013 )FinalUpdate\DataTransferObjects\bin\Debug\I2S.CLB.DTO.pdb
+G:\LoveJourneySolution(8 april 2013 )FinalUpdate\DataTransferObjects\obj\Debug\ResolveAssemblyReference.cache
+G:\LoveJourneySolution(8 april 2013 )FinalUpdate\DataTransferObjects\obj\Debug\I2S.CLB.DTO.dll
+G:\LoveJourneySolution(8 april 2013 )FinalUpdate\DataTransferObjects\obj\Debug\I2S.CLB.DTO.pdb
+G:\LoveJourneySolution(10 april 2013 )FinalUpdate\DataTransferObjects\bin\Debug\I2S.CLB.DTO.dll
+G:\LoveJourneySolution(10 april 2013 )FinalUpdate\DataTransferObjects\bin\Debug\I2S.CLB.DTO.pdb
+G:\LoveJourneySolution(10 april 2013 )FinalUpdate\DataTransferObjects\obj\Debug\ResolveAssemblyReference.cache
+G:\LoveJourneySolution(10 april 2013 )FinalUpdate\DataTransferObjects\obj\Debug\I2S.CLB.DTO.dll
+G:\LoveJourneySolution(10 april 2013 )FinalUpdate\DataTransferObjects\obj\Debug\I2S.CLB.DTO.pdb
+F:\H\14-4-2013\LoveJourneySolution(13 april 2013 )FinalUpdate\DataTransferObjects\bin\Debug\I2S.CLB.DTO.dll
+F:\H\14-4-2013\LoveJourneySolution(13 april 2013 )FinalUpdate\DataTransferObjects\bin\Debug\I2S.CLB.DTO.pdb
+F:\H\14-4-2013\LoveJourneySolution(13 april 2013 )FinalUpdate\DataTransferObjects\obj\Debug\ResolveAssemblyReference.cache
+F:\H\14-4-2013\LoveJourneySolution(13 april 2013 )FinalUpdate\DataTransferObjects\obj\Debug\I2S.CLB.DTO.dll
+F:\H\14-4-2013\LoveJourneySolution(13 april 2013 )FinalUpdate\DataTransferObjects\obj\Debug\I2S.CLB.DTO.pdb
+G:\LoveJourneySolution(13 april 2013 )FinalUpdate\DataTransferObjects\bin\Debug\I2S.CLB.DTO.dll
+G:\LoveJourneySolution(13 april 2013 )FinalUpdate\DataTransferObjects\bin\Debug\I2S.CLB.DTO.pdb
+G:\LoveJourneySolution(13 april 2013 )FinalUpdate\DataTransferObjects\obj\Debug\ResolveAssemblyReference.cache
+G:\LoveJourneySolution(13 april 2013 )FinalUpdate\DataTransferObjects\obj\Debug\I2S.CLB.DTO.dll
+G:\LoveJourneySolution(13 april 2013 )FinalUpdate\DataTransferObjects\obj\Debug\I2S.CLB.DTO.pdb
+G:\LoveJourneySolution(14 april 2013 )FinalUpdate\DataTransferObjects\bin\Debug\I2S.CLB.DTO.dll
+G:\LoveJourneySolution(14 april 2013 )FinalUpdate\DataTransferObjects\bin\Debug\I2S.CLB.DTO.pdb
+G:\LoveJourneySolution(14 april 2013 )FinalUpdate\DataTransferObjects\obj\Debug\ResolveAssemblyReference.cache
+G:\LoveJourneySolution(14 april 2013 )FinalUpdate\DataTransferObjects\obj\Debug\I2S.CLB.DTO.dll
+G:\LoveJourneySolution(14 april 2013 )FinalUpdate\DataTransferObjects\obj\Debug\I2S.CLB.DTO.pdb
+G:\LoveJourneySolution(17 april 2013 )FinalUpdate\DataTransferObjects\bin\Debug\I2S.CLB.DTO.dll
+G:\LoveJourneySolution(17 april 2013 )FinalUpdate\DataTransferObjects\bin\Debug\I2S.CLB.DTO.pdb
+G:\LoveJourneySolution(17 april 2013 )FinalUpdate\DataTransferObjects\obj\Debug\ResolveAssemblyReference.cache
+G:\LoveJourneySolution(17 april 2013 )FinalUpdate\DataTransferObjects\obj\Debug\I2S.CLB.DTO.dll
+G:\LoveJourneySolution(17 april 2013 )FinalUpdate\DataTransferObjects\obj\Debug\I2S.CLB.DTO.pdb
+G:\LoveJourneySolution(26 april 2013 )FinalUpdate\DataTransferObjects\bin\Debug\I2S.CLB.DTO.dll
+G:\LoveJourneySolution(26 april 2013 )FinalUpdate\DataTransferObjects\bin\Debug\I2S.CLB.DTO.pdb
+G:\LoveJourneySolution(26 april 2013 )FinalUpdate\DataTransferObjects\obj\Debug\ResolveAssemblyReference.cache
+G:\LoveJourneySolution(26 april 2013 )FinalUpdate\DataTransferObjects\obj\Debug\I2S.CLB.DTO.dll
+G:\LoveJourneySolution(26 april 2013 )FinalUpdate\DataTransferObjects\obj\Debug\I2S.CLB.DTO.pdb
+F:\H\may 5 2013\LoveJourneySolution(05 may 2013 )FinalUpdate\DataTransferObjects\bin\Debug\I2S.CLB.DTO.dll
+F:\H\may 5 2013\LoveJourneySolution(05 may 2013 )FinalUpdate\DataTransferObjects\bin\Debug\I2S.CLB.DTO.pdb
+F:\H\may 5 2013\LoveJourneySolution(05 may 2013 )FinalUpdate\DataTransferObjects\obj\Debug\ResolveAssemblyReference.cache
+F:\H\may 5 2013\LoveJourneySolution(05 may 2013 )FinalUpdate\DataTransferObjects\obj\Debug\I2S.CLB.DTO.dll
+F:\H\may 5 2013\LoveJourneySolution(05 may 2013 )FinalUpdate\DataTransferObjects\obj\Debug\I2S.CLB.DTO.pdb
+D:\LoveJourney\Lovejournry6-5-2013\LoveJourneySolution(05 may 2013 )FinalUpdate\DataTransferObjects\bin\Debug\I2S.CLB.DTO.dll
+D:\LoveJourney\Lovejournry6-5-2013\LoveJourneySolution(05 may 2013 )FinalUpdate\DataTransferObjects\bin\Debug\I2S.CLB.DTO.pdb
+D:\LoveJourney\Lovejournry6-5-2013\LoveJourneySolution(05 may 2013 )FinalUpdate\DataTransferObjects\obj\Debug\ResolveAssemblyReference.cache
+D:\LoveJourney\Lovejournry6-5-2013\LoveJourneySolution(05 may 2013 )FinalUpdate\DataTransferObjects\obj\Debug\I2S.CLB.DTO.dll
+D:\LoveJourney\Lovejournry6-5-2013\LoveJourneySolution(05 may 2013 )FinalUpdate\DataTransferObjects\obj\Debug\I2S.CLB.DTO.pdb
+D:\LoveJourney\LovejourneyBackup\13-may-2013_BeforeNewDesign\LoveJourneySolution(05 may 2013 )FinalUpdate\DataTransferObjects\bin\Debug\I2S.CLB.DTO.dll
+D:\LoveJourney\LovejourneyBackup\13-may-2013_BeforeNewDesign\LoveJourneySolution(05 may 2013 )FinalUpdate\DataTransferObjects\bin\Debug\I2S.CLB.DTO.pdb
+D:\LoveJourney\LovejourneyBackup\13-may-2013_BeforeNewDesign\LoveJourneySolution(05 may 2013 )FinalUpdate\DataTransferObjects\obj\Debug\ResolveAssemblyReference.cache
+D:\LoveJourney\LovejourneyBackup\13-may-2013_BeforeNewDesign\LoveJourneySolution(05 may 2013 )FinalUpdate\DataTransferObjects\obj\Debug\I2S.CLB.DTO.dll
+D:\LoveJourney\LovejourneyBackup\13-may-2013_BeforeNewDesign\LoveJourneySolution(05 may 2013 )FinalUpdate\DataTransferObjects\obj\Debug\I2S.CLB.DTO.pdb
+D:\ljworking11jun\LoveJourney_Working\DataTransferObjects\bin\Debug\I2S.CLB.DTO.dll
+D:\ljworking11jun\LoveJourney_Working\DataTransferObjects\bin\Debug\I2S.CLB.DTO.pdb
+D:\ljworking11jun\LoveJourney_Working\DataTransferObjects\obj\Debug\ResolveAssemblyReference.cache
+D:\ljworking11jun\LoveJourney_Working\DataTransferObjects\obj\Debug\I2S.CLB.DTO.dll
+D:\ljworking11jun\LoveJourney_Working\DataTransferObjects\obj\Debug\I2S.CLB.DTO.pdb
+D:\LoveJourney\LoveJourney_Working\DataTransferObjects\bin\Debug\I2S.CLB.DTO.dll
+D:\LoveJourney\LoveJourney_Working\DataTransferObjects\bin\Debug\I2S.CLB.DTO.pdb
+D:\LoveJourney\LoveJourney_Working\DataTransferObjects\obj\Debug\ResolveAssemblyReference.cache
+D:\LoveJourney\LoveJourney_Working\DataTransferObjects\obj\Debug\I2S.CLB.DTO.dll
+D:\LoveJourney\LoveJourney_Working\DataTransferObjects\obj\Debug\I2S.CLB.DTO.pdb

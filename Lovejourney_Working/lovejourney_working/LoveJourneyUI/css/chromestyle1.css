@@ -1,0 +1,230 @@
+.chromestyle2{
+width: 49%;
+
+}
+
+.chromestyle2:after{ /*Add margin between menu and rest of content in Firefox*/
+content: "."; 
+display: block; 
+height: 0; 
+clear: both; 
+visibility: hidden;
+}
+
+.chromestyle2 ul{
+border: 0px solid #BBB;
+width: 100%;
+background: url(chromebg.gif) center center repeat-x; /*THEME CHANGE HERE*/
+padding:0;
+margin: 0;
+text-align: left; /*set value to "left", "center", or "right"*/
+}
+
+.chromestyle2 ul li{
+display: inline;
+}
+
+.chromestyle2 ul li a{
+/*padding:0px 10px;*/
+margin: 0;
+text-decoration: none;
+font-family:Arial;
+	font-size:12px;
+	color:#FFF;
+	text-decoration:none;
+	font-weight:bold;
+	
+/*background:url(../images/menu-line.jpg) no-repeat top right;*/
+
+display:block;
+/*float:left;*/
+
+}
+
+.chromestyle2 ul li a span{
+/*padding:0px 10px;*/
+font-family:Arial;
+	font-size:12px;
+	color:#FFF;
+	text-decoration:none;
+	font-weight:bold;
+	
+/*background:url(../images/menu-line.jpg) no-repeat top right;*/
+
+
+/*float:left;*/
+
+}
+
+.chromestyle2 ul li a:hover, .chromestyle2 ul li a.selected{
+background:url(../images/mid02.jpg) repeat-x top;
+display:block;
+/*float:left;*/
+/*padding: 0px 10px;*/
+color:#000;
+}
+
+/* ######### Style for Drop Down Menu ######### */
+
+.dropmenudiv2{
+position:absolute;
+top: 0px;
+border-right: 1px solid #87a6e9; /*THEME CHANGE HERE*/
+border-bottom: 1px solid #87a6e9; /*THEME CHANGE HERE*/
+border-left: 1px solid #87a6e9; /*THEME CHANGE HERE*/
+border-bottom-width: 0;
+font:normal 12px arial;
+line-height:18px;
+z-index:100;
+/*background:url(../images/menudrop_bg.png) repeat ;*/
+background:#5e89e7;
+width: 130px;
+visibility: hidden;
+text-align:left;
+margin-top:-1px;
+}
+
+
+.dropmenudiv2 a{
+width: auto;
+display: block;
+text-indent: 3px;
+border-bottom: 1px solid #87a6e9 ; /*THEME CHANGE HERE*/
+padding: 3px 3px;
+text-decoration: none;
+font-weight:normal;
+color: #ffffff;
+}
+
+.dropmenudiv2 a:hover{ /*THEME CHANGE HERE*/
+background-color: #fff;
+color:#000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*agentstyle*/
+
+
+.chromestyle3{
+width: 49%;
+
+}
+
+.chromestyle3:after{ /*Add margin between menu and rest of content in Firefox*/
+content: "."; 
+display: block; 
+height: 0; 
+clear: both; 
+visibility: hidden;
+}
+
+.chromestyle3 ul{
+border: 0px solid #BBB;
+width: 100%;
+background: url(chromebg.gif) center center repeat-x; /*THEME CHANGE HERE*/
+padding:0;
+margin: 0;
+text-align: left; /*set value to "left", "center", or "right"*/
+}
+
+.chromestyle3 ul li{
+display: inline;
+}
+
+.chromestyle3 ul li a{
+/*padding:0px 10px;*/
+margin: 0;
+text-decoration: none;
+font-family:Arial;
+	font-size:12px;
+	color:#000;
+	text-decoration:none;
+	font-weight:bold;
+	
+/*background:url(../images/menu-line.jpg) no-repeat top right;*/
+
+display:block;
+/*float:left;*/
+
+}
+
+.chromestyle3 ul li a span{
+/*padding:0px 10px;*/
+font-family:Arial;
+	font-size:12px;
+	color:#000;
+	text-decoration:none;
+	font-weight:bold;
+	
+/*background:url(../images/menu-line.jpg) no-repeat top right;*/
+
+
+/*float:left;*/
+
+}
+
+.chromestyle3 ul li a:hover, .chromestyle3 ul li a.selected{
+background:url(../images/mid02.jpg) repeat-x top;
+display:block;
+/*float:left;*/
+/*padding: 0px 10px;*/
+color:#000;
+}
+
+/* ######### Style for Drop Down Menu ######### */
+
+.dropmenudiv3{
+position:absolute;
+top: 0px;
+border-right: 1px solid #87a6e9; /*THEME CHANGE HERE*/
+border-bottom: 1px solid #87a6e9; /*THEME CHANGE HERE*/
+border-left: 1px solid #87a6e9; /*THEME CHANGE HERE*/
+border-bottom-width: 0;
+font:normal 12px arial;
+line-height:18px;
+z-index:100;
+/*background:url(../images/menudrop_bg.png) repeat ;*/
+background:orange;
+width: 130px;
+visibility: hidden;
+text-align:left;
+margin-top:10px;
+}
+
+
+.dropmenudiv3 a{
+width: auto;
+display: block;
+text-indent: 3px;
+border-bottom: 1px solid #87a6e9 ; /*THEME CHANGE HERE*/
+padding: 3px 3px;
+text-decoration: none;
+font-weight:normal;
+color: #ffffff;
+}
+
+.dropmenudiv3 a:hover{ /*THEME CHANGE HERE*/
+background-color: #fff;
+color:#000;
+}

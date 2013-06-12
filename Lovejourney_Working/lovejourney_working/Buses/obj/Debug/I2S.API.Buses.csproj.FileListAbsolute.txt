@@ -1,0 +1,32 @@
+D:\i2space_projects\i2space\I2Space\Libraries\Buses\bin\Debug\I2S.API.Buses.dll
+D:\i2space_projects\i2space\I2Space\Libraries\Buses\bin\Debug\I2S.API.Buses.pdb
+D:\i2space_projects\i2space\I2Space\Libraries\Buses\bin\Debug\I2S.CLB.DTO.dll
+D:\i2space_projects\i2space\I2Space\Libraries\Buses\bin\Debug\Newtonsoft.Json.dll
+D:\i2space_projects\i2space\I2Space\Libraries\Buses\bin\Debug\I2S.CLB.DTO.pdb
+D:\i2space_projects\i2space\I2Space\Libraries\Buses\obj\Debug\ResolveAssemblyReference.cache
+D:\i2space_projects\i2space\I2Space\Libraries\Buses\obj\Debug\I2S.API.Buses.dll
+D:\i2space_projects\i2space\I2Space\Libraries\Buses\obj\Debug\I2S.API.Buses.pdb
+D:\Ravikanth Projects\Vss_I2SServer\Libraries\Buses\bin\Debug\I2S.API.Buses.dll
+D:\Ravikanth Projects\Vss_I2SServer\Libraries\Buses\bin\Debug\I2S.API.Buses.pdb
+D:\Ravikanth Projects\Vss_I2SServer\Libraries\Buses\bin\Debug\I2S.CLB.DTO.dll
+D:\Ravikanth Projects\Vss_I2SServer\Libraries\Buses\bin\Debug\Newtonsoft.Json.dll
+D:\Ravikanth Projects\Vss_I2SServer\Libraries\Buses\bin\Debug\I2S.CLB.DTO.pdb
+D:\Ravikanth Projects\Vss_I2SServer\Libraries\Buses\obj\Debug\ResolveAssemblyReference.cache
+D:\Ravikanth Projects\Vss_I2SServer\Libraries\Buses\obj\Debug\I2S.API.Buses.dll
+D:\Ravikanth Projects\Vss_I2SServer\Libraries\Buses\obj\Debug\I2S.API.Buses.pdb
+C:\Users\GLOW WORM\Desktop\Vss_I2SServer\Libraries\Buses\bin\Debug\I2S.API.Buses.dll
+C:\Users\GLOW WORM\Desktop\Vss_I2SServer\Libraries\Buses\bin\Debug\I2S.API.Buses.pdb
+C:\Users\GLOW WORM\Desktop\Vss_I2SServer\Libraries\Buses\bin\Debug\I2S.CLB.DTO.dll
+C:\Users\GLOW WORM\Desktop\Vss_I2SServer\Libraries\Buses\bin\Debug\Newtonsoft.Json.dll
+C:\Users\GLOW WORM\Desktop\Vss_I2SServer\Libraries\Buses\bin\Debug\I2S.CLB.DTO.pdb
+C:\Users\GLOW WORM\Desktop\Vss_I2SServer\Libraries\Buses\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\GLOW WORM\Desktop\Vss_I2SServer\Libraries\Buses\obj\Debug\I2S.API.Buses.dll
+C:\Users\GLOW WORM\Desktop\Vss_I2SServer\Libraries\Buses\obj\Debug\I2S.API.Buses.pdb
+G:\Ravikanth_Projects\Vss_I2SServer\Libraries\Buses\bin\Debug\I2S.API.Buses.dll
+G:\Ravikanth_Projects\Vss_I2SServer\Libraries\Buses\bin\Debug\I2S.API.Buses.pdb
+G:\Ravikanth_Projects\Vss_I2SServer\Libraries\Buses\bin\Debug\I2S.CLB.DTO.dll
+G:\Ravikanth_Projects\Vss_I2SServer\Libraries\Buses\bin\Debug\Newtonsoft.Json.dll
+G:\Ravikanth_Projects\Vss_I2SServer\Libraries\Buses\bin\Debug\I2S.CLB.DTO.pdb
+G:\Ravikanth_Projects\Vss_I2SServer\Libraries\Buses\obj\Debug\ResolveAssemblyReference.cache
+G:\Ravikanth_Projects\Vss_I2SServer\Libraries\Buses\obj\Debug\I2S.API.Buses.dll
+G:\Ravikanth_Projects\Vss_I2SServer\Libraries\Buses\obj\Debug\I2S.API.Buses.pdb

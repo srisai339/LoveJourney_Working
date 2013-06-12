@@ -1,0 +1,11 @@
+E:\RajuKatare\LoveJourney\LoveJourneyCode\LoveJourneySolution\LoveJourneyAPILayer\obj\Debug\ResolveAssemblyReference.cache
+E:\RajuKatare\LoveJourney\LoveJourneyCode\LoveJourneySolution\LoveJourneyAPILayer\bin\Debug\LoveJourneyAPILayer.dll.config
+E:\RajuKatare\LoveJourney\LoveJourneyCode\LoveJourneySolution\LoveJourneyAPILayer\bin\Debug\LoveJourneyAPILayer.dll
+E:\RajuKatare\LoveJourney\LoveJourneyCode\LoveJourneySolution\LoveJourneyAPILayer\bin\Debug\LoveJourneyAPILayer.pdb
+E:\RajuKatare\LoveJourney\LoveJourneyCode\LoveJourneySolution\LoveJourneyAPILayer\bin\Debug\CookComputing.XmlRpcV2.dll
+E:\RajuKatare\LoveJourney\LoveJourneyCode\LoveJourneySolution\LoveJourneyAPILayer\bin\Debug\LoveJourneyBLL.dll
+E:\RajuKatare\LoveJourney\LoveJourneyCode\LoveJourneySolution\LoveJourneyAPILayer\bin\Debug\LoveJourneyDAL.dll
+E:\RajuKatare\LoveJourney\LoveJourneyCode\LoveJourneySolution\LoveJourneyAPILayer\bin\Debug\LoveJourneyBLL.pdb
+E:\RajuKatare\LoveJourney\LoveJourneyCode\LoveJourneySolution\LoveJourneyAPILayer\bin\Debug\LoveJourneyDAL.pdb
+E:\RajuKatare\LoveJourney\LoveJourneyCode\LoveJourneySolution\LoveJourneyAPILayer\obj\Debug\LoveJourneyAPILayer.dll
+E:\RajuKatare\LoveJourney\LoveJourneyCode\LoveJourneySolution\LoveJourneyAPILayer\obj\Debug\LoveJourneyAPILayer.pdb

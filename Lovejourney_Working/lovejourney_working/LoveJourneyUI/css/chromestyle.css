@@ -1,0 +1,290 @@
+*
+{
+	padding:0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+.chromestyle{
+width: 99%;
+}
+
+.chromestyle:after{ /*Add margin between menu and rest of content in Firefox*/
+content: "."; 
+display: block; 
+height: 0; 
+clear: both; 
+visibility: hidden;
+}
+
+.chromestyle ul{
+border: 0px solid #BBB;
+width: 100%;
+background:#025aa2; /*THEME CHANGE HERE*/
+padding:0;
+margin: 0;
+text-align: left; /*set value to "left", "center", or "right"*/
+}
+
+.chromestyle ul li{
+display: inline;
+}
+
+.chromestyle ul li a{
+padding:4px 30px;
+margin: 0;
+text-decoration: none;
+border-right: 1px solid #c9d7e4;
+/*background:url(../images/menu-line.jpg) no-repeat top right;*/
+font-family:Verdana, Geneva, sans-serif;
+font-size:12px;
+font-weight:bold;
+color:#fff;
+display:block;
+float:left;
+}
+
+.chromestyle ul li a:hover, .chromestyle ul li a.selected{
+/*background:url(../images/mid02.jpg) repeat-x top;*/
+background:#013e7f;
+display:block;
+float:left;
+font-weight:bold;
+font-size:12px;
+padding:4px 30px;
+}
+
+
+/* ######### Style for Drop Down Menu ######### */
+
+.dropmenudiv{
+position:absolute;
+top: 0px;
+border: 1px solid #03539a; /*THEME CHANGE HERE*/
+border-bottom-width: 0;
+font:normal 12px Verdana;
+line-height:18px;
+z-index:100;
+background-color:#3175ac;
+width: 200px;
+visibility: hidden;
+text-align:left;
+margin-top:1px;
+}
+
+
+.dropmenudiv a{
+width: auto;
+display: block;
+text-indent: 3px;
+border-bottom: 1px solid #03539a; /*THEME CHANGE HERE*/
+padding: 3px 3px;
+text-decoration: none;
+font-weight:normal;
+color: #fff;
+}
+
+.dropmenudiv a:hover{ /*THEME CHANGE HERE*/
+background-color: #4490cd;
+color:#ffffff;
+}
+
+.rt_img img
+{
+	border-color:black 1px solid;
+}
+
+
+/*up_dropMenu*/
+
+
+
+
+.chromestyle1{
+width: 99%;
+border-radius:5px;
+-moz-border-radius:5px;
+background: #c90000 ;
+
+
+}
+
+.chromestyle1:after{ /*Add margin between menu and rest of content in Firefox*/
+content: "."; 
+display: block; 
+height: 0; 
+clear: both; 
+visibility: hidden;
+}
+
+.chromestyle1 ul{
+border: 0px solid #BBB;
+width: 100%;
+background:#025aa2; /*THEME CHANGE HERE*/
+padding:0;
+margin: 0;
+text-align: left; /*set value to "left", "center", or "right"*/
+}
+
+.chromestyle1 ul li{
+display: inline;
+}
+
+.chromestyle1 ul li a{
+padding:2px 2px;
+margin: 0;
+text-decoration: none;
+border-right: 1px solid #c9d7e4;
+/*background:url(../images/menu-line.jpg) no-repeat top right;*/
+font-family:Verdana, Geneva, sans-serif;
+font-size:11px;
+font-weight:bold;
+color:#fff;
+display:block;
+float:left;
+}
+
+.chromestyle1 ul li a:hover, .chromestyle1 ul li a.selected{
+/*background:url(../images/mid02.jpg) repeat-x top;*/
+background:#013e7f;
+display:block;
+float:left;
+font-weight:bold;
+font-size:11px;
+padding:2px 2px;
+}
+
+
+/* ######### Style for Drop Down Menu ######### */
+
+.dropmenudiv1{
+position:absolute;
+top: 0px;
+border: 1px solid #03539a; /*THEME CHANGE HERE*/
+border-bottom-width: 0;
+font:normal 12px Verdana;
+line-height:18px;
+z-index:100;
+background-color:#3175ac;
+width: 250px;
+visibility: hidden;
+text-align:left;
+margin-top:1px;
+}
+
+
+.dropmenudiv1 a{
+width: auto;
+display: block;
+text-indent: 3px;
+border-bottom: 1px solid #03539a; /*THEME CHANGE HERE*/
+padding: 3px 3px;
+text-decoration: none;
+font-weight:normal;
+color: #fff;
+}
+
+.dropmenudiv1 a:hover{ /*THEME CHANGE HERE*/
+background-color: #4490cd;
+color:#ffffff;
+}
+
+.rt_img img
+{
+	border-color:black 1px solid;
+}
+
+
+/*21_1_2013*/
+
+
+.chromestyle12{
+width: 99%;
+}
+
+.chromestyle12:after{ /*Add margin between menu and rest of content in Firefox*/
+content: "."; 
+display: block; 
+height: 0; 
+clear: both; 
+visibility: hidden;
+}
+
+.chromestyle12 ul{
+border: 0px solid #BBB;
+width: 100%;
+background:#025aa2; /*THEME CHANGE HERE*/
+padding:0;
+margin: 0;
+text-align: left; /*set value to "left", "center", or "right"*/
+}
+
+.chromestyle12 ul li{
+display: inline;
+}
+
+.chromestyle12 ul li a{
+padding:4px 18px;
+margin: 0;
+text-decoration: none;
+border-right: 1px solid #c9d7e4;
+/*background:url(../images/menu-line.jpg) no-repeat top right;*/
+font-family:Verdana, Geneva, sans-serif;
+font-size:12px;
+font-weight:bold;
+color:#fff;
+display:block;
+float:left;
+}
+
+.chromestyle12 ul li a:hover, .chromestyle12 ul li a.selected{
+/*background:url(../images/mid02.jpg) repeat-x top;*/
+background:#013e7f;
+display:block;
+float:left;
+font-weight:bold;
+font-size:12px;
+padding:4px 30px;
+}
+
+
+/* ######### Style for Drop Down Menu ######### */
+
+.dropmenudiv12{
+position:absolute;
+top: 0px;
+border: 1px solid #03539a; /*THEME CHANGE HERE*/
+border-bottom-width: 0;
+font:normal 12px Verdana;
+line-height:18px;
+z-index:100;
+background-color:#3175ac;
+width: 200px;
+visibility: hidden;
+text-align:left;
+margin-top:1px;
+}
+
+
+.dropmenudiv12 a{
+width: auto;
+display: block;
+text-indent: 3px;
+border-bottom: 1px solid #03539a; /*THEME CHANGE HERE*/
+padding: 3px 3px;
+text-decoration: none;
+font-weight:normal;
+color: #fff;
+}
+
+.dropmenudiv12 a:hover{ /*THEME CHANGE HERE*/
+background-color: #4490cd;
+color:#ffffff;
+}
+
+.rt_img img
+{
+	border-color:black 1px solid;
+}
+

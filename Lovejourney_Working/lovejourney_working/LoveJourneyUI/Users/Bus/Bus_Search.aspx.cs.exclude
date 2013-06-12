@@ -1,0 +1,71 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Data;
+using System.Xml;
+using System.Data.SqlClient;
+using System.Configuration;
+using System.Web;
+using System.Net;
+using System.IO;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Web.Services;
+using Newtonsoft.Json;
+public partial class _Default : System.Web.UI.Page
+{
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        object dc = null;
+
+        String stre = invokeGetRequest("http://www.i2space.co.in/busservice.asmx?op=GetCities", @"application/json");
+        //LJ.CLB.Buses.RedbusAPI cls = new LJ.CLB.Buses.RedbusAPI();
+        //LJ.CLB.Buses.BitlaAPI cls = new LJ.CLB.Buses.BitlaAPI();
+        //LJ.CLB.Buses.AbhibusAPI cls = new LJ.CLB.Buses.AbhibusAPI();
+        //LJ.CLB.Buses.TicketGooseAPI cls = new LJ.CLB.Buses.TicketGooseAPI();
+
+        //String str = cls.getSourcesAndDestinations("http://www.ticketgoose.com/bookbustickets/services/TGSWS", "ssdtech", "123456");
+        //String str = cls.getTripListV2(72, 71, "1-1-2013", "http://www.ticketgoose.com/bookbustickets/services/TGSWS", "ssdtech", "123456");
+        //String str = cls.getTripDetailsV2(72, 71, "1-1-2013", "72237679916571", "http://www.ticketgoose.com/bookbustickets/services/TGSWS", "ssdtech", "123456");
+        //String are1 = cls.getSources("http://www.abhibus.com/api/manabus_kld/server.php", "BUSMANAHYD005HBAI");
+        //String are1 = cls.getSources("http://apistaging.ticketsimply.com/api", "TSDEMO4896*LJUAPI");
+        //String are1 = cls.getAvailableRoutes(506, 251, "01-01-2013", "http://api.ticketsimply.com/api", "TSAPI*854LOVEJOURNEY");
+        //String are1 = cls.getAvailableTrips(178, 102, "12-1-2013", "http://api.seatseller.travel", "9RDkOz1UxrtOwW3XICXhM51esepahb", "x2ZuoR49Pp68E9YufnIGrK4m1orA1a");
+        
+    }
+
+    protected string invokeGetRequest(string requestUrl, string contentType)
+    {
+        string completeUrl = requestUrl;
+        string responseString;
+        try
+        {
+            HttpWebRequest request1 = WebRequest.Create(completeUrl) as HttpWebRequest;
+            request1.ContentType = contentType;
+            request1.Method = @"GET";
+            HttpWebResponse httpWebResponse = (HttpWebResponse)request1.GetResponse();
+            using (BufferedStream buffer = new BufferedStream(httpWebResponse.GetResponseStream()))
+            {
+                using (StreamReader reader = new StreamReader(buffer))
+                {
+                    responseString = reader.ReadToEnd();
+                }
+            }
+            //StreamReader reader = new StreamReader(httpWebResponse.GetResponseStream());
+            //string responseString = reader.ReadToEnd();
+            return responseString;
+        }
+        catch (WebException ex)
+        {
+            //reading the custom messages sent by the server
+            using (var reader = new StreamReader(ex.Response.GetResponseStream()))
+            {
+                return reader.ReadToEnd();
+            }
+        }
+        catch (Exception ex)
+        {
+            return "Failed with exception message:" + ex.Message;
+        }
+    }
+}

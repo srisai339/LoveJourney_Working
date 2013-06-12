@@ -1,0 +1,427 @@
+G:\Ravikanth_Projects\Vss_I2SServer\Libraries\Buses\bin\Debug\I2S.API.Buses.dll
+G:\Ravikanth_Projects\Vss_I2SServer\Libraries\Buses\bin\Debug\I2S.API.Buses.pdb
+G:\Ravikanth_Projects\Vss_I2SServer\Libraries\Buses\bin\Debug\I2S.CLB.DTO.dll
+G:\Ravikanth_Projects\Vss_I2SServer\Libraries\Buses\bin\Debug\Newtonsoft.Json.dll
+G:\Ravikanth_Projects\Vss_I2SServer\Libraries\Buses\bin\Debug\I2S.CLB.DTO.pdb
+G:\Ravikanth_Projects\Vss_I2SServer\Libraries\Buses\obj\Debug\ResolveAssemblyReference.cache
+G:\Ravikanth_Projects\Vss_I2SServer\Libraries\Buses\obj\Debug\I2S.API.Buses.dll
+G:\Ravikanth_Projects\Vss_I2SServer\Libraries\Buses\obj\Debug\I2S.API.Buses.pdb
+G:\Ravikanth_Projects\LoveJourney\LoveJourneySolution\Buses\bin\Debug\I2S.API.Buses.dll
+G:\Ravikanth_Projects\LoveJourney\LoveJourneySolution\Buses\bin\Debug\I2S.API.Buses.pdb
+G:\Ravikanth_Projects\LoveJourney\LoveJourneySolution\Buses\bin\Debug\I2S.CLB.DTO.dll
+G:\Ravikanth_Projects\LoveJourney\LoveJourneySolution\Buses\bin\Debug\Newtonsoft.Json.dll
+G:\Ravikanth_Projects\LoveJourney\LoveJourneySolution\Buses\bin\Debug\I2S.CLB.DTO.pdb
+G:\Ravikanth_Projects\LoveJourney\LoveJourneySolution\Buses\obj\Debug\ResolveAssemblyReference.cache
+G:\Ravikanth_Projects\LoveJourney\LoveJourneySolution\Buses\obj\Debug\I2S.API.Buses.dll
+G:\Ravikanth_Projects\LoveJourney\LoveJourneySolution\Buses\obj\Debug\I2S.API.Buses.pdb
+E:\LoveJourney\Lovejourney_2013-02-04\Buses\bin\Debug\I2S.API.Buses.dll
+E:\LoveJourney\Lovejourney_2013-02-04\Buses\bin\Debug\I2S.API.Buses.pdb
+E:\LoveJourney\Lovejourney_2013-02-04\Buses\bin\Debug\I2S.CLB.DTO.dll
+E:\LoveJourney\Lovejourney_2013-02-04\Buses\bin\Debug\Newtonsoft.Json.dll
+E:\LoveJourney\Lovejourney_2013-02-04\Buses\bin\Debug\I2S.CLB.DTO.pdb
+E:\LoveJourney\Lovejourney_2013-02-04\Buses\obj\Debug\ResolveAssemblyReference.cache
+E:\LoveJourney\Lovejourney_2013-02-04\Buses\obj\Debug\I2S.API.Buses.dll
+E:\LoveJourney\Lovejourney_2013-02-04\Buses\obj\Debug\I2S.API.Buses.pdb
+E:\LoveJourney\Lovejourney_2013-02-06\Buses\bin\Debug\I2S.API.Buses.dll
+E:\LoveJourney\Lovejourney_2013-02-06\Buses\bin\Debug\I2S.API.Buses.pdb
+E:\LoveJourney\Lovejourney_2013-02-06\Buses\bin\Debug\I2S.CLB.DTO.dll
+E:\LoveJourney\Lovejourney_2013-02-06\Buses\bin\Debug\Newtonsoft.Json.dll
+E:\LoveJourney\Lovejourney_2013-02-06\Buses\bin\Debug\I2S.CLB.DTO.pdb
+E:\LoveJourney\Lovejourney_2013-02-06\Buses\obj\Debug\ResolveAssemblyReference.cache
+E:\LoveJourney\Lovejourney_2013-02-06\Buses\obj\Debug\I2S.API.Buses.dll
+E:\LoveJourney\Lovejourney_2013-02-06\Buses\obj\Debug\I2S.API.Buses.pdb
+E:\LoveJourneyDesignedPages(2013-02-07)\Buses\bin\Debug\I2S.API.Buses.dll
+E:\LoveJourneyDesignedPages(2013-02-07)\Buses\bin\Debug\I2S.API.Buses.pdb
+E:\LoveJourneyDesignedPages(2013-02-07)\Buses\bin\Debug\I2S.CLB.DTO.dll
+E:\LoveJourneyDesignedPages(2013-02-07)\Buses\bin\Debug\Newtonsoft.Json.dll
+E:\LoveJourneyDesignedPages(2013-02-07)\Buses\bin\Debug\I2S.CLB.DTO.pdb
+E:\LoveJourneyDesignedPages(2013-02-07)\Buses\obj\Debug\ResolveAssemblyReference.cache
+E:\LoveJourneyDesignedPages(2013-02-07)\Buses\obj\Debug\I2S.API.Buses.dll
+E:\LoveJourneyDesignedPages(2013-02-07)\Buses\obj\Debug\I2S.API.Buses.pdb
+E:\LoveJourneyDesignedPages(2013-02-08)\Buses\bin\Debug\I2S.API.Buses.dll
+E:\LoveJourneyDesignedPages(2013-02-08)\Buses\bin\Debug\I2S.API.Buses.pdb
+E:\LoveJourneyDesignedPages(2013-02-08)\Buses\bin\Debug\I2S.CLB.DTO.dll
+E:\LoveJourneyDesignedPages(2013-02-08)\Buses\bin\Debug\Newtonsoft.Json.dll
+E:\LoveJourneyDesignedPages(2013-02-08)\Buses\bin\Debug\I2S.CLB.DTO.pdb
+E:\LoveJourneyDesignedPages(2013-02-08)\Buses\obj\Debug\ResolveAssemblyReference.cache
+E:\LoveJourneyDesignedPages(2013-02-08)\Buses\obj\Debug\I2S.API.Buses.dll
+E:\LoveJourneyDesignedPages(2013-02-08)\Buses\obj\Debug\I2S.API.Buses.pdb
+E:\LoveJourneyDesignedPages(2013-02-08)\Buses\bin\Debug\BAL.dll
+E:\LoveJourneyDesignedPages(2013-02-08)\Buses\bin\Debug\DAL.dll
+E:\LoveJourneyDesignedPages(2013-02-08)\Buses\bin\Debug\BAL.pdb
+E:\LoveJourneyDesignedPages(2013-02-08)\Buses\bin\Debug\DAL.pdb
+E:\LoveJourneyDesignedPages(2013-02-12)\Buses\bin\Debug\I2S.API.Buses.dll
+E:\LoveJourneyDesignedPages(2013-02-12)\Buses\bin\Debug\I2S.API.Buses.pdb
+E:\LoveJourneyDesignedPages(2013-02-12)\Buses\bin\Debug\BAL.dll
+E:\LoveJourneyDesignedPages(2013-02-12)\Buses\bin\Debug\I2S.CLB.DTO.dll
+E:\LoveJourneyDesignedPages(2013-02-12)\Buses\bin\Debug\Newtonsoft.Json.dll
+E:\LoveJourneyDesignedPages(2013-02-12)\Buses\bin\Debug\DAL.dll
+E:\LoveJourneyDesignedPages(2013-02-12)\Buses\bin\Debug\I2S.CLB.DTO.pdb
+E:\LoveJourneyDesignedPages(2013-02-12)\Buses\bin\Debug\BAL.pdb
+E:\LoveJourneyDesignedPages(2013-02-12)\Buses\bin\Debug\DAL.pdb
+E:\LoveJourneyDesignedPages(2013-02-12)\Buses\obj\Debug\ResolveAssemblyReference.cache
+E:\LoveJourneyDesignedPages(2013-02-12)\Buses\obj\Debug\I2S.API.Buses.dll
+E:\LoveJourneyDesignedPages(2013-02-12)\Buses\obj\Debug\I2S.API.Buses.pdb
+E:\LoveJourneyDesignedPages(2013-02-16)\Buses\bin\Debug\I2S.API.Buses.dll
+E:\LoveJourneyDesignedPages(2013-02-16)\Buses\bin\Debug\I2S.API.Buses.pdb
+E:\LoveJourneyDesignedPages(2013-02-16)\Buses\bin\Debug\BAL.dll
+E:\LoveJourneyDesignedPages(2013-02-16)\Buses\bin\Debug\I2S.CLB.DTO.dll
+E:\LoveJourneyDesignedPages(2013-02-16)\Buses\bin\Debug\Newtonsoft.Json.dll
+E:\LoveJourneyDesignedPages(2013-02-16)\Buses\bin\Debug\DAL.dll
+E:\LoveJourneyDesignedPages(2013-02-16)\Buses\bin\Debug\I2S.CLB.DTO.pdb
+E:\LoveJourneyDesignedPages(2013-02-16)\Buses\bin\Debug\BAL.pdb
+E:\LoveJourneyDesignedPages(2013-02-16)\Buses\bin\Debug\DAL.pdb
+E:\LoveJourneyDesignedPages(2013-02-16)\Buses\obj\Debug\ResolveAssemblyReference.cache
+E:\LoveJourneyDesignedPages(2013-02-16)\Buses\obj\Debug\I2S.API.Buses.dll
+E:\LoveJourneyDesignedPages(2013-02-16)\Buses\obj\Debug\I2S.API.Buses.pdb
+G:\Ravikanth_Projects\LoveJourneySolution(2013-02-19)\Buses\bin\Debug\I2S.API.Buses.dll
+G:\Ravikanth_Projects\LoveJourneySolution(2013-02-19)\Buses\bin\Debug\I2S.API.Buses.pdb
+G:\Ravikanth_Projects\LoveJourneySolution(2013-02-19)\Buses\bin\Debug\BAL.dll
+G:\Ravikanth_Projects\LoveJourneySolution(2013-02-19)\Buses\bin\Debug\I2S.CLB.DTO.dll
+G:\Ravikanth_Projects\LoveJourneySolution(2013-02-19)\Buses\bin\Debug\Newtonsoft.Json.dll
+G:\Ravikanth_Projects\LoveJourneySolution(2013-02-19)\Buses\bin\Debug\DAL.dll
+G:\Ravikanth_Projects\LoveJourneySolution(2013-02-19)\Buses\bin\Debug\I2S.CLB.DTO.pdb
+G:\Ravikanth_Projects\LoveJourneySolution(2013-02-19)\Buses\bin\Debug\BAL.pdb
+G:\Ravikanth_Projects\LoveJourneySolution(2013-02-19)\Buses\bin\Debug\DAL.pdb
+G:\Ravikanth_Projects\LoveJourneySolution(2013-02-19)\Buses\obj\Debug\ResolveAssemblyReference.cache
+G:\Ravikanth_Projects\LoveJourneySolution(2013-02-19)\Buses\obj\Debug\I2S.API.Buses.dll
+G:\Ravikanth_Projects\LoveJourneySolution(2013-02-19)\Buses\obj\Debug\I2S.API.Buses.pdb
+G:\LoveJourneySolution(2013-02-21)FinalUpdate\Buses\bin\Debug\I2S.API.Buses.dll
+G:\LoveJourneySolution(2013-02-21)FinalUpdate\Buses\bin\Debug\I2S.API.Buses.pdb
+G:\LoveJourneySolution(2013-02-21)FinalUpdate\Buses\bin\Debug\BAL.dll
+G:\LoveJourneySolution(2013-02-21)FinalUpdate\Buses\bin\Debug\I2S.CLB.DTO.dll
+G:\LoveJourneySolution(2013-02-21)FinalUpdate\Buses\bin\Debug\Newtonsoft.Json.dll
+G:\LoveJourneySolution(2013-02-21)FinalUpdate\Buses\bin\Debug\DAL.dll
+G:\LoveJourneySolution(2013-02-21)FinalUpdate\Buses\bin\Debug\I2S.CLB.DTO.pdb
+G:\LoveJourneySolution(2013-02-21)FinalUpdate\Buses\bin\Debug\BAL.pdb
+G:\LoveJourneySolution(2013-02-21)FinalUpdate\Buses\bin\Debug\DAL.pdb
+G:\LoveJourneySolution(2013-02-21)FinalUpdate\Buses\obj\Debug\ResolveAssemblyReference.cache
+G:\LoveJourneySolution(2013-02-21)FinalUpdate\Buses\obj\Debug\I2S.API.Buses.dll
+G:\LoveJourneySolution(2013-02-21)FinalUpdate\Buses\obj\Debug\I2S.API.Buses.pdb
+H:\LoveJourney\LoveJourneySolution(2013-02-21)FinalUpdate\Buses\bin\Debug\I2S.API.Buses.dll
+H:\LoveJourney\LoveJourneySolution(2013-02-21)FinalUpdate\Buses\bin\Debug\I2S.API.Buses.pdb
+H:\LoveJourney\LoveJourneySolution(2013-02-21)FinalUpdate\Buses\bin\Debug\BAL.dll
+H:\LoveJourney\LoveJourneySolution(2013-02-21)FinalUpdate\Buses\bin\Debug\I2S.CLB.DTO.dll
+H:\LoveJourney\LoveJourneySolution(2013-02-21)FinalUpdate\Buses\bin\Debug\Newtonsoft.Json.dll
+H:\LoveJourney\LoveJourneySolution(2013-02-21)FinalUpdate\Buses\bin\Debug\DAL.dll
+H:\LoveJourney\LoveJourneySolution(2013-02-21)FinalUpdate\Buses\bin\Debug\I2S.CLB.DTO.pdb
+H:\LoveJourney\LoveJourneySolution(2013-02-21)FinalUpdate\Buses\bin\Debug\BAL.pdb
+H:\LoveJourney\LoveJourneySolution(2013-02-21)FinalUpdate\Buses\bin\Debug\DAL.pdb
+H:\LoveJourney\LoveJourneySolution(2013-02-21)FinalUpdate\Buses\obj\Debug\ResolveAssemblyReference.cache
+H:\LoveJourney\LoveJourneySolution(2013-02-21)FinalUpdate\Buses\obj\Debug\I2S.API.Buses.dll
+H:\LoveJourney\LoveJourneySolution(2013-02-21)FinalUpdate\Buses\obj\Debug\I2S.API.Buses.pdb
+E:\LoveJourneySolution(2013-02-21)FinalUpdate\Buses\bin\Debug\I2S.API.Buses.dll
+E:\LoveJourneySolution(2013-02-21)FinalUpdate\Buses\bin\Debug\I2S.API.Buses.pdb
+E:\LoveJourneySolution(2013-02-21)FinalUpdate\Buses\bin\Debug\BAL.dll
+E:\LoveJourneySolution(2013-02-21)FinalUpdate\Buses\bin\Debug\I2S.CLB.DTO.dll
+E:\LoveJourneySolution(2013-02-21)FinalUpdate\Buses\bin\Debug\Newtonsoft.Json.dll
+E:\LoveJourneySolution(2013-02-21)FinalUpdate\Buses\bin\Debug\DAL.dll
+E:\LoveJourneySolution(2013-02-21)FinalUpdate\Buses\bin\Debug\I2S.CLB.DTO.pdb
+E:\LoveJourneySolution(2013-02-21)FinalUpdate\Buses\bin\Debug\BAL.pdb
+E:\LoveJourneySolution(2013-02-21)FinalUpdate\Buses\bin\Debug\DAL.pdb
+E:\LoveJourneySolution(2013-02-21)FinalUpdate\Buses\obj\Debug\ResolveAssemblyReference.cache
+E:\LoveJourneySolution(2013-02-21)FinalUpdate\Buses\obj\Debug\I2S.API.Buses.dll
+E:\LoveJourneySolution(2013-02-21)FinalUpdate\Buses\obj\Debug\I2S.API.Buses.pdb
+E:\LoveJourneySolution(2013-02-21)FinalUpdate\Buses\bin\Debug\BusAPILayer.dll
+E:\LoveJourneySolution(2013-02-21)FinalUpdate\Buses\bin\Debug\CookComputing.XmlRpcV2.dll
+E:\LoveJourneySolution(2013-02-21)FinalUpdate\Buses\bin\Debug\BusAPILayer.pdb
+G:\25-02-2013\LoveJourneySolution(2013-02-21)FinalUpdate\Buses\bin\Debug\I2S.API.Buses.dll
+G:\25-02-2013\LoveJourneySolution(2013-02-21)FinalUpdate\Buses\bin\Debug\I2S.API.Buses.pdb
+G:\25-02-2013\LoveJourneySolution(2013-02-21)FinalUpdate\Buses\bin\Debug\BAL.dll
+G:\25-02-2013\LoveJourneySolution(2013-02-21)FinalUpdate\Buses\bin\Debug\BusAPILayer.dll
+G:\25-02-2013\LoveJourneySolution(2013-02-21)FinalUpdate\Buses\bin\Debug\I2S.CLB.DTO.dll
+G:\25-02-2013\LoveJourneySolution(2013-02-21)FinalUpdate\Buses\bin\Debug\Newtonsoft.Json.dll
+G:\25-02-2013\LoveJourneySolution(2013-02-21)FinalUpdate\Buses\bin\Debug\CookComputing.XmlRpcV2.dll
+G:\25-02-2013\LoveJourneySolution(2013-02-21)FinalUpdate\Buses\bin\Debug\DAL.dll
+G:\25-02-2013\LoveJourneySolution(2013-02-21)FinalUpdate\Buses\bin\Debug\I2S.CLB.DTO.pdb
+G:\25-02-2013\LoveJourneySolution(2013-02-21)FinalUpdate\Buses\bin\Debug\BusAPILayer.pdb
+G:\25-02-2013\LoveJourneySolution(2013-02-21)FinalUpdate\Buses\bin\Debug\BAL.pdb
+G:\25-02-2013\LoveJourneySolution(2013-02-21)FinalUpdate\Buses\bin\Debug\DAL.pdb
+G:\25-02-2013\LoveJourneySolution(2013-02-21)FinalUpdate\Buses\obj\Debug\ResolveAssemblyReference.cache
+G:\25-02-2013\LoveJourneySolution(2013-02-21)FinalUpdate\Buses\obj\Debug\I2S.API.Buses.dll
+G:\25-02-2013\LoveJourneySolution(2013-02-21)FinalUpdate\Buses\obj\Debug\I2S.API.Buses.pdb
+G:\25-02-2013\LoveJourneySolution(2013-02-25)FinalUpdate\Buses\bin\Debug\I2S.API.Buses.dll
+G:\25-02-2013\LoveJourneySolution(2013-02-25)FinalUpdate\Buses\bin\Debug\I2S.API.Buses.pdb
+G:\25-02-2013\LoveJourneySolution(2013-02-25)FinalUpdate\Buses\bin\Debug\BAL.dll
+G:\25-02-2013\LoveJourneySolution(2013-02-25)FinalUpdate\Buses\bin\Debug\BusAPILayer.dll
+G:\25-02-2013\LoveJourneySolution(2013-02-25)FinalUpdate\Buses\bin\Debug\I2S.CLB.DTO.dll
+G:\25-02-2013\LoveJourneySolution(2013-02-25)FinalUpdate\Buses\bin\Debug\Newtonsoft.Json.dll
+G:\25-02-2013\LoveJourneySolution(2013-02-25)FinalUpdate\Buses\bin\Debug\CookComputing.XmlRpcV2.dll
+G:\25-02-2013\LoveJourneySolution(2013-02-25)FinalUpdate\Buses\bin\Debug\DAL.dll
+G:\25-02-2013\LoveJourneySolution(2013-02-25)FinalUpdate\Buses\bin\Debug\I2S.CLB.DTO.pdb
+G:\25-02-2013\LoveJourneySolution(2013-02-25)FinalUpdate\Buses\bin\Debug\BusAPILayer.pdb
+G:\25-02-2013\LoveJourneySolution(2013-02-25)FinalUpdate\Buses\bin\Debug\BAL.pdb
+G:\25-02-2013\LoveJourneySolution(2013-02-25)FinalUpdate\Buses\bin\Debug\DAL.pdb
+G:\25-02-2013\LoveJourneySolution(2013-02-25)FinalUpdate\Buses\obj\Debug\ResolveAssemblyReference.cache
+G:\25-02-2013\LoveJourneySolution(2013-02-25)FinalUpdate\Buses\obj\Debug\I2S.API.Buses.dll
+G:\25-02-2013\LoveJourneySolution(2013-02-25)FinalUpdate\Buses\obj\Debug\I2S.API.Buses.pdb
+E:\March2\LoveJourneySolution(2013-02-26)FinalUpdate\Buses\bin\Debug\I2S.API.Buses.dll
+E:\March2\LoveJourneySolution(2013-02-26)FinalUpdate\Buses\bin\Debug\I2S.API.Buses.pdb
+E:\March2\LoveJourneySolution(2013-02-26)FinalUpdate\Buses\bin\Debug\BAL.dll
+E:\March2\LoveJourneySolution(2013-02-26)FinalUpdate\Buses\bin\Debug\BusAPILayer.dll
+E:\March2\LoveJourneySolution(2013-02-26)FinalUpdate\Buses\bin\Debug\I2S.CLB.DTO.dll
+E:\March2\LoveJourneySolution(2013-02-26)FinalUpdate\Buses\bin\Debug\Newtonsoft.Json.dll
+E:\March2\LoveJourneySolution(2013-02-26)FinalUpdate\Buses\bin\Debug\CookComputing.XmlRpcV2.dll
+E:\March2\LoveJourneySolution(2013-02-26)FinalUpdate\Buses\bin\Debug\DAL.dll
+E:\March2\LoveJourneySolution(2013-02-26)FinalUpdate\Buses\bin\Debug\I2S.CLB.DTO.pdb
+E:\March2\LoveJourneySolution(2013-02-26)FinalUpdate\Buses\bin\Debug\BusAPILayer.pdb
+E:\March2\LoveJourneySolution(2013-02-26)FinalUpdate\Buses\bin\Debug\BAL.pdb
+E:\March2\LoveJourneySolution(2013-02-26)FinalUpdate\Buses\bin\Debug\DAL.pdb
+E:\March2\LoveJourneySolution(2013-02-26)FinalUpdate\Buses\obj\Debug\ResolveAssemblyReference.cache
+E:\March2\LoveJourneySolution(2013-02-26)FinalUpdate\Buses\obj\Debug\I2S.API.Buses.dll
+E:\March2\LoveJourneySolution(2013-02-26)FinalUpdate\Buses\obj\Debug\I2S.API.Buses.pdb
+E:\LoveJourneySolution(2013-03-16)FinalUpdate\Buses\bin\Debug\I2S.API.Buses.dll
+E:\LoveJourneySolution(2013-03-16)FinalUpdate\Buses\bin\Debug\I2S.API.Buses.pdb
+E:\LoveJourneySolution(2013-03-16)FinalUpdate\Buses\bin\Debug\BAL.dll
+E:\LoveJourneySolution(2013-03-16)FinalUpdate\Buses\bin\Debug\BusAPILayer.dll
+E:\LoveJourneySolution(2013-03-16)FinalUpdate\Buses\bin\Debug\I2S.CLB.DTO.dll
+E:\LoveJourneySolution(2013-03-16)FinalUpdate\Buses\bin\Debug\Newtonsoft.Json.dll
+E:\LoveJourneySolution(2013-03-16)FinalUpdate\Buses\bin\Debug\CookComputing.XmlRpcV2.dll
+E:\LoveJourneySolution(2013-03-16)FinalUpdate\Buses\bin\Debug\DAL.dll
+E:\LoveJourneySolution(2013-03-16)FinalUpdate\Buses\bin\Debug\I2S.CLB.DTO.pdb
+E:\LoveJourneySolution(2013-03-16)FinalUpdate\Buses\bin\Debug\BusAPILayer.pdb
+E:\LoveJourneySolution(2013-03-16)FinalUpdate\Buses\bin\Debug\BAL.pdb
+E:\LoveJourneySolution(2013-03-16)FinalUpdate\Buses\bin\Debug\DAL.pdb
+E:\LoveJourneySolution(2013-03-16)FinalUpdate\Buses\obj\Debug\ResolveAssemblyReference.cache
+E:\LoveJourneySolution(2013-03-16)FinalUpdate\Buses\obj\Debug\I2S.API.Buses.dll
+E:\LoveJourneySolution(2013-03-16)FinalUpdate\Buses\obj\Debug\I2S.API.Buses.pdb
+E:\LoveJourneySolution(2013-03-19)FinalUpdate\Buses\bin\Debug\I2S.API.Buses.dll
+E:\LoveJourneySolution(2013-03-19)FinalUpdate\Buses\bin\Debug\I2S.API.Buses.pdb
+E:\LoveJourneySolution(2013-03-19)FinalUpdate\Buses\bin\Debug\BAL.dll
+E:\LoveJourneySolution(2013-03-19)FinalUpdate\Buses\bin\Debug\BusAPILayer.dll
+E:\LoveJourneySolution(2013-03-19)FinalUpdate\Buses\bin\Debug\I2S.CLB.DTO.dll
+E:\LoveJourneySolution(2013-03-19)FinalUpdate\Buses\bin\Debug\Newtonsoft.Json.dll
+E:\LoveJourneySolution(2013-03-19)FinalUpdate\Buses\bin\Debug\CookComputing.XmlRpcV2.dll
+E:\LoveJourneySolution(2013-03-19)FinalUpdate\Buses\bin\Debug\DAL.dll
+E:\LoveJourneySolution(2013-03-19)FinalUpdate\Buses\bin\Debug\I2S.CLB.DTO.pdb
+E:\LoveJourneySolution(2013-03-19)FinalUpdate\Buses\bin\Debug\BusAPILayer.pdb
+E:\LoveJourneySolution(2013-03-19)FinalUpdate\Buses\bin\Debug\BAL.pdb
+E:\LoveJourneySolution(2013-03-19)FinalUpdate\Buses\bin\Debug\DAL.pdb
+E:\LoveJourneySolution(2013-03-19)FinalUpdate\Buses\obj\Debug\ResolveAssemblyReference.cache
+E:\LoveJourneySolution(2013-03-19)FinalUpdate\Buses\obj\Debug\I2S.API.Buses.dll
+E:\LoveJourneySolution(2013-03-19)FinalUpdate\Buses\obj\Debug\I2S.API.Buses.pdb
+E:\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\Buses\bin\Debug\I2S.API.Buses.dll
+E:\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\Buses\bin\Debug\I2S.API.Buses.pdb
+E:\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\Buses\bin\Debug\BAL.dll
+E:\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\Buses\bin\Debug\BusAPILayer.dll
+E:\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\Buses\bin\Debug\I2S.CLB.DTO.dll
+E:\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\Buses\bin\Debug\Newtonsoft.Json.dll
+E:\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\Buses\bin\Debug\CookComputing.XmlRpcV2.dll
+E:\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\Buses\bin\Debug\DAL.dll
+E:\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\Buses\bin\Debug\I2S.CLB.DTO.pdb
+E:\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\Buses\bin\Debug\BusAPILayer.pdb
+E:\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\Buses\bin\Debug\BAL.pdb
+E:\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\Buses\bin\Debug\DAL.pdb
+E:\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\Buses\obj\Debug\ResolveAssemblyReference.cache
+E:\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\Buses\obj\Debug\I2S.API.Buses.dll
+E:\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\Buses\obj\Debug\I2S.API.Buses.pdb
+F:\H\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\Buses\bin\Debug\I2S.API.Buses.dll
+F:\H\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\Buses\bin\Debug\I2S.API.Buses.pdb
+F:\H\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\Buses\bin\Debug\BAL.dll
+F:\H\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\Buses\bin\Debug\BusAPILayer.dll
+F:\H\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\Buses\bin\Debug\I2S.CLB.DTO.dll
+F:\H\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\Buses\bin\Debug\Newtonsoft.Json.dll
+F:\H\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\Buses\bin\Debug\CookComputing.XmlRpcV2.dll
+F:\H\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\Buses\bin\Debug\DAL.dll
+F:\H\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\Buses\bin\Debug\I2S.CLB.DTO.pdb
+F:\H\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\Buses\bin\Debug\BusAPILayer.pdb
+F:\H\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\Buses\bin\Debug\BAL.pdb
+F:\H\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\Buses\bin\Debug\DAL.pdb
+F:\H\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\Buses\obj\Debug\ResolveAssemblyReference.cache
+F:\H\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\Buses\obj\Debug\I2S.API.Buses.dll
+F:\H\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\Buses\obj\Debug\I2S.API.Buses.pdb
+G:\LoveJourneySolution(6 april 2013 )FinalUpdate\Buses\bin\Debug\I2S.API.Buses.dll
+G:\LoveJourneySolution(6 april 2013 )FinalUpdate\Buses\bin\Debug\I2S.API.Buses.pdb
+G:\LoveJourneySolution(6 april 2013 )FinalUpdate\Buses\bin\Debug\BAL.dll
+G:\LoveJourneySolution(6 april 2013 )FinalUpdate\Buses\bin\Debug\BusAPILayer.dll
+G:\LoveJourneySolution(6 april 2013 )FinalUpdate\Buses\bin\Debug\I2S.CLB.DTO.dll
+G:\LoveJourneySolution(6 april 2013 )FinalUpdate\Buses\bin\Debug\Newtonsoft.Json.dll
+G:\LoveJourneySolution(6 april 2013 )FinalUpdate\Buses\bin\Debug\CookComputing.XmlRpcV2.dll
+G:\LoveJourneySolution(6 april 2013 )FinalUpdate\Buses\bin\Debug\DAL.dll
+G:\LoveJourneySolution(6 april 2013 )FinalUpdate\Buses\bin\Debug\I2S.CLB.DTO.pdb
+G:\LoveJourneySolution(6 april 2013 )FinalUpdate\Buses\bin\Debug\BusAPILayer.pdb
+G:\LoveJourneySolution(6 april 2013 )FinalUpdate\Buses\bin\Debug\BAL.pdb
+G:\LoveJourneySolution(6 april 2013 )FinalUpdate\Buses\bin\Debug\DAL.pdb
+G:\LoveJourneySolution(6 april 2013 )FinalUpdate\Buses\obj\Debug\ResolveAssemblyReference.cache
+G:\LoveJourneySolution(6 april 2013 )FinalUpdate\Buses\obj\Debug\I2S.API.Buses.dll
+G:\LoveJourneySolution(6 april 2013 )FinalUpdate\Buses\obj\Debug\I2S.API.Buses.pdb
+G:\LoveJourneySolution(8 april 2013 )FinalUpdate\Buses\bin\Debug\I2S.API.Buses.dll
+G:\LoveJourneySolution(8 april 2013 )FinalUpdate\Buses\bin\Debug\I2S.API.Buses.pdb
+G:\LoveJourneySolution(8 april 2013 )FinalUpdate\Buses\bin\Debug\BAL.dll
+G:\LoveJourneySolution(8 april 2013 )FinalUpdate\Buses\bin\Debug\BusAPILayer.dll
+G:\LoveJourneySolution(8 april 2013 )FinalUpdate\Buses\bin\Debug\I2S.CLB.DTO.dll
+G:\LoveJourneySolution(8 april 2013 )FinalUpdate\Buses\bin\Debug\Newtonsoft.Json.dll
+G:\LoveJourneySolution(8 april 2013 )FinalUpdate\Buses\bin\Debug\CookComputing.XmlRpcV2.dll
+G:\LoveJourneySolution(8 april 2013 )FinalUpdate\Buses\bin\Debug\DAL.dll
+G:\LoveJourneySolution(8 april 2013 )FinalUpdate\Buses\bin\Debug\I2S.CLB.DTO.pdb
+G:\LoveJourneySolution(8 april 2013 )FinalUpdate\Buses\bin\Debug\BusAPILayer.pdb
+G:\LoveJourneySolution(8 april 2013 )FinalUpdate\Buses\bin\Debug\BAL.pdb
+G:\LoveJourneySolution(8 april 2013 )FinalUpdate\Buses\bin\Debug\DAL.pdb
+G:\LoveJourneySolution(8 april 2013 )FinalUpdate\Buses\obj\Debug\ResolveAssemblyReference.cache
+G:\LoveJourneySolution(8 april 2013 )FinalUpdate\Buses\obj\Debug\I2S.API.Buses.dll
+G:\LoveJourneySolution(8 april 2013 )FinalUpdate\Buses\obj\Debug\I2S.API.Buses.pdb
+G:\LoveJourneySolution(10 april 2013 )FinalUpdate\Buses\bin\Debug\I2S.API.Buses.dll
+G:\LoveJourneySolution(10 april 2013 )FinalUpdate\Buses\bin\Debug\I2S.API.Buses.pdb
+G:\LoveJourneySolution(10 april 2013 )FinalUpdate\Buses\bin\Debug\BAL.dll
+G:\LoveJourneySolution(10 april 2013 )FinalUpdate\Buses\bin\Debug\BusAPILayer.dll
+G:\LoveJourneySolution(10 april 2013 )FinalUpdate\Buses\bin\Debug\I2S.CLB.DTO.dll
+G:\LoveJourneySolution(10 april 2013 )FinalUpdate\Buses\bin\Debug\Newtonsoft.Json.dll
+G:\LoveJourneySolution(10 april 2013 )FinalUpdate\Buses\bin\Debug\CookComputing.XmlRpcV2.dll
+G:\LoveJourneySolution(10 april 2013 )FinalUpdate\Buses\bin\Debug\DAL.dll
+G:\LoveJourneySolution(10 april 2013 )FinalUpdate\Buses\bin\Debug\I2S.CLB.DTO.pdb
+G:\LoveJourneySolution(10 april 2013 )FinalUpdate\Buses\bin\Debug\BusAPILayer.pdb
+G:\LoveJourneySolution(10 april 2013 )FinalUpdate\Buses\bin\Debug\BAL.pdb
+G:\LoveJourneySolution(10 april 2013 )FinalUpdate\Buses\bin\Debug\DAL.pdb
+G:\LoveJourneySolution(10 april 2013 )FinalUpdate\Buses\obj\Debug\ResolveAssemblyReference.cache
+G:\LoveJourneySolution(10 april 2013 )FinalUpdate\Buses\obj\Debug\I2S.API.Buses.dll
+G:\LoveJourneySolution(10 april 2013 )FinalUpdate\Buses\obj\Debug\I2S.API.Buses.pdb
+F:\H\14-4-2013\LoveJourneySolution(13 april 2013 )FinalUpdate\Buses\bin\Debug\I2S.API.Buses.dll
+F:\H\14-4-2013\LoveJourneySolution(13 april 2013 )FinalUpdate\Buses\bin\Debug\I2S.API.Buses.pdb
+F:\H\14-4-2013\LoveJourneySolution(13 april 2013 )FinalUpdate\Buses\bin\Debug\BAL.dll
+F:\H\14-4-2013\LoveJourneySolution(13 april 2013 )FinalUpdate\Buses\bin\Debug\BusAPILayer.dll
+F:\H\14-4-2013\LoveJourneySolution(13 april 2013 )FinalUpdate\Buses\bin\Debug\I2S.CLB.DTO.dll
+F:\H\14-4-2013\LoveJourneySolution(13 april 2013 )FinalUpdate\Buses\bin\Debug\Newtonsoft.Json.dll
+F:\H\14-4-2013\LoveJourneySolution(13 april 2013 )FinalUpdate\Buses\bin\Debug\CookComputing.XmlRpcV2.dll
+F:\H\14-4-2013\LoveJourneySolution(13 april 2013 )FinalUpdate\Buses\bin\Debug\DAL.dll
+F:\H\14-4-2013\LoveJourneySolution(13 april 2013 )FinalUpdate\Buses\bin\Debug\I2S.CLB.DTO.pdb
+F:\H\14-4-2013\LoveJourneySolution(13 april 2013 )FinalUpdate\Buses\bin\Debug\BusAPILayer.pdb
+F:\H\14-4-2013\LoveJourneySolution(13 april 2013 )FinalUpdate\Buses\bin\Debug\BAL.pdb
+F:\H\14-4-2013\LoveJourneySolution(13 april 2013 )FinalUpdate\Buses\bin\Debug\DAL.pdb
+F:\H\14-4-2013\LoveJourneySolution(13 april 2013 )FinalUpdate\Buses\obj\Debug\ResolveAssemblyReference.cache
+F:\H\14-4-2013\LoveJourneySolution(13 april 2013 )FinalUpdate\Buses\obj\Debug\I2S.API.Buses.dll
+F:\H\14-4-2013\LoveJourneySolution(13 april 2013 )FinalUpdate\Buses\obj\Debug\I2S.API.Buses.pdb
+G:\LoveJourneySolution(13 april 2013 )FinalUpdate\Buses\bin\Debug\I2S.API.Buses.dll
+G:\LoveJourneySolution(13 april 2013 )FinalUpdate\Buses\bin\Debug\I2S.API.Buses.pdb
+G:\LoveJourneySolution(13 april 2013 )FinalUpdate\Buses\bin\Debug\BAL.dll
+G:\LoveJourneySolution(13 april 2013 )FinalUpdate\Buses\bin\Debug\BusAPILayer.dll
+G:\LoveJourneySolution(13 april 2013 )FinalUpdate\Buses\bin\Debug\I2S.CLB.DTO.dll
+G:\LoveJourneySolution(13 april 2013 )FinalUpdate\Buses\bin\Debug\Newtonsoft.Json.dll
+G:\LoveJourneySolution(13 april 2013 )FinalUpdate\Buses\bin\Debug\CookComputing.XmlRpcV2.dll
+G:\LoveJourneySolution(13 april 2013 )FinalUpdate\Buses\bin\Debug\DAL.dll
+G:\LoveJourneySolution(13 april 2013 )FinalUpdate\Buses\bin\Debug\I2S.CLB.DTO.pdb
+G:\LoveJourneySolution(13 april 2013 )FinalUpdate\Buses\bin\Debug\BusAPILayer.pdb
+G:\LoveJourneySolution(13 april 2013 )FinalUpdate\Buses\bin\Debug\BAL.pdb
+G:\LoveJourneySolution(13 april 2013 )FinalUpdate\Buses\bin\Debug\DAL.pdb
+G:\LoveJourneySolution(13 april 2013 )FinalUpdate\Buses\obj\Debug\ResolveAssemblyReference.cache
+G:\LoveJourneySolution(13 april 2013 )FinalUpdate\Buses\obj\Debug\I2S.API.Buses.dll
+G:\LoveJourneySolution(13 april 2013 )FinalUpdate\Buses\obj\Debug\I2S.API.Buses.pdb
+G:\LoveJourneySolution(14 april 2013 )FinalUpdate\Buses\bin\Debug\I2S.API.Buses.dll
+G:\LoveJourneySolution(14 april 2013 )FinalUpdate\Buses\bin\Debug\I2S.API.Buses.pdb
+G:\LoveJourneySolution(14 april 2013 )FinalUpdate\Buses\bin\Debug\BAL.dll
+G:\LoveJourneySolution(14 april 2013 )FinalUpdate\Buses\bin\Debug\BusAPILayer.dll
+G:\LoveJourneySolution(14 april 2013 )FinalUpdate\Buses\bin\Debug\I2S.CLB.DTO.dll
+G:\LoveJourneySolution(14 april 2013 )FinalUpdate\Buses\bin\Debug\Newtonsoft.Json.dll
+G:\LoveJourneySolution(14 april 2013 )FinalUpdate\Buses\bin\Debug\CookComputing.XmlRpcV2.dll
+G:\LoveJourneySolution(14 april 2013 )FinalUpdate\Buses\bin\Debug\DAL.dll
+G:\LoveJourneySolution(14 april 2013 )FinalUpdate\Buses\bin\Debug\I2S.CLB.DTO.pdb
+G:\LoveJourneySolution(14 april 2013 )FinalUpdate\Buses\bin\Debug\BusAPILayer.pdb
+G:\LoveJourneySolution(14 april 2013 )FinalUpdate\Buses\bin\Debug\BAL.pdb
+G:\LoveJourneySolution(14 april 2013 )FinalUpdate\Buses\bin\Debug\DAL.pdb
+G:\LoveJourneySolution(14 april 2013 )FinalUpdate\Buses\obj\Debug\ResolveAssemblyReference.cache
+G:\LoveJourneySolution(14 april 2013 )FinalUpdate\Buses\obj\Debug\I2S.API.Buses.dll
+G:\LoveJourneySolution(14 april 2013 )FinalUpdate\Buses\obj\Debug\I2S.API.Buses.pdb
+G:\LoveJourneySolution(17 april 2013 )FinalUpdate\Buses\bin\Debug\I2S.API.Buses.dll
+G:\LoveJourneySolution(17 april 2013 )FinalUpdate\Buses\bin\Debug\I2S.API.Buses.pdb
+G:\LoveJourneySolution(17 april 2013 )FinalUpdate\Buses\bin\Debug\BAL.dll
+G:\LoveJourneySolution(17 april 2013 )FinalUpdate\Buses\bin\Debug\BusAPILayer.dll
+G:\LoveJourneySolution(17 april 2013 )FinalUpdate\Buses\bin\Debug\I2S.CLB.DTO.dll
+G:\LoveJourneySolution(17 april 2013 )FinalUpdate\Buses\bin\Debug\Newtonsoft.Json.dll
+G:\LoveJourneySolution(17 april 2013 )FinalUpdate\Buses\bin\Debug\CookComputing.XmlRpcV2.dll
+G:\LoveJourneySolution(17 april 2013 )FinalUpdate\Buses\bin\Debug\DAL.dll
+G:\LoveJourneySolution(17 april 2013 )FinalUpdate\Buses\bin\Debug\I2S.CLB.DTO.pdb
+G:\LoveJourneySolution(17 april 2013 )FinalUpdate\Buses\bin\Debug\BusAPILayer.pdb
+G:\LoveJourneySolution(17 april 2013 )FinalUpdate\Buses\bin\Debug\BAL.pdb
+G:\LoveJourneySolution(17 april 2013 )FinalUpdate\Buses\bin\Debug\DAL.pdb
+G:\LoveJourneySolution(17 april 2013 )FinalUpdate\Buses\obj\Debug\ResolveAssemblyReference.cache
+G:\LoveJourneySolution(17 april 2013 )FinalUpdate\Buses\obj\Debug\I2S.API.Buses.dll
+G:\LoveJourneySolution(17 april 2013 )FinalUpdate\Buses\obj\Debug\I2S.API.Buses.pdb
+G:\LoveJourneySolution(26 april 2013 )FinalUpdate\Buses\bin\Debug\I2S.API.Buses.dll
+G:\LoveJourneySolution(26 april 2013 )FinalUpdate\Buses\bin\Debug\I2S.API.Buses.pdb
+G:\LoveJourneySolution(26 april 2013 )FinalUpdate\Buses\bin\Debug\BAL.dll
+G:\LoveJourneySolution(26 april 2013 )FinalUpdate\Buses\bin\Debug\BusAPILayer.dll
+G:\LoveJourneySolution(26 april 2013 )FinalUpdate\Buses\bin\Debug\I2S.CLB.DTO.dll
+G:\LoveJourneySolution(26 april 2013 )FinalUpdate\Buses\bin\Debug\Newtonsoft.Json.dll
+G:\LoveJourneySolution(26 april 2013 )FinalUpdate\Buses\bin\Debug\CookComputing.XmlRpcV2.dll
+G:\LoveJourneySolution(26 april 2013 )FinalUpdate\Buses\bin\Debug\DAL.dll
+G:\LoveJourneySolution(26 april 2013 )FinalUpdate\Buses\bin\Debug\I2S.CLB.DTO.pdb
+G:\LoveJourneySolution(26 april 2013 )FinalUpdate\Buses\bin\Debug\BusAPILayer.pdb
+G:\LoveJourneySolution(26 april 2013 )FinalUpdate\Buses\bin\Debug\BAL.pdb
+G:\LoveJourneySolution(26 april 2013 )FinalUpdate\Buses\bin\Debug\DAL.pdb
+G:\LoveJourneySolution(26 april 2013 )FinalUpdate\Buses\obj\Debug\ResolveAssemblyReference.cache
+G:\LoveJourneySolution(26 april 2013 )FinalUpdate\Buses\obj\Debug\I2S.API.Buses.dll
+G:\LoveJourneySolution(26 april 2013 )FinalUpdate\Buses\obj\Debug\I2S.API.Buses.pdb
+F:\H\may 5 2013\LoveJourneySolution(05 may 2013 )FinalUpdate\Buses\bin\Debug\I2S.API.Buses.dll
+F:\H\may 5 2013\LoveJourneySolution(05 may 2013 )FinalUpdate\Buses\bin\Debug\I2S.API.Buses.pdb
+F:\H\may 5 2013\LoveJourneySolution(05 may 2013 )FinalUpdate\Buses\bin\Debug\BAL.dll
+F:\H\may 5 2013\LoveJourneySolution(05 may 2013 )FinalUpdate\Buses\bin\Debug\BusAPILayer.dll
+F:\H\may 5 2013\LoveJourneySolution(05 may 2013 )FinalUpdate\Buses\bin\Debug\I2S.CLB.DTO.dll
+F:\H\may 5 2013\LoveJourneySolution(05 may 2013 )FinalUpdate\Buses\bin\Debug\Newtonsoft.Json.dll
+F:\H\may 5 2013\LoveJourneySolution(05 may 2013 )FinalUpdate\Buses\bin\Debug\CookComputing.XmlRpcV2.dll
+F:\H\may 5 2013\LoveJourneySolution(05 may 2013 )FinalUpdate\Buses\bin\Debug\DAL.dll
+F:\H\may 5 2013\LoveJourneySolution(05 may 2013 )FinalUpdate\Buses\bin\Debug\I2S.CLB.DTO.pdb
+F:\H\may 5 2013\LoveJourneySolution(05 may 2013 )FinalUpdate\Buses\bin\Debug\BusAPILayer.pdb
+F:\H\may 5 2013\LoveJourneySolution(05 may 2013 )FinalUpdate\Buses\bin\Debug\BAL.pdb
+F:\H\may 5 2013\LoveJourneySolution(05 may 2013 )FinalUpdate\Buses\bin\Debug\DAL.pdb
+F:\H\may 5 2013\LoveJourneySolution(05 may 2013 )FinalUpdate\Buses\obj\Debug\ResolveAssemblyReference.cache
+F:\H\may 5 2013\LoveJourneySolution(05 may 2013 )FinalUpdate\Buses\obj\Debug\I2S.API.Buses.dll
+F:\H\may 5 2013\LoveJourneySolution(05 may 2013 )FinalUpdate\Buses\obj\Debug\I2S.API.Buses.pdb
+D:\LoveJourney\Lovejournry6-5-2013\LoveJourneySolution(05 may 2013 )FinalUpdate\Buses\bin\Debug\I2S.API.Buses.dll
+D:\LoveJourney\Lovejournry6-5-2013\LoveJourneySolution(05 may 2013 )FinalUpdate\Buses\bin\Debug\I2S.API.Buses.pdb
+D:\LoveJourney\Lovejournry6-5-2013\LoveJourneySolution(05 may 2013 )FinalUpdate\Buses\bin\Debug\BAL.dll
+D:\LoveJourney\Lovejournry6-5-2013\LoveJourneySolution(05 may 2013 )FinalUpdate\Buses\bin\Debug\BusAPILayer.dll
+D:\LoveJourney\Lovejournry6-5-2013\LoveJourneySolution(05 may 2013 )FinalUpdate\Buses\bin\Debug\I2S.CLB.DTO.dll
+D:\LoveJourney\Lovejournry6-5-2013\LoveJourneySolution(05 may 2013 )FinalUpdate\Buses\bin\Debug\Newtonsoft.Json.dll
+D:\LoveJourney\Lovejournry6-5-2013\LoveJourneySolution(05 may 2013 )FinalUpdate\Buses\bin\Debug\CookComputing.XmlRpcV2.dll
+D:\LoveJourney\Lovejournry6-5-2013\LoveJourneySolution(05 may 2013 )FinalUpdate\Buses\bin\Debug\DAL.dll
+D:\LoveJourney\Lovejournry6-5-2013\LoveJourneySolution(05 may 2013 )FinalUpdate\Buses\bin\Debug\I2S.CLB.DTO.pdb
+D:\LoveJourney\Lovejournry6-5-2013\LoveJourneySolution(05 may 2013 )FinalUpdate\Buses\bin\Debug\BusAPILayer.pdb
+D:\LoveJourney\Lovejournry6-5-2013\LoveJourneySolution(05 may 2013 )FinalUpdate\Buses\bin\Debug\BAL.pdb
+D:\LoveJourney\Lovejournry6-5-2013\LoveJourneySolution(05 may 2013 )FinalUpdate\Buses\bin\Debug\DAL.pdb
+D:\LoveJourney\Lovejournry6-5-2013\LoveJourneySolution(05 may 2013 )FinalUpdate\Buses\obj\Debug\ResolveAssemblyReference.cache
+D:\LoveJourney\Lovejournry6-5-2013\LoveJourneySolution(05 may 2013 )FinalUpdate\Buses\obj\Debug\I2S.API.Buses.dll
+D:\LoveJourney\Lovejournry6-5-2013\LoveJourneySolution(05 may 2013 )FinalUpdate\Buses\obj\Debug\I2S.API.Buses.pdb
+D:\LoveJourney\LovejourneyBackup\13-may-2013_BeforeNewDesign\LoveJourneySolution(05 may 2013 )FinalUpdate\Buses\bin\Debug\I2S.API.Buses.dll
+D:\LoveJourney\LovejourneyBackup\13-may-2013_BeforeNewDesign\LoveJourneySolution(05 may 2013 )FinalUpdate\Buses\bin\Debug\I2S.API.Buses.pdb
+D:\LoveJourney\LovejourneyBackup\13-may-2013_BeforeNewDesign\LoveJourneySolution(05 may 2013 )FinalUpdate\Buses\bin\Debug\BAL.dll
+D:\LoveJourney\LovejourneyBackup\13-may-2013_BeforeNewDesign\LoveJourneySolution(05 may 2013 )FinalUpdate\Buses\bin\Debug\BusAPILayer.dll
+D:\LoveJourney\LovejourneyBackup\13-may-2013_BeforeNewDesign\LoveJourneySolution(05 may 2013 )FinalUpdate\Buses\bin\Debug\I2S.CLB.DTO.dll
+D:\LoveJourney\LovejourneyBackup\13-may-2013_BeforeNewDesign\LoveJourneySolution(05 may 2013 )FinalUpdate\Buses\bin\Debug\Newtonsoft.Json.dll
+D:\LoveJourney\LovejourneyBackup\13-may-2013_BeforeNewDesign\LoveJourneySolution(05 may 2013 )FinalUpdate\Buses\bin\Debug\CookComputing.XmlRpcV2.dll
+D:\LoveJourney\LovejourneyBackup\13-may-2013_BeforeNewDesign\LoveJourneySolution(05 may 2013 )FinalUpdate\Buses\bin\Debug\DAL.dll
+D:\LoveJourney\LovejourneyBackup\13-may-2013_BeforeNewDesign\LoveJourneySolution(05 may 2013 )FinalUpdate\Buses\bin\Debug\I2S.CLB.DTO.pdb
+D:\LoveJourney\LovejourneyBackup\13-may-2013_BeforeNewDesign\LoveJourneySolution(05 may 2013 )FinalUpdate\Buses\bin\Debug\BusAPILayer.pdb
+D:\LoveJourney\LovejourneyBackup\13-may-2013_BeforeNewDesign\LoveJourneySolution(05 may 2013 )FinalUpdate\Buses\bin\Debug\BAL.pdb
+D:\LoveJourney\LovejourneyBackup\13-may-2013_BeforeNewDesign\LoveJourneySolution(05 may 2013 )FinalUpdate\Buses\bin\Debug\DAL.pdb
+D:\LoveJourney\LovejourneyBackup\13-may-2013_BeforeNewDesign\LoveJourneySolution(05 may 2013 )FinalUpdate\Buses\obj\Debug\ResolveAssemblyReference.cache
+D:\LoveJourney\LovejourneyBackup\13-may-2013_BeforeNewDesign\LoveJourneySolution(05 may 2013 )FinalUpdate\Buses\obj\Debug\I2S.API.Buses.dll
+D:\LoveJourney\LovejourneyBackup\13-may-2013_BeforeNewDesign\LoveJourneySolution(05 may 2013 )FinalUpdate\Buses\obj\Debug\I2S.API.Buses.pdb
+D:\ljworking11jun\LoveJourney_Working\Buses\obj\Debug\ResolveAssemblyReference.cache
+D:\ljworking11jun\LoveJourney_Working\Buses\obj\Debug\I2S.API.Buses.dll
+D:\ljworking11jun\LoveJourney_Working\Buses\bin\Debug\I2S.API.Buses.dll
+D:\ljworking11jun\LoveJourney_Working\Buses\bin\Debug\I2S.API.Buses.pdb
+D:\ljworking11jun\LoveJourney_Working\Buses\bin\Debug\BAL.dll
+D:\ljworking11jun\LoveJourney_Working\Buses\bin\Debug\BusAPILayer.dll
+D:\ljworking11jun\LoveJourney_Working\Buses\bin\Debug\I2S.CLB.DTO.dll
+D:\ljworking11jun\LoveJourney_Working\Buses\bin\Debug\Newtonsoft.Json.dll
+D:\ljworking11jun\LoveJourney_Working\Buses\bin\Debug\CookComputing.XmlRpcV2.dll
+D:\ljworking11jun\LoveJourney_Working\Buses\bin\Debug\DAL.dll
+D:\ljworking11jun\LoveJourney_Working\Buses\bin\Debug\I2S.CLB.DTO.pdb
+D:\ljworking11jun\LoveJourney_Working\Buses\bin\Debug\BusAPILayer.pdb
+D:\ljworking11jun\LoveJourney_Working\Buses\bin\Debug\BAL.pdb
+D:\ljworking11jun\LoveJourney_Working\Buses\bin\Debug\DAL.pdb
+D:\ljworking11jun\LoveJourney_Working\Buses\obj\Debug\I2S.API.Buses.pdb
+D:\LoveJourney\LoveJourney_Working\Buses\bin\Debug\I2S.API.Buses.dll
+D:\LoveJourney\LoveJourney_Working\Buses\bin\Debug\I2S.API.Buses.pdb
+D:\LoveJourney\LoveJourney_Working\Buses\bin\Debug\BAL.dll
+D:\LoveJourney\LoveJourney_Working\Buses\bin\Debug\BusAPILayer.dll
+D:\LoveJourney\LoveJourney_Working\Buses\bin\Debug\I2S.CLB.DTO.dll
+D:\LoveJourney\LoveJourney_Working\Buses\bin\Debug\Newtonsoft.Json.dll
+D:\LoveJourney\LoveJourney_Working\Buses\bin\Debug\CookComputing.XmlRpcV2.dll
+D:\LoveJourney\LoveJourney_Working\Buses\bin\Debug\DAL.dll
+D:\LoveJourney\LoveJourney_Working\Buses\bin\Debug\I2S.CLB.DTO.pdb
+D:\LoveJourney\LoveJourney_Working\Buses\bin\Debug\BusAPILayer.pdb
+D:\LoveJourney\LoveJourney_Working\Buses\bin\Debug\BAL.pdb
+D:\LoveJourney\LoveJourney_Working\Buses\bin\Debug\DAL.pdb
+D:\LoveJourney\LoveJourney_Working\Buses\obj\Debug\ResolveAssemblyReference.cache
+D:\LoveJourney\LoveJourney_Working\Buses\obj\Debug\I2S.API.Buses.dll
+D:\LoveJourney\LoveJourney_Working\Buses\obj\Debug\I2S.API.Buses.pdb

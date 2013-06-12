@@ -1,0 +1,1131 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MainMasterPage.master.cs"
+    Inherits="MainMasterPage" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajaxToolkit" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <meta name="description" content="LoveJourney offers Online mobile recharge,DTH recharge online,DATA CARD recharge services.Get attractive discounts and great deals on mobile/dth/data card recharge services through online." />
+    <meta name="keywords" content="Online mobile recharge,DTH recharge online,DATA CARD recharge online,mobile recharge,airtel online mobile recharge,easy mobile recharge,tata docomo online recharge,online recharge,idea online recharge,bsnl online recharge,recharge,airtel online recharge,recharge it now,mobile recharge online,recharge online,airtel digital tv recharge online,dth recharge,dish tv recharge online,airtel dish tv,airtel digital,airtel dish tv recharge online,mts data card recharge,bsnl data card,data card,mts data card,data card plans,bsnl data card plans,tata photon data card plans" />
+    <meta name="author" content="lovejourney.in" />
+    <meta name="robots" content="index, follow" />
+    <script type="text/javascript" language="javascript">
+        function showDiv() {
+            Page_ClientValidate("btnnext");
+            if (Page_ClientValidate("btnnext")) {
+                document.getElementById('SignupMain').style.display = "";
+                document.getElementById('SignUpContent').style.display = "";
+                setTimeout('document.images["myAnimatedImage"].src = "images/loader2.gif"', 200);
+            }
+            else
+                return false;
+        }
+    </script>
+    <link href="css/r_styles.css" type="text/css" rel="stylesheet" />
+    <!--tabsStart-->
+    <link rel="stylesheet" href="css/jquery.ui.all.css" />
+    <script src="js/jquery-1.7.2.js" type="text/javascript"></script>
+    <script src="js/jquery.ui.core.js" type="text/javascript"></script>
+    <script src="js/jquery.ui.widget.js" type="text/javascript"></script>
+    <script src="js/jquery.ui.tabs.js" type="text/javascript"></script>
+    <link href="css/abcd-home.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript">
+        $(function () {
+            $("#tabs").tabs({
+                event: "mouseover"/*click*/
+            });
+        });
+    </script>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <ajaxToolkit:ToolkitScriptManager ID="ToolkitScriptManager1" runat="server">
+    </ajaxToolkit:ToolkitScriptManager>
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" class="tablebg">
+        <tr>
+            <td align="center" valign="top" class="header">
+                <table width="970" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td align="center" valign="top">
+                            <table width="970" border="0" cellspacing="0" cellpadding="0" height="117">
+                             <tr>
+                        <td height="10">
+                        </td>
+                    </tr>
+                                <tr>
+                                    <td height="68" align="center">
+                                        <table width="970" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td align="left">
+                                                    <a href="Default.aspx">
+                                                        <img src="images/logo.gif" width="216" height="55" style="margin-left:30px;"/></a>
+                                                </td>
+                                                <td class="r-sign" align="right">
+                                                    <table width="120" border="0" cellspacing="0" cellpadding="0">
+                                                        <tr>
+                                                            <td align="right">
+                                                                <table width="300">
+                                                                    <tr>
+                                                                        <td align="right"> 
+                                                                            <ul>
+                                                                                <li>
+                                                                                    <asp:LinkButton ID="btnLoginn" runat="server" OnClick="btnLoginn_Click" Text="SignIn/"></asp:LinkButton>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <asp:LinkButton ID="lnkbtnsignup" runat="server" Text="Signup" OnClick="lnkbtnsignup_Click"></asp:LinkButton>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                &nbsp;
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="left">
+                                                                <asp:LinkButton ID="lnkGotomyaccount" runat="server" Text="My Account" ForeColor="Blue" Font-Size="15px"
+                                                                    OnClick="lnkGotomyaccount_Click"></asp:LinkButton>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                                &nbsp;
+                                                                <asp:LinkButton ID="lnklogout" runat="server" Text="Logout" ForeColor="Blue" OnClick="lnklogout_Click" Font-Size="15px"></asp:LinkButton>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td height="1" align="center" colspan="2">
+                                                    <img src="images/bdr.jpg" height="1" width="969" />
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="2">
+                                                    &nbsp;
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" colspan="2">
+                                                    <!--contentTabs-->
+                                                    <table width="930" border="0" cellspacing="0" cellpadding="0" bgcolor="#f2f1f0">
+                                                        <tr>
+                                                            <td height="15">
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="center">
+                                                                <table width="900" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+                                                                    <tr>
+                                                                        <td>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td height="350px" valign="top" width="100%" colspan="2">
+                                                                            <div id="Div1" runat="server" align="center">
+                                                                                <asp:ContentPlaceHolder ID="cphSearch" runat="server">
+                                                                                </asp:ContentPlaceHolder>
+                                                                                <br />
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td height="15">
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                    <!--contentTabsEnd-->
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                            <!--headerEnd-->
+                        </td>
+                    </tr>
+                    <%--<tr>
+                        <td align="center" valign="top" valign="top" width="900px" class="master_content">
+                            <asp:ContentPlaceHolder ID="cphSearch" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </td>
+                    </tr>--%>
+                    <tr>
+                        <td height="10">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="1" align="center">
+                            <img src="images/bdr.jpg" height="1" width="969" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="10">
+                        </td>
+                        <tr>
+                            <td height="10">
+                            </td>
+                        </tr>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table width="970" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td width="420" align="right">
+                                        <table width="420" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td align="left" class="bottom_cont">
+                                                    Recharge Raja Promise: 100% Trust
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td height="6">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="top">
+                                                    <p>
+                                                        We're available on <span class="lk"><a href="mailto:info@lovejourney.in">info@lovejourney.in</a></span>
+                                                        seven days a week. That's our promise!
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td width="100">
+                                    </td>
+                                    <td width="1" bgcolor="#e4e3e3">
+                                    </td>
+                                    <td width="373" align="right" valign="top">
+                                        <table width="300" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td align="left" class="bottom_cont">
+                                                    Now Recharge online!
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td height="6">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="top" align="left">
+                                                    <p>
+                                                        Visit our Website <span class="lk"><a target="_blank" href="http://lovejourney.in/">lovejourney.in</a></span>
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &nbsp;
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="1" align="center">
+                            <img src="images/bdr.jpg" height="1" width="969" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &nbsp;
+                        </td>
+                    </tr>
+                    <%--<tr>
+                        <td align="center" valign="top">
+                            <table width="1004" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td width="420" align="left" valign="middle">
+                                        <asp:DataList ID="dlAdd2" runat="server" RepeatColumns="1" RepeatDirection="Horizontal"
+                                            Width="100%" CellSpacing="1" OnItemDataBound="dlAdd2_ItemDataBound">
+                                            <ItemStyle HorizontalAlign="Center" VerticalAlign="Middle" />
+                                            <ItemTemplate>
+                                                <table>
+                                                    <tr align="left">
+                                                        <td align="left">
+                                                            <asp:ImageButton ID="ibtnAddImage1" Height="119" Width="420" PostBackUrl="~/OfferZone.aspx"
+                                                                ImageUrl='<%# "ImageHandler.ashx?ImID=" + Eval("ID") %>' runat="server" />
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </ItemTemplate>
+                                            <SeparatorStyle HorizontalAlign="Center" VerticalAlign="Middle" />
+                                        </asp:DataList>
+                                    </td>
+                                    <td width="552" align="right" valign="middle">
+                                        <asp:DataList ID="DataList2" runat="server" RepeatColumns="1" RepeatDirection="Horizontal"
+                                            Width="100%" CellSpacing="1" OnItemDataBound="DataList2_ItemDataBound">
+                                            <ItemStyle HorizontalAlign="Center" VerticalAlign="Middle" />
+                                            <ItemTemplate>
+                                                <table>
+                                                    <tr align="left">
+                                                        <td align="left">
+                                                            <asp:ImageButton ID="ibtnAddImage3" Height="119" Width="574" PostBackUrl="~/OfferZone.aspx"
+                                                                ImageUrl='<%# "ImageHandler.ashx?ImID=" + Eval("ID") %>' runat="server" />
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </ItemTemplate>
+                                            <SeparatorStyle HorizontalAlign="Center" VerticalAlign="Middle" />
+                                        </asp:DataList>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height="5" colspan="3" align="left" valign="middle">
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>--%>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td align="center" >
+                <!--foooter-->
+                <table width="970" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                  
+                        <td width="115px">
+                        </td>
+                        <td width="360" class="footer" align="center">
+                            <ul>
+                                <li><a href="AgentLogin.aspx">Agent/Distributor Login</a></li>
+                                <li>|</li>
+                                <li><a href="AboutUs.aspx">About Us</a></li>
+                                <li>|</li>
+                                <li><a href="TermsandConditions.aspx">Terms and Conditions</a></li>
+                                <li>|</li>
+                                <li><a href="PrivacyStatement.aspx">Privacy Policy</a></li>
+                                <li>|</li>
+                                <li><a href="Services.aspx">Services</a></li>
+                                <li>|</li>
+                                <li><a href="showTariff.aspx">Tariff Plans</a></li>
+                                <li>|</li>
+                                <li><a href="ContactUS.aspx">Contact Us</a></li>
+                            </ul>
+                        </td>
+                        <td width="62" class="pwr" align="right">
+                          <%--  Powered by : <a href="http://i2space.com/" target="_blank">i2spaceTechnologies</a>--%>
+                        </td>
+                    </tr>
+                </table>
+                <!--foooterEnd-->
+            </td>
+        </tr>
+        <tr>
+            <td>
+                &nbsp;
+            </td>
+        </tr>
+        <tr>
+            <td>
+                &nbsp;
+            </td>
+        </tr>
+        <tr>
+            <td>
+                &nbsp;
+            </td>
+        </tr>
+        <tr>
+            <td>
+                &nbsp;
+            </td>
+        </tr>
+        <tr>
+            <td style="display: none">
+                <asp:Button ID="Button1" runat="server" Text="OK" />
+            </td>
+        </tr>
+        <tr>
+            <td style="display: none">
+                <asp:Button ID="OpenID9" runat="server" Text="OK" />
+            </td>
+        </tr>
+        <tr>
+            <td style="display: none">
+                <asp:Button ID="Button12" runat="server" Text="OK" />
+            </td>
+        </tr>
+        <tr>
+            <td style="display: none">
+                <asp:Button ID="OpenID" runat="server" Text="OK" />
+            </td>
+        </tr>
+        <tr>
+            <td style="display: none">
+                <asp:Button ID="OpenID1" runat="server" Text="OK" />
+            </td>
+        </tr>
+        <tr>
+            <td style="display: none">
+                <asp:Button ID="OpenID11" runat="server" Text="OK" />
+            </td>
+        </tr>
+    </table>
+    <ajaxToolkit:ModalPopupExtender ID="Mpe1" PopupControlID="panel1" runat="server"
+        TargetControlID="OpenID" BackgroundCssClass="modalBackground" OkControlID="Button2">
+    </ajaxToolkit:ModalPopupExtender>
+    <asp:Panel ID="panel1" runat="server" Style="display: none; width: 500px; height: 150px;"
+        align="center" DefaultButton="Button2">
+        <table id="Table1" runat="server" width="500px" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+                <td width="21" align="left" valign="top">
+                    <asp:Image ID="Image1" runat="server" ImageUrl="~/images/searchreultstopleft.gif"
+                        Width="21" />
+                </td>
+                <td align="left" valign="middle" class="searchresultstopbg">
+                    <span class="innerheading">
+                        <asp:Label ID="Label8" runat="server">Message</asp:Label>
+                    </span>
+                </td>
+                <td width="21" align="left" valign="top">
+                    <asp:Image ID="Image31" runat="server" ImageUrl="~/images/searchresultstopright.gif"
+                        Width="21" Height="40" />
+                </td>
+            </tr>
+            <tr>
+                <td align="left" valign="top" class="searchresultsleftbg">
+                    &nbsp;
+                </td>
+                <td align="center" valign="top" class="searchresultsbg">
+                    <table>
+                        <caption>
+                            <br />
+                            <tr>
+                                <td align="center">
+                                    <asp:Label ID="lblMessage" runat="server" CssClass="tabtext"></asp:Label>
+                                    <br />
+                                    <br />
+                                    <asp:Button ID="Button2" runat="server" CausesValidation="false" CssClass="ca-but1"
+                                        Text="OK" />
+                                </td>
+                            </tr>
+                        </caption>
+                    </table>
+                </td>
+                <td align="left" class="searchresultsrightbg" valign="top">
+                    &nbsp;
+                </td>
+            </tr>
+            <tr>
+                <td align="left" valign="top">
+                    <asp:Image ID="image2" runat="server" Height="22" ImageUrl="~/images/searchresultsbottomleft.gif"
+                        Width="21" />
+                </td>
+                <td align="left" class="searchbottombg" valign="top">
+                    &nbsp;
+                </td>
+                <td align="left" valign="top">
+                    <asp:Image ID="Image5" runat="server" Height="22" ImageUrl="~/images/searchresultsbottomright.gif"
+                        Width="21" />
+                </td>
+            </tr>
+        </table>
+    </asp:Panel>
+    <ajaxToolkit:ModalPopupExtender ID="MpeSignIn" PopupControlID="panelLogin" runat="server"
+        TargetControlID="OpenID1" BackgroundCssClass="modalBackground" OkControlID="btnclose2"
+        Y="150">
+    </ajaxToolkit:ModalPopupExtender>
+    <asp:Panel ID="panelLogin" runat="server" align="center" DefaultButton="btnlogin"
+        Style="display: none">
+        <table width="525" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+                <td colspan="3" valign="bottom">
+                    <img src="images/up_arrow.png" width="525" height="13" style="padding: 0px; margin: 0px;">
+                </td>
+            </tr>
+            <tr>
+                <td width="12" height="293" align="right" valign="top" bgcolor="#fe8b0f">
+                </td>
+                <td height="293" align="left" valign="top" bgcolor="#f3faf3">
+                    <table width="501" border="0" cellspacing="0" cellpadding="0" align="center">
+                        <tr>
+                            <td>
+                                <table width="501" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td bgcolor="#fe8b0f" height="30" align="left" class="hd">
+                                            &nbsp;Recharge Raja
+                                        </td>
+                                        <td bgcolor="#fe8b0f" align="right" valign="middle">
+                                            <asp:ImageButton ID="btnclose2" runat="server" ImageUrl="images/close_but.png" Width="26"
+                                                Height="26" Style="margin-right: 3px;" />
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="7" align="left">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="15" align="right">
+                                <asp:Label ID="Button3" runat="server" class="ca-but" Text="Registered User SignIn" ></asp:Label>
+                                <%--<img src="images/signinn.jpg" width="199" height="28">--%>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="20">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <table width="470" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td width="145" valign="middle">
+                                            <img src="images/login.jpg">
+                                        </td>
+                                        <td width="10">
+                                        </td>
+                                        <td width="315">
+                                            <table width="315" border="0" cellspacing="0" cellpadding="0">
+                                                <tr>
+                                                    <td align="right" width="86" class="p_nme">
+                                                        <asp:Label ID="lblEmailID" runat="server" Text="Email ID"></asp:Label>
+                                                    </td>
+                                                    <td align="center" height="30">
+                                                        <asp:TextBox ID="txtEmailID" runat="server" Height="15px" Width="150px" TabIndex="1"></asp:TextBox>
+                                                        <ajaxToolkit:TextBoxWatermarkExtender ID="txtWaterEmailID" runat="server" TargetControlID="txtEmailID"
+                                                            WatermarkText="Email ID">
+                                                        </ajaxToolkit:TextBoxWatermarkExtender>
+                                                        <asp:RequiredFieldValidator ID="rfvEmailID" runat="server" Display="None" ControlToValidate="txtEmailID"
+                                                            ErrorMessage="Please Enter Email ID" ValidationGroup="Login"></asp:RequiredFieldValidator>
+                                                        <ajaxToolkit:ValidatorCalloutExtender ID="ValidatorCalloutExtender3" runat="server"
+                                                            TargetControlID="rfvEmailID" WarningIconImageUrl="~/images/warning.png" CloseImageUrl="~/images/Closing.png">
+                                                        </ajaxToolkit:ValidatorCalloutExtender>
+                                                        <asp:RegularExpressionValidator ID="RevEmail" runat="server" ControlToValidate="txtEmailID"
+                                                            ErrorMessage="Please enter valid email address<br /> format is abc@lovejourney.in"
+                                                            ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" Display="None"
+                                                            ValidationGroup="Login"></asp:RegularExpressionValidator>
+                                                        <ajaxToolkit:ValidatorCalloutExtender ID="ValidatorCalloutExtender3ss" runat="server"
+                                                            TargetControlID="RevEmail" WarningIconImageUrl="~/images/warning.png" CloseImageUrl="~/images/Closing.png">
+                                                        </ajaxToolkit:ValidatorCalloutExtender>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="right" width="86" class="p_nme">
+                                                        <asp:Label ID="lblPassword" runat="server" Text="Password "></asp:Label>
+                                                    </td>
+                                                    <td align="center" height="24">
+                                                        <asp:TextBox ID="txtPassword" runat="server" Height="15px" Width="150px" TextMode="Password"
+                                                            TabIndex="1"></asp:TextBox>
+                                                        <ajaxToolkit:TextBoxWatermarkExtender ID="txtwaterPassword" runat="server" TargetControlID="txtPassword"
+                                                            WatermarkText="Password">
+                                                        </ajaxToolkit:TextBoxWatermarkExtender>
+                                                        <asp:RequiredFieldValidator ID="rfvPassword" runat="server" Display="None" ControlToValidate="txtPassword"
+                                                            ErrorMessage="Please Enter Password" ValidationGroup="Login"></asp:RequiredFieldValidator>
+                                                        <ajaxToolkit:ValidatorCalloutExtender ID="ValidatorCalloutExtender4" runat="server"
+                                                            TargetControlID="rfvPassword" WarningIconImageUrl="~/images/warning.png" CloseImageUrl="~/images/Closing.png">
+                                                        </ajaxToolkit:ValidatorCalloutExtender>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2" align="center">
+                                                        &nbsp;
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2" align="center" height="34">
+                                                        <asp:Button ID="btnLogin" runat="server" OnClick="btnLogin_Click" BackColor="#fe8b0f"
+                                                            Width="100px" ValidationGroup="Login" Text="SignIn" />
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2" align="center">
+                                                        <asp:Label ID="lbl1" runat="server" Text=""></asp:Label>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2" align="center">
+                                                        <asp:LinkButton ID="lnkbtnforgotpassword" Text="Forgot Password?" runat="server"
+                                                            OnClick="lnkbtnforgotpassword_click" ForeColor="Black"></asp:LinkButton>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td width="12" height="293" align="left" valign="top" bgcolor="#fe8b0f">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" valign="top">
+                    <img src="images/down_arrow.png" width="525" height="13">
+                </td>
+            </tr>
+        </table>
+    </asp:Panel>
+    <ajaxToolkit:ModalPopupExtender ID="MpeSignUP" PopupControlID="pnlsignup" runat="server"
+        TargetControlID="Button12" BackgroundCssClass="modalBackground" OkControlID="ClseSignup"
+        Y="150">
+    </ajaxToolkit:ModalPopupExtender>
+    <asp:Panel ID="pnlsignup" runat="server"  Style="display: none; width: 600px; height: 250px;"
+        align="center" DefaultButton="btnSignUp">
+        <table width="525" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+                <td colspan="3" valign="bottom" >
+                    <img src="images/up_arrow.png" width="525" height="13" style="padding: 0px; margin: 0px;">
+                </td>
+            </tr>
+            <tr>
+                <td width="12" height="293" align="right" valign="top" bgcolor="#fe8b0f">
+                </td>
+                <td height="293" align="left" valign="top" bgcolor="#f3faf3">
+                    <table width="501" border="0" cellspacing="0" cellpadding="0" align="center">
+                        <tr>
+                            <td>
+                                <table width="501" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td bgcolor="fe8b0f" height="30" align="left" class="hd">
+                                            &nbsp;Recharge Raja
+                                        </td>
+                                        <td bgcolor="#fe8b0f" align="right" valign="middle">
+                                            <asp:ImageButton ID="ClseSignup" runat="server" ImageUrl="images/close_but.png" Width="26"
+                                                Height="26" Style="margin-right: 3px;" />
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="7" align="left">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="15" align="right">
+                                <asp:Label ID="Button4" runat="server" class="ca-but" Text="New User Signup" ></asp:Label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="20">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <table width="470" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td width="145" valign="middle">
+                                            <img src="images/pop_icn.png">
+                                        </td>
+                                        <td width="10">
+                                        </td>
+                                        <td width="315">
+                                            <table width="315" border="0" cellspacing="0" cellpadding="0">
+                                                <tr>
+                                                    <td align="right" width="86" class="p_nme">
+                                                        <asp:Label ID="lblEmail1" runat="server" Text="Email:"></asp:Label>
+                                                         <strong style = "color:Red">*</strong>
+                                                    </td>
+                                                    <td align="center" height="30">
+                                                        <asp:TextBox ID="txtEmailID1" runat="server" Width="150px" ValidationGroup="btnnext"></asp:TextBox>
+                                                        <ajaxToolkit:ValidatorCalloutExtender ID="ValidatorCalloutExtender5" runat="server"
+                                                            TargetControlID="rfvEmail" WarningIconImageUrl="~/images/warning.png" CloseImageUrl="~/images/Closing.png">
+                                                        </ajaxToolkit:ValidatorCalloutExtender>
+                                                        <ajaxToolkit:ValidatorCalloutExtender ID="ValidatorCalloutExtender6" runat="server"
+                                                            TargetControlID="RegularExpressionValidator1" WarningIconImageUrl="~/images/warning.png"
+                                                            CloseImageUrl="~/images/Closing.png">
+                                                        </ajaxToolkit:ValidatorCalloutExtender>
+                                                        <asp:RequiredFieldValidator ID="rfvEmail" runat="server" ControlToValidate="txtEmailID1"
+                                                            Display="None" ErrorMessage="Please enter email address" ValidationGroup="btnnext"></asp:RequiredFieldValidator>
+                                                        <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="txtEmailID1"
+                                                            ErrorMessage="Please enter valid email address<br /> format is abc@lovejourney.in"
+                                                            ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" Display="None"
+                                                            ValidationGroup="btnnext"></asp:RegularExpressionValidator>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="right" width="86" class="p_nme">
+                                                        <asp:Label ID="lblName1" runat="server" Text="Name:"></asp:Label>
+                                                         <strong style = "color:Red">*</strong>
+                                                    </td>
+                                                    <td align="center" height="24">
+                                                        <asp:TextBox ID="txtFirstName" runat="server" class="p_frm" Width="150px" ValidationGroup="btnnext"></asp:TextBox>
+                                                        <ajaxToolkit:ValidatorCalloutExtender ID="ValidatorCalloutExtender9" runat="server"
+                                                            TargetControlID="rfvFristName" WarningIconImageUrl="~/images/warning.png" CloseImageUrl="~/images/Closing.png">
+                                                        </ajaxToolkit:ValidatorCalloutExtender>
+                                                        <asp:RequiredFieldValidator ID="rfvFristName" runat="server" ControlToValidate="txtFirstName"
+                                                            Display="None" ErrorMessage="Please Enter Your Name" ValidationGroup="btnnext"></asp:RequiredFieldValidator>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="right" width="86" class="p_nme">
+                                                        <asp:Label ID="lblAddress" runat="server" Text="Address:"></asp:Label>
+                                                         <strong style = "color:Red">*</strong>
+                                                    </td>
+                                                    <td align="center" height="30">
+                                                        <asp:TextBox ID="txtaddress1" runat="server" class="p_frm" Width="150px" TextMode="MultiLine"
+                                                            ValidationGroup="btnnext"></asp:TextBox>
+                                                        <ajaxToolkit:ValidatorCalloutExtender ID="ValidatorCalloutExtender8" runat="server"
+                                                            TargetControlID="rfvAddress1" WarningIconImageUrl="~/images/warning.png" CloseImageUrl="~/images/Closing.png">
+                                                        </ajaxToolkit:ValidatorCalloutExtender>
+                                                        <asp:RequiredFieldValidator ID="rfvAddress1" runat="server" ControlToValidate="txtaddress1"
+                                                            ErrorMessage="Please enter Address" Display="None" ForeColor="Red" Font-Size="11px"
+                                                            ValidationGroup="btnnext"></asp:RequiredFieldValidator>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="right" width="86" class="p_nme">
+                                                        <asp:Label ID="labelCity" runat="server" Text="City:"></asp:Label>
+                                                         <strong style = "color:Red">*</strong>
+                                                    </td>
+                                                    <td align="center" height="30">
+                                                        <asp:TextBox ID="txtCity" runat="server" class="p_frm" Width="150px" ValidationGroup="btnnext"></asp:TextBox>
+                                                        <ajaxToolkit:ValidatorCalloutExtender ID="ValidatorCalloutExtender31" runat="server"
+                                                            TargetControlID="rfvCity" WarningIconImageUrl="~/images/warning.png" CloseImageUrl="~/images/Closing.png">
+                                                        </ajaxToolkit:ValidatorCalloutExtender>
+                                                        <asp:RequiredFieldValidator ID="rfvCity" runat="server" ControlToValidate="txtCity"
+                                                            ErrorMessage="Please enter City" Display="None" ForeColor="Red" Font-Size="11px"
+                                                            ValidationGroup="btnnext"></asp:RequiredFieldValidator>
+                                                        <ajaxToolkit:FilteredTextBoxExtender ID="FtbeCity" runat="server" TargetControlID="txtCity"
+                                                            ValidChars="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ ">
+                                                        </ajaxToolkit:FilteredTextBoxExtender>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="right" width="86" class="p_nme">
+                                                        <asp:Label ID="lblState" runat="server" Text="State:"></asp:Label>
+                                                         <strong style = "color:Red">*</strong>
+                                                    </td>
+                                                    <td align="center" height="30">
+                                                        <asp:TextBox ID="txtState" runat="server" class="p_frm" Width="150px" ValidationGroup="btnnext"></asp:TextBox>
+                                                        <ajaxToolkit:ValidatorCalloutExtender ID="ValidatorCalloutExtender30" runat="server"
+                                                            TargetControlID="rfvState" WarningIconImageUrl="~/images/warning.png" CloseImageUrl="~/images/Closing.png">
+                                                        </ajaxToolkit:ValidatorCalloutExtender>
+                                                        <asp:RequiredFieldValidator ID="rfvState" runat="server" ControlToValidate="txtState"
+                                                            ErrorMessage="Please enter State" Display="None" ForeColor="Red" Font-Size="11px"
+                                                            ValidationGroup="btnnext"></asp:RequiredFieldValidator>
+                                                        <ajaxToolkit:FilteredTextBoxExtender ID="ftbestate" runat="server" TargetControlID="txtState"
+                                                            ValidChars="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ ">
+                                                        </ajaxToolkit:FilteredTextBoxExtender>
+                                                    </td>
+                                                </tr>
+                                                 <%--<tr>
+                                                    <td align="right" width="86" class="p_nme">
+                                                        <asp:Label ID="lblCountry" runat="server" Text="Country:"></asp:Label>
+                                                        <strong style="color: Red">*</strong>
+                                                    </td>
+                                                    <td align="center" height="30">
+                                                        <asp:TextBox ID="txtCountry" runat="server" class="p_frm" Width="150px" ValidationGroup="btnnext"></asp:TextBox>
+                                                        <ajaxToolkit:ValidatorCalloutExtender ID="ValidatorCalloutExtender38" runat="server"
+                                                            TargetControlID="rfvtxtCountry" WarningIconImageUrl="~/images/warning.png" CloseImageUrl="~/images/Closing.png">
+                                                        </ajaxToolkit:ValidatorCalloutExtender>
+                                                        <asp:RequiredFieldValidator ID="rfvtxtCountry" runat="server" ControlToValidate="txtCountry"
+                                                            ErrorMessage="Please enter Country" Display="None" ForeColor="Red" Font-Size="11px"
+                                                            ValidationGroup="btnnext"></asp:RequiredFieldValidator>
+                                                        <ajaxToolkit:FilteredTextBoxExtender ID="FilteredTextBoxExtender11" runat="server" TargetControlID="txtCountry"
+                                                            ValidChars="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ">
+                                                        </ajaxToolkit:FilteredTextBoxExtender>
+                                                    </td>
+                                                </tr>--%>
+                                                <tr>
+                                                    <td align="right" width="120" class="p_nme1">
+                                                        <asp:Label ID="lblCountry" runat="server" Text="Country:"></asp:Label>
+                                                        <strong style="color: Red">*</strong>
+                                                    </td>
+                                                    <td align="center" height="24">
+                                                        <asp:DropDownList ID="ddlCountry" runat="server" class="p_frm1" ValidationGroup="btnnext"
+                                                            Width="150px" Height="20px">
+                                                            <asp:ListItem Value="Please Select">Please Select</asp:ListItem>
+                                                            <asp:ListItem Value="ABW">Aruba</asp:ListItem>
+                                                            <asp:ListItem Value="AFG">Afghanistan</asp:ListItem>
+                                                            <asp:ListItem Value="AGO">Angola</asp:ListItem>
+                                                            <asp:ListItem Value="AIA">Anguilla</asp:ListItem>
+                                                            <asp:ListItem Value="ALA">Åland Islands</asp:ListItem>
+                                                            <asp:ListItem Value="ALB">Albania</asp:ListItem>
+                                                            <asp:ListItem Value="AND">Andorra</asp:ListItem>
+                                                            <asp:ListItem Value="ANT">Netherlands Antilles</asp:ListItem>
+                                                            <asp:ListItem Value="ARE">United Arab Emirates</asp:ListItem>
+                                                            <asp:ListItem Value="ARG">Argentina</asp:ListItem>
+                                                            <asp:ListItem Value="ARM">Armenia</asp:ListItem>
+                                                            <asp:ListItem Value="ASM">American Samoa</asp:ListItem>
+                                                            <asp:ListItem Value="ATA">Antarctica</asp:ListItem>
+                                                            <asp:ListItem Value="ATF">French Southern Territories</asp:ListItem>
+                                                            <asp:ListItem Value="ATG">Antigua and Barbuda</asp:ListItem>
+                                                            <asp:ListItem Value="AUS">Australia</asp:ListItem>
+                                                            <asp:ListItem Value="AUT">Austria</asp:ListItem>
+                                                            <asp:ListItem Value="AZE">Azerbaijan</asp:ListItem>
+                                                            <asp:ListItem Value="BDI">Burundi</asp:ListItem>
+                                                            <asp:ListItem Value="BEL">Belgium</asp:ListItem>
+                                                            <asp:ListItem Value="BEN">Benin</asp:ListItem>
+                                                            <asp:ListItem Value="BFA">Burkina Faso</asp:ListItem>
+                                                            <asp:ListItem Value="BGD">Bangladesh</asp:ListItem>
+                                                            <asp:ListItem Value="BGR">Bulgaria</asp:ListItem>
+                                                            <asp:ListItem Value="BHR">Bahrain</asp:ListItem>
+                                                            <asp:ListItem Value="BHS">Bahamas</asp:ListItem>
+                                                            <asp:ListItem Value="BIH">Bosnia and Herzegovina</asp:ListItem>
+                                                            <asp:ListItem Value="BLM">Saint Barthélemy</asp:ListItem>
+                                                            <asp:ListItem Value="BLR">Belarus</asp:ListItem>
+                                                            <asp:ListItem Value="BLZ">Belize</asp:ListItem>
+                                                            <asp:ListItem Value="BMU">Bermuda</asp:ListItem>
+                                                            <asp:ListItem Value="BOL">Bolivia</asp:ListItem>
+                                                            <asp:ListItem Value="BRA">Brazil</asp:ListItem>
+                                                            <asp:ListItem Value="BRB">Barbados</asp:ListItem>
+                                                            <asp:ListItem Value="BRN">Brunei Darussalam</asp:ListItem>
+                                                            <asp:ListItem Value="BTN">Bhutan</asp:ListItem>
+                                                            <asp:ListItem Value="BVT">Bouvet Island</asp:ListItem>
+                                                            <asp:ListItem Value="BWA">Botswana</asp:ListItem>
+                                                            <asp:ListItem Value="CAF">Central African Republic</asp:ListItem>
+                                                            <asp:ListItem Value="CAN">Canada</asp:ListItem>
+                                                            <asp:ListItem Value="CCK">Cocos (Keeling) Islands</asp:ListItem>
+                                                            <asp:ListItem Value="CHE">Switzerland</asp:ListItem>
+                                                            <asp:ListItem Value="CHL">Chile</asp:ListItem>
+                                                            <asp:ListItem Value="CHN">China</asp:ListItem>
+                                                            <asp:ListItem Value="CIV">Côte d`Ivoire</asp:ListItem>
+                                                            <asp:ListItem Value="CMR">Cameroon</asp:ListItem>
+                                                            <asp:ListItem Value="COD">Congo, the Democratic Republic of the</asp:ListItem>
+                                                            <asp:ListItem Value="COG">Congo</asp:ListItem>
+                                                            <asp:ListItem Value="COK">Cook Islands</asp:ListItem>
+                                                            <asp:ListItem Value="COL">Colombia</asp:ListItem>
+                                                            <asp:ListItem Value="COM">Comoros</asp:ListItem>
+                                                            <asp:ListItem Value="CPV">Cape Verde</asp:ListItem>
+                                                            <asp:ListItem Value="CRI">Costa Rica</asp:ListItem>
+                                                            <asp:ListItem Value="CUB">Cuba</asp:ListItem>
+                                                            <asp:ListItem Value="CXR">Christmas Island</asp:ListItem>
+                                                            <asp:ListItem Value="CYM">Cayman Islands</asp:ListItem>
+                                                            <asp:ListItem Value="CYP">Cyprus</asp:ListItem>
+                                                            <asp:ListItem Value="CZE">Czech Republic</asp:ListItem>
+                                                            <asp:ListItem Value="DEU">Germany</asp:ListItem>
+                                                            <asp:ListItem Value="DJI">Djibouti</asp:ListItem>
+                                                            <asp:ListItem Value="DMA">Dominica</asp:ListItem>
+                                                            <asp:ListItem Value="DNK">Denmark</asp:ListItem>
+                                                            <asp:ListItem Value="DOM">Dominican Republic</asp:ListItem>
+                                                            <asp:ListItem Value="DZA">Algeria</asp:ListItem>
+                                                            <asp:ListItem Value="ECU">Ecuador</asp:ListItem>
+                                                            <asp:ListItem Value="EGY">Egypt</asp:ListItem>
+                                                            <asp:ListItem Value="ERI">Eritrea</asp:ListItem>
+                                                            <asp:ListItem Value="ESH">Western Sahara</asp:ListItem>
+                                                            <asp:ListItem Value="ESP">Spain</asp:ListItem>
+                                                            <asp:ListItem Value="EST">Estonia</asp:ListItem>
+                                                            <asp:ListItem Value="ETH">Ethiopia</asp:ListItem>
+                                                            <asp:ListItem Value="FIN">Finland</asp:ListItem>
+                                                            <asp:ListItem Value="FJI">Fiji</asp:ListItem>
+                                                            <asp:ListItem Value="FLK">Falkland Islands (Malvinas)</asp:ListItem>
+                                                            <asp:ListItem Value="FRA">France</asp:ListItem>
+                                                            <asp:ListItem Value="FRO">Faroe Islands</asp:ListItem>
+                                                            <asp:ListItem Value="FSM">Micronesia, Federated States of</asp:ListItem>
+                                                            <asp:ListItem Value="GAB">Gabon</asp:ListItem>
+                                                            <asp:ListItem Value="GBR">United Kingdom</asp:ListItem>
+                                                            <asp:ListItem Value="GEO">Georgia</asp:ListItem>
+                                                            <asp:ListItem Value="GGY">Guernsey</asp:ListItem>
+                                                            <asp:ListItem Value="GHA">Ghana</asp:ListItem>
+                                                            <asp:ListItem Value="GI">N Guinea</asp:ListItem>
+                                                            <asp:ListItem Value="GIB">Gibraltar</asp:ListItem>
+                                                            <asp:ListItem Value="GLP">Guadeloupe</asp:ListItem>
+                                                            <asp:ListItem Value="GMB">Gambia</asp:ListItem>
+                                                            <asp:ListItem Value="GNB">Guinea-Bissau</asp:ListItem>
+                                                            <asp:ListItem Value="GNQ">Equatorial Guinea</asp:ListItem>
+                                                            <asp:ListItem Value="GRC">Greece</asp:ListItem>
+                                                            <asp:ListItem Value="GRD">Grenada</asp:ListItem>
+                                                            <asp:ListItem Value="GRL">Greenland</asp:ListItem>
+                                                            <asp:ListItem Value="GTM">Guatemala</asp:ListItem>
+                                                            <asp:ListItem Value="GUF">French Guiana</asp:ListItem>
+                                                            <asp:ListItem Value="GUM">Guam</asp:ListItem>
+                                                            <asp:ListItem Value="GUY">Guyana</asp:ListItem>
+                                                            <asp:ListItem Value="HKG">Hong Kong</asp:ListItem>
+                                                            <asp:ListItem Value="HMD">Heard Island and McDonald Islands</asp:ListItem>
+                                                            <asp:ListItem Value="HND">Honduras</asp:ListItem>
+                                                            <asp:ListItem Value="HRV">Croatia</asp:ListItem>
+                                                            <asp:ListItem Value="HTI">Haiti</asp:ListItem>
+                                                            <asp:ListItem Value="HUN">Hungary</asp:ListItem>
+                                                            <asp:ListItem Value="IDN">Indonesia</asp:ListItem>
+                                                            <asp:ListItem Value="IMN">Isle of Man</asp:ListItem>
+                                                            <asp:ListItem Value="IND">India</asp:ListItem>
+                                                            <asp:ListItem Value="IOT">British Indian Ocean Territory</asp:ListItem>
+                                                            <asp:ListItem Value="IRL">Ireland</asp:ListItem>
+                                                            <asp:ListItem Value="IRN">Iran, Islamic Republic of</asp:ListItem>
+                                                            <asp:ListItem Value="IRQ">Iraq</asp:ListItem>
+                                                            <asp:ListItem Value="ISL">Iceland</asp:ListItem>
+                                                            <asp:ListItem Value="ISR">Israel</asp:ListItem>
+                                                            <asp:ListItem Value="ITA">Italy</asp:ListItem>
+                                                            <asp:ListItem Value="JAM">Jamaica</asp:ListItem>
+                                                            <asp:ListItem Value="JEY">Jersey</asp:ListItem>
+                                                            <asp:ListItem Value="JOR">Jordan</asp:ListItem>
+                                                            <asp:ListItem Value="JPN">Japan</asp:ListItem>
+                                                            <asp:ListItem Value="KAZ">Kazakhstan</asp:ListItem>
+                                                            <asp:ListItem Value="KEN">Kenya</asp:ListItem>
+                                                            <asp:ListItem Value="KGZ">Kyrgyzstan</asp:ListItem>
+                                                            <asp:ListItem Value="KHM">Cambodia</asp:ListItem>
+                                                            <asp:ListItem Value="KIR">Kiribati</asp:ListItem>
+                                                            <asp:ListItem Value="KNA">Saint Kitts and Nevis</asp:ListItem>
+                                                            <asp:ListItem Value="KOR">Korea, Republic of</asp:ListItem>
+                                                            <asp:ListItem Value="KWT">Kuwait</asp:ListItem>
+                                                            <asp:ListItem Value="LAO">Lao People`s Democratic Republic</asp:ListItem>
+                                                            <asp:ListItem Value="LBN">Lebanon</asp:ListItem>
+                                                            <asp:ListItem Value="LBR">Liberia</asp:ListItem>
+                                                            <asp:ListItem Value="LBY">Libyan Arab Jamahiriya</asp:ListItem>
+                                                            <asp:ListItem Value="LCA">Saint Lucia</asp:ListItem>
+                                                            <asp:ListItem Value="LIE">Liechtenstein</asp:ListItem>
+                                                            <asp:ListItem Value="LKA">Sri Lanka</asp:ListItem>
+                                                            <asp:ListItem Value="LSO">Lesotho</asp:ListItem>
+                                                            <asp:ListItem Value="LTU">Lithuania</asp:ListItem>
+                                                            <asp:ListItem Value="LUX">Luxembourg</asp:ListItem>
+                                                            <asp:ListItem Value="LVA">Latvia</asp:ListItem>
+                                                            <asp:ListItem Value="MAC">Macao</asp:ListItem>
+                                                            <asp:ListItem Value="MAF">Saint Martin (French part)</asp:ListItem>
+                                                            <asp:ListItem Value="MAR">Morocco</asp:ListItem>
+                                                            <asp:ListItem Value="MCO">Monaco</asp:ListItem>
+                                                            <asp:ListItem Value="MDA">Moldova</asp:ListItem>
+                                                            <asp:ListItem Value="MDG">Madagascar</asp:ListItem>
+                                                            <asp:ListItem Value="MDV">Maldives</asp:ListItem>
+                                                            <asp:ListItem Value="MEX">Mexico</asp:ListItem>
+                                                            <asp:ListItem Value="MHL">Marshall Islands</asp:ListItem>
+                                                            <asp:ListItem Value="MKD">Macedonia, the former Yugoslav Republic of</asp:ListItem>
+                                                            <asp:ListItem Value="MLI">Mali</asp:ListItem>
+                                                            <asp:ListItem Value="MLT">Malta</asp:ListItem>
+                                                            <asp:ListItem Value="MMR">Myanmar</asp:ListItem>
+                                                            <asp:ListItem Value="MNE">Montenegro</asp:ListItem>
+                                                            <asp:ListItem Value="MNG">Mongolia</asp:ListItem>
+                                                            <asp:ListItem Value="MNP">Northern Mariana Islands</asp:ListItem>
+                                                            <asp:ListItem Value="MOZ">Mozambique</asp:ListItem>
+                                                            <asp:ListItem Value="MRT">Mauritania</asp:ListItem>
+                                                            <asp:ListItem Value="MSR">Montserrat</asp:ListItem>
+                                                            <asp:ListItem Value="MTQ">Martinique</asp:ListItem>
+                                                            <asp:ListItem Value="MUS">Mauritius</asp:ListItem>
+                                                            <asp:ListItem Value="MWI">Malawi</asp:ListItem>
+                                                            <asp:ListItem Value="MYS">Malaysia</asp:ListItem>
+                                                            <asp:ListItem Value="MYT">Mayotte</asp:ListItem>
+                                                            <asp:ListItem Value="NAM">Namibia</asp:ListItem>
+                                                            <asp:ListItem Value="NCL">New Caledonia</asp:ListItem>
+                                                            <asp:ListItem Value="NER">Niger</asp:ListItem>
+                                                            <asp:ListItem Value="NFK">Norfolk Island</asp:ListItem>
+                                                            <asp:ListItem Value="NGA">Nigeria</asp:ListItem>
+                                                            <asp:ListItem Value="NIC">Nicaragua</asp:ListItem>
+                                                            <asp:ListItem Value="NO">R Norway</asp:ListItem>
+                                                            <asp:ListItem Value="NIU">Niue</asp:ListItem>
+                                                            <asp:ListItem Value="NLD">Netherlands</asp:ListItem>
+                                                            <asp:ListItem Value="NPL">Nepal</asp:ListItem>
+                                                            <asp:ListItem Value="NRU">Nauru</asp:ListItem>
+                                                            <asp:ListItem Value="NZL">New Zealand</asp:ListItem>
+                                                            <asp:ListItem Value="OMN">Oman</asp:ListItem>
+                                                            <asp:ListItem Value="PAK">Pakistan</asp:ListItem>
+                                                            <asp:ListItem Value="PAN">Panama</asp:ListItem>
+                                                            <asp:ListItem Value="PCN">Pitcairn</asp:ListItem>
+                                                            <asp:ListItem Value="PER">Peru</asp:ListItem>
+                                                            <asp:ListItem Value="PHL">Philippines</asp:ListItem>
+                                                            <asp:ListItem Value="PLW">Palau</asp:ListItem>
+                                                            <asp:ListItem Value="PNG">Papua New Guinea</asp:ListItem>
+                                                            <asp:ListItem Value="POL">Poland</asp:ListItem>
+                                                            <asp:ListItem Value="PRI">Puerto Rico</asp:ListItem>
+                                                            <asp:ListItem Value="PRK">Korea, Democratic People`s Republic of</asp:ListItem>
+                                                            <asp:ListItem Value="PRT">Portugal</asp:ListItem>
+                                                            <asp:ListItem Value="PRY">Paraguay</asp:ListItem>
+                                                            <asp:ListItem Value="PSE">Palestinian Territory, Occupied</asp:ListItem>
+                                                            <asp:ListItem Value="PYF">French Polynesia</asp:ListItem>
+                                                            <asp:ListItem Value="QAT">Qatar</asp:ListItem>
+                                                            <asp:ListItem Value="REU">Réunion</asp:ListItem>
+                                                            <asp:ListItem Value="ROU">Romania</asp:ListItem>
+                                                            <asp:ListItem Value="RUS">Russian Federation</asp:ListItem>
+                                                            <asp:ListItem Value="RWA">Rwanda</asp:ListItem>
+                                                            <asp:ListItem Value="SAU">Saudi Arabia</asp:ListItem>
+                                                            <asp:ListItem Value="SDN">Sudan</asp:ListItem>
+                                                            <asp:ListItem Value="SEN">Senegal</asp:ListItem>
+                                                            <asp:ListItem Value="SGP">Singapore</asp:ListItem>
+                                                            <asp:ListItem Value="SGS">South Georgia and the South Sandwich Islands</asp:ListItem>
+                                                            <asp:ListItem Value="SHN">Saint Helena</asp:ListItem>
+                                                            <asp:ListItem Value="SJM">Svalbard and Jan Mayen</asp:ListItem>
+                                                            <asp:ListItem Value="SLB">Solomon Islands</asp:ListItem>
+                                                            <asp:ListItem Value="SLE">Sierra Leone</asp:ListItem>
+                                                            <asp:ListItem Value="SLV">El Salvador</asp:ListItem>
+                                                            <asp:ListItem Value="SMR">San Marino</asp:ListItem>
+                                                            <asp:ListItem Value="SOM">Somalia</asp:ListItem>
+                                                            <asp:ListItem Value="SPM">Saint Pierre and Miquelon</asp:ListItem>
+                                                            <asp:ListItem Value="SRB">Serbia</asp:ListItem>
+                                                            <asp:ListItem Value="STP">Sao Tome and Principe</asp:ListItem>
+                                                            <asp:ListItem Value="SUR">Suriname</asp:ListItem>
+                                                            <asp:ListItem Value="SVK">Slovakia</asp:ListItem>
+                                                            <asp:ListItem Value="SVN">Slovenia</asp:ListItem>
+                                                            <asp:ListItem Value="SWE">Sweden</asp:ListItem>
+                                                            <asp:ListItem Value="SWZ">Swaziland</asp:ListItem>
+                                                            <asp:ListItem Value="SYC">Seychelles</asp:ListItem>
+                                                            <asp:ListItem Value="SYR">Syrian Arab Republic</asp:ListItem>
+                                                            <asp:ListItem Value="TCA">Turks and Caicos Islands</asp:ListItem>
+                                                            <asp:ListItem Value="TCD">Chad</asp:ListItem>
+                                                            <asp:ListItem Value="TGO">Togo</asp:ListItem>
+                                                            <asp:ListItem Value="THA">Thailand</asp:ListItem>
+                                                            <asp:ListItem Value="TJK">Tajikistan</asp:ListItem>
+                                                            <asp:ListItem Value="TKL">Tokelau</asp:ListItem>
+                                                            <asp:ListItem Value="TKM">Turkmenistan</asp:ListItem>
+                                                            <asp:ListItem Value="TLS">Timor-Leste</asp:ListItem>
+                                                            <asp:ListItem Value="TON">Tonga</asp:ListItem>
+                                                            <asp:ListItem Value="TTO">Trinidad and Tobago</asp:ListItem>
+                                                            <asp:ListItem Value="TUN">Tunisia</asp:ListItem>
+                                                            <asp:ListItem Value="TUR">Turkey</asp:ListItem>
+                                                            <asp:ListItem Value="TUV">Tuvalu</asp:ListItem>
+                                                            <asp:ListItem Value="TWN">Taiwan, Province of China</asp:ListItem>
+                                                            <asp:ListItem Value="TZA">Tanzania, United Republic of</asp:ListItem>
+                                                            <asp:ListItem Value="UGA">Uganda</asp:ListItem>
+                                                            <asp:ListItem Value="UKR">Ukraine</asp:ListItem>
+                                                            <asp:ListItem Value="UMI">United States Minor Outlying Islands</asp:ListItem>
+                                                            <asp:ListItem Value="URY">Uruguay</asp:ListItem>
+                                                            <asp:ListItem Value="USA">United States</asp:ListItem>
+                                                            <asp:ListItem Value="UZB">Uzbekistan</asp:ListItem>
+                                                            <asp:ListItem Value="VAT">Holy See (Vatican City State)</asp:ListItem>
+                                                            <asp:ListItem Value="VCT">Saint Vincent and the Grenadines</asp:ListItem>
+                                                            <asp:ListItem Value="VEN">Venezuela</asp:ListItem>
+                                                            <asp:ListItem Value="VGB">Virgin Islands, British</asp:ListItem>
+                                                            <asp:ListItem Value="VIR">Virgin Islands, U.S.</asp:ListItem>
+                                                            <asp:ListItem Value="VNM">Viet Nam</asp:ListItem>
+                                                            <asp:ListItem Value="VUT">Vanuatu</asp:ListItem>
+                                                            <asp:ListItem Value="WLF">Wallis and Futuna</asp:ListItem>
+                                                            <asp:ListItem Value="WSM">Samoa</asp:ListItem>
+                                                            <asp:ListItem Value="YEM">Yemen</asp:ListItem>
+                                                            <asp:ListItem Value="ZAF">South Africa</asp:ListItem>
+                                                            <asp:ListItem Value="ZMB">Zambia</asp:ListItem>
+                                                            <asp:ListItem Value="ZWE">Zimbabwe</asp:ListItem>
+                                                        </asp:DropDownList>
+                                                        <ajaxToolkit:ValidatorCalloutExtender ID="ValidatorCalloutExtender38" runat="server"
+                                                            TargetControlID="rfvddlCountry" WarningIconImageUrl="~/images/warning.png" CloseImageUrl="~/images/Closing.png">
+                                                        </ajaxToolkit:ValidatorCalloutExtender>
+                                                        <asp:RequiredFieldValidator ID="rfvddlCountry" runat="server" ControlToValidate="ddlCountry"
+                                                            ErrorMessage="Please select Country" Display="None" ForeColor="Red" Font-Size="11px"
+                                                            InitialValue="Please Select" ValidationGroup="btnnext"></asp:RequiredFieldValidator>
+                                                    </td>
+                                                </tr>
+                                                
+                                                
+                                                <tr>
+                                                    <td align="right" width="86" class="p_nme">
+                                                        <asp:Label ID="lblPassword1" runat="server" Text="Password:" ValidationGroup="btnnext"></asp:Label>
+                                                         <strong style = "color:Red">*</strong>
+                                                    </td>
+                                                    <td align="center" height="30">
+                                                        <asp:TextBox ID="txtPassword1" runat="server" class="p_frm" TextMode="Password" MaxLength="15"
+                                                            autocomplete="off" Width="150px"></asp:TextBox>
+                                                        <ajaxToolkit:ValidatorCalloutExtender ID="ValidatorCalloutExtender7" runat="server"
+                                                            TargetControlID="rfvPassword2" WarningIconImageUrl="~/images/warning.png" CloseImageUrl="~/images/Closing.png">
+                                                        </ajaxToolkit:ValidatorCalloutExtender>
+                                                        <asp:RequiredFieldValidator ID="rfvPassword2" runat="server" ControlToValidate="txtPassword1"
+                                                            ValidationGroup="btnnext" ErrorMessage="Please enter Password" Display="None"
+                                                            ForeColor="Red" Font-Size="11px"></asp:RequiredFieldValidator>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="right" width="86" class="p_nme">
+                                                        <asp:Label ID="Label4" runat="server" Text="ConfirmPassword:" ValidationGroup="btnnext"></asp:Label>
+                                                         <strong style = "color:Red">*</strong>
+                                                    </td>
+                                                    <td align="center" height="30">
+                                                        <asp:TextBox ID="txtConformPassword" runat="server" class="p_frm" TextMode="Password"
+                                                            MaxLength="15" autocomplete="off" Width="150px"></asp:TextBox>
+                                                        <ajaxToolkit:ValidatorCalloutExtender ID="ValidatorCalloutExtender28" runat="server"
+                                                            TargetControlID="rfvConformPass" WarningIconImageUrl="~/images/warning.png" CloseImageUrl="~/images/Closing.png">
+                                                        </ajaxToolkit:ValidatorCalloutExtender>
+                                                        <asp:RequiredFieldValidator ID="rfvConformPass" runat="server" ControlToValidate="txtConformPassword"
+                                                            ValidationGroup="btnnext" ErrorMessage="Please enter Confirm Password" Display="None"
+                                                            ForeColor="Red" Font-Size="11px"></asp:RequiredFieldValidator>
+                                                        <asp:CompareValidator ID="cvConNewPwd" runat="server" ControlToCompare="txtPassword1"
+                                                            ValidationGroup="btnnext" ControlToValidate="txtConformPassword" Display="None"
+                                                            ErrorMessage="Confirm password is not same as  Password, please enter same passwords."></asp:CompareValidator>
+                                                        <ajaxToolkit:ValidatorCalloutExtender ID="ValidatorCalloutExtender29" runat="server"
+                                                            TargetControlID="cvConNewPwd" WarningIconImageUrl="~/images/warning.png" CloseImageUrl="~/images/Closing.png">
+                                                        </ajaxToolkit:ValidatorCalloutExtender>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="right" width="86" class="p_nme">
+                                                        <asp:Label ID="lblMobilenumber" runat="server" Text="MobileNumber:"></asp:Label>
+                                                         <strong style = "color:Red">*</strong>
+                                                    </td>
+                                                    <td align="center" height="24">
+                                                        <asp:TextBox ID="txtMobileNum" runat="server" class="p_frm" Width="150px" ValidationGroup="btnnext"></asp:TextBox>
+                                                        <ajaxToolkit:ValidatorCalloutExtender ID="ValidatorCalloutExtender19" runat="server"
+                                                            TargetControlID="RequiredFieldValidator5" WarningIconImageUrl="~/images/warning.png"
+                                                            CloseImageUrl="~/images/Closing.png">
+                                                        </ajaxToolkit:ValidatorCalloutExtender>
+                                                        <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ControlToValidate="txtMobileNum"
+                                                            Display="None" ErrorMessage="Please Enter Your Mobile Number" ValidationGroup="btnnext"></asp:RequiredFieldValidator>
+                                                        <ajaxToolkit:FilteredTextBoxExtender ID="ftbmobile" runat="server" TargetControlID="txtMobileNum"
+                                                            ValidChars="1234567890">
+                                                        </ajaxToolkit:FilteredTextBoxExtender>
+                                                    </td>
+                                                </tr>
+                                                   <tr>
+                                                    <td align="right" width="120" class="p_nme1">
+                                                        <asp:Label ID="lbluserpostalcode" runat="server" Text="PostalCode:"></asp:Label>
+                                                        <strong style="color: Red">*</strong>
+                                                    </td>
+                                                    <td align="center" height="24">
+                                                        <asp:TextBox ID="txtUserpostalcode" class="p_frm1" runat="server" Width="150px" 
+                                                            MaxLength="6">
+
+                                                        </asp:TextBox>
+                                                        <ajaxToolkit:FilteredTextBoxExtender ID="FilteredTextBoxExtender10" runat="server"
+                                                            ValidChars="1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ" TargetControlID="txtUserpostalcode">
+                                                        </ajaxToolkit:FilteredTextBoxExtender>
+                                                        <ajaxToolkit:ValidatorCalloutExtender ID="ValidatorCalloutExtender11" runat="server"
+                                                            TargetControlID="rfvtxtUserpostalcode" WarningIconImageUrl="~/images/warning.png"
+                                                            CloseImageUrl="~/images/Closing.png">
+                                                        </ajaxToolkit:ValidatorCalloutExtender>
+                                                        <asp:RequiredFieldValidator ID="rfvtxtUserpostalcode" runat="server" ControlToValidate="txtUserpostalcode"
+                                                            Display="None" ErrorMessage="Please Enter Your Postal Code " ValidationGroup="btnnext"></asp:RequiredFieldValidator>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2" align="center">
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2" align="center" height="34">
+                                                        <asp:Button ID="btnSignUp" runat="server" class="sub" Text="Signup" ValidationGroup="btnnext"
+                                                            OnClick="btnSignUp_Click" OnClientClick="showDiv();" />
+                                                        <span id="SignupMain" style="display: none" class="loadingBackground"></span><span
+                                                            id="SignUpContent" style="display: none" class="modalContainer">
+                                                            <div class="registerhead">
+                                                                <asp:Literal ID="Literal1" runat="server" Text="Processing"></asp:Literal>
+                                                                <br />
+                                                                <img src="images/loading.gif" id="Img4" alt="Processing... Please wait!" />
+                                                            </div>
+                                                        </span>
+                                                    </td>
+                                                </tr>
+                                                <caption>
+                                                    
+                                                    <tr>
+                                                        <td align="center" colspan="2" height="20">
+                                                            <asp:Label ID="lblMsg1" runat="server" class="p_nme"></asp:Label>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="center" colspan="2" height="20">
+                                                            <asp:Label ID="lblMsg2" runat="server" class="p_nme"></asp:Label>
+                                                        </td>
+                                                    </tr>
+                                                </caption>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td width="12" height="293" align="left" valign="top" bgcolor="#fe8b0f">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" valign="top" >
+                    <img src="images/down_arrow.png" width="525" height="13">
+                </td>
+            </tr>
+        </table>
+    </asp:Panel>
+    </form>
+</body>
+</html>

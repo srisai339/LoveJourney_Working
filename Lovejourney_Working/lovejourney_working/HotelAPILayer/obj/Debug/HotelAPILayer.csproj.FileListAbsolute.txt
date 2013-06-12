@@ -1,0 +1,271 @@
+E:\RajuKatare\ArzooHotel\HotelAPILayer\obj\Debug\ResolveAssemblyReference.cache
+E:\RajuKatare\ArzooHotel\HotelAPILayer\bin\Debug\HotelAPILayer.dll.config
+E:\RajuKatare\ArzooHotel\HotelAPILayer\bin\Debug\HotelAPILayer.dll
+E:\RajuKatare\ArzooHotel\HotelAPILayer\bin\Debug\HotelAPILayer.pdb
+E:\RajuKatare\ArzooHotel\HotelAPILayer\obj\Debug\HotelAPILayer.dll
+E:\RajuKatare\ArzooHotel\HotelAPILayer\obj\Debug\HotelAPILayer.pdb
+E:\RajuKatare\LoveJourney\LoveJourneyCode\LoveJourneySolution\HotelAPILayer\bin\Debug\HotelAPILayer.dll.config
+E:\RajuKatare\LoveJourney\LoveJourneyCode\LoveJourneySolution\HotelAPILayer\bin\Debug\HotelAPILayer.dll
+E:\RajuKatare\LoveJourney\LoveJourneyCode\LoveJourneySolution\HotelAPILayer\bin\Debug\HotelAPILayer.pdb
+E:\RajuKatare\LoveJourney\LoveJourneyCode\LoveJourneySolution\HotelAPILayer\obj\Debug\HotelAPILayer.dll
+E:\RajuKatare\LoveJourney\LoveJourneyCode\LoveJourneySolution\HotelAPILayer\obj\Debug\HotelAPILayer.pdb
+D:\Rajini Projetcs\Main Projects\vss_LoveJourney\LoveJourneyCode\LoveJourneySolution\HotelAPILayer\bin\Debug\HotelAPILayer.dll.config
+D:\Rajini Projetcs\Main Projects\vss_LoveJourney\LoveJourneyCode\LoveJourneySolution\HotelAPILayer\bin\Debug\HotelAPILayer.dll
+D:\Rajini Projetcs\Main Projects\vss_LoveJourney\LoveJourneyCode\LoveJourneySolution\HotelAPILayer\bin\Debug\HotelAPILayer.pdb
+D:\Rajini Projetcs\Main Projects\vss_LoveJourney\LoveJourneyCode\LoveJourneySolution\HotelAPILayer\obj\Debug\ResolveAssemblyReference.cache
+D:\Rajini Projetcs\Main Projects\vss_LoveJourney\LoveJourneyCode\LoveJourneySolution\HotelAPILayer\obj\Debug\HotelAPILayer.dll
+D:\Rajini Projetcs\Main Projects\vss_LoveJourney\LoveJourneyCode\LoveJourneySolution\HotelAPILayer\obj\Debug\HotelAPILayer.pdb
+E:\LoveJourney\LoveJourneySolution\HotelAPILayer\bin\Debug\HotelAPILayer.dll.config
+E:\LoveJourney\LoveJourneySolution\HotelAPILayer\bin\Debug\HotelAPILayer.dll
+E:\LoveJourney\LoveJourneySolution\HotelAPILayer\bin\Debug\HotelAPILayer.pdb
+E:\LoveJourney\LoveJourneySolution\HotelAPILayer\obj\Debug\ResolveAssemblyReference.cache
+E:\LoveJourney\LoveJourneySolution\HotelAPILayer\obj\Debug\HotelAPILayer.dll
+E:\LoveJourney\LoveJourneySolution\HotelAPILayer\obj\Debug\HotelAPILayer.pdb
+G:\Ravikanth_Projects\LoveJourney\LoveJourneySolution\HotelAPILayer\bin\Debug\HotelAPILayer.dll.config
+G:\Ravikanth_Projects\LoveJourney\LoveJourneySolution\HotelAPILayer\bin\Debug\HotelAPILayer.dll
+G:\Ravikanth_Projects\LoveJourney\LoveJourneySolution\HotelAPILayer\bin\Debug\HotelAPILayer.pdb
+G:\Ravikanth_Projects\LoveJourney\LoveJourneySolution\HotelAPILayer\bin\Debug\I2S.CLB.DTO.dll
+G:\Ravikanth_Projects\LoveJourney\LoveJourneySolution\HotelAPILayer\bin\Debug\I2S.CLB.DTO.pdb
+G:\Ravikanth_Projects\LoveJourney\LoveJourneySolution\HotelAPILayer\obj\Debug\ResolveAssemblyReference.cache
+G:\Ravikanth_Projects\LoveJourney\LoveJourneySolution\HotelAPILayer\obj\Debug\HotelAPILayer.dll
+G:\Ravikanth_Projects\LoveJourney\LoveJourneySolution\HotelAPILayer\obj\Debug\HotelAPILayer.pdb
+E:\LoveJourney\Lovejourney_2013-02-04\HotelAPILayer\bin\Debug\HotelAPILayer.dll.config
+E:\LoveJourney\Lovejourney_2013-02-04\HotelAPILayer\bin\Debug\HotelAPILayer.dll
+E:\LoveJourney\Lovejourney_2013-02-04\HotelAPILayer\bin\Debug\HotelAPILayer.pdb
+E:\LoveJourney\Lovejourney_2013-02-04\HotelAPILayer\bin\Debug\I2S.CLB.DTO.dll
+E:\LoveJourney\Lovejourney_2013-02-04\HotelAPILayer\bin\Debug\I2S.CLB.DTO.pdb
+E:\LoveJourney\Lovejourney_2013-02-04\HotelAPILayer\obj\Debug\ResolveAssemblyReference.cache
+E:\LoveJourney\Lovejourney_2013-02-04\HotelAPILayer\obj\Debug\HotelAPILayer.dll
+E:\LoveJourney\Lovejourney_2013-02-04\HotelAPILayer\obj\Debug\HotelAPILayer.pdb
+E:\LoveJourney\Lovejourney_2013-02-06\HotelAPILayer\bin\Debug\HotelAPILayer.dll.config
+E:\LoveJourney\Lovejourney_2013-02-06\HotelAPILayer\bin\Debug\HotelAPILayer.dll
+E:\LoveJourney\Lovejourney_2013-02-06\HotelAPILayer\bin\Debug\HotelAPILayer.pdb
+E:\LoveJourney\Lovejourney_2013-02-06\HotelAPILayer\bin\Debug\I2S.CLB.DTO.dll
+E:\LoveJourney\Lovejourney_2013-02-06\HotelAPILayer\bin\Debug\I2S.CLB.DTO.pdb
+E:\LoveJourney\Lovejourney_2013-02-06\HotelAPILayer\obj\Debug\ResolveAssemblyReference.cache
+E:\LoveJourney\Lovejourney_2013-02-06\HotelAPILayer\obj\Debug\HotelAPILayer.dll
+E:\LoveJourney\Lovejourney_2013-02-06\HotelAPILayer\obj\Debug\HotelAPILayer.pdb
+E:\LoveJourneyDesignedPages(2013-02-07)\HotelAPILayer\bin\Debug\HotelAPILayer.dll.config
+E:\LoveJourneyDesignedPages(2013-02-07)\HotelAPILayer\bin\Debug\HotelAPILayer.dll
+E:\LoveJourneyDesignedPages(2013-02-07)\HotelAPILayer\bin\Debug\HotelAPILayer.pdb
+E:\LoveJourneyDesignedPages(2013-02-07)\HotelAPILayer\bin\Debug\I2S.CLB.DTO.dll
+E:\LoveJourneyDesignedPages(2013-02-07)\HotelAPILayer\bin\Debug\I2S.CLB.DTO.pdb
+E:\LoveJourneyDesignedPages(2013-02-07)\HotelAPILayer\obj\Debug\ResolveAssemblyReference.cache
+E:\LoveJourneyDesignedPages(2013-02-07)\HotelAPILayer\obj\Debug\HotelAPILayer.dll
+E:\LoveJourneyDesignedPages(2013-02-07)\HotelAPILayer\obj\Debug\HotelAPILayer.pdb
+E:\LoveJourneyDesignedPages(2013-02-08)\HotelAPILayer\bin\Debug\HotelAPILayer.dll.config
+E:\LoveJourneyDesignedPages(2013-02-08)\HotelAPILayer\bin\Debug\HotelAPILayer.dll
+E:\LoveJourneyDesignedPages(2013-02-08)\HotelAPILayer\bin\Debug\HotelAPILayer.pdb
+E:\LoveJourneyDesignedPages(2013-02-08)\HotelAPILayer\bin\Debug\I2S.CLB.DTO.dll
+E:\LoveJourneyDesignedPages(2013-02-08)\HotelAPILayer\bin\Debug\I2S.CLB.DTO.pdb
+E:\LoveJourneyDesignedPages(2013-02-08)\HotelAPILayer\obj\Debug\ResolveAssemblyReference.cache
+E:\LoveJourneyDesignedPages(2013-02-08)\HotelAPILayer\obj\Debug\HotelAPILayer.dll
+E:\LoveJourneyDesignedPages(2013-02-08)\HotelAPILayer\obj\Debug\HotelAPILayer.pdb
+E:\LoveJourneyDesignedPages(2013-02-12)\HotelAPILayer\bin\Debug\HotelAPILayer.dll.config
+E:\LoveJourneyDesignedPages(2013-02-12)\HotelAPILayer\bin\Debug\HotelAPILayer.dll
+E:\LoveJourneyDesignedPages(2013-02-12)\HotelAPILayer\bin\Debug\HotelAPILayer.pdb
+E:\LoveJourneyDesignedPages(2013-02-12)\HotelAPILayer\bin\Debug\I2S.CLB.DTO.dll
+E:\LoveJourneyDesignedPages(2013-02-12)\HotelAPILayer\bin\Debug\I2S.CLB.DTO.pdb
+E:\LoveJourneyDesignedPages(2013-02-12)\HotelAPILayer\obj\Debug\ResolveAssemblyReference.cache
+E:\LoveJourneyDesignedPages(2013-02-12)\HotelAPILayer\obj\Debug\HotelAPILayer.dll
+E:\LoveJourneyDesignedPages(2013-02-12)\HotelAPILayer\obj\Debug\HotelAPILayer.pdb
+E:\LoveJourneyDesignedPages(2013-02-16)\HotelAPILayer\bin\Debug\HotelAPILayer.dll.config
+E:\LoveJourneyDesignedPages(2013-02-16)\HotelAPILayer\bin\Debug\HotelAPILayer.dll
+E:\LoveJourneyDesignedPages(2013-02-16)\HotelAPILayer\bin\Debug\HotelAPILayer.pdb
+E:\LoveJourneyDesignedPages(2013-02-16)\HotelAPILayer\bin\Debug\I2S.CLB.DTO.dll
+E:\LoveJourneyDesignedPages(2013-02-16)\HotelAPILayer\bin\Debug\I2S.CLB.DTO.pdb
+E:\LoveJourneyDesignedPages(2013-02-16)\HotelAPILayer\obj\Debug\ResolveAssemblyReference.cache
+E:\LoveJourneyDesignedPages(2013-02-16)\HotelAPILayer\obj\Debug\HotelAPILayer.dll
+E:\LoveJourneyDesignedPages(2013-02-16)\HotelAPILayer\obj\Debug\HotelAPILayer.pdb
+G:\Ravikanth_Projects\LoveJourneySolution(2013-02-19)\HotelAPILayer\bin\Debug\HotelAPILayer.dll.config
+G:\Ravikanth_Projects\LoveJourneySolution(2013-02-19)\HotelAPILayer\bin\Debug\HotelAPILayer.dll
+G:\Ravikanth_Projects\LoveJourneySolution(2013-02-19)\HotelAPILayer\bin\Debug\HotelAPILayer.pdb
+G:\Ravikanth_Projects\LoveJourneySolution(2013-02-19)\HotelAPILayer\bin\Debug\I2S.CLB.DTO.dll
+G:\Ravikanth_Projects\LoveJourneySolution(2013-02-19)\HotelAPILayer\bin\Debug\I2S.CLB.DTO.pdb
+G:\Ravikanth_Projects\LoveJourneySolution(2013-02-19)\HotelAPILayer\obj\Debug\ResolveAssemblyReference.cache
+G:\Ravikanth_Projects\LoveJourneySolution(2013-02-19)\HotelAPILayer\obj\Debug\HotelAPILayer.dll
+G:\Ravikanth_Projects\LoveJourneySolution(2013-02-19)\HotelAPILayer\obj\Debug\HotelAPILayer.pdb
+G:\LoveJourneySolution(2013-02-21)FinalUpdate\HotelAPILayer\bin\Debug\HotelAPILayer.dll.config
+G:\LoveJourneySolution(2013-02-21)FinalUpdate\HotelAPILayer\bin\Debug\HotelAPILayer.dll
+G:\LoveJourneySolution(2013-02-21)FinalUpdate\HotelAPILayer\bin\Debug\HotelAPILayer.pdb
+G:\LoveJourneySolution(2013-02-21)FinalUpdate\HotelAPILayer\bin\Debug\I2S.CLB.DTO.dll
+G:\LoveJourneySolution(2013-02-21)FinalUpdate\HotelAPILayer\bin\Debug\I2S.CLB.DTO.pdb
+G:\LoveJourneySolution(2013-02-21)FinalUpdate\HotelAPILayer\obj\Debug\ResolveAssemblyReference.cache
+G:\LoveJourneySolution(2013-02-21)FinalUpdate\HotelAPILayer\obj\Debug\HotelAPILayer.dll
+G:\LoveJourneySolution(2013-02-21)FinalUpdate\HotelAPILayer\obj\Debug\HotelAPILayer.pdb
+H:\LoveJourney\LoveJourneySolution(2013-02-21)FinalUpdate\HotelAPILayer\bin\Debug\HotelAPILayer.dll.config
+H:\LoveJourney\LoveJourneySolution(2013-02-21)FinalUpdate\HotelAPILayer\bin\Debug\HotelAPILayer.dll
+H:\LoveJourney\LoveJourneySolution(2013-02-21)FinalUpdate\HotelAPILayer\bin\Debug\HotelAPILayer.pdb
+H:\LoveJourney\LoveJourneySolution(2013-02-21)FinalUpdate\HotelAPILayer\bin\Debug\I2S.CLB.DTO.dll
+H:\LoveJourney\LoveJourneySolution(2013-02-21)FinalUpdate\HotelAPILayer\bin\Debug\I2S.CLB.DTO.pdb
+H:\LoveJourney\LoveJourneySolution(2013-02-21)FinalUpdate\HotelAPILayer\obj\Debug\ResolveAssemblyReference.cache
+H:\LoveJourney\LoveJourneySolution(2013-02-21)FinalUpdate\HotelAPILayer\obj\Debug\HotelAPILayer.dll
+H:\LoveJourney\LoveJourneySolution(2013-02-21)FinalUpdate\HotelAPILayer\obj\Debug\HotelAPILayer.pdb
+E:\LoveJourneySolution(2013-02-21)FinalUpdate\HotelAPILayer\bin\Debug\HotelAPILayer.dll.config
+E:\LoveJourneySolution(2013-02-21)FinalUpdate\HotelAPILayer\bin\Debug\HotelAPILayer.dll
+E:\LoveJourneySolution(2013-02-21)FinalUpdate\HotelAPILayer\bin\Debug\HotelAPILayer.pdb
+E:\LoveJourneySolution(2013-02-21)FinalUpdate\HotelAPILayer\bin\Debug\I2S.CLB.DTO.dll
+E:\LoveJourneySolution(2013-02-21)FinalUpdate\HotelAPILayer\bin\Debug\I2S.CLB.DTO.pdb
+E:\LoveJourneySolution(2013-02-21)FinalUpdate\HotelAPILayer\obj\Debug\ResolveAssemblyReference.cache
+E:\LoveJourneySolution(2013-02-21)FinalUpdate\HotelAPILayer\obj\Debug\HotelAPILayer.dll
+E:\LoveJourneySolution(2013-02-21)FinalUpdate\HotelAPILayer\obj\Debug\HotelAPILayer.pdb
+G:\25-02-2013\LoveJourneySolution(2013-02-21)FinalUpdate\HotelAPILayer\bin\Debug\HotelAPILayer.dll.config
+G:\25-02-2013\LoveJourneySolution(2013-02-21)FinalUpdate\HotelAPILayer\bin\Debug\HotelAPILayer.dll
+G:\25-02-2013\LoveJourneySolution(2013-02-21)FinalUpdate\HotelAPILayer\bin\Debug\HotelAPILayer.pdb
+G:\25-02-2013\LoveJourneySolution(2013-02-21)FinalUpdate\HotelAPILayer\bin\Debug\I2S.CLB.DTO.dll
+G:\25-02-2013\LoveJourneySolution(2013-02-21)FinalUpdate\HotelAPILayer\bin\Debug\I2S.CLB.DTO.pdb
+G:\25-02-2013\LoveJourneySolution(2013-02-21)FinalUpdate\HotelAPILayer\obj\Debug\ResolveAssemblyReference.cache
+G:\25-02-2013\LoveJourneySolution(2013-02-21)FinalUpdate\HotelAPILayer\obj\Debug\HotelAPILayer.dll
+G:\25-02-2013\LoveJourneySolution(2013-02-21)FinalUpdate\HotelAPILayer\obj\Debug\HotelAPILayer.pdb
+G:\25-02-2013\LoveJourneySolution(2013-02-25)FinalUpdate\HotelAPILayer\bin\Debug\HotelAPILayer.dll.config
+G:\25-02-2013\LoveJourneySolution(2013-02-25)FinalUpdate\HotelAPILayer\bin\Debug\HotelAPILayer.dll
+G:\25-02-2013\LoveJourneySolution(2013-02-25)FinalUpdate\HotelAPILayer\bin\Debug\HotelAPILayer.pdb
+G:\25-02-2013\LoveJourneySolution(2013-02-25)FinalUpdate\HotelAPILayer\bin\Debug\I2S.CLB.DTO.dll
+G:\25-02-2013\LoveJourneySolution(2013-02-25)FinalUpdate\HotelAPILayer\bin\Debug\I2S.CLB.DTO.pdb
+G:\25-02-2013\LoveJourneySolution(2013-02-25)FinalUpdate\HotelAPILayer\obj\Debug\ResolveAssemblyReference.cache
+G:\25-02-2013\LoveJourneySolution(2013-02-25)FinalUpdate\HotelAPILayer\obj\Debug\HotelAPILayer.dll
+G:\25-02-2013\LoveJourneySolution(2013-02-25)FinalUpdate\HotelAPILayer\obj\Debug\HotelAPILayer.pdb
+E:\March2\LoveJourneySolution(2013-02-26)FinalUpdate\HotelAPILayer\bin\Debug\HotelAPILayer.dll.config
+E:\March2\LoveJourneySolution(2013-02-26)FinalUpdate\HotelAPILayer\bin\Debug\HotelAPILayer.dll
+E:\March2\LoveJourneySolution(2013-02-26)FinalUpdate\HotelAPILayer\bin\Debug\HotelAPILayer.pdb
+E:\March2\LoveJourneySolution(2013-02-26)FinalUpdate\HotelAPILayer\bin\Debug\I2S.CLB.DTO.dll
+E:\March2\LoveJourneySolution(2013-02-26)FinalUpdate\HotelAPILayer\bin\Debug\I2S.CLB.DTO.pdb
+E:\March2\LoveJourneySolution(2013-02-26)FinalUpdate\HotelAPILayer\obj\Debug\ResolveAssemblyReference.cache
+E:\March2\LoveJourneySolution(2013-02-26)FinalUpdate\HotelAPILayer\obj\Debug\HotelAPILayer.dll
+E:\March2\LoveJourneySolution(2013-02-26)FinalUpdate\HotelAPILayer\obj\Debug\HotelAPILayer.pdb
+E:\LoveJourneySolution(2013-03-16)FinalUpdate\HotelAPILayer\bin\Debug\HotelAPILayer.dll.config
+E:\LoveJourneySolution(2013-03-16)FinalUpdate\HotelAPILayer\bin\Debug\HotelAPILayer.dll
+E:\LoveJourneySolution(2013-03-16)FinalUpdate\HotelAPILayer\bin\Debug\HotelAPILayer.pdb
+E:\LoveJourneySolution(2013-03-16)FinalUpdate\HotelAPILayer\bin\Debug\I2S.CLB.DTO.dll
+E:\LoveJourneySolution(2013-03-16)FinalUpdate\HotelAPILayer\bin\Debug\I2S.CLB.DTO.pdb
+E:\LoveJourneySolution(2013-03-16)FinalUpdate\HotelAPILayer\obj\Debug\ResolveAssemblyReference.cache
+E:\LoveJourneySolution(2013-03-16)FinalUpdate\HotelAPILayer\obj\Debug\HotelAPILayer.dll
+E:\LoveJourneySolution(2013-03-16)FinalUpdate\HotelAPILayer\obj\Debug\HotelAPILayer.pdb
+E:\LoveJourneySolution(2013-03-19)FinalUpdate\HotelAPILayer\bin\Debug\HotelAPILayer.dll.config
+E:\LoveJourneySolution(2013-03-19)FinalUpdate\HotelAPILayer\bin\Debug\HotelAPILayer.dll
+E:\LoveJourneySolution(2013-03-19)FinalUpdate\HotelAPILayer\bin\Debug\HotelAPILayer.pdb
+E:\LoveJourneySolution(2013-03-19)FinalUpdate\HotelAPILayer\bin\Debug\I2S.CLB.DTO.dll
+E:\LoveJourneySolution(2013-03-19)FinalUpdate\HotelAPILayer\bin\Debug\I2S.CLB.DTO.pdb
+E:\LoveJourneySolution(2013-03-19)FinalUpdate\HotelAPILayer\obj\Debug\ResolveAssemblyReference.cache
+E:\LoveJourneySolution(2013-03-19)FinalUpdate\HotelAPILayer\obj\Debug\HotelAPILayer.dll
+E:\LoveJourneySolution(2013-03-19)FinalUpdate\HotelAPILayer\obj\Debug\HotelAPILayer.pdb
+E:\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\HotelAPILayer\bin\Debug\HotelAPILayer.dll.config
+E:\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\HotelAPILayer\bin\Debug\HotelAPILayer.dll
+E:\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\HotelAPILayer\bin\Debug\HotelAPILayer.pdb
+E:\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\HotelAPILayer\bin\Debug\I2S.CLB.DTO.dll
+E:\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\HotelAPILayer\bin\Debug\I2S.CLB.DTO.pdb
+E:\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\HotelAPILayer\obj\Debug\ResolveAssemblyReference.cache
+E:\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\HotelAPILayer\obj\Debug\HotelAPILayer.dll
+E:\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\HotelAPILayer\obj\Debug\HotelAPILayer.pdb
+F:\H\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\HotelAPILayer\bin\Debug\HotelAPILayer.dll.config
+F:\H\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\HotelAPILayer\bin\Debug\HotelAPILayer.dll
+F:\H\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\HotelAPILayer\bin\Debug\HotelAPILayer.pdb
+F:\H\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\HotelAPILayer\bin\Debug\I2S.CLB.DTO.dll
+F:\H\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\HotelAPILayer\bin\Debug\I2S.CLB.DTO.pdb
+F:\H\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\HotelAPILayer\obj\Debug\ResolveAssemblyReference.cache
+F:\H\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\HotelAPILayer\obj\Debug\HotelAPILayer.dll
+F:\H\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\HotelAPILayer\obj\Debug\HotelAPILayer.pdb
+G:\LoveJourneySolution(6 april 2013 )FinalUpdate\HotelAPILayer\bin\Debug\HotelAPILayer.dll.config
+G:\LoveJourneySolution(6 april 2013 )FinalUpdate\HotelAPILayer\bin\Debug\HotelAPILayer.dll
+G:\LoveJourneySolution(6 april 2013 )FinalUpdate\HotelAPILayer\bin\Debug\HotelAPILayer.pdb
+G:\LoveJourneySolution(6 april 2013 )FinalUpdate\HotelAPILayer\bin\Debug\I2S.CLB.DTO.dll
+G:\LoveJourneySolution(6 april 2013 )FinalUpdate\HotelAPILayer\bin\Debug\I2S.CLB.DTO.pdb
+G:\LoveJourneySolution(6 april 2013 )FinalUpdate\HotelAPILayer\obj\Debug\ResolveAssemblyReference.cache
+G:\LoveJourneySolution(6 april 2013 )FinalUpdate\HotelAPILayer\obj\Debug\HotelAPILayer.dll
+G:\LoveJourneySolution(6 april 2013 )FinalUpdate\HotelAPILayer\obj\Debug\HotelAPILayer.pdb
+G:\LoveJourneySolution(8 april 2013 )FinalUpdate\HotelAPILayer\bin\Debug\HotelAPILayer.dll.config
+G:\LoveJourneySolution(8 april 2013 )FinalUpdate\HotelAPILayer\bin\Debug\HotelAPILayer.dll
+G:\LoveJourneySolution(8 april 2013 )FinalUpdate\HotelAPILayer\bin\Debug\HotelAPILayer.pdb
+G:\LoveJourneySolution(8 april 2013 )FinalUpdate\HotelAPILayer\bin\Debug\I2S.CLB.DTO.dll
+G:\LoveJourneySolution(8 april 2013 )FinalUpdate\HotelAPILayer\bin\Debug\I2S.CLB.DTO.pdb
+G:\LoveJourneySolution(8 april 2013 )FinalUpdate\HotelAPILayer\obj\Debug\ResolveAssemblyReference.cache
+G:\LoveJourneySolution(8 april 2013 )FinalUpdate\HotelAPILayer\obj\Debug\HotelAPILayer.dll
+G:\LoveJourneySolution(8 april 2013 )FinalUpdate\HotelAPILayer\obj\Debug\HotelAPILayer.pdb
+G:\LoveJourneySolution(10 april 2013 )FinalUpdate\HotelAPILayer\bin\Debug\HotelAPILayer.dll.config
+G:\LoveJourneySolution(10 april 2013 )FinalUpdate\HotelAPILayer\bin\Debug\HotelAPILayer.dll
+G:\LoveJourneySolution(10 april 2013 )FinalUpdate\HotelAPILayer\bin\Debug\HotelAPILayer.pdb
+G:\LoveJourneySolution(10 april 2013 )FinalUpdate\HotelAPILayer\bin\Debug\I2S.CLB.DTO.dll
+G:\LoveJourneySolution(10 april 2013 )FinalUpdate\HotelAPILayer\bin\Debug\I2S.CLB.DTO.pdb
+G:\LoveJourneySolution(10 april 2013 )FinalUpdate\HotelAPILayer\obj\Debug\ResolveAssemblyReference.cache
+G:\LoveJourneySolution(10 april 2013 )FinalUpdate\HotelAPILayer\obj\Debug\HotelAPILayer.dll
+G:\LoveJourneySolution(10 april 2013 )FinalUpdate\HotelAPILayer\obj\Debug\HotelAPILayer.pdb
+F:\H\14-4-2013\LoveJourneySolution(13 april 2013 )FinalUpdate\HotelAPILayer\bin\Debug\HotelAPILayer.dll.config
+F:\H\14-4-2013\LoveJourneySolution(13 april 2013 )FinalUpdate\HotelAPILayer\bin\Debug\HotelAPILayer.dll
+F:\H\14-4-2013\LoveJourneySolution(13 april 2013 )FinalUpdate\HotelAPILayer\bin\Debug\HotelAPILayer.pdb
+F:\H\14-4-2013\LoveJourneySolution(13 april 2013 )FinalUpdate\HotelAPILayer\bin\Debug\I2S.CLB.DTO.dll
+F:\H\14-4-2013\LoveJourneySolution(13 april 2013 )FinalUpdate\HotelAPILayer\bin\Debug\I2S.CLB.DTO.pdb
+F:\H\14-4-2013\LoveJourneySolution(13 april 2013 )FinalUpdate\HotelAPILayer\obj\Debug\ResolveAssemblyReference.cache
+F:\H\14-4-2013\LoveJourneySolution(13 april 2013 )FinalUpdate\HotelAPILayer\obj\Debug\HotelAPILayer.dll
+F:\H\14-4-2013\LoveJourneySolution(13 april 2013 )FinalUpdate\HotelAPILayer\obj\Debug\HotelAPILayer.pdb
+G:\LoveJourneySolution(13 april 2013 )FinalUpdate\HotelAPILayer\bin\Debug\HotelAPILayer.dll.config
+G:\LoveJourneySolution(13 april 2013 )FinalUpdate\HotelAPILayer\bin\Debug\HotelAPILayer.dll
+G:\LoveJourneySolution(13 april 2013 )FinalUpdate\HotelAPILayer\bin\Debug\HotelAPILayer.pdb
+G:\LoveJourneySolution(13 april 2013 )FinalUpdate\HotelAPILayer\bin\Debug\I2S.CLB.DTO.dll
+G:\LoveJourneySolution(13 april 2013 )FinalUpdate\HotelAPILayer\bin\Debug\I2S.CLB.DTO.pdb
+G:\LoveJourneySolution(13 april 2013 )FinalUpdate\HotelAPILayer\obj\Debug\ResolveAssemblyReference.cache
+G:\LoveJourneySolution(13 april 2013 )FinalUpdate\HotelAPILayer\obj\Debug\HotelAPILayer.dll
+G:\LoveJourneySolution(13 april 2013 )FinalUpdate\HotelAPILayer\obj\Debug\HotelAPILayer.pdb
+G:\LoveJourneySolution(14 april 2013 )FinalUpdate\HotelAPILayer\bin\Debug\HotelAPILayer.dll.config
+G:\LoveJourneySolution(14 april 2013 )FinalUpdate\HotelAPILayer\bin\Debug\HotelAPILayer.dll
+G:\LoveJourneySolution(14 april 2013 )FinalUpdate\HotelAPILayer\bin\Debug\HotelAPILayer.pdb
+G:\LoveJourneySolution(14 april 2013 )FinalUpdate\HotelAPILayer\bin\Debug\I2S.CLB.DTO.dll
+G:\LoveJourneySolution(14 april 2013 )FinalUpdate\HotelAPILayer\bin\Debug\I2S.CLB.DTO.pdb
+G:\LoveJourneySolution(14 april 2013 )FinalUpdate\HotelAPILayer\obj\Debug\ResolveAssemblyReference.cache
+G:\LoveJourneySolution(14 april 2013 )FinalUpdate\HotelAPILayer\obj\Debug\HotelAPILayer.dll
+G:\LoveJourneySolution(14 april 2013 )FinalUpdate\HotelAPILayer\obj\Debug\HotelAPILayer.pdb
+G:\LoveJourneySolution(17 april 2013 )FinalUpdate\HotelAPILayer\bin\Debug\HotelAPILayer.dll.config
+G:\LoveJourneySolution(17 april 2013 )FinalUpdate\HotelAPILayer\bin\Debug\HotelAPILayer.dll
+G:\LoveJourneySolution(17 april 2013 )FinalUpdate\HotelAPILayer\bin\Debug\HotelAPILayer.pdb
+G:\LoveJourneySolution(17 april 2013 )FinalUpdate\HotelAPILayer\bin\Debug\I2S.CLB.DTO.dll
+G:\LoveJourneySolution(17 april 2013 )FinalUpdate\HotelAPILayer\bin\Debug\I2S.CLB.DTO.pdb
+G:\LoveJourneySolution(17 april 2013 )FinalUpdate\HotelAPILayer\obj\Debug\ResolveAssemblyReference.cache
+G:\LoveJourneySolution(17 april 2013 )FinalUpdate\HotelAPILayer\obj\Debug\HotelAPILayer.dll
+G:\LoveJourneySolution(17 april 2013 )FinalUpdate\HotelAPILayer\obj\Debug\HotelAPILayer.pdb
+G:\LoveJourneySolution(26 april 2013 )FinalUpdate\HotelAPILayer\bin\Debug\HotelAPILayer.dll.config
+G:\LoveJourneySolution(26 april 2013 )FinalUpdate\HotelAPILayer\bin\Debug\HotelAPILayer.dll
+G:\LoveJourneySolution(26 april 2013 )FinalUpdate\HotelAPILayer\bin\Debug\HotelAPILayer.pdb
+G:\LoveJourneySolution(26 april 2013 )FinalUpdate\HotelAPILayer\bin\Debug\I2S.CLB.DTO.dll
+G:\LoveJourneySolution(26 april 2013 )FinalUpdate\HotelAPILayer\bin\Debug\I2S.CLB.DTO.pdb
+G:\LoveJourneySolution(26 april 2013 )FinalUpdate\HotelAPILayer\obj\Debug\ResolveAssemblyReference.cache
+G:\LoveJourneySolution(26 april 2013 )FinalUpdate\HotelAPILayer\obj\Debug\HotelAPILayer.dll
+G:\LoveJourneySolution(26 april 2013 )FinalUpdate\HotelAPILayer\obj\Debug\HotelAPILayer.pdb
+F:\H\may 5 2013\LoveJourneySolution(05 may 2013 )FinalUpdate\HotelAPILayer\bin\Debug\HotelAPILayer.dll.config
+F:\H\may 5 2013\LoveJourneySolution(05 may 2013 )FinalUpdate\HotelAPILayer\bin\Debug\HotelAPILayer.dll
+F:\H\may 5 2013\LoveJourneySolution(05 may 2013 )FinalUpdate\HotelAPILayer\bin\Debug\HotelAPILayer.pdb
+F:\H\may 5 2013\LoveJourneySolution(05 may 2013 )FinalUpdate\HotelAPILayer\bin\Debug\I2S.CLB.DTO.dll
+F:\H\may 5 2013\LoveJourneySolution(05 may 2013 )FinalUpdate\HotelAPILayer\bin\Debug\I2S.CLB.DTO.pdb
+F:\H\may 5 2013\LoveJourneySolution(05 may 2013 )FinalUpdate\HotelAPILayer\obj\Debug\ResolveAssemblyReference.cache
+F:\H\may 5 2013\LoveJourneySolution(05 may 2013 )FinalUpdate\HotelAPILayer\obj\Debug\HotelAPILayer.dll
+F:\H\may 5 2013\LoveJourneySolution(05 may 2013 )FinalUpdate\HotelAPILayer\obj\Debug\HotelAPILayer.pdb
+D:\LoveJourney\Lovejournry6-5-2013\LoveJourneySolution(05 may 2013 )FinalUpdate\HotelAPILayer\bin\Debug\HotelAPILayer.dll.config
+D:\LoveJourney\Lovejournry6-5-2013\LoveJourneySolution(05 may 2013 )FinalUpdate\HotelAPILayer\bin\Debug\HotelAPILayer.dll
+D:\LoveJourney\Lovejournry6-5-2013\LoveJourneySolution(05 may 2013 )FinalUpdate\HotelAPILayer\bin\Debug\HotelAPILayer.pdb
+D:\LoveJourney\Lovejournry6-5-2013\LoveJourneySolution(05 may 2013 )FinalUpdate\HotelAPILayer\bin\Debug\I2S.CLB.DTO.dll
+D:\LoveJourney\Lovejournry6-5-2013\LoveJourneySolution(05 may 2013 )FinalUpdate\HotelAPILayer\bin\Debug\I2S.CLB.DTO.pdb
+D:\LoveJourney\Lovejournry6-5-2013\LoveJourneySolution(05 may 2013 )FinalUpdate\HotelAPILayer\obj\Debug\ResolveAssemblyReference.cache
+D:\LoveJourney\Lovejournry6-5-2013\LoveJourneySolution(05 may 2013 )FinalUpdate\HotelAPILayer\obj\Debug\HotelAPILayer.dll
+D:\LoveJourney\Lovejournry6-5-2013\LoveJourneySolution(05 may 2013 )FinalUpdate\HotelAPILayer\obj\Debug\HotelAPILayer.pdb
+D:\LoveJourney\LovejourneyBackup\13-may-2013_BeforeNewDesign\LoveJourneySolution(05 may 2013 )FinalUpdate\HotelAPILayer\bin\Debug\HotelAPILayer.dll.config
+D:\LoveJourney\LovejourneyBackup\13-may-2013_BeforeNewDesign\LoveJourneySolution(05 may 2013 )FinalUpdate\HotelAPILayer\bin\Debug\HotelAPILayer.dll
+D:\LoveJourney\LovejourneyBackup\13-may-2013_BeforeNewDesign\LoveJourneySolution(05 may 2013 )FinalUpdate\HotelAPILayer\bin\Debug\HotelAPILayer.pdb
+D:\LoveJourney\LovejourneyBackup\13-may-2013_BeforeNewDesign\LoveJourneySolution(05 may 2013 )FinalUpdate\HotelAPILayer\bin\Debug\I2S.CLB.DTO.dll
+D:\LoveJourney\LovejourneyBackup\13-may-2013_BeforeNewDesign\LoveJourneySolution(05 may 2013 )FinalUpdate\HotelAPILayer\bin\Debug\I2S.CLB.DTO.pdb
+D:\LoveJourney\LovejourneyBackup\13-may-2013_BeforeNewDesign\LoveJourneySolution(05 may 2013 )FinalUpdate\HotelAPILayer\obj\Debug\ResolveAssemblyReference.cache
+D:\LoveJourney\LovejourneyBackup\13-may-2013_BeforeNewDesign\LoveJourneySolution(05 may 2013 )FinalUpdate\HotelAPILayer\obj\Debug\HotelAPILayer.dll
+D:\LoveJourney\LovejourneyBackup\13-may-2013_BeforeNewDesign\LoveJourneySolution(05 may 2013 )FinalUpdate\HotelAPILayer\obj\Debug\HotelAPILayer.pdb
+D:\ljworking11jun\LoveJourney_Working\HotelAPILayer\bin\Debug\HotelAPILayer.dll.config
+D:\ljworking11jun\LoveJourney_Working\HotelAPILayer\bin\Debug\HotelAPILayer.dll
+D:\ljworking11jun\LoveJourney_Working\HotelAPILayer\bin\Debug\HotelAPILayer.pdb
+D:\ljworking11jun\LoveJourney_Working\HotelAPILayer\bin\Debug\I2S.CLB.DTO.dll
+D:\ljworking11jun\LoveJourney_Working\HotelAPILayer\bin\Debug\I2S.CLB.DTO.pdb
+D:\ljworking11jun\LoveJourney_Working\HotelAPILayer\obj\Debug\ResolveAssemblyReference.cache
+D:\ljworking11jun\LoveJourney_Working\HotelAPILayer\obj\Debug\HotelAPILayer.dll
+D:\ljworking11jun\LoveJourney_Working\HotelAPILayer\obj\Debug\HotelAPILayer.pdb
+D:\LoveJourney\LoveJourney_Working\HotelAPILayer\bin\Debug\HotelAPILayer.dll.config
+D:\LoveJourney\LoveJourney_Working\HotelAPILayer\bin\Debug\HotelAPILayer.dll
+D:\LoveJourney\LoveJourney_Working\HotelAPILayer\bin\Debug\HotelAPILayer.pdb
+D:\LoveJourney\LoveJourney_Working\HotelAPILayer\bin\Debug\I2S.CLB.DTO.dll
+D:\LoveJourney\LoveJourney_Working\HotelAPILayer\bin\Debug\I2S.CLB.DTO.pdb
+D:\LoveJourney\LoveJourney_Working\HotelAPILayer\obj\Debug\ResolveAssemblyReference.cache
+D:\LoveJourney\LoveJourney_Working\HotelAPILayer\obj\Debug\HotelAPILayer.dll
+D:\LoveJourney\LoveJourney_Working\HotelAPILayer\obj\Debug\HotelAPILayer.pdb

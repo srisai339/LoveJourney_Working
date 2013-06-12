@@ -1,0 +1,975 @@
+﻿
+
+#content
+{
+    margin: 0 auto !important;
+    text-align: left;
+    width: 1000px;
+    color: #333333;
+    font-family: "lucida grande" , tahoma, verdana, arial, sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+}
+#wrapper
+{
+    border: 1px Solid #DDEBF3;
+}
+
+#modifySearchBar
+{
+    width: 1000px;
+    border-top: 1px solid #E0E0E0;
+    text-align: left;
+    float: left;
+    background-color: #FAFAFA;
+}
+#modifySearchBar ul
+{
+    display: inline;
+}
+#modifySearchBar ul li
+{
+    float: left;
+    list-style-type: none;
+    padding: 5px 10px 5px 20px;
+    margin: 7px 0 7px 0;
+}
+#modifySearchBar ul li a
+{
+    color: #305AA0;
+    text-align: left;
+    font-weight: bold;
+    float: right;
+    cursor: pointer;
+}
+#modifySearchDetailswrapper
+{
+    width: 1000px;
+    border-top: 1px solid #E0E0E0;
+    text-align: left;
+    float: left;
+    background-color: #FAFAFA;
+}
+#modifySearchDetails
+{
+    width: 960px;
+}
+#modifySearchDetails ul
+{
+    display: inline;
+}
+#modifySearchDetails ul li
+{
+    float: left;
+    list-style-type: none;
+    background-color: #FAFAFA;
+    padding: 5px;
+    text-align: right;
+}
+#modifySearchDetails ul li select
+{
+    width: 200px;
+    float: left;
+}
+#modifySearchDetails ul li input
+{
+    width: 170px;
+    float: left;
+}
+#modifySearchDetails ul li.label
+{
+    width: 190px;
+    text-align: right;
+}
+
+#searchFilterBar
+{
+    width: 180px;
+    float: left;
+    text-align: left;
+    float: left;
+    background-color: #fff;
+}
+#searchFilterBar ul
+{
+    display: inline;
+}
+#searchFilterBar ul li
+{
+    list-style-type: none;
+}
+#searchFilterBar ul li select
+{
+    width: 200px;
+}
+#searchFilterBar ul li.seperator
+{
+    padding: 2px;
+    border-right: 2px solid #666;
+    border-left: 2px solid #666;
+    margin: 0 10px 0 10px;
+}
+
+#searchFilterBar1
+{
+    width: 130px;
+    float: left;
+    text-align: left;
+    float: left;
+    background-color: #fff;
+}
+#searchFilterBar1 ul
+{
+    display: inline;
+}
+#searchFilterBar1 ul li
+{
+    list-style-type: none;
+}
+#searchFilterBar1 ul li select
+{
+    width: 200px;
+}
+#searchFilterBar1 ul li.seperator
+{
+    padding: 2px;
+    border-right: 2px solid #666;
+    border-left: 2px solid #666;
+    margin: 0 10px 0 10px;
+}
+
+#searchFilterBar2
+{
+    width: 150px;
+    float: left;
+    text-align: left;
+    float: left;
+    background-color: #fff;
+}
+#searchFilterBar2 ul
+{
+    display: inline;
+}
+#searchFilterBar2 ul li
+{
+    list-style-type: none;
+}
+#searchFilterBar2 ul li select
+{
+    width: 200px;
+}
+#searchFilterBar2 ul li.seperator
+{
+    padding: 2px;
+    border-right: 2px solid #666;
+    border-left: 2px solid #666;
+    margin: 0 10px 0 10px;
+}
+
+
+
+
+
+#divBustype input
+{
+    margin: 5px;
+}
+#divBustype
+{
+    display: none;
+    background: #FAFAFA;
+    border: 1px solid #585858;
+    border-radius: 1px;
+    margin-top: 0px;
+    max-height: 200px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 5px;
+    position: absolute;
+    z-index:1;
+}
+#divBustype input
+{
+    margin: 5px;
+}
+
+
+ul.busfacilities
+{
+    width: 900px;
+    padding: 0px;
+  /*  border-top: 1px solid #E0E0E0;*/
+    float: left;
+}
+ul.busfacilities li
+{
+    display: inline;
+    cursor: text;
+    padding: 0px 3px 3px 2px;
+    font-size: 13px;
+    list-style-type: none;
+}
+ul.busfacilities li span, ul.busfacilities li input
+{
+    cursor: pointer;
+    vertical-align: top;
+    padding-top: 2px;
+}
+ul.busfacilities li label
+{
+    cursor: pointer;
+    text-decoration: underline;
+    float: right;
+}
+
+#divFilterTravels
+{
+    display: none;
+    background: #FAFAFA;
+    border: 1px solid #585858;
+    border-radius: 1px;
+    margin-top: 0px;
+    max-height: 200px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 5px;
+    position: absolute;
+    z-index:1;
+}
+#divFilterTravels input
+{
+    margin: 5px;
+}
+#divCabinClass
+{
+    display: none;
+    background: #FAFAFA;
+    border: 1px solid #585858;
+    border-radius: 1px;
+    margin-top: 13px;
+    max-height: 200px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 5px;
+    position: absolute;
+}
+#divCabinClass input
+{
+    margin: 5px;
+}
+
+.tblsearchSortBar
+{
+    height: 40px;
+    border-top: 1px solid #BCBCBC;
+    border-bottom: 2px solid #E0E0E0;
+    width: 1000px;
+    background-color: #F5F5F5;
+}
+#searchSortBar
+{
+    width: 1000px;
+    float: left;
+}
+
+.tblsearchSortBar th.srColTravels
+{
+    width: 230px;
+    padding: 5px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.srColTravels
+{
+    width: 230px;
+    padding: 5px;
+}
+.tblsearchSortBar th.srColBusType
+{
+    width: 230px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.srColBusType
+{
+    width: 230px;
+    padding: 5px;
+}
+.tblsearchSortBar th.srColDeparture, .srColDeparture
+{
+    width: 80px;
+    text-decoration: underline;
+    cursor: pointer;
+    text-align: center;
+}
+.srColDeparture:hover
+{
+    width: 80px;
+    text-decoration: none;
+    text-align: center;
+}
+.tblsearchSortBar th.srColArrival, .srColArrival
+{
+    width: 80px;
+    text-decoration: underline;
+    cursor: pointer;
+    text-align: center;
+}
+.srColArrival:hover
+{
+    width: 80px;
+    text-decoration: none;
+    text-align: center;
+}
+.tblsearchSortBar th.srColHours
+{
+    width: 80px;
+    text-decoration: underline;
+    cursor: pointer;
+    text-align: center;
+}
+.srColHours
+{
+    width: 80px;
+    text-align: center;
+}
+.tblsearchSortBar th.srColSeats
+{
+    width: 80px;
+    text-decoration: underline;
+    cursor: pointer;
+    text-align: center;
+}
+.srColSeats
+{
+    width: 80px;
+    text-align: center;
+}
+.tblsearchSortBar th.srColFare
+{
+    width: 150px;
+    text-decoration: underline;
+    cursor: pointer;
+    text-align: center;
+}
+.srColFare
+{
+    width: 150px;
+    text-align: center;
+}
+
+
+.dynamicSeatLayout
+{
+    border: 2px solid #D3D3D3;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px;
+    display: none;
+}
+#searchResults
+{
+    text-align: center;
+    float: left;
+    width: 1000px;
+    border: 2px dotted #DDEBF3;
+    border-top: none;
+}
+.loading
+{
+    border: 0px;
+    text-align: center;
+    margin: 30px;
+}
+
+
+/*DL, DT, DD TAGS LIST DATA*/
+dl.searchOptions
+{
+    margin: 0;
+    padding: 0;
+}
+dl.searchOptions dt
+{
+    font-size: 12px;
+    float: left;
+    text-align: right;
+    padding: 3px 8px 0px 0px;
+    width: 100px;
+    margin: 0px;
+}
+dl.searchOptions dd
+{
+    margin: 5px;
+    text-align: left;
+    font-size: 12px;
+}
+dl.searchOptions dd select
+{
+    width: 200px;
+    text-align: left;
+    font-size: 12px;
+    padding: 2px;
+}
+
+dl.boardingPoints
+{
+    width: 210px;
+    padding: 10px;
+    display: none;
+    position: absolute;
+    background: #f1f1f1;
+    border: 1px Solid Red;
+    border-radius: 2px;
+    text-align: left;
+    font-size: 11px;
+    color: #444;
+    margin: 0px;
+}
+dl.boardingPoints dt
+{
+    width: 140px;
+    float: left;
+    padding: 3px;
+}
+dl.boardingPoints dd
+{
+    padding: 3px;
+}
+dl.boardingPoints dt span
+{
+    font-size: 12px;
+}
+dl.boardingPoints dd span
+{
+    font-size: 12px;
+}
+
+
+dl.boardingPoints:after
+{
+    /*arrow added to seat_info DIV*/
+    content: '';
+    display: block;
+    position: absolute;
+    top: -20px; /*should be set to -border-width x 2 */
+    left: 30px;
+    width: 0;
+    height: 0;
+    border-color: transparent transparent #666 transparent; /*border color should be same as div div background color*/
+    border-style: solid;
+    border-width: 10px;
+    text-align: left;
+}
+
+/* text colors */
+.gap
+{
+    height: 2px;
+    border: 1px double #D3D3D3;
+    border-right-width: 0;
+    border-left-width: 0;
+}
+.alternaterowBG
+{
+    background-color: #F5F5F5;
+    text-align: left;
+    margin: 2px 0 2px 0;
+}
+.alternaterowBG:hover
+{
+    background-color: #D3DEEF;
+    text-align: left;
+    margin: 2px 0 2px 0;
+}
+.rowBG
+{
+    background-color: #FFF;
+    text-align: left;
+    margin: 2px 0 2px 0;
+}
+.rowBG:hover
+{
+    background-color: #D3DEEF;
+    text-align: left;
+    margin: 2px 0 2px 0;
+}
+.floatRight
+{
+    float: right;
+}
+.floatLeft
+{
+    float: left;
+}
+.grayText
+{
+    color: #7F7F7F;
+    text-align: left;
+}
+.blueText
+{
+    color: #305AA0;
+    text-align: left;
+}
+.redText
+{
+    color: #FF3334;
+    text-align: left;
+}
+.blackText
+{
+    color: #000;
+    text-align: left;
+}
+.bold
+{
+    font-weight: bold;
+}
+.hidden
+{
+    display: none;
+}
+.block
+{
+    display: block;
+}
+.pointer
+{
+    cursor: pointer;
+}
+.underline
+{
+    text-decoration: underline;
+}
+.datePicker
+{
+    width: 150px;
+}
+.bottom
+{
+    vertical-align: bottom;
+}
+.required
+{
+    vertical-align: top;
+    margin-right: 3px;
+    color: Red;
+}
+.button
+{
+    background-color: #4b6c9e;
+    border: 1px Solid #8497c0;
+    padding: 3px;
+    color: #FFF;
+    cursor: pointer;
+    margin: 10px;
+}
+
+
+/* AUTO COMPLETE TEXTBOX CSS - Uncomment if you want to override */
+.ui-autocomplete
+{
+    max-height: 200px;
+    overflow-y: auto; /* prevent horizontal scrollbar */
+    overflow-x: hidden;
+    text-align: left;
+}
+/* IE 6 doesn't support max-height     
+* we use height instead, but this forces the menu to always be this tall     */
+* html .ui-autocomplete
+{
+    height: 200px;
+    text-align: left;
+}
+/* DATE PICKER */
+.ui-widget
+{
+    font-size: 11px;
+}
+.ui-datepicker-trigger
+{
+    margin-left: 10px;
+    vertical-align: middle;
+}
+.ui-autocomplete
+{
+    max-height: 200px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+/* Seat layout */
+.empty_seat
+{
+    cursor: pointer;
+}
+.empty_bay
+{
+    cursor: pointer;
+    width: 17px;
+    height: 5px;
+}
+.empty_sleeper_h
+{
+    cursor: pointer;
+}
+.empty_sleeper_v
+{
+    cursor: pointer;
+}
+.available_seat
+{
+    background-position: 0 0;
+}
+.available_seat:hover
+{
+    background-position: -20px 0;
+}
+.available_sleeper_h
+{
+    background-position: -40px 0;
+}
+.available_sleeper_h:hover
+{
+    background-position: -80px 0;
+}
+.available_sleeper_v
+{
+    background-position: -124px 0;
+}
+.available_sleeper_v:hover
+{
+    background-position: -145px 0;
+}
+.availableladies_seat
+{
+    background-position: 0 -20px;
+}
+.availableladies_sleeper_h
+{
+    background-position: -212px -130px;
+}
+.availableladies_sleeper_h:hover
+{
+    background-position: -252px -130px;
+}
+.availableladies_sleeper_v
+{
+    background-position: -124px -40px;
+}
+.availableladies_sleeper_v:hover
+{
+    background-position: -145px -40px;
+}
+.booked_seat
+{
+    background-position: 0 -40px;
+}
+.booked_sleeper_h
+{
+    background-position: -40px -40px;
+}
+.booked_sleeper_v
+{
+    background-position: -167px 0;
+}
+.selected_seat
+{
+    background-position: 0 -60px;
+}
+.selected_sleeper_h
+{
+    background-position: -40px -60px;
+}
+.selected_sleeper_v
+{
+    background-position: -187px 0;
+}
+
+
+.empty_seat, .available_seat, .availableladies_seat, .booked_seat, .selected_seat
+{
+    width: 20px;
+    height: 20px;
+}
+.empty_sleeper_h, .available_sleeper_h, .availableladies_sleeper_h, .booked_sleeper_h, .selected_sleeper_h
+{
+    width: 40px;
+    height: 20px;
+    margin: 0 6px 0 6px !important;
+}
+.empty_sleeper_v, .available_sleeper_v, .availableladies_sleeper_v, .booked_sleeper_v, .selected_sleeper_v
+{
+    width: 20px;
+    height: 40px;
+    margin: 0 6px 0 6px !important;
+}
+
+.available_seat, .available_sleeper_h, .available_sleeper_v, .availableladies_seat, .availableladies_sleeper_h, .availableladies_sleeper_v, .booked_seat, .booked_sleeper_h, .booked_sleeper_v, .selected_seat, .selected_sleeper_h, .selected_sleeper_v
+{
+    background-image: url(../images/seatlayout.gif);
+    background-repeat: no-repeat;
+    display: block;
+    outline: medium none;
+    text-decoration: none;
+    text-indent: -9999px;
+}
+.selectedseats_info
+{
+    width: 100%;
+    font-size: 12px;
+    color: #333333;
+    font-weight: bold;
+    word-wrap: break-word;
+    -moz-border-radius: 2px; /*add some nice CSS3 round corners*/
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    padding: 5px;
+    background-color: #F5F5F5;
+    height: 20px;
+}
+.selectedseats_info span
+{
+    padding: 0 10px 0 10px;
+}
+
+#seat_info, #boardingpoint_info, #details_info, #details_infoRet
+{
+    display: none;
+    min-height: 40px; /*min height of DIV should be set to at least 2x the width of the arrow*/
+    border: 1px Solid #FF8C00;
+    font-size: 12px;
+    padding: 5px;
+    position: relative;
+    word-wrap: break-word;
+    -moz-border-radius: 5px; /*add some nice CSS3 round corners*/
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    margin-bottom: 2em;
+    background-color: #FFFFAA;
+}
+#seat_info:after, #details_info:after, #details_infoRet:after
+{
+    /*arrow added to seat_info DIV*/
+    content: '';
+    display: block;
+    position: absolute;
+    top: -20px; /*should be set to -border-width x 2 */
+    left: 30px;
+    width: 0;
+    height: 0;
+    border-color: transparent transparent #FF8C00 transparent; /*border color should be same as div div background color*/
+    border-style: solid;
+    border-width: 10px;
+    text-align: left;
+}
+
+#boardingpoint_info:after
+{
+    /*arrow added to leftarrowdiv DIV*/
+    content: '';
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: -20px; /*should be set to -border-width x 2 */
+    width: 0;
+    height: 0;
+    border-color: transparent #2E9AFE transparent transparent; /*border color should be same as div div background color*/
+    border-style: solid;
+    border-width: 10px;
+}
+span.upperLabel 
+{
+    background-image: url(../Images/seatlayout.gif); 
+    background-repeat: no-repeat; 
+    position:absolute;
+    background-position: -52px -129px;
+    height: 50px;
+    float: left; 
+    width: 20px;
+    border-width: 0px; 
+    margin: 1px 0 0 1px; 
+    z-index: -1000px;
+     padding-top:0px;
+}
+
+span.lowerLabel 
+{
+    background-image: url(../Images/seatlayout.gif); 
+    background-repeat: no-repeat; 
+    background-position: -23px -107px;
+    height: 55px;
+    float: left; 
+    width: 20px;
+    border-width: 0px; 
+    margin: 1px 0 0 1px; 
+    z-index: -1000px;
+    padding-top:0px;
+}
+span.steering
+{
+  background-image: url(../Images/seatlayout.gif); 
+    background-repeat: no-repeat; 
+    background-position: -21px -100px; 
+    width: 29px; 
+    height: 29px; 
+    
+    border-width: 0px; 
+    margin: 1px 0 0 1px; 
+    z-index: -1000px;
+}
+ul.seat_map
+{
+    margin: 3px;
+    margin-left: 30px;
+}
+
+ul.seat_map li
+{
+    list-style-type: none;
+    float: left;
+    margin: 3px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+ul.seat_map a
+{
+    color: #000000;
+    font-size: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    text-decoration: none;
+}
+.web_dialog_overlay
+{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: #000000;
+    opacity: .15;
+    filter: alpha(opacity=15);
+    -moz-opacity: .15;
+    z-index: 101;
+    display: none;
+}
+.cancellationpolicy
+{
+    display: none;
+    position: absolute;
+    background: #FFFFAA;
+    border: 1px Solid #FF8C00;
+    border-radius: 2px;
+    text-align: left;
+    font-size: 11px;
+    color: #444;
+    margin: 0px;
+    width: 500px;
+    z-index: 102;
+}
+.et_travel
+{
+      border: 1px solid #000000;
+    border-radius: 5px 5px 5px 5px;
+    height: 25px;
+    z-index:-1;
+    padding-top:5px;
+    
+  /*  height: 30px;
+    background: url(../images/travel.png) no-repeat left; */
+}
+
+.et_cabin
+{
+    /*  background: url(../images/cabin.png) no-repeat left; */
+    border: 1px solid #000000;
+    border-radius: 5px 5px 5px 5px;
+    height: 25px;
+    padding-top:5px;
+}
+.et_cabinagent
+{
+    /*  background: url(../images/cabin.png) no-repeat left; */
+    border: 1px solid #000000;
+    height: 25px;
+    padding-top:5px;
+   
+}
+
+
+/*For sbi*/
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #666666;
+    line-height: 18px;
+}
+.side
+{
+    padding: 0px 50px 50px 50px;
+    float: center;
+    border: 1px solid #666;
+}
+.Sb_branch
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #666666;
+    line-height: 18px;
+}
+.sbi_acc
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #666666;
+    padding: 2px;
+    text-align: center;
+    border-right: 1px solid #666;
+}
+.agent
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: #666666;
+    font-weight: bold;
+    line-height: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-right: 1px solid #666;
+    border-bottom: 1px solid #666;
+}
+.chaqu
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: #666666;
+    font-weight: bold;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #666;
+}
+.head
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #666;
+    font-weight: bold;
+    line-height: 18px;
+}

@@ -1,0 +1,370 @@
+E:\RajuKatare\LoveJourney\LoveJourneyCode\LoveJourneySolution\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll.config
+E:\RajuKatare\LoveJourney\LoveJourneyCode\LoveJourneySolution\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll
+E:\RajuKatare\LoveJourney\LoveJourneyCode\LoveJourneySolution\LoveJourneyAPILayer\bin\Debug\BusAPILayer.pdb
+E:\RajuKatare\LoveJourney\LoveJourneyCode\LoveJourneySolution\LoveJourneyAPILayer\bin\Debug\BAL.dll
+E:\RajuKatare\LoveJourney\LoveJourneyCode\LoveJourneySolution\LoveJourneyAPILayer\bin\Debug\CookComputing.XmlRpcV2.dll
+E:\RajuKatare\LoveJourney\LoveJourneyCode\LoveJourneySolution\LoveJourneyAPILayer\bin\Debug\DAL.dll
+E:\RajuKatare\LoveJourney\LoveJourneyCode\LoveJourneySolution\LoveJourneyAPILayer\bin\Debug\BAL.pdb
+E:\RajuKatare\LoveJourney\LoveJourneyCode\LoveJourneySolution\LoveJourneyAPILayer\bin\Debug\DAL.pdb
+E:\RajuKatare\LoveJourney\LoveJourneyCode\LoveJourneySolution\LoveJourneyAPILayer\obj\Debug\BusAPILayer.csprojResolveAssemblyReference.cache
+E:\RajuKatare\LoveJourney\LoveJourneyCode\LoveJourneySolution\LoveJourneyAPILayer\obj\Debug\BusAPILayer.dll
+E:\RajuKatare\LoveJourney\LoveJourneyCode\LoveJourneySolution\LoveJourneyAPILayer\obj\Debug\BusAPILayer.pdb
+D:\Rajini Projetcs\Main Projects\vss_LoveJourney\LoveJourneyCode\LoveJourneySolution\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll.config
+D:\Rajini Projetcs\Main Projects\vss_LoveJourney\LoveJourneyCode\LoveJourneySolution\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll
+D:\Rajini Projetcs\Main Projects\vss_LoveJourney\LoveJourneyCode\LoveJourneySolution\LoveJourneyAPILayer\bin\Debug\BusAPILayer.pdb
+D:\Rajini Projetcs\Main Projects\vss_LoveJourney\LoveJourneyCode\LoveJourneySolution\LoveJourneyAPILayer\bin\Debug\BAL.dll
+D:\Rajini Projetcs\Main Projects\vss_LoveJourney\LoveJourneyCode\LoveJourneySolution\LoveJourneyAPILayer\bin\Debug\CookComputing.XmlRpcV2.dll
+D:\Rajini Projetcs\Main Projects\vss_LoveJourney\LoveJourneyCode\LoveJourneySolution\LoveJourneyAPILayer\bin\Debug\DAL.dll
+D:\Rajini Projetcs\Main Projects\vss_LoveJourney\LoveJourneyCode\LoveJourneySolution\LoveJourneyAPILayer\bin\Debug\BAL.pdb
+D:\Rajini Projetcs\Main Projects\vss_LoveJourney\LoveJourneyCode\LoveJourneySolution\LoveJourneyAPILayer\bin\Debug\DAL.pdb
+D:\Rajini Projetcs\Main Projects\vss_LoveJourney\LoveJourneyCode\LoveJourneySolution\LoveJourneyAPILayer\obj\Debug\ResolveAssemblyReference.cache
+D:\Rajini Projetcs\Main Projects\vss_LoveJourney\LoveJourneyCode\LoveJourneySolution\LoveJourneyAPILayer\obj\Debug\BusAPILayer.dll
+D:\Rajini Projetcs\Main Projects\vss_LoveJourney\LoveJourneyCode\LoveJourneySolution\LoveJourneyAPILayer\obj\Debug\BusAPILayer.pdb
+E:\LoveJourney\LoveJourneySolution\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll.config
+E:\LoveJourney\LoveJourneySolution\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll
+E:\LoveJourney\LoveJourneySolution\LoveJourneyAPILayer\bin\Debug\BusAPILayer.pdb
+E:\LoveJourney\LoveJourneySolution\LoveJourneyAPILayer\bin\Debug\BAL.dll
+E:\LoveJourney\LoveJourneySolution\LoveJourneyAPILayer\bin\Debug\DAL.dll
+E:\LoveJourney\LoveJourneySolution\LoveJourneyAPILayer\bin\Debug\BAL.pdb
+E:\LoveJourney\LoveJourneySolution\LoveJourneyAPILayer\bin\Debug\DAL.pdb
+E:\LoveJourney\LoveJourneySolution\LoveJourneyAPILayer\obj\Debug\ResolveAssemblyReference.cache
+E:\LoveJourney\LoveJourneySolution\LoveJourneyAPILayer\obj\Debug\BusAPILayer.dll
+E:\LoveJourney\LoveJourneySolution\LoveJourneyAPILayer\obj\Debug\BusAPILayer.pdb
+G:\Ravikanth_Projects\LoveJourney\LoveJourneySolution\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll.config
+G:\Ravikanth_Projects\LoveJourney\LoveJourneySolution\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll
+G:\Ravikanth_Projects\LoveJourney\LoveJourneySolution\LoveJourneyAPILayer\bin\Debug\BusAPILayer.pdb
+G:\Ravikanth_Projects\LoveJourney\LoveJourneySolution\LoveJourneyAPILayer\bin\Debug\BAL.dll
+G:\Ravikanth_Projects\LoveJourney\LoveJourneySolution\LoveJourneyAPILayer\bin\Debug\DAL.dll
+G:\Ravikanth_Projects\LoveJourney\LoveJourneySolution\LoveJourneyAPILayer\bin\Debug\BAL.pdb
+G:\Ravikanth_Projects\LoveJourney\LoveJourneySolution\LoveJourneyAPILayer\bin\Debug\DAL.pdb
+G:\Ravikanth_Projects\LoveJourney\LoveJourneySolution\LoveJourneyAPILayer\obj\Debug\ResolveAssemblyReference.cache
+G:\Ravikanth_Projects\LoveJourney\LoveJourneySolution\LoveJourneyAPILayer\obj\Debug\BusAPILayer.dll
+G:\Ravikanth_Projects\LoveJourney\LoveJourneySolution\LoveJourneyAPILayer\obj\Debug\BusAPILayer.pdb
+E:\LoveJourney\Lovejourney_2013-02-04\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll.config
+E:\LoveJourney\Lovejourney_2013-02-04\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll
+E:\LoveJourney\Lovejourney_2013-02-04\LoveJourneyAPILayer\bin\Debug\BusAPILayer.pdb
+E:\LoveJourney\Lovejourney_2013-02-04\LoveJourneyAPILayer\bin\Debug\BAL.dll
+E:\LoveJourney\Lovejourney_2013-02-04\LoveJourneyAPILayer\bin\Debug\DAL.dll
+E:\LoveJourney\Lovejourney_2013-02-04\LoveJourneyAPILayer\bin\Debug\BAL.pdb
+E:\LoveJourney\Lovejourney_2013-02-04\LoveJourneyAPILayer\bin\Debug\DAL.pdb
+E:\LoveJourney\Lovejourney_2013-02-04\LoveJourneyAPILayer\obj\Debug\ResolveAssemblyReference.cache
+E:\LoveJourney\Lovejourney_2013-02-04\LoveJourneyAPILayer\obj\Debug\BusAPILayer.dll
+E:\LoveJourney\Lovejourney_2013-02-04\LoveJourneyAPILayer\obj\Debug\BusAPILayer.pdb
+E:\LoveJourney\Lovejourney_2013-02-06\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll.config
+E:\LoveJourney\Lovejourney_2013-02-06\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll
+E:\LoveJourney\Lovejourney_2013-02-06\LoveJourneyAPILayer\bin\Debug\BusAPILayer.pdb
+E:\LoveJourney\Lovejourney_2013-02-06\LoveJourneyAPILayer\bin\Debug\BAL.dll
+E:\LoveJourney\Lovejourney_2013-02-06\LoveJourneyAPILayer\bin\Debug\DAL.dll
+E:\LoveJourney\Lovejourney_2013-02-06\LoveJourneyAPILayer\bin\Debug\BAL.pdb
+E:\LoveJourney\Lovejourney_2013-02-06\LoveJourneyAPILayer\bin\Debug\DAL.pdb
+E:\LoveJourney\Lovejourney_2013-02-06\LoveJourneyAPILayer\obj\Debug\ResolveAssemblyReference.cache
+E:\LoveJourney\Lovejourney_2013-02-06\LoveJourneyAPILayer\obj\Debug\BusAPILayer.dll
+E:\LoveJourney\Lovejourney_2013-02-06\LoveJourneyAPILayer\obj\Debug\BusAPILayer.pdb
+E:\LoveJourneyDesignedPages(2013-02-07)\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll.config
+E:\LoveJourneyDesignedPages(2013-02-07)\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll
+E:\LoveJourneyDesignedPages(2013-02-07)\LoveJourneyAPILayer\bin\Debug\BusAPILayer.pdb
+E:\LoveJourneyDesignedPages(2013-02-07)\LoveJourneyAPILayer\bin\Debug\BAL.dll
+E:\LoveJourneyDesignedPages(2013-02-07)\LoveJourneyAPILayer\bin\Debug\CookComputing.XmlRpcV2.dll
+E:\LoveJourneyDesignedPages(2013-02-07)\LoveJourneyAPILayer\bin\Debug\DAL.dll
+E:\LoveJourneyDesignedPages(2013-02-07)\LoveJourneyAPILayer\bin\Debug\BAL.pdb
+E:\LoveJourneyDesignedPages(2013-02-07)\LoveJourneyAPILayer\bin\Debug\DAL.pdb
+E:\LoveJourneyDesignedPages(2013-02-07)\LoveJourneyAPILayer\obj\Debug\ResolveAssemblyReference.cache
+E:\LoveJourneyDesignedPages(2013-02-07)\LoveJourneyAPILayer\obj\Debug\BusAPILayer.dll
+E:\LoveJourneyDesignedPages(2013-02-07)\LoveJourneyAPILayer\obj\Debug\BusAPILayer.pdb
+E:\LoveJourneyDesignedPages(2013-02-08)\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll.config
+E:\LoveJourneyDesignedPages(2013-02-08)\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll
+E:\LoveJourneyDesignedPages(2013-02-08)\LoveJourneyAPILayer\bin\Debug\BusAPILayer.pdb
+E:\LoveJourneyDesignedPages(2013-02-08)\LoveJourneyAPILayer\bin\Debug\BAL.dll
+E:\LoveJourneyDesignedPages(2013-02-08)\LoveJourneyAPILayer\bin\Debug\CookComputing.XmlRpcV2.dll
+E:\LoveJourneyDesignedPages(2013-02-08)\LoveJourneyAPILayer\bin\Debug\DAL.dll
+E:\LoveJourneyDesignedPages(2013-02-08)\LoveJourneyAPILayer\bin\Debug\BAL.pdb
+E:\LoveJourneyDesignedPages(2013-02-08)\LoveJourneyAPILayer\bin\Debug\DAL.pdb
+E:\LoveJourneyDesignedPages(2013-02-08)\LoveJourneyAPILayer\obj\Debug\ResolveAssemblyReference.cache
+E:\LoveJourneyDesignedPages(2013-02-08)\LoveJourneyAPILayer\obj\Debug\BusAPILayer.dll
+E:\LoveJourneyDesignedPages(2013-02-08)\LoveJourneyAPILayer\obj\Debug\BusAPILayer.pdb
+E:\LoveJourneyDesignedPages(2013-02-12)\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll.config
+E:\LoveJourneyDesignedPages(2013-02-12)\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll
+E:\LoveJourneyDesignedPages(2013-02-12)\LoveJourneyAPILayer\bin\Debug\BusAPILayer.pdb
+E:\LoveJourneyDesignedPages(2013-02-12)\LoveJourneyAPILayer\bin\Debug\BAL.dll
+E:\LoveJourneyDesignedPages(2013-02-12)\LoveJourneyAPILayer\bin\Debug\CookComputing.XmlRpcV2.dll
+E:\LoveJourneyDesignedPages(2013-02-12)\LoveJourneyAPILayer\bin\Debug\DAL.dll
+E:\LoveJourneyDesignedPages(2013-02-12)\LoveJourneyAPILayer\bin\Debug\BAL.pdb
+E:\LoveJourneyDesignedPages(2013-02-12)\LoveJourneyAPILayer\bin\Debug\DAL.pdb
+E:\LoveJourneyDesignedPages(2013-02-12)\LoveJourneyAPILayer\obj\Debug\ResolveAssemblyReference.cache
+E:\LoveJourneyDesignedPages(2013-02-12)\LoveJourneyAPILayer\obj\Debug\BusAPILayer.dll
+E:\LoveJourneyDesignedPages(2013-02-12)\LoveJourneyAPILayer\obj\Debug\BusAPILayer.pdb
+E:\LoveJourneyDesignedPages(2013-02-16)\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll.config
+E:\LoveJourneyDesignedPages(2013-02-16)\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll
+E:\LoveJourneyDesignedPages(2013-02-16)\LoveJourneyAPILayer\bin\Debug\BusAPILayer.pdb
+E:\LoveJourneyDesignedPages(2013-02-16)\LoveJourneyAPILayer\bin\Debug\BAL.dll
+E:\LoveJourneyDesignedPages(2013-02-16)\LoveJourneyAPILayer\bin\Debug\CookComputing.XmlRpcV2.dll
+E:\LoveJourneyDesignedPages(2013-02-16)\LoveJourneyAPILayer\bin\Debug\DAL.dll
+E:\LoveJourneyDesignedPages(2013-02-16)\LoveJourneyAPILayer\bin\Debug\BAL.pdb
+E:\LoveJourneyDesignedPages(2013-02-16)\LoveJourneyAPILayer\bin\Debug\DAL.pdb
+E:\LoveJourneyDesignedPages(2013-02-16)\LoveJourneyAPILayer\obj\Debug\ResolveAssemblyReference.cache
+E:\LoveJourneyDesignedPages(2013-02-16)\LoveJourneyAPILayer\obj\Debug\BusAPILayer.dll
+E:\LoveJourneyDesignedPages(2013-02-16)\LoveJourneyAPILayer\obj\Debug\BusAPILayer.pdb
+G:\Ravikanth_Projects\LoveJourneySolution(2013-02-19)\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll.config
+G:\Ravikanth_Projects\LoveJourneySolution(2013-02-19)\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll
+G:\Ravikanth_Projects\LoveJourneySolution(2013-02-19)\LoveJourneyAPILayer\bin\Debug\BusAPILayer.pdb
+G:\Ravikanth_Projects\LoveJourneySolution(2013-02-19)\LoveJourneyAPILayer\bin\Debug\BAL.dll
+G:\Ravikanth_Projects\LoveJourneySolution(2013-02-19)\LoveJourneyAPILayer\bin\Debug\CookComputing.XmlRpcV2.dll
+G:\Ravikanth_Projects\LoveJourneySolution(2013-02-19)\LoveJourneyAPILayer\bin\Debug\DAL.dll
+G:\Ravikanth_Projects\LoveJourneySolution(2013-02-19)\LoveJourneyAPILayer\bin\Debug\BAL.pdb
+G:\Ravikanth_Projects\LoveJourneySolution(2013-02-19)\LoveJourneyAPILayer\bin\Debug\DAL.pdb
+G:\Ravikanth_Projects\LoveJourneySolution(2013-02-19)\LoveJourneyAPILayer\obj\Debug\ResolveAssemblyReference.cache
+G:\Ravikanth_Projects\LoveJourneySolution(2013-02-19)\LoveJourneyAPILayer\obj\Debug\BusAPILayer.dll
+G:\Ravikanth_Projects\LoveJourneySolution(2013-02-19)\LoveJourneyAPILayer\obj\Debug\BusAPILayer.pdb
+G:\LoveJourneySolution(2013-02-21)FinalUpdate\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll.config
+G:\LoveJourneySolution(2013-02-21)FinalUpdate\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll
+G:\LoveJourneySolution(2013-02-21)FinalUpdate\LoveJourneyAPILayer\bin\Debug\BusAPILayer.pdb
+G:\LoveJourneySolution(2013-02-21)FinalUpdate\LoveJourneyAPILayer\bin\Debug\BAL.dll
+G:\LoveJourneySolution(2013-02-21)FinalUpdate\LoveJourneyAPILayer\bin\Debug\CookComputing.XmlRpcV2.dll
+G:\LoveJourneySolution(2013-02-21)FinalUpdate\LoveJourneyAPILayer\bin\Debug\DAL.dll
+G:\LoveJourneySolution(2013-02-21)FinalUpdate\LoveJourneyAPILayer\bin\Debug\BAL.pdb
+G:\LoveJourneySolution(2013-02-21)FinalUpdate\LoveJourneyAPILayer\bin\Debug\DAL.pdb
+G:\LoveJourneySolution(2013-02-21)FinalUpdate\LoveJourneyAPILayer\obj\Debug\ResolveAssemblyReference.cache
+G:\LoveJourneySolution(2013-02-21)FinalUpdate\LoveJourneyAPILayer\obj\Debug\BusAPILayer.dll
+G:\LoveJourneySolution(2013-02-21)FinalUpdate\LoveJourneyAPILayer\obj\Debug\BusAPILayer.pdb
+H:\LoveJourney\LoveJourneySolution(2013-02-21)FinalUpdate\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll.config
+H:\LoveJourney\LoveJourneySolution(2013-02-21)FinalUpdate\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll
+H:\LoveJourney\LoveJourneySolution(2013-02-21)FinalUpdate\LoveJourneyAPILayer\bin\Debug\BusAPILayer.pdb
+H:\LoveJourney\LoveJourneySolution(2013-02-21)FinalUpdate\LoveJourneyAPILayer\bin\Debug\BAL.dll
+H:\LoveJourney\LoveJourneySolution(2013-02-21)FinalUpdate\LoveJourneyAPILayer\bin\Debug\CookComputing.XmlRpcV2.dll
+H:\LoveJourney\LoveJourneySolution(2013-02-21)FinalUpdate\LoveJourneyAPILayer\bin\Debug\DAL.dll
+H:\LoveJourney\LoveJourneySolution(2013-02-21)FinalUpdate\LoveJourneyAPILayer\bin\Debug\BAL.pdb
+H:\LoveJourney\LoveJourneySolution(2013-02-21)FinalUpdate\LoveJourneyAPILayer\bin\Debug\DAL.pdb
+H:\LoveJourney\LoveJourneySolution(2013-02-21)FinalUpdate\LoveJourneyAPILayer\obj\Debug\ResolveAssemblyReference.cache
+H:\LoveJourney\LoveJourneySolution(2013-02-21)FinalUpdate\LoveJourneyAPILayer\obj\Debug\BusAPILayer.dll
+H:\LoveJourney\LoveJourneySolution(2013-02-21)FinalUpdate\LoveJourneyAPILayer\obj\Debug\BusAPILayer.pdb
+E:\LoveJourneySolution(2013-02-21)FinalUpdate\LoveJourneyAPILayer\obj\Debug\ResolveAssemblyReference.cache
+E:\LoveJourneySolution(2013-02-21)FinalUpdate\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll.config
+E:\LoveJourneySolution(2013-02-21)FinalUpdate\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll
+E:\LoveJourneySolution(2013-02-21)FinalUpdate\LoveJourneyAPILayer\bin\Debug\BusAPILayer.pdb
+E:\LoveJourneySolution(2013-02-21)FinalUpdate\LoveJourneyAPILayer\bin\Debug\BAL.dll
+E:\LoveJourneySolution(2013-02-21)FinalUpdate\LoveJourneyAPILayer\bin\Debug\CookComputing.XmlRpcV2.dll
+E:\LoveJourneySolution(2013-02-21)FinalUpdate\LoveJourneyAPILayer\bin\Debug\DAL.dll
+E:\LoveJourneySolution(2013-02-21)FinalUpdate\LoveJourneyAPILayer\bin\Debug\BAL.pdb
+E:\LoveJourneySolution(2013-02-21)FinalUpdate\LoveJourneyAPILayer\bin\Debug\DAL.pdb
+E:\LoveJourneySolution(2013-02-21)FinalUpdate\LoveJourneyAPILayer\obj\Debug\BusAPILayer.dll
+E:\LoveJourneySolution(2013-02-21)FinalUpdate\LoveJourneyAPILayer\obj\Debug\BusAPILayer.pdb
+G:\25-02-2013\LoveJourneySolution(2013-02-21)FinalUpdate\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll.config
+G:\25-02-2013\LoveJourneySolution(2013-02-21)FinalUpdate\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll
+G:\25-02-2013\LoveJourneySolution(2013-02-21)FinalUpdate\LoveJourneyAPILayer\bin\Debug\BusAPILayer.pdb
+G:\25-02-2013\LoveJourneySolution(2013-02-21)FinalUpdate\LoveJourneyAPILayer\bin\Debug\BAL.dll
+G:\25-02-2013\LoveJourneySolution(2013-02-21)FinalUpdate\LoveJourneyAPILayer\bin\Debug\CookComputing.XmlRpcV2.dll
+G:\25-02-2013\LoveJourneySolution(2013-02-21)FinalUpdate\LoveJourneyAPILayer\bin\Debug\DAL.dll
+G:\25-02-2013\LoveJourneySolution(2013-02-21)FinalUpdate\LoveJourneyAPILayer\bin\Debug\BAL.pdb
+G:\25-02-2013\LoveJourneySolution(2013-02-21)FinalUpdate\LoveJourneyAPILayer\bin\Debug\DAL.pdb
+G:\25-02-2013\LoveJourneySolution(2013-02-21)FinalUpdate\LoveJourneyAPILayer\obj\Debug\ResolveAssemblyReference.cache
+G:\25-02-2013\LoveJourneySolution(2013-02-21)FinalUpdate\LoveJourneyAPILayer\obj\Debug\BusAPILayer.dll
+G:\25-02-2013\LoveJourneySolution(2013-02-21)FinalUpdate\LoveJourneyAPILayer\obj\Debug\BusAPILayer.pdb
+G:\25-02-2013\LoveJourneySolution(2013-02-25)FinalUpdate\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll.config
+G:\25-02-2013\LoveJourneySolution(2013-02-25)FinalUpdate\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll
+G:\25-02-2013\LoveJourneySolution(2013-02-25)FinalUpdate\LoveJourneyAPILayer\bin\Debug\BusAPILayer.pdb
+G:\25-02-2013\LoveJourneySolution(2013-02-25)FinalUpdate\LoveJourneyAPILayer\bin\Debug\BAL.dll
+G:\25-02-2013\LoveJourneySolution(2013-02-25)FinalUpdate\LoveJourneyAPILayer\bin\Debug\CookComputing.XmlRpcV2.dll
+G:\25-02-2013\LoveJourneySolution(2013-02-25)FinalUpdate\LoveJourneyAPILayer\bin\Debug\DAL.dll
+G:\25-02-2013\LoveJourneySolution(2013-02-25)FinalUpdate\LoveJourneyAPILayer\bin\Debug\BAL.pdb
+G:\25-02-2013\LoveJourneySolution(2013-02-25)FinalUpdate\LoveJourneyAPILayer\bin\Debug\DAL.pdb
+G:\25-02-2013\LoveJourneySolution(2013-02-25)FinalUpdate\LoveJourneyAPILayer\obj\Debug\ResolveAssemblyReference.cache
+G:\25-02-2013\LoveJourneySolution(2013-02-25)FinalUpdate\LoveJourneyAPILayer\obj\Debug\BusAPILayer.dll
+G:\25-02-2013\LoveJourneySolution(2013-02-25)FinalUpdate\LoveJourneyAPILayer\obj\Debug\BusAPILayer.pdb
+E:\March2\LoveJourneySolution(2013-02-26)FinalUpdate\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll.config
+E:\March2\LoveJourneySolution(2013-02-26)FinalUpdate\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll
+E:\March2\LoveJourneySolution(2013-02-26)FinalUpdate\LoveJourneyAPILayer\bin\Debug\BusAPILayer.pdb
+E:\March2\LoveJourneySolution(2013-02-26)FinalUpdate\LoveJourneyAPILayer\bin\Debug\BAL.dll
+E:\March2\LoveJourneySolution(2013-02-26)FinalUpdate\LoveJourneyAPILayer\bin\Debug\CookComputing.XmlRpcV2.dll
+E:\March2\LoveJourneySolution(2013-02-26)FinalUpdate\LoveJourneyAPILayer\bin\Debug\DAL.dll
+E:\March2\LoveJourneySolution(2013-02-26)FinalUpdate\LoveJourneyAPILayer\bin\Debug\BAL.pdb
+E:\March2\LoveJourneySolution(2013-02-26)FinalUpdate\LoveJourneyAPILayer\bin\Debug\DAL.pdb
+E:\March2\LoveJourneySolution(2013-02-26)FinalUpdate\LoveJourneyAPILayer\obj\Debug\ResolveAssemblyReference.cache
+E:\March2\LoveJourneySolution(2013-02-26)FinalUpdate\LoveJourneyAPILayer\obj\Debug\BusAPILayer.dll
+E:\March2\LoveJourneySolution(2013-02-26)FinalUpdate\LoveJourneyAPILayer\obj\Debug\BusAPILayer.pdb
+E:\LoveJourneySolution(2013-03-16)FinalUpdate\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll.config
+E:\LoveJourneySolution(2013-03-16)FinalUpdate\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll
+E:\LoveJourneySolution(2013-03-16)FinalUpdate\LoveJourneyAPILayer\bin\Debug\BusAPILayer.pdb
+E:\LoveJourneySolution(2013-03-16)FinalUpdate\LoveJourneyAPILayer\bin\Debug\BAL.dll
+E:\LoveJourneySolution(2013-03-16)FinalUpdate\LoveJourneyAPILayer\bin\Debug\CookComputing.XmlRpcV2.dll
+E:\LoveJourneySolution(2013-03-16)FinalUpdate\LoveJourneyAPILayer\bin\Debug\DAL.dll
+E:\LoveJourneySolution(2013-03-16)FinalUpdate\LoveJourneyAPILayer\bin\Debug\BAL.pdb
+E:\LoveJourneySolution(2013-03-16)FinalUpdate\LoveJourneyAPILayer\bin\Debug\DAL.pdb
+E:\LoveJourneySolution(2013-03-16)FinalUpdate\LoveJourneyAPILayer\obj\Debug\ResolveAssemblyReference.cache
+E:\LoveJourneySolution(2013-03-16)FinalUpdate\LoveJourneyAPILayer\obj\Debug\BusAPILayer.dll
+E:\LoveJourneySolution(2013-03-16)FinalUpdate\LoveJourneyAPILayer\obj\Debug\BusAPILayer.pdb
+E:\LoveJourneySolution(2013-03-19)FinalUpdate\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll.config
+E:\LoveJourneySolution(2013-03-19)FinalUpdate\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll
+E:\LoveJourneySolution(2013-03-19)FinalUpdate\LoveJourneyAPILayer\bin\Debug\BusAPILayer.pdb
+E:\LoveJourneySolution(2013-03-19)FinalUpdate\LoveJourneyAPILayer\bin\Debug\BAL.dll
+E:\LoveJourneySolution(2013-03-19)FinalUpdate\LoveJourneyAPILayer\bin\Debug\CookComputing.XmlRpcV2.dll
+E:\LoveJourneySolution(2013-03-19)FinalUpdate\LoveJourneyAPILayer\bin\Debug\DAL.dll
+E:\LoveJourneySolution(2013-03-19)FinalUpdate\LoveJourneyAPILayer\bin\Debug\BAL.pdb
+E:\LoveJourneySolution(2013-03-19)FinalUpdate\LoveJourneyAPILayer\bin\Debug\DAL.pdb
+E:\LoveJourneySolution(2013-03-19)FinalUpdate\LoveJourneyAPILayer\obj\Debug\ResolveAssemblyReference.cache
+E:\LoveJourneySolution(2013-03-19)FinalUpdate\LoveJourneyAPILayer\obj\Debug\BusAPILayer.dll
+E:\LoveJourneySolution(2013-03-19)FinalUpdate\LoveJourneyAPILayer\obj\Debug\BusAPILayer.pdb
+E:\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll.config
+E:\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll
+E:\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\LoveJourneyAPILayer\bin\Debug\BusAPILayer.pdb
+E:\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\LoveJourneyAPILayer\bin\Debug\BAL.dll
+E:\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\LoveJourneyAPILayer\bin\Debug\CookComputing.XmlRpcV2.dll
+E:\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\LoveJourneyAPILayer\bin\Debug\DAL.dll
+E:\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\LoveJourneyAPILayer\bin\Debug\BAL.pdb
+E:\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\LoveJourneyAPILayer\bin\Debug\DAL.pdb
+E:\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\LoveJourneyAPILayer\obj\Debug\ResolveAssemblyReference.cache
+E:\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\LoveJourneyAPILayer\obj\Debug\BusAPILayer.dll
+E:\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\LoveJourneyAPILayer\obj\Debug\BusAPILayer.pdb
+F:\H\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll.config
+F:\H\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll
+F:\H\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\LoveJourneyAPILayer\bin\Debug\BusAPILayer.pdb
+F:\H\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\LoveJourneyAPILayer\bin\Debug\BAL.dll
+F:\H\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\LoveJourneyAPILayer\bin\Debug\CookComputing.XmlRpcV2.dll
+F:\H\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\LoveJourneyAPILayer\bin\Debug\DAL.dll
+F:\H\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\LoveJourneyAPILayer\bin\Debug\BAL.pdb
+F:\H\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\LoveJourneyAPILayer\bin\Debug\DAL.pdb
+F:\H\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\LoveJourneyAPILayer\obj\Debug\ResolveAssemblyReference.cache
+F:\H\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\LoveJourneyAPILayer\obj\Debug\BusAPILayer.dll
+F:\H\24-3 2013\LoveJourneySolution(2013-03-19)FinalUpdate\LoveJourneyAPILayer\obj\Debug\BusAPILayer.pdb
+G:\LoveJourneySolution(6 april 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll.config
+G:\LoveJourneySolution(6 april 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll
+G:\LoveJourneySolution(6 april 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\BusAPILayer.pdb
+G:\LoveJourneySolution(6 april 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\BAL.dll
+G:\LoveJourneySolution(6 april 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\CookComputing.XmlRpcV2.dll
+G:\LoveJourneySolution(6 april 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\DAL.dll
+G:\LoveJourneySolution(6 april 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\BAL.pdb
+G:\LoveJourneySolution(6 april 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\DAL.pdb
+G:\LoveJourneySolution(6 april 2013 )FinalUpdate\LoveJourneyAPILayer\obj\Debug\ResolveAssemblyReference.cache
+G:\LoveJourneySolution(6 april 2013 )FinalUpdate\LoveJourneyAPILayer\obj\Debug\BusAPILayer.dll
+G:\LoveJourneySolution(6 april 2013 )FinalUpdate\LoveJourneyAPILayer\obj\Debug\BusAPILayer.pdb
+G:\LoveJourneySolution(8 april 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll.config
+G:\LoveJourneySolution(8 april 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll
+G:\LoveJourneySolution(8 april 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\BusAPILayer.pdb
+G:\LoveJourneySolution(8 april 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\BAL.dll
+G:\LoveJourneySolution(8 april 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\CookComputing.XmlRpcV2.dll
+G:\LoveJourneySolution(8 april 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\DAL.dll
+G:\LoveJourneySolution(8 april 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\BAL.pdb
+G:\LoveJourneySolution(8 april 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\DAL.pdb
+G:\LoveJourneySolution(8 april 2013 )FinalUpdate\LoveJourneyAPILayer\obj\Debug\ResolveAssemblyReference.cache
+G:\LoveJourneySolution(8 april 2013 )FinalUpdate\LoveJourneyAPILayer\obj\Debug\BusAPILayer.dll
+G:\LoveJourneySolution(8 april 2013 )FinalUpdate\LoveJourneyAPILayer\obj\Debug\BusAPILayer.pdb
+G:\LoveJourneySolution(10 april 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll.config
+G:\LoveJourneySolution(10 april 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll
+G:\LoveJourneySolution(10 april 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\BusAPILayer.pdb
+G:\LoveJourneySolution(10 april 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\BAL.dll
+G:\LoveJourneySolution(10 april 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\CookComputing.XmlRpcV2.dll
+G:\LoveJourneySolution(10 april 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\DAL.dll
+G:\LoveJourneySolution(10 april 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\BAL.pdb
+G:\LoveJourneySolution(10 april 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\DAL.pdb
+G:\LoveJourneySolution(10 april 2013 )FinalUpdate\LoveJourneyAPILayer\obj\Debug\ResolveAssemblyReference.cache
+G:\LoveJourneySolution(10 april 2013 )FinalUpdate\LoveJourneyAPILayer\obj\Debug\BusAPILayer.dll
+G:\LoveJourneySolution(10 april 2013 )FinalUpdate\LoveJourneyAPILayer\obj\Debug\BusAPILayer.pdb
+F:\H\14-4-2013\LoveJourneySolution(13 april 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll.config
+F:\H\14-4-2013\LoveJourneySolution(13 april 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll
+F:\H\14-4-2013\LoveJourneySolution(13 april 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\BusAPILayer.pdb
+F:\H\14-4-2013\LoveJourneySolution(13 april 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\BAL.dll
+F:\H\14-4-2013\LoveJourneySolution(13 april 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\CookComputing.XmlRpcV2.dll
+F:\H\14-4-2013\LoveJourneySolution(13 april 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\DAL.dll
+F:\H\14-4-2013\LoveJourneySolution(13 april 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\BAL.pdb
+F:\H\14-4-2013\LoveJourneySolution(13 april 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\DAL.pdb
+F:\H\14-4-2013\LoveJourneySolution(13 april 2013 )FinalUpdate\LoveJourneyAPILayer\obj\Debug\ResolveAssemblyReference.cache
+F:\H\14-4-2013\LoveJourneySolution(13 april 2013 )FinalUpdate\LoveJourneyAPILayer\obj\Debug\BusAPILayer.dll
+F:\H\14-4-2013\LoveJourneySolution(13 april 2013 )FinalUpdate\LoveJourneyAPILayer\obj\Debug\BusAPILayer.pdb
+G:\LoveJourneySolution(13 april 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll.config
+G:\LoveJourneySolution(13 april 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll
+G:\LoveJourneySolution(13 april 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\BusAPILayer.pdb
+G:\LoveJourneySolution(13 april 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\BAL.dll
+G:\LoveJourneySolution(13 april 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\CookComputing.XmlRpcV2.dll
+G:\LoveJourneySolution(13 april 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\DAL.dll
+G:\LoveJourneySolution(13 april 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\BAL.pdb
+G:\LoveJourneySolution(13 april 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\DAL.pdb
+G:\LoveJourneySolution(13 april 2013 )FinalUpdate\LoveJourneyAPILayer\obj\Debug\ResolveAssemblyReference.cache
+G:\LoveJourneySolution(13 april 2013 )FinalUpdate\LoveJourneyAPILayer\obj\Debug\BusAPILayer.dll
+G:\LoveJourneySolution(13 april 2013 )FinalUpdate\LoveJourneyAPILayer\obj\Debug\BusAPILayer.pdb
+G:\LoveJourneySolution(14 april 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll.config
+G:\LoveJourneySolution(14 april 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll
+G:\LoveJourneySolution(14 april 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\BusAPILayer.pdb
+G:\LoveJourneySolution(14 april 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\BAL.dll
+G:\LoveJourneySolution(14 april 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\CookComputing.XmlRpcV2.dll
+G:\LoveJourneySolution(14 april 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\DAL.dll
+G:\LoveJourneySolution(14 april 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\BAL.pdb
+G:\LoveJourneySolution(14 april 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\DAL.pdb
+G:\LoveJourneySolution(14 april 2013 )FinalUpdate\LoveJourneyAPILayer\obj\Debug\ResolveAssemblyReference.cache
+G:\LoveJourneySolution(14 april 2013 )FinalUpdate\LoveJourneyAPILayer\obj\Debug\BusAPILayer.dll
+G:\LoveJourneySolution(14 april 2013 )FinalUpdate\LoveJourneyAPILayer\obj\Debug\BusAPILayer.pdb
+G:\LoveJourneySolution(17 april 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll.config
+G:\LoveJourneySolution(17 april 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll
+G:\LoveJourneySolution(17 april 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\BusAPILayer.pdb
+G:\LoveJourneySolution(17 april 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\BAL.dll
+G:\LoveJourneySolution(17 april 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\CookComputing.XmlRpcV2.dll
+G:\LoveJourneySolution(17 april 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\DAL.dll
+G:\LoveJourneySolution(17 april 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\BAL.pdb
+G:\LoveJourneySolution(17 april 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\DAL.pdb
+G:\LoveJourneySolution(17 april 2013 )FinalUpdate\LoveJourneyAPILayer\obj\Debug\ResolveAssemblyReference.cache
+G:\LoveJourneySolution(17 april 2013 )FinalUpdate\LoveJourneyAPILayer\obj\Debug\BusAPILayer.dll
+G:\LoveJourneySolution(17 april 2013 )FinalUpdate\LoveJourneyAPILayer\obj\Debug\BusAPILayer.pdb
+G:\LoveJourneySolution(26 april 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll.config
+G:\LoveJourneySolution(26 april 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll
+G:\LoveJourneySolution(26 april 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\BusAPILayer.pdb
+G:\LoveJourneySolution(26 april 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\BAL.dll
+G:\LoveJourneySolution(26 april 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\CookComputing.XmlRpcV2.dll
+G:\LoveJourneySolution(26 april 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\DAL.dll
+G:\LoveJourneySolution(26 april 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\BAL.pdb
+G:\LoveJourneySolution(26 april 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\DAL.pdb
+G:\LoveJourneySolution(26 april 2013 )FinalUpdate\LoveJourneyAPILayer\obj\Debug\ResolveAssemblyReference.cache
+G:\LoveJourneySolution(26 april 2013 )FinalUpdate\LoveJourneyAPILayer\obj\Debug\BusAPILayer.dll
+G:\LoveJourneySolution(26 april 2013 )FinalUpdate\LoveJourneyAPILayer\obj\Debug\BusAPILayer.pdb
+F:\H\may 5 2013\LoveJourneySolution(05 may 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll.config
+F:\H\may 5 2013\LoveJourneySolution(05 may 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll
+F:\H\may 5 2013\LoveJourneySolution(05 may 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\BusAPILayer.pdb
+F:\H\may 5 2013\LoveJourneySolution(05 may 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\BAL.dll
+F:\H\may 5 2013\LoveJourneySolution(05 may 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\CookComputing.XmlRpcV2.dll
+F:\H\may 5 2013\LoveJourneySolution(05 may 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\DAL.dll
+F:\H\may 5 2013\LoveJourneySolution(05 may 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\BAL.pdb
+F:\H\may 5 2013\LoveJourneySolution(05 may 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\DAL.pdb
+F:\H\may 5 2013\LoveJourneySolution(05 may 2013 )FinalUpdate\LoveJourneyAPILayer\obj\Debug\ResolveAssemblyReference.cache
+F:\H\may 5 2013\LoveJourneySolution(05 may 2013 )FinalUpdate\LoveJourneyAPILayer\obj\Debug\BusAPILayer.dll
+F:\H\may 5 2013\LoveJourneySolution(05 may 2013 )FinalUpdate\LoveJourneyAPILayer\obj\Debug\BusAPILayer.pdb
+D:\LoveJourney\Lovejournry6-5-2013\LoveJourneySolution(05 may 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll.config
+D:\LoveJourney\Lovejournry6-5-2013\LoveJourneySolution(05 may 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll
+D:\LoveJourney\Lovejournry6-5-2013\LoveJourneySolution(05 may 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\BusAPILayer.pdb
+D:\LoveJourney\Lovejournry6-5-2013\LoveJourneySolution(05 may 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\BAL.dll
+D:\LoveJourney\Lovejournry6-5-2013\LoveJourneySolution(05 may 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\CookComputing.XmlRpcV2.dll
+D:\LoveJourney\Lovejournry6-5-2013\LoveJourneySolution(05 may 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\DAL.dll
+D:\LoveJourney\Lovejournry6-5-2013\LoveJourneySolution(05 may 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\BAL.pdb
+D:\LoveJourney\Lovejournry6-5-2013\LoveJourneySolution(05 may 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\DAL.pdb
+D:\LoveJourney\Lovejournry6-5-2013\LoveJourneySolution(05 may 2013 )FinalUpdate\LoveJourneyAPILayer\obj\Debug\ResolveAssemblyReference.cache
+D:\LoveJourney\Lovejournry6-5-2013\LoveJourneySolution(05 may 2013 )FinalUpdate\LoveJourneyAPILayer\obj\Debug\BusAPILayer.dll
+D:\LoveJourney\Lovejournry6-5-2013\LoveJourneySolution(05 may 2013 )FinalUpdate\LoveJourneyAPILayer\obj\Debug\BusAPILayer.pdb
+D:\LoveJourney\LovejourneyBackup\13-may-2013_BeforeNewDesign\LoveJourneySolution(05 may 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll.config
+D:\LoveJourney\LovejourneyBackup\13-may-2013_BeforeNewDesign\LoveJourneySolution(05 may 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll
+D:\LoveJourney\LovejourneyBackup\13-may-2013_BeforeNewDesign\LoveJourneySolution(05 may 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\BusAPILayer.pdb
+D:\LoveJourney\LovejourneyBackup\13-may-2013_BeforeNewDesign\LoveJourneySolution(05 may 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\BAL.dll
+D:\LoveJourney\LovejourneyBackup\13-may-2013_BeforeNewDesign\LoveJourneySolution(05 may 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\CookComputing.XmlRpcV2.dll
+D:\LoveJourney\LovejourneyBackup\13-may-2013_BeforeNewDesign\LoveJourneySolution(05 may 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\DAL.dll
+D:\LoveJourney\LovejourneyBackup\13-may-2013_BeforeNewDesign\LoveJourneySolution(05 may 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\BAL.pdb
+D:\LoveJourney\LovejourneyBackup\13-may-2013_BeforeNewDesign\LoveJourneySolution(05 may 2013 )FinalUpdate\LoveJourneyAPILayer\bin\Debug\DAL.pdb
+D:\LoveJourney\LovejourneyBackup\13-may-2013_BeforeNewDesign\LoveJourneySolution(05 may 2013 )FinalUpdate\LoveJourneyAPILayer\obj\Debug\ResolveAssemblyReference.cache
+D:\LoveJourney\LovejourneyBackup\13-may-2013_BeforeNewDesign\LoveJourneySolution(05 may 2013 )FinalUpdate\LoveJourneyAPILayer\obj\Debug\BusAPILayer.dll
+D:\LoveJourney\LovejourneyBackup\13-may-2013_BeforeNewDesign\LoveJourneySolution(05 may 2013 )FinalUpdate\LoveJourneyAPILayer\obj\Debug\BusAPILayer.pdb
+D:\ljworking11jun\LoveJourney_Working\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll.config
+D:\ljworking11jun\LoveJourney_Working\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll
+D:\ljworking11jun\LoveJourney_Working\LoveJourneyAPILayer\bin\Debug\BusAPILayer.pdb
+D:\ljworking11jun\LoveJourney_Working\LoveJourneyAPILayer\bin\Debug\BAL.dll
+D:\ljworking11jun\LoveJourney_Working\LoveJourneyAPILayer\bin\Debug\CookComputing.XmlRpcV2.dll
+D:\ljworking11jun\LoveJourney_Working\LoveJourneyAPILayer\bin\Debug\DAL.dll
+D:\ljworking11jun\LoveJourney_Working\LoveJourneyAPILayer\bin\Debug\BAL.pdb
+D:\ljworking11jun\LoveJourney_Working\LoveJourneyAPILayer\bin\Debug\DAL.pdb
+D:\ljworking11jun\LoveJourney_Working\LoveJourneyAPILayer\obj\Debug\ResolveAssemblyReference.cache
+D:\ljworking11jun\LoveJourney_Working\LoveJourneyAPILayer\obj\Debug\BusAPILayer.dll
+D:\ljworking11jun\LoveJourney_Working\LoveJourneyAPILayer\obj\Debug\BusAPILayer.pdb
+D:\LoveJourney\LoveJourney_Working\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll.config
+D:\LoveJourney\LoveJourney_Working\LoveJourneyAPILayer\bin\Debug\BusAPILayer.dll
+D:\LoveJourney\LoveJourney_Working\LoveJourneyAPILayer\bin\Debug\BusAPILayer.pdb
+D:\LoveJourney\LoveJourney_Working\LoveJourneyAPILayer\bin\Debug\BAL.dll
+D:\LoveJourney\LoveJourney_Working\LoveJourneyAPILayer\bin\Debug\CookComputing.XmlRpcV2.dll
+D:\LoveJourney\LoveJourney_Working\LoveJourneyAPILayer\bin\Debug\DAL.dll
+D:\LoveJourney\LoveJourney_Working\LoveJourneyAPILayer\bin\Debug\BAL.pdb
+D:\LoveJourney\LoveJourney_Working\LoveJourneyAPILayer\bin\Debug\DAL.pdb
+D:\LoveJourney\LoveJourney_Working\LoveJourneyAPILayer\obj\Debug\ResolveAssemblyReference.cache
+D:\LoveJourney\LoveJourney_Working\LoveJourneyAPILayer\obj\Debug\BusAPILayer.dll
+D:\LoveJourney\LoveJourney_Working\LoveJourneyAPILayer\obj\Debug\BusAPILayer.pdb

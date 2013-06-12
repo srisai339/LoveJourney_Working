@@ -1,0 +1,5 @@
+E:\RajuKatare\LoveJourney\LoveJourneyCode\LoveJourneySolution\LoveJourneyDAL\bin\Debug\LoveJourneyDAL.dll
+E:\RajuKatare\LoveJourney\LoveJourneyCode\LoveJourneySolution\LoveJourneyDAL\bin\Debug\LoveJourneyDAL.pdb
+E:\RajuKatare\LoveJourney\LoveJourneyCode\LoveJourneySolution\LoveJourneyDAL\obj\Debug\ResolveAssemblyReference.cache
+E:\RajuKatare\LoveJourney\LoveJourneyCode\LoveJourneySolution\LoveJourneyDAL\obj\Debug\LoveJourneyDAL.dll
+E:\RajuKatare\LoveJourney\LoveJourneyCode\LoveJourneySolution\LoveJourneyDAL\obj\Debug\LoveJourneyDAL.pdb

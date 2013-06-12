@@ -1,0 +1,77 @@
+/*!
+ * jQuery UI Tabs 1.8.21
+ *
+ * Copyright 2012, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Tabs#theming
+ */
+.ui-tabs { position: relative; padding: .2em; zoom: 1; border:none; width:347px; } /* position: relative prevents IE scroll bug (element with position: relative inside container with overflow: auto appear as "fixed") */
+.ui-tabs .ui-tabs-nav { margin: 0; padding: .2em .2em 0; background:#fff;  border:none; margin-left:20px; }/*headerTabsBGcolor*/
+.ui-tabs .ui-tabs-nav li { list-style: none; float: left; position: relative; top: 1px; margin: 0 .2em 0px 0; border-bottom: 0 !important; padding: 0; white-space: nowrap; }
+.ui-tabs .ui-tabs-nav li a { float: left; padding: 0.4em 0.5em;text-decoration: none; font-weight:bold; color:#b05f00; }
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected { margin-bottom: 0; padding-bottom:0px;  }
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-state-processing a { cursor: pointer;  }
+.ui-tabs .ui-tabs-nav li a, .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a { cursor: pointer; } /* first selector in group seems obsolete, but required to overcome bug in Opera applying cursor: text overall if defined elsewhere... */
+.ui-tabs .ui-tabs-panel { display: block; border-width: 0;border:none; padding: 0.5em 1.4em; background:url(../images/bg_tab.jpg) repeat-x top; }
+.ui-tabs .ui-tabs-hide { display: none !important; }
+
+
+/*inputFormBGs*/
+
+
+
+.inp
+{
+	height:29px;
+	background:url(../images/in_bg.jpg) repeat-x top;
+	width:374px;
+	padding:4px;
+	border:1px solid #e5e5e5;
+	line-height:18px;
+	color:#989797;
+	font-weight:normal;
+	font-size:12px;
+	font-family:'Open Sans',Arial,sans-serif;
+}
+
+.sel123
+{
+	height:38px;
+	background:url(../images/in_bg.jpg) repeat-x top;
+	width:374px;
+	padding:4px;
+	border:1px solid #e5e5e5;
+	line-height:18px;
+	color:#989797;
+	font-weight:normal;
+	font-size:12px;
+	font-family:'Open Sans',Arial,sans-serif;
+	
+}
+
+.amt
+{
+	height:29px;
+	background:url(../images/in_bg.jpg) repeat-x top;
+	width:100px;
+	padding:4px;
+	border:1px solid #e5e5e5;
+	line-height:18px;
+	color:#989797;
+	font-weight:normal;
+	font-size:16px;
+	font-family:'Open Sans',Arial,sans-serif;
+}
+
+.sub
+{
+	background:#fe8b0f;
+	height:30px;
+	width:100px;
+	color:#000;	
+	padding:2px;
+	border:1px solid #fb6b3a;
+	outline:0px;
+}

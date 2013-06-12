@@ -1,0 +1,488 @@
+*
+{
+	margin:0px;
+	padding:0px;
+}
+
+
+body
+{
+	font-family:arial;
+	font-size:12px;
+}
+
+.is_tr
+{
+		width:160px;
+	padding:5px 5px 5px 35px;
+	border:1px solid #c9cec8;
+	color:#294e69;
+	font-size:11px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	background:url(../images/bus-type1.jpg) no-repeat left ;
+}
+
+.is_bus_type
+{
+		width:100px;
+	padding:5px 5px 5px 20px;
+	border:1px solid #c9cec8;
+	color:#294e69;
+	font-size:11px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	background:url(../images/bus-type1.jpg) no-repeat left ;
+}
+
+.is_amenities
+{
+		width:100px;
+	padding:5px 5px 5px 20px;
+	border:1px solid #c9cec8;
+	color:#294e69;
+	font-size:11px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	background:url(../images/amenities.jpg) no-repeat left ;
+}
+
+.is_board
+{
+		width:130px;
+	padding:5px 5px 5px 20px;
+	border:1px solid #c9cec8;
+	color:#294e69;
+	font-size:11px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	background:url(../images/board.jpg) no-repeat left ;
+}
+
+.is_amen
+{
+	background:url(../images/amenity.png) no-repeat top;
+	background-position:0% 0%;
+}
+
+.is_drink
+{
+	background:url(../images/amenity.png) no-repeat top;
+	background-position:27% 0%;
+}
+
+.is_dep
+{
+	background:url(../images/dep.png) no-repeat top;
+	background-position:0% -8%;
+}
+
+.is_arr
+{
+	background:url(../images/dep.png) no-repeat top;
+	background-position:0% 45%;
+}
+
+.is_time
+{
+	background:url(../images/dep.png) no-repeat top;
+	background-position:0% 100%;
+}
+
+.is_bdr
+{
+	border-top:#ccc 1px solid ;
+	border-bottom:#ccc 1px solid ;
+}
+
+/*is_head*/
+
+.is_head
+{
+	border-top:1px solid #b1b3b6;
+	border-bottom:1px solid #b1b3b6;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	color:#305aa0;
+	
+}
+
+.is_head a
+{
+	color:#305aa0;
+	text-decoration:no
+}
+
+
+.is_travelname
+
+{
+	font-size:12px;
+	color:#17375e;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+
+.is_travecont
+{
+color:#9A9A9A;
+font-size:11px;
+font-family:Arial, Helvetica, sans-serif;
+	
+}
+
+.is_cancel
+{
+	margin:0px;
+	padding:0px;
+	
+}
+
+.is_cancel ul li
+{
+	margin:0px;
+	padding:0px;
+	float:left;
+	list-style:none;
+	
+}
+
+.is_cancel ul li a
+{
+	color:#305aa0;
+	font-family:Arial, Helvetica, sans-serif;
+	text-decoration:underline;
+	border-right:1px solid #305aa0;
+	padding:0px 5px;
+	font-size:11px;
+	
+	
+}
+
+
+
+/*tourPackages*/
+
+.is_tp
+{
+	border:1px solid #bbbbbb;
+	background:#fff;
+	padding:10px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	box-shadow:1px 1px 1px #ccc;
+	
+	
+}
+
+.is_tp_td
+{
+	border-right:1px solid #ececec;
+}
+
+
+
+.is_tp_hd
+{
+	
+	color:#686868;
+	font-family: 'Lucida Sans Unicode',Tahoma,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.is_tp_rd
+{
+	color:#cc0000;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+
+.is_tp_in
+{
+	border:1px solid #bbbbbb;
+	background:#fff;
+	padding:5px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+}
+
+.is_tp_ms
+{
+	border:1px solid #bbbbbb;
+	background:#fff;
+	padding:5px;
+	width:163px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+}
+
+.is_tp_adult
+{
+	border:1px solid #bbbbbb;
+	background:#fff;
+	padding:5px;
+	width:53px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+}
+
+.is_tp_sub
+{
+	/*background:#900a03;*/
+	background:url(../images/but_bg.gif) repeat-x top;
+	
+	color:#fff;
+	font-size:13px;
+	font-family:Arial, Helvetica, sans-serif;
+	outline:none;
+	border:0px;
+	padding:5px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	cursor:pointer;
+	font-weight:bold;
+}
+
+.is_tp_red_hd
+{
+	font-weight:bold;
+	color:#0092EC;
+	font-size:large;
+	font-family:Arial;
+}
+.is_tp_red_hd1
+{
+	font-weight:bold;
+	color:#0092EC;
+	font-size:small;
+	font-family:Arial;
+}
+.is_tp_red_hd2
+{
+	 color: Black;
+    font-family: Arial;
+    font-size: small;
+    font-weight: bold;
+}
+
+
+.is_inclusion_hs
+{
+	background:url(../images/icn.jpg) no-repeat top;
+	background-position:0% 0%;
+	
+}
+
+
+.is_inclusion_meals
+{
+	background:url(../images/icn.jpg) no-repeat top;
+	background-position:50% 0%;
+	
+}
+
+.is_dropshadow
+{
+	/*background:#FFC;*/
+	/*box-shadow:0px 1px 3px #ccc;*/
+	/*-moz-box-shadow:0px 1px 3px #ccc;*/
+	font-size:13px;
+	padding:10px;
+	font-weight:bold;
+}
+.is_vd
+{
+	background:#fdb74f;
+	color:#b00f08;
+	border:1px solid #f7ca7c;
+	font-size:12px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	padding:3px;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	cursor:pointer;
+	}
+	.is_price
+	{
+	color:black;
+    font-size: 20px;
+    font-weight:bold;
+	}
+	.is_price1
+	{
+	color:black;
+    font-size: 16px;
+    font-weight:bold;
+	}
+/*FlightSearch*/
+
+.is_ms_bdr
+{
+	border:1px solid #c5dff8;
+	background:url(../images/ms.png) repeat top;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	
+}
+
+.is_ms_blu
+{
+	background-color:#cae1f9;
+	color:#000;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:bold;
+}
+
+
+.is_ms_fr
+{
+	padding-left:5px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	color:#000;
+}
+
+.is_ms_in
+{
+	width:126px;
+	border:1px solid #cae4fc;
+	border-radius:2px;
+	-moz-border-radius:2px;
+	padding:2px;
+	font-size:12px;
+	color:#341913;
+}
+
+.is_ms_but
+{
+	background:#900;
+	color:#fff;
+	font-weight:bold;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	border:none;
+	outline:none;
+	padding:3px;
+	cursor:pointer;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	text-shadow:2px 1px 1px #521203;
+	-o-border-radius:5px;
+}
+
+.is_ms_txt
+{
+	font-size:12px;
+	color:#000;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	border:1px solid #c7e9fa;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	padding-left:10px;
+	
+}
+
+.is_ms_txt:hover
+{
+	background:#e9f5fb;
+	cursor:pointer;
+}
+
+.is_ms_txt a
+{
+	color:#1278ad;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+.is_bdrrt
+{
+	border-right:1px solid #c7e9fa;
+}
+
+.is_tp_rad
+{
+	
+	color:#e22c02;
+	font-family: 'Lucida Sans Unicode',Tahoma,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+	padding-left:20px;
+	line-height:30px;
+	text-shadow:0px 1px 1px #000;
+}
+
+<!--gallery-->
+
+
+
+
+#is_wrapper{
+    width:450px;
+ 	height: auto !important;
+	height: 96%;
+	text-align:left;
+   
+}
+
+.clearfix{
+	clear:both;
+	float:none;
+}
+#is_bigPic{
+	width:449px;
+	height:299px;
+	padding:0px;
+	border:1px solid #CCC;
+	background-color:#FFF;
+	
+}
+#is_bigPic img{
+	position:absolute;
+	display:none;
+}
+ul#thumbs li.active{
+	border:1px solid red;	
+	background:#fff;
+	padding:0px;
+}
+ul#thumbs, ul#thumbs li{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+	
+ul#thumbs li{
+	float:left;
+	margin-right:8px;
+	margin-bottom:5px;
+	border:1px solid #CCC;	
+	padding:0px;
+	cursor:pointer;
+}
+ul#thumbs img{
+	float:left;
+	width:80px;
+	height:80px;
+	line-height:80px;
+	overflow:hidden;
+	position:relative;
+	z-index:1;		
+}

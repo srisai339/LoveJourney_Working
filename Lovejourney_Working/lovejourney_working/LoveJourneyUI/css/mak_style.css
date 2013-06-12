@@ -1,0 +1,974 @@
+*
+{
+	margin:0px;
+	padding:0px;
+}
+
+body
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000;
+	font-weight:normal;
+}
+
+img
+{
+	border:0px;
+	outline:none;
+}
+
+anchr
+{
+	color:#fff;
+	text-decoration:none;
+}
+
+anchr:hover
+{
+	color:#fff;
+	text-decoration:underline;
+}
+.ma_hd
+{
+	font-size:12px;
+	color:#000;
+}
+
+.ma_hd a
+{
+	font-size:12px;
+	color:#fff;
+	text-decoration:none;
+}
+
+.ma_hd a:hover
+{
+	font-size:12px;
+	color:#fff;
+	text-decoration:underline;
+}
+
+.md_agen_bg
+{
+	background:url(../images/b_bg.png) repeat-x top;
+	font-size:13px;
+	font-weight:bold;
+	color:#fff;
+}
+
+.md_agen_bg1
+{
+	background:url(../images/lb_bg.png) repeat-x top;
+	font-size:13px;
+	font-weight:bold;
+	color:#fff;
+}
+
+.md_menu
+{
+	/*background:url(../images/menu_bg.jpg) repeat-x top;*/
+	background:#4f91cd;
+}
+
+.md_menu ul
+{
+	margin:0px;
+	padding:0px;
+}
+
+.md_menu ul li
+{
+	margin:0px;
+	padding:0px;
+	float:left;
+	list-style:none;
+}
+
+.md_menu ul li a
+{
+	font-size:13px;
+	color:#fff;
+	text-decoration:none;
+	padding:7px 30px;
+	font-weight:bold;
+	border-right:1px solid #c9d7e4;
+}
+
+.md_menu ul li a:hover
+{
+	
+	text-decoration:none;
+	color:#FC0;
+	font-weight:bold;
+	background:#013e7f;
+}
+
+
+
+.mar_border
+{
+	
+	border-right:1px solid #005e9e;
+	border-left:1px solid #005e9e;
+}
+
+.mar_hd
+{
+	font-weight:bold;
+	color:#c4e3fa;
+}
+
+.mar_hd1
+{
+	font-weight:bold;
+	color:#c4e3fa;
+	border-bottom:1px solid #005e9e;
+}
+
+
+/*booking*/
+
+.booking
+{
+	font-weight:bold;
+	font-size:13px;
+	color:#fff;
+}
+
+.international
+{
+	font-weight:bold;
+	font-size:13px;
+	color:#161360;
+}
+
+.international a
+{
+	font-weight:bold;
+	font-size:13px;
+	color:#161360;
+	text-decoration:underline;
+}
+
+.booking_in
+{
+	width:170px;
+	border:1px solid #dedede;
+	background:#fff;
+	height:26px;
+	line-height:18px;
+	color:#000;
+	font-size:12px;
+}
+
+/*fromto*/
+
+.frm
+{
+	color:#005e9e;
+	font-size:13px;
+	font-weight:normal;
+}
+
+
+.frm_routes
+{
+	color:#000;
+	background:#dfeffa;
+}
+
+/*foooter*/
+
+.footer_bg
+{
+	/*background:url(../images/footer_bg.jpg) repeat-x top;*/
+}
+
+.footer_bg ul
+{
+	margin-left:180px;
+	padding:0px;
+}
+
+.footer_bg ul li
+{
+	margin:0px;
+	padding:0px;
+	float:left;
+	list-style:none;
+}
+
+.footer_bg ul li a
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#fff;
+	font-weight:normal;
+	text-decoration:none;
+	padding:0px 10px;
+}
+
+.footer_bg ul li a:hover
+{
+	padding:0px 10px;
+	text-decoration:underline;
+}
+.cpy
+{
+	font-size:11px;
+	color:#fff;
+}
+
+.ctct
+{
+	border-radius:10px;
+	padding:10px;
+}
+
+.ctct_in
+{
+	height:20px;
+	border:1px solid #CCC;
+	background:#fff;
+	font-size:12px;
+	line-height:18px;
+	padding:5px;
+	width:180px;
+}
+
+.ctct_in1
+{
+	
+	border:1px solid #CCC;
+	background:#fff;
+	font-size:12px;
+	line-height:18px;
+	padding:5px;
+	width:180px;
+	height:50px;
+}
+
+.addres
+{
+	border-bottom:1px solid #06C;
+	font-size:13px;
+	color:#F00;
+}
+
+select
+{
+	
+	border:1px solid #CCC;
+	background:#fff;
+	font-size:12px;
+	line-height:18px;
+	padding:0px;
+	width:150px;
+	
+}
+
+.tours
+{
+	font-size:16px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#000;
+	font-weight:bold;
+}
+
+.trs_cont
+{
+	font-size:11px;
+	font-family:Verdana, Geneva, sans-serif;
+	text-align:justify;
+	color:#666;
+	line-height:18px;
+}
+
+/*cssNew*/
+.content_div
+{
+	width:976px;
+	margin:auto;
+	height:auto;
+	
+}
+
+/*content_div_lt*/
+.content_div_lt
+{
+	width:624px;
+	margin:auto;
+	height:auto;
+	float:left;
+	
+}
+
+.content_div_bdr
+{
+	border-bottom:2px solid #06C;
+	height:37px;
+}
+.content_div_icn
+{
+	float:left;
+	width:37px;
+}
+.content_div_book
+{
+	float:left;
+	width:577px;
+	margin-left:10px;
+	height:37px;
+	font-family:Calibri;
+	font-size:18px;
+	color:#C30;
+	text-align:left;
+	line-height:35px;
+	
+}
+
+.content_div_popular
+{
+	
+	
+	margin-left:10px;
+	font-family:Calibri;
+	font-size:18px;
+	color:#00C;
+	text-align:left;
+	
+	
+}
+
+.content_GAP
+{
+	HEIGHT:10PX;
+}
+
+
+.content_div_hd
+{
+	font-family:Calibri;
+	font-size:16px;
+	color:#0488e9;
+	font-weight:normal;
+	
+}
+
+.contnt-bdr
+{
+	border-left:1px solid #dfdfdf;
+	border-right:1px solid #dfdfdf;
+	border-bottom:1px solid #dfdfdf;
+	/*background:url(../images/bk.png) no-repeat top right;*/
+	-moz-box-shadow:    0px 0px 10px 0px #ccc;
+  -webkit-box-shadow: 0px 0px 10px 0px #ccc;
+  box-shadow:         0px 0px 10px 0px #ccc;
+}
+.contnt-bdr1
+{
+	border-left:1px solid #dfdfdf;
+	border-right:1px solid #dfdfdf;
+	border-bottom:1px solid #dfdfdf;
+	-moz-box-shadow:    0px 0px 10px 0px #ccc;
+  -webkit-box-shadow: 0px 0px 10px 0px #ccc;
+  box-shadow:         0px 0px 10px 0px #ccc;
+	
+}
+.content_div_hd1
+{
+	font-family:Calibri;
+	font-size:16px;
+	color:#0488e9;
+	font-weight:normal;
+	border-bottom:1px solid #eaeaea;
+}
+.content_div_in
+{
+	width:400px;
+	height:25px;
+	padding:3px;
+	color:#c0c0c0;
+	border:1px solid #c9c9c9;
+	line-height:18px;
+	border-radius:5px;
+}
+
+.chc_in
+{
+	font-family:Calibri;
+	font-size:13px;
+	color:#2f2f2f;
+	font-weight:normal;
+	line-height:18px;
+}
+
+.chcin
+{
+	width:70px;
+	height:22px;
+	padding:2px;
+	color:#333;
+	border:1px solid #c9c9c9;
+	line-height:18px;
+	border-radius:5px;
+	font-size:13px;
+}
+
+.add_another-room a
+{
+	color:#C30;
+}
+
+.hotel_hd
+{
+	color:#639;
+	font-weight:bold;
+}
+
+.cost
+{
+	color:red;
+	font-weight:bold;
+}
+
+/*content_div_rt*/
+.content_div_rt
+{
+	width:336px;
+	margin:auto;
+	height:auto;
+	float:right;
+	
+}
+
+
+
+.contnt-rt-bdr1
+{
+	border-left:1px solid #dfdfdf;
+	border-right:1px solid #dfdfdf;
+	border-bottom:1px solid #dfdfdf;
+	border-top:2px solid #06C;
+	-moz-box-shadow:    0px 0px 10px 0px #ccc;
+  -webkit-box-shadow: 0px 0px 10px 0px #ccc;
+  box-shadow:         0px 0px 10px 0px #ccc;
+	
+}
+.line
+{
+
+	
+}
+
+.contnt-rt-bdr2
+{
+
+	border-bottom:2px solid #06C;
+	
+}
+
+.content_rt_in
+{
+	width:230px;
+	height:25px;
+	padding:3px;
+	color:#c0c0c0;
+	border:1px solid #c9c9c9;
+	line-height:18px;
+	border-radius:5px;
+}
+
+
+
+
+.content_div_deals
+{
+	
+	
+	
+	font-family:Calibri;
+	font-size:18px;
+	color:#C30;
+	text-align:left;
+	
+	
+}
+
+
+
+
+.save
+{
+	color:#F60;
+	font-weight:bold;
+}
+
+
+
+
+
+
+/*review_details*/
+.content_div_rev_lt
+{
+	width:976px;
+	margin:auto;
+	height:auto;
+	float:left;
+	
+}
+
+
+.r-contnt-bdr
+{
+	border-left:1px solid #dfdfdf;
+	border-right:1px solid #dfdfdf;
+	border-bottom:1px solid #dfdfdf;
+	height:37px;
+ -moz-box-shadow:    0px 0px 10px 0px #ccc;
+  -webkit-box-shadow: 0px 0px 10px 0px #ccc;
+  box-shadow:         0px 0px 10px 0px #ccc;
+	
+}
+
+
+.review_div_book1
+{
+	float:left;
+	width:130px;
+	height:37px;
+	margin-left:10px;
+	font-family:Calibri;
+	font-size:13px;
+	color:#C30;
+	text-align:left;
+	border-right:1px solid #ccc;
+	
+}
+
+.review_div_book2
+{
+	float:left;
+	width:100px;
+	height:37px;
+	margin-left:10px;
+	font-family:Calibri;
+	font-size:13px;
+	color:#C30;
+	text-align:center;
+	border-right:1px solid #ccc;
+	
+}
+
+.review_div_book3
+{
+	float:left;
+	width:130px;
+	height:37px;
+	margin-left:10px;
+	font-family:Calibri;
+	font-size:13px;
+	color:#C30;
+	text-align:center;
+	border-right:1px solid #ccc;
+	
+}
+.review_div_book4
+{
+	float:left;
+	width:100px;
+	height:37px;
+	margin-left:10px;
+	font-family:Calibri;
+	font-size:13px;
+	color:#C30;
+	text-align:center;
+	border-right:1px solid #ccc;
+	
+}
+.review_div_book5
+{
+	float:left;
+	width:100px;
+	height:37px;
+	margin-left:10px;
+	font-family:Calibri;
+	font-size:13px;
+	color:#C30;
+	text-align:center;
+	border-right:1px solid #ccc;
+	
+}
+.review_div_book6
+{
+	float:left;
+	width:100px;
+	height:37px;
+	margin-left:10px;
+	font-family:Calibri;
+	font-size:13px;
+	color:#C30;
+	text-align:center;
+	border-right:1px solid #ccc;
+	
+}
+.review_div_book7
+{
+	float:left;
+	margin-left:10px;
+	height:37px;
+	font-family:Calibri;
+	font-size:13px;
+	color:#C30;
+	text-align:left;
+	border-right:0px solid #ccc;
+	vertical-align:middle;
+	
+}
+
+
+/*tabs*/
+
+.make_content_tabs
+{
+	width:720px;
+	float:left;
+}
+.make_content_right
+{
+	width:200px;
+	float:right;
+	border:1px solid #ccc;
+padding:10px;
+-moz-box-shadow:    0px 0px 10px 0px #ccc;
+  -webkit-box-shadow: 0px 0px 10px 0px #ccc;
+  box-shadow:         0px 0px 10px 0px #ccc;
+}
+
+/*hotel_details*/
+
+.mak_hotel
+{
+border:1px solid #ccc;
+padding:10px;
+-moz-box-shadow:    0px 0px 10px 0px #ccc;
+  -webkit-box-shadow: 0px 0px 10px 0px #ccc;
+  box-shadow:         0px 0px 10px 0px #ccc;
+}
+
+.mak_hotel_hd
+{
+	border-bottom:1px solid #666;
+	color:#900;
+	font-size:13px;
+	font-weight:bold;
+}
+
+.mak_hotel_hd a
+{
+	
+	color:#900;
+	font-size:13px;
+	font-weight:bold;
+}
+.mak_address
+{
+	font-size:11px;
+	color:#878787;
+	line-height:18px;
+}
+
+.viewRooms a
+{
+	padding:5px;
+	color:white;
+	background:red;
+	font-weight:bold;
+}
+
+/*srch_hotels*/
+.mak_srch
+{
+	color:#174392;
+	font-size:13px;
+	line-height:18px;
+	
+}
+
+.mak_srch_ct
+{
+	color:#174392;
+	font-size:11px;
+	text-align:justify;
+	line-height:18px;
+	
+}
+
+.testimonials
+{
+	
+	width:250px;
+	margin-left:10px;
+	height:37px;
+	font-family:Calibri;
+	font-size:18px;
+	color:#C30;
+	text-align:left;
+	line-height:35px;
+	
+}
+
+/*booknow*/
+
+.sel
+{
+	width:46px;
+	height:22px;
+	line-height:18px;
+	padding:2px;
+	background:#f0f0f0;
+	
+}
+
+.sel1
+{
+	width:100px;
+	height:22px;
+	line-height:18px;
+	padding:2px;
+	background:#f0f0f0;
+}
+/* love joury*/
+
+
+.check-availability-btn{
+	margin-left:165px;
+	float:left;
+		height:24px;
+		background-repeat:no-repeat;
+		margin-top:0px;
+}
+.leaving to{
+	padding-left:10px;
+}
+.box{
+	border: 1px solid #09F;
+	padding:3px;
+	box-radius:5px;
+	moz-box-radius:5px;
+}
+.text{
+	font-size:13px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	/*color:#FFF;*/
+	color:Black;
+	text-decoration:none;
+}
+.imgborder{
+	border:1px solid #000;
+}
+
+.lj_one
+{
+	color:#336699;
+	font-weight:bold;
+}
+
+
+.lj_hd
+{
+	font-weight:bold;
+	color:Black;
+	width:160px;
+
+}
+.lj_hdload
+{
+	font-weight:bold;
+	color:Black;
+	
+
+}
+.lj_hd_Offer
+{
+	font-weight:normal;
+	color:white;
+	width:160px;
+	font-family:Myriad Pro;
+	font-size:18px;
+	padding-left:28px;
+
+}
+.lj_hd12
+{
+	font-weight:bold;
+	color:Black;
+	width:40%;
+	}
+.lj_inp
+{
+	border: 1px solid #09F;
+	padding:4px;
+	border-radius:5px;
+	-moz-box-radius:5px;
+	font-size:14px;
+	color:black;
+}
+/*.datepicker1
+{
+	border: 1px solid #09F;
+	padding:4px;
+	border-radius:5px;
+	-moz-box-radius:5px;
+	font-size:12px;
+	color:#999;
+}*/
+.ddladults
+{
+    width:50px;
+    border: 1px solid #09F;
+	padding:4px;
+	border-radius:5px;
+	-moz-box-radius:5px;
+	font-size:12px;
+	color:#999;
+}
+.lj_inp1
+{
+	border: 1px solid #09F;
+	padding:4px;
+	border-radius:5px;
+	-moz-box-radius:5px;
+	font-size:12px;
+	color:#999;
+	width:150px;
+}
+.heading
+{
+    background-color:#0062af;
+    color:#fff;
+   
+}
+.gridheadercolor
+{
+    background-color:#006699;
+    color:#fff;
+    font-size:12px;
+   font-weight:bold;
+    
+}
+.labelclass
+{
+  text-align:left;
+    width:20%;
+}
+
+.datepicker
+{
+    border: 1px solid #09F;
+	padding:2px;
+	border-radius:5px;
+	-moz-box-radius:5px;
+	font-size:12px;
+	color:#999;
+	/*background:#fff;*/
+
+}
+.datepickerbdr
+{
+    border: 1px solid #fff;
+	padding:2px;
+	border-radius:5px;
+	-moz-box-radius:5px;
+	font-size:12px;
+	color:#999;
+	background:#fff;
+
+}
+.Newdatepicker
+{
+    border: 1px solid #fff;
+	padding:2px;
+	border-radius:5px;
+	-moz-box-radius:5px;
+	font-size:12px;
+	color:#999;
+	background:#fff;
+
+}
+
+
+.datepicker3
+{
+   	width:126px;
+	border:1px solid #09F;
+	border-radius:2px;
+	-moz-border-radius:2px;
+	padding:2px;
+	font-size:12px;
+}
+
+
+.datepicker1
+{
+     border: 1px solid #fff;
+	padding:2px;
+	border-radius:5px;
+	-moz-box-radius:5px;
+	font-size:12px;
+	color:#999;
+	background:#fff;
+}
+.progress
+{
+    
+    font-weight:bold;
+	color:Black;
+	
+	font-size:16px;
+}
+.hfont
+{
+    font-size:16px;
+}
+
+.link_buttons
+{
+    margin:0px;
+    padding:0px;
+}
+
+.link_buttons a
+{
+    border:1px solid #ccc;
+ background:LightBlue;
+ color:#000;
+padding:2px;
+margin-right:5px;
+ font-family:Arial;
+ font-size:12px;
+ text-decoration:none;
+}
+
+.link_buttons a:hover
+{
+    border:1px solid #LightBlue;
+ background:#ccc;
+ color:#000;
+padding:2px;
+ font-family:Arial;
+ font-size:12px;
+ text-decoration:none;
+}
+.pnrbold
+{
+    font-weight:bold;
+}
+.rightborder
+{
+   border-right:1px Solid #000000;
+   padding-left:10px;
+}

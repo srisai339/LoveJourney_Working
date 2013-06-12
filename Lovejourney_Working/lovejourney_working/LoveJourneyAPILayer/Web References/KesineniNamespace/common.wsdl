@@ -1,0 +1,1829 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://microsoft.com/webservices/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://microsoft.com/webservices/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://microsoft.com/webservices/">
+      <s:element name="GetSourceStations">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="loginID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSourceStationsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetSourceStationsResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDestinationStations">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="loginID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="sourceStationID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDestinationStationsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetDestinationStationsResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetServices">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="loginID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="sourceStationID" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="destinationStationID" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="onwardJourneyDate" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="seatType" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetServicesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetServicesResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetServicesDetails">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="loginID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="sourceStationID" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="destinationStationID" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="onwardJourneyDate" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="serviceID" type="s:long" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetServicesDetailsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetServicesDetailsResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSchedules">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="loginID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSchedulesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetSchedulesResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBoardingPoints">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="loginID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="journeyDate" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="serviceID" type="s:long" />
+            <s:element minOccurs="1" maxOccurs="1" name="sourceStationID" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="destinationStationID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBoardingPointsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetBoardingPointsResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDroppingPoints">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="loginID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="journeyDate" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="serviceID" type="s:long" />
+            <s:element minOccurs="1" maxOccurs="1" name="sourceStationID" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="destinationStationID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDroppingPointsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetDroppingPointsResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckFare">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="loginID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="sourceId" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="destinationId" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="journeyDate" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckFareResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CheckFareResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSeatLayout">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="loginID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="sourceStationID" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="destinationStationID" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="journeyDate" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="serviceID" type="s:long" />
+            <s:element minOccurs="1" maxOccurs="1" name="coachTypeID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSeatLayoutResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetSeatLayoutResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BookTicketsOnwardJourney">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="loginID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="sourceStationID" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="destinationStationID" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="journeyDate" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="serviceID" type="s:long" />
+            <s:element minOccurs="1" maxOccurs="1" name="coachTypeID" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="noOfSeats" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="seatNumbersList" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="firstNameList" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="lastNameList" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="genderList" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ageList" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="contactNumberList" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="boardingPointIDList" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="droppingPointID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ticketFare" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="emailID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="address" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="photoIDType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="photoIDNo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="photoIDIssuingAuthority" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="totalBasicFare" type="s:decimal" />
+            <s:element minOccurs="1" maxOccurs="1" name="serviceTaxPercentage" type="s:decimal" />
+            <s:element minOccurs="0" maxOccurs="1" name="discountCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BookTicketsOnwardJourneyResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="BookTicketsOnwardJourneyResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BookTicketsRoundTripJourney">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="loginID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="sourceStationID" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="destinationStationID" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="onwardJourneyDate" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="onwardServiceID" type="s:long" />
+            <s:element minOccurs="1" maxOccurs="1" name="onwardCoachTypeID" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="onwardNoOfSeats" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="onwardSeatNumberList" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="onwardFirstNameList" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="onwardLastNameList" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="onwardGenderList" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="onwardAgeList" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="onwardContactNumberList" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="onwardBoardingPointIDList" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="onwardDroppingPointID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="onwardTicketFare" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="onwardTotalBasicFare" type="s:decimal" />
+            <s:element minOccurs="1" maxOccurs="1" name="onwardServiceTaxPercentage" type="s:decimal" />
+            <s:element minOccurs="0" maxOccurs="1" name="onwardDiscountCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="returnJourneyDate" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="returnServiceID" type="s:long" />
+            <s:element minOccurs="1" maxOccurs="1" name="returnCoachTypeID" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="returnNoOfSeats" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="returnSeatNumberList" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="returnFirstNameList" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="returnLastNameList" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="returnGenderList" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="returnAgeList" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="returnContactNumberList" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="returnBoardingPointIDList" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="returnDroppingPointID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="returnTicketFare" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="returnTotalBasicFare" type="s:decimal" />
+            <s:element minOccurs="1" maxOccurs="1" name="returnServiceTaxPercentage" type="s:decimal" />
+            <s:element minOccurs="0" maxOccurs="1" name="returnDiscountCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="emailID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="address" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="photoIDType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="photoIDNo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="photoIDIssuingAuthority" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BookTicketsRoundTripJourneyResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="BookTicketsRoundTripJourneyResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BookTicketsConfirmationOnwardJourney">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="loginID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="sourceStationID" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="destinationStationID" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="journeyDate" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="serviceID" type="s:long" />
+            <s:element minOccurs="1" maxOccurs="1" name="serviceTransID" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="noOfSeats" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="blockedTicketID" type="s:long" />
+            <s:element minOccurs="0" maxOccurs="1" name="transactionID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="referenceCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BookTicketsConfirmationOnwardJourneyResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="BookTicketsConfirmationOnwardJourneyResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BookTicketsConfirmationRoundTripJourney">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="loginID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="sourceStationID" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="destinationStationID" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="onwardJourneyDate" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="onwardServiceID" type="s:long" />
+            <s:element minOccurs="1" maxOccurs="1" name="onwardServiceTransID" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="onwardNoOfSeats" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="onwardBlockedTicketID" type="s:long" />
+            <s:element minOccurs="0" maxOccurs="1" name="returnJourneyDate" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="returnServiceID" type="s:long" />
+            <s:element minOccurs="1" maxOccurs="1" name="returnServiceTransID" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="returnNoOfSeats" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="returnBlockedTicketID" type="s:long" />
+            <s:element minOccurs="0" maxOccurs="1" name="transactionID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="referenceCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BookTicketsConfirmationRoundTripJourneyResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="BookTicketsConfirmationRoundTripJourneyResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ConfirmCancelTickets">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="loginID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PNRNumber" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="firstName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="lastName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dateofJourney" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="seatNumbersList" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ConfirmCancelTicketsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ConfirmCancelTicketsResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CancelTickets">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="loginID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PNRNumber" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="firstName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="lastName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dateofJourney" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="seatNumbersList" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CancelTicketsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CancelTicketsResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CancelBlockedTicketsOnwardJourney">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="loginID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="blockedTicketID" type="s:long" />
+            <s:element minOccurs="1" maxOccurs="1" name="serviceTransID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CancelBlockedTicketsOnwardJourneyResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CancelBlockedTicketsOnwardJourneyResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CancelBlockedTicketsRoundTripJourney">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="loginID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="onwardBlockedTicketID" type="s:long" />
+            <s:element minOccurs="1" maxOccurs="1" name="onwardServiceTransID" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="returnBlockedTicketID" type="s:long" />
+            <s:element minOccurs="1" maxOccurs="1" name="returnServiceTransID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CancelBlockedTicketsRoundTripJourneyResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CancelBlockedTicketsRoundTripJourneyResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetSourceStationsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetSourceStations" />
+  </wsdl:message>
+  <wsdl:message name="GetSourceStationsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetSourceStationsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDestinationStationsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDestinationStations" />
+  </wsdl:message>
+  <wsdl:message name="GetDestinationStationsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDestinationStationsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetServicesSoapIn">
+    <wsdl:part name="parameters" element="tns:GetServices" />
+  </wsdl:message>
+  <wsdl:message name="GetServicesSoapOut">
+    <wsdl:part name="parameters" element="tns:GetServicesResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetServicesDetailsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetServicesDetails" />
+  </wsdl:message>
+  <wsdl:message name="GetServicesDetailsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetServicesDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetSchedulesSoapIn">
+    <wsdl:part name="parameters" element="tns:GetSchedules" />
+  </wsdl:message>
+  <wsdl:message name="GetSchedulesSoapOut">
+    <wsdl:part name="parameters" element="tns:GetSchedulesResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetBoardingPointsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetBoardingPoints" />
+  </wsdl:message>
+  <wsdl:message name="GetBoardingPointsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetBoardingPointsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDroppingPointsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDroppingPoints" />
+  </wsdl:message>
+  <wsdl:message name="GetDroppingPointsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDroppingPointsResponse" />
+  </wsdl:message>
+  <wsdl:message name="CheckFareSoapIn">
+    <wsdl:part name="parameters" element="tns:CheckFare" />
+  </wsdl:message>
+  <wsdl:message name="CheckFareSoapOut">
+    <wsdl:part name="parameters" element="tns:CheckFareResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetSeatLayoutSoapIn">
+    <wsdl:part name="parameters" element="tns:GetSeatLayout" />
+  </wsdl:message>
+  <wsdl:message name="GetSeatLayoutSoapOut">
+    <wsdl:part name="parameters" element="tns:GetSeatLayoutResponse" />
+  </wsdl:message>
+  <wsdl:message name="BookTicketsOnwardJourneySoapIn">
+    <wsdl:part name="parameters" element="tns:BookTicketsOnwardJourney" />
+  </wsdl:message>
+  <wsdl:message name="BookTicketsOnwardJourneySoapOut">
+    <wsdl:part name="parameters" element="tns:BookTicketsOnwardJourneyResponse" />
+  </wsdl:message>
+  <wsdl:message name="BookTicketsRoundTripJourneySoapIn">
+    <wsdl:part name="parameters" element="tns:BookTicketsRoundTripJourney" />
+  </wsdl:message>
+  <wsdl:message name="BookTicketsRoundTripJourneySoapOut">
+    <wsdl:part name="parameters" element="tns:BookTicketsRoundTripJourneyResponse" />
+  </wsdl:message>
+  <wsdl:message name="BookTicketsConfirmationOnwardJourneySoapIn">
+    <wsdl:part name="parameters" element="tns:BookTicketsConfirmationOnwardJourney" />
+  </wsdl:message>
+  <wsdl:message name="BookTicketsConfirmationOnwardJourneySoapOut">
+    <wsdl:part name="parameters" element="tns:BookTicketsConfirmationOnwardJourneyResponse" />
+  </wsdl:message>
+  <wsdl:message name="BookTicketsConfirmationRoundTripJourneySoapIn">
+    <wsdl:part name="parameters" element="tns:BookTicketsConfirmationRoundTripJourney" />
+  </wsdl:message>
+  <wsdl:message name="BookTicketsConfirmationRoundTripJourneySoapOut">
+    <wsdl:part name="parameters" element="tns:BookTicketsConfirmationRoundTripJourneyResponse" />
+  </wsdl:message>
+  <wsdl:message name="ConfirmCancelTicketsSoapIn">
+    <wsdl:part name="parameters" element="tns:ConfirmCancelTickets" />
+  </wsdl:message>
+  <wsdl:message name="ConfirmCancelTicketsSoapOut">
+    <wsdl:part name="parameters" element="tns:ConfirmCancelTicketsResponse" />
+  </wsdl:message>
+  <wsdl:message name="CancelTicketsSoapIn">
+    <wsdl:part name="parameters" element="tns:CancelTickets" />
+  </wsdl:message>
+  <wsdl:message name="CancelTicketsSoapOut">
+    <wsdl:part name="parameters" element="tns:CancelTicketsResponse" />
+  </wsdl:message>
+  <wsdl:message name="CancelBlockedTicketsOnwardJourneySoapIn">
+    <wsdl:part name="parameters" element="tns:CancelBlockedTicketsOnwardJourney" />
+  </wsdl:message>
+  <wsdl:message name="CancelBlockedTicketsOnwardJourneySoapOut">
+    <wsdl:part name="parameters" element="tns:CancelBlockedTicketsOnwardJourneyResponse" />
+  </wsdl:message>
+  <wsdl:message name="CancelBlockedTicketsRoundTripJourneySoapIn">
+    <wsdl:part name="parameters" element="tns:CancelBlockedTicketsRoundTripJourney" />
+  </wsdl:message>
+  <wsdl:message name="CancelBlockedTicketsRoundTripJourneySoapOut">
+    <wsdl:part name="parameters" element="tns:CancelBlockedTicketsRoundTripJourneyResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetSourceStationsHttpGetIn">
+    <wsdl:part name="loginID" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetSourceStationsHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetDestinationStationsHttpGetIn">
+    <wsdl:part name="loginID" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+    <wsdl:part name="sourceStationID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetDestinationStationsHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetServicesHttpGetIn">
+    <wsdl:part name="loginID" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+    <wsdl:part name="sourceStationID" type="s:string" />
+    <wsdl:part name="destinationStationID" type="s:string" />
+    <wsdl:part name="onwardJourneyDate" type="s:string" />
+    <wsdl:part name="seatType" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetServicesHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetServicesDetailsHttpGetIn">
+    <wsdl:part name="loginID" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+    <wsdl:part name="sourceStationID" type="s:string" />
+    <wsdl:part name="destinationStationID" type="s:string" />
+    <wsdl:part name="onwardJourneyDate" type="s:string" />
+    <wsdl:part name="serviceID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetServicesDetailsHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetSchedulesHttpGetIn">
+    <wsdl:part name="loginID" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetSchedulesHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetBoardingPointsHttpGetIn">
+    <wsdl:part name="loginID" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+    <wsdl:part name="journeyDate" type="s:string" />
+    <wsdl:part name="serviceID" type="s:string" />
+    <wsdl:part name="sourceStationID" type="s:string" />
+    <wsdl:part name="destinationStationID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetBoardingPointsHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetDroppingPointsHttpGetIn">
+    <wsdl:part name="loginID" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+    <wsdl:part name="journeyDate" type="s:string" />
+    <wsdl:part name="serviceID" type="s:string" />
+    <wsdl:part name="sourceStationID" type="s:string" />
+    <wsdl:part name="destinationStationID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetDroppingPointsHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="CheckFareHttpGetIn">
+    <wsdl:part name="loginID" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+    <wsdl:part name="sourceId" type="s:string" />
+    <wsdl:part name="destinationId" type="s:string" />
+    <wsdl:part name="journeyDate" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CheckFareHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetSeatLayoutHttpGetIn">
+    <wsdl:part name="loginID" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+    <wsdl:part name="sourceStationID" type="s:string" />
+    <wsdl:part name="destinationStationID" type="s:string" />
+    <wsdl:part name="journeyDate" type="s:string" />
+    <wsdl:part name="serviceID" type="s:string" />
+    <wsdl:part name="coachTypeID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetSeatLayoutHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="BookTicketsOnwardJourneyHttpGetIn">
+    <wsdl:part name="loginID" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+    <wsdl:part name="sourceStationID" type="s:string" />
+    <wsdl:part name="destinationStationID" type="s:string" />
+    <wsdl:part name="journeyDate" type="s:string" />
+    <wsdl:part name="serviceID" type="s:string" />
+    <wsdl:part name="coachTypeID" type="s:string" />
+    <wsdl:part name="noOfSeats" type="s:string" />
+    <wsdl:part name="seatNumbersList" type="s:string" />
+    <wsdl:part name="firstNameList" type="s:string" />
+    <wsdl:part name="lastNameList" type="s:string" />
+    <wsdl:part name="genderList" type="s:string" />
+    <wsdl:part name="ageList" type="s:string" />
+    <wsdl:part name="contactNumberList" type="s:string" />
+    <wsdl:part name="boardingPointIDList" type="s:string" />
+    <wsdl:part name="droppingPointID" type="s:string" />
+    <wsdl:part name="ticketFare" type="s:string" />
+    <wsdl:part name="emailID" type="s:string" />
+    <wsdl:part name="address" type="s:string" />
+    <wsdl:part name="photoIDType" type="s:string" />
+    <wsdl:part name="photoIDNo" type="s:string" />
+    <wsdl:part name="photoIDIssuingAuthority" type="s:string" />
+    <wsdl:part name="totalBasicFare" type="s:string" />
+    <wsdl:part name="serviceTaxPercentage" type="s:string" />
+    <wsdl:part name="discountCode" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="BookTicketsOnwardJourneyHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="BookTicketsRoundTripJourneyHttpGetIn">
+    <wsdl:part name="loginID" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+    <wsdl:part name="sourceStationID" type="s:string" />
+    <wsdl:part name="destinationStationID" type="s:string" />
+    <wsdl:part name="onwardJourneyDate" type="s:string" />
+    <wsdl:part name="onwardServiceID" type="s:string" />
+    <wsdl:part name="onwardCoachTypeID" type="s:string" />
+    <wsdl:part name="onwardNoOfSeats" type="s:string" />
+    <wsdl:part name="onwardSeatNumberList" type="s:string" />
+    <wsdl:part name="onwardFirstNameList" type="s:string" />
+    <wsdl:part name="onwardLastNameList" type="s:string" />
+    <wsdl:part name="onwardGenderList" type="s:string" />
+    <wsdl:part name="onwardAgeList" type="s:string" />
+    <wsdl:part name="onwardContactNumberList" type="s:string" />
+    <wsdl:part name="onwardBoardingPointIDList" type="s:string" />
+    <wsdl:part name="onwardDroppingPointID" type="s:string" />
+    <wsdl:part name="onwardTicketFare" type="s:string" />
+    <wsdl:part name="onwardTotalBasicFare" type="s:string" />
+    <wsdl:part name="onwardServiceTaxPercentage" type="s:string" />
+    <wsdl:part name="onwardDiscountCode" type="s:string" />
+    <wsdl:part name="returnJourneyDate" type="s:string" />
+    <wsdl:part name="returnServiceID" type="s:string" />
+    <wsdl:part name="returnCoachTypeID" type="s:string" />
+    <wsdl:part name="returnNoOfSeats" type="s:string" />
+    <wsdl:part name="returnSeatNumberList" type="s:string" />
+    <wsdl:part name="returnFirstNameList" type="s:string" />
+    <wsdl:part name="returnLastNameList" type="s:string" />
+    <wsdl:part name="returnGenderList" type="s:string" />
+    <wsdl:part name="returnAgeList" type="s:string" />
+    <wsdl:part name="returnContactNumberList" type="s:string" />
+    <wsdl:part name="returnBoardingPointIDList" type="s:string" />
+    <wsdl:part name="returnDroppingPointID" type="s:string" />
+    <wsdl:part name="returnTicketFare" type="s:string" />
+    <wsdl:part name="returnTotalBasicFare" type="s:string" />
+    <wsdl:part name="returnServiceTaxPercentage" type="s:string" />
+    <wsdl:part name="returnDiscountCode" type="s:string" />
+    <wsdl:part name="emailID" type="s:string" />
+    <wsdl:part name="address" type="s:string" />
+    <wsdl:part name="photoIDType" type="s:string" />
+    <wsdl:part name="photoIDNo" type="s:string" />
+    <wsdl:part name="photoIDIssuingAuthority" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="BookTicketsRoundTripJourneyHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="BookTicketsConfirmationOnwardJourneyHttpGetIn">
+    <wsdl:part name="loginID" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+    <wsdl:part name="sourceStationID" type="s:string" />
+    <wsdl:part name="destinationStationID" type="s:string" />
+    <wsdl:part name="journeyDate" type="s:string" />
+    <wsdl:part name="serviceID" type="s:string" />
+    <wsdl:part name="serviceTransID" type="s:string" />
+    <wsdl:part name="noOfSeats" type="s:string" />
+    <wsdl:part name="blockedTicketID" type="s:string" />
+    <wsdl:part name="transactionID" type="s:string" />
+    <wsdl:part name="referenceCode" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="BookTicketsConfirmationOnwardJourneyHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="BookTicketsConfirmationRoundTripJourneyHttpGetIn">
+    <wsdl:part name="loginID" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+    <wsdl:part name="sourceStationID" type="s:string" />
+    <wsdl:part name="destinationStationID" type="s:string" />
+    <wsdl:part name="onwardJourneyDate" type="s:string" />
+    <wsdl:part name="onwardServiceID" type="s:string" />
+    <wsdl:part name="onwardServiceTransID" type="s:string" />
+    <wsdl:part name="onwardNoOfSeats" type="s:string" />
+    <wsdl:part name="onwardBlockedTicketID" type="s:string" />
+    <wsdl:part name="returnJourneyDate" type="s:string" />
+    <wsdl:part name="returnServiceID" type="s:string" />
+    <wsdl:part name="returnServiceTransID" type="s:string" />
+    <wsdl:part name="returnNoOfSeats" type="s:string" />
+    <wsdl:part name="returnBlockedTicketID" type="s:string" />
+    <wsdl:part name="transactionID" type="s:string" />
+    <wsdl:part name="referenceCode" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="BookTicketsConfirmationRoundTripJourneyHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="ConfirmCancelTicketsHttpGetIn">
+    <wsdl:part name="loginID" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+    <wsdl:part name="PNRNumber" type="s:string" />
+    <wsdl:part name="firstName" type="s:string" />
+    <wsdl:part name="lastName" type="s:string" />
+    <wsdl:part name="dateofJourney" type="s:string" />
+    <wsdl:part name="seatNumbersList" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ConfirmCancelTicketsHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="CancelTicketsHttpGetIn">
+    <wsdl:part name="loginID" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+    <wsdl:part name="PNRNumber" type="s:string" />
+    <wsdl:part name="firstName" type="s:string" />
+    <wsdl:part name="lastName" type="s:string" />
+    <wsdl:part name="dateofJourney" type="s:string" />
+    <wsdl:part name="seatNumbersList" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CancelTicketsHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="CancelBlockedTicketsOnwardJourneyHttpGetIn">
+    <wsdl:part name="loginID" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+    <wsdl:part name="blockedTicketID" type="s:string" />
+    <wsdl:part name="serviceTransID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CancelBlockedTicketsOnwardJourneyHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="CancelBlockedTicketsRoundTripJourneyHttpGetIn">
+    <wsdl:part name="loginID" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+    <wsdl:part name="onwardBlockedTicketID" type="s:string" />
+    <wsdl:part name="onwardServiceTransID" type="s:string" />
+    <wsdl:part name="returnBlockedTicketID" type="s:string" />
+    <wsdl:part name="returnServiceTransID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CancelBlockedTicketsRoundTripJourneyHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetSourceStationsHttpPostIn">
+    <wsdl:part name="loginID" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetSourceStationsHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetDestinationStationsHttpPostIn">
+    <wsdl:part name="loginID" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+    <wsdl:part name="sourceStationID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetDestinationStationsHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetServicesHttpPostIn">
+    <wsdl:part name="loginID" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+    <wsdl:part name="sourceStationID" type="s:string" />
+    <wsdl:part name="destinationStationID" type="s:string" />
+    <wsdl:part name="onwardJourneyDate" type="s:string" />
+    <wsdl:part name="seatType" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetServicesHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetServicesDetailsHttpPostIn">
+    <wsdl:part name="loginID" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+    <wsdl:part name="sourceStationID" type="s:string" />
+    <wsdl:part name="destinationStationID" type="s:string" />
+    <wsdl:part name="onwardJourneyDate" type="s:string" />
+    <wsdl:part name="serviceID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetServicesDetailsHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetSchedulesHttpPostIn">
+    <wsdl:part name="loginID" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetSchedulesHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetBoardingPointsHttpPostIn">
+    <wsdl:part name="loginID" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+    <wsdl:part name="journeyDate" type="s:string" />
+    <wsdl:part name="serviceID" type="s:string" />
+    <wsdl:part name="sourceStationID" type="s:string" />
+    <wsdl:part name="destinationStationID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetBoardingPointsHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetDroppingPointsHttpPostIn">
+    <wsdl:part name="loginID" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+    <wsdl:part name="journeyDate" type="s:string" />
+    <wsdl:part name="serviceID" type="s:string" />
+    <wsdl:part name="sourceStationID" type="s:string" />
+    <wsdl:part name="destinationStationID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetDroppingPointsHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="CheckFareHttpPostIn">
+    <wsdl:part name="loginID" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+    <wsdl:part name="sourceId" type="s:string" />
+    <wsdl:part name="destinationId" type="s:string" />
+    <wsdl:part name="journeyDate" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CheckFareHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetSeatLayoutHttpPostIn">
+    <wsdl:part name="loginID" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+    <wsdl:part name="sourceStationID" type="s:string" />
+    <wsdl:part name="destinationStationID" type="s:string" />
+    <wsdl:part name="journeyDate" type="s:string" />
+    <wsdl:part name="serviceID" type="s:string" />
+    <wsdl:part name="coachTypeID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetSeatLayoutHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="BookTicketsOnwardJourneyHttpPostIn">
+    <wsdl:part name="loginID" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+    <wsdl:part name="sourceStationID" type="s:string" />
+    <wsdl:part name="destinationStationID" type="s:string" />
+    <wsdl:part name="journeyDate" type="s:string" />
+    <wsdl:part name="serviceID" type="s:string" />
+    <wsdl:part name="coachTypeID" type="s:string" />
+    <wsdl:part name="noOfSeats" type="s:string" />
+    <wsdl:part name="seatNumbersList" type="s:string" />
+    <wsdl:part name="firstNameList" type="s:string" />
+    <wsdl:part name="lastNameList" type="s:string" />
+    <wsdl:part name="genderList" type="s:string" />
+    <wsdl:part name="ageList" type="s:string" />
+    <wsdl:part name="contactNumberList" type="s:string" />
+    <wsdl:part name="boardingPointIDList" type="s:string" />
+    <wsdl:part name="droppingPointID" type="s:string" />
+    <wsdl:part name="ticketFare" type="s:string" />
+    <wsdl:part name="emailID" type="s:string" />
+    <wsdl:part name="address" type="s:string" />
+    <wsdl:part name="photoIDType" type="s:string" />
+    <wsdl:part name="photoIDNo" type="s:string" />
+    <wsdl:part name="photoIDIssuingAuthority" type="s:string" />
+    <wsdl:part name="totalBasicFare" type="s:string" />
+    <wsdl:part name="serviceTaxPercentage" type="s:string" />
+    <wsdl:part name="discountCode" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="BookTicketsOnwardJourneyHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="BookTicketsRoundTripJourneyHttpPostIn">
+    <wsdl:part name="loginID" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+    <wsdl:part name="sourceStationID" type="s:string" />
+    <wsdl:part name="destinationStationID" type="s:string" />
+    <wsdl:part name="onwardJourneyDate" type="s:string" />
+    <wsdl:part name="onwardServiceID" type="s:string" />
+    <wsdl:part name="onwardCoachTypeID" type="s:string" />
+    <wsdl:part name="onwardNoOfSeats" type="s:string" />
+    <wsdl:part name="onwardSeatNumberList" type="s:string" />
+    <wsdl:part name="onwardFirstNameList" type="s:string" />
+    <wsdl:part name="onwardLastNameList" type="s:string" />
+    <wsdl:part name="onwardGenderList" type="s:string" />
+    <wsdl:part name="onwardAgeList" type="s:string" />
+    <wsdl:part name="onwardContactNumberList" type="s:string" />
+    <wsdl:part name="onwardBoardingPointIDList" type="s:string" />
+    <wsdl:part name="onwardDroppingPointID" type="s:string" />
+    <wsdl:part name="onwardTicketFare" type="s:string" />
+    <wsdl:part name="onwardTotalBasicFare" type="s:string" />
+    <wsdl:part name="onwardServiceTaxPercentage" type="s:string" />
+    <wsdl:part name="onwardDiscountCode" type="s:string" />
+    <wsdl:part name="returnJourneyDate" type="s:string" />
+    <wsdl:part name="returnServiceID" type="s:string" />
+    <wsdl:part name="returnCoachTypeID" type="s:string" />
+    <wsdl:part name="returnNoOfSeats" type="s:string" />
+    <wsdl:part name="returnSeatNumberList" type="s:string" />
+    <wsdl:part name="returnFirstNameList" type="s:string" />
+    <wsdl:part name="returnLastNameList" type="s:string" />
+    <wsdl:part name="returnGenderList" type="s:string" />
+    <wsdl:part name="returnAgeList" type="s:string" />
+    <wsdl:part name="returnContactNumberList" type="s:string" />
+    <wsdl:part name="returnBoardingPointIDList" type="s:string" />
+    <wsdl:part name="returnDroppingPointID" type="s:string" />
+    <wsdl:part name="returnTicketFare" type="s:string" />
+    <wsdl:part name="returnTotalBasicFare" type="s:string" />
+    <wsdl:part name="returnServiceTaxPercentage" type="s:string" />
+    <wsdl:part name="returnDiscountCode" type="s:string" />
+    <wsdl:part name="emailID" type="s:string" />
+    <wsdl:part name="address" type="s:string" />
+    <wsdl:part name="photoIDType" type="s:string" />
+    <wsdl:part name="photoIDNo" type="s:string" />
+    <wsdl:part name="photoIDIssuingAuthority" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="BookTicketsRoundTripJourneyHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="BookTicketsConfirmationOnwardJourneyHttpPostIn">
+    <wsdl:part name="loginID" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+    <wsdl:part name="sourceStationID" type="s:string" />
+    <wsdl:part name="destinationStationID" type="s:string" />
+    <wsdl:part name="journeyDate" type="s:string" />
+    <wsdl:part name="serviceID" type="s:string" />
+    <wsdl:part name="serviceTransID" type="s:string" />
+    <wsdl:part name="noOfSeats" type="s:string" />
+    <wsdl:part name="blockedTicketID" type="s:string" />
+    <wsdl:part name="transactionID" type="s:string" />
+    <wsdl:part name="referenceCode" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="BookTicketsConfirmationOnwardJourneyHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="BookTicketsConfirmationRoundTripJourneyHttpPostIn">
+    <wsdl:part name="loginID" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+    <wsdl:part name="sourceStationID" type="s:string" />
+    <wsdl:part name="destinationStationID" type="s:string" />
+    <wsdl:part name="onwardJourneyDate" type="s:string" />
+    <wsdl:part name="onwardServiceID" type="s:string" />
+    <wsdl:part name="onwardServiceTransID" type="s:string" />
+    <wsdl:part name="onwardNoOfSeats" type="s:string" />
+    <wsdl:part name="onwardBlockedTicketID" type="s:string" />
+    <wsdl:part name="returnJourneyDate" type="s:string" />
+    <wsdl:part name="returnServiceID" type="s:string" />
+    <wsdl:part name="returnServiceTransID" type="s:string" />
+    <wsdl:part name="returnNoOfSeats" type="s:string" />
+    <wsdl:part name="returnBlockedTicketID" type="s:string" />
+    <wsdl:part name="transactionID" type="s:string" />
+    <wsdl:part name="referenceCode" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="BookTicketsConfirmationRoundTripJourneyHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="ConfirmCancelTicketsHttpPostIn">
+    <wsdl:part name="loginID" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+    <wsdl:part name="PNRNumber" type="s:string" />
+    <wsdl:part name="firstName" type="s:string" />
+    <wsdl:part name="lastName" type="s:string" />
+    <wsdl:part name="dateofJourney" type="s:string" />
+    <wsdl:part name="seatNumbersList" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ConfirmCancelTicketsHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="CancelTicketsHttpPostIn">
+    <wsdl:part name="loginID" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+    <wsdl:part name="PNRNumber" type="s:string" />
+    <wsdl:part name="firstName" type="s:string" />
+    <wsdl:part name="lastName" type="s:string" />
+    <wsdl:part name="dateofJourney" type="s:string" />
+    <wsdl:part name="seatNumbersList" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CancelTicketsHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="CancelBlockedTicketsOnwardJourneyHttpPostIn">
+    <wsdl:part name="loginID" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+    <wsdl:part name="blockedTicketID" type="s:string" />
+    <wsdl:part name="serviceTransID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CancelBlockedTicketsOnwardJourneyHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="CancelBlockedTicketsRoundTripJourneyHttpPostIn">
+    <wsdl:part name="loginID" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+    <wsdl:part name="onwardBlockedTicketID" type="s:string" />
+    <wsdl:part name="onwardServiceTransID" type="s:string" />
+    <wsdl:part name="returnBlockedTicketID" type="s:string" />
+    <wsdl:part name="returnServiceTransID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CancelBlockedTicketsRoundTripJourneyHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:portType name="commonSoap">
+    <wsdl:operation name="GetSourceStations">
+      <wsdl:input message="tns:GetSourceStationsSoapIn" />
+      <wsdl:output message="tns:GetSourceStationsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDestinationStations">
+      <wsdl:input message="tns:GetDestinationStationsSoapIn" />
+      <wsdl:output message="tns:GetDestinationStationsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetServices">
+      <wsdl:input message="tns:GetServicesSoapIn" />
+      <wsdl:output message="tns:GetServicesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetServicesDetails">
+      <wsdl:input message="tns:GetServicesDetailsSoapIn" />
+      <wsdl:output message="tns:GetServicesDetailsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSchedules">
+      <wsdl:input message="tns:GetSchedulesSoapIn" />
+      <wsdl:output message="tns:GetSchedulesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBoardingPoints">
+      <wsdl:input message="tns:GetBoardingPointsSoapIn" />
+      <wsdl:output message="tns:GetBoardingPointsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDroppingPoints">
+      <wsdl:input message="tns:GetDroppingPointsSoapIn" />
+      <wsdl:output message="tns:GetDroppingPointsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckFare">
+      <wsdl:input message="tns:CheckFareSoapIn" />
+      <wsdl:output message="tns:CheckFareSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSeatLayout">
+      <wsdl:input message="tns:GetSeatLayoutSoapIn" />
+      <wsdl:output message="tns:GetSeatLayoutSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BookTicketsOnwardJourney">
+      <wsdl:input message="tns:BookTicketsOnwardJourneySoapIn" />
+      <wsdl:output message="tns:BookTicketsOnwardJourneySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BookTicketsRoundTripJourney">
+      <wsdl:input message="tns:BookTicketsRoundTripJourneySoapIn" />
+      <wsdl:output message="tns:BookTicketsRoundTripJourneySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BookTicketsConfirmationOnwardJourney">
+      <wsdl:input message="tns:BookTicketsConfirmationOnwardJourneySoapIn" />
+      <wsdl:output message="tns:BookTicketsConfirmationOnwardJourneySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BookTicketsConfirmationRoundTripJourney">
+      <wsdl:input message="tns:BookTicketsConfirmationRoundTripJourneySoapIn" />
+      <wsdl:output message="tns:BookTicketsConfirmationRoundTripJourneySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ConfirmCancelTickets">
+      <wsdl:input message="tns:ConfirmCancelTicketsSoapIn" />
+      <wsdl:output message="tns:ConfirmCancelTicketsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CancelTickets">
+      <wsdl:input message="tns:CancelTicketsSoapIn" />
+      <wsdl:output message="tns:CancelTicketsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CancelBlockedTicketsOnwardJourney">
+      <wsdl:input message="tns:CancelBlockedTicketsOnwardJourneySoapIn" />
+      <wsdl:output message="tns:CancelBlockedTicketsOnwardJourneySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CancelBlockedTicketsRoundTripJourney">
+      <wsdl:input message="tns:CancelBlockedTicketsRoundTripJourneySoapIn" />
+      <wsdl:output message="tns:CancelBlockedTicketsRoundTripJourneySoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="commonHttpGet">
+    <wsdl:operation name="GetSourceStations">
+      <wsdl:input message="tns:GetSourceStationsHttpGetIn" />
+      <wsdl:output message="tns:GetSourceStationsHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDestinationStations">
+      <wsdl:input message="tns:GetDestinationStationsHttpGetIn" />
+      <wsdl:output message="tns:GetDestinationStationsHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetServices">
+      <wsdl:input message="tns:GetServicesHttpGetIn" />
+      <wsdl:output message="tns:GetServicesHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetServicesDetails">
+      <wsdl:input message="tns:GetServicesDetailsHttpGetIn" />
+      <wsdl:output message="tns:GetServicesDetailsHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSchedules">
+      <wsdl:input message="tns:GetSchedulesHttpGetIn" />
+      <wsdl:output message="tns:GetSchedulesHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBoardingPoints">
+      <wsdl:input message="tns:GetBoardingPointsHttpGetIn" />
+      <wsdl:output message="tns:GetBoardingPointsHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDroppingPoints">
+      <wsdl:input message="tns:GetDroppingPointsHttpGetIn" />
+      <wsdl:output message="tns:GetDroppingPointsHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckFare">
+      <wsdl:input message="tns:CheckFareHttpGetIn" />
+      <wsdl:output message="tns:CheckFareHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSeatLayout">
+      <wsdl:input message="tns:GetSeatLayoutHttpGetIn" />
+      <wsdl:output message="tns:GetSeatLayoutHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BookTicketsOnwardJourney">
+      <wsdl:input message="tns:BookTicketsOnwardJourneyHttpGetIn" />
+      <wsdl:output message="tns:BookTicketsOnwardJourneyHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BookTicketsRoundTripJourney">
+      <wsdl:input message="tns:BookTicketsRoundTripJourneyHttpGetIn" />
+      <wsdl:output message="tns:BookTicketsRoundTripJourneyHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BookTicketsConfirmationOnwardJourney">
+      <wsdl:input message="tns:BookTicketsConfirmationOnwardJourneyHttpGetIn" />
+      <wsdl:output message="tns:BookTicketsConfirmationOnwardJourneyHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BookTicketsConfirmationRoundTripJourney">
+      <wsdl:input message="tns:BookTicketsConfirmationRoundTripJourneyHttpGetIn" />
+      <wsdl:output message="tns:BookTicketsConfirmationRoundTripJourneyHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ConfirmCancelTickets">
+      <wsdl:input message="tns:ConfirmCancelTicketsHttpGetIn" />
+      <wsdl:output message="tns:ConfirmCancelTicketsHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CancelTickets">
+      <wsdl:input message="tns:CancelTicketsHttpGetIn" />
+      <wsdl:output message="tns:CancelTicketsHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CancelBlockedTicketsOnwardJourney">
+      <wsdl:input message="tns:CancelBlockedTicketsOnwardJourneyHttpGetIn" />
+      <wsdl:output message="tns:CancelBlockedTicketsOnwardJourneyHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CancelBlockedTicketsRoundTripJourney">
+      <wsdl:input message="tns:CancelBlockedTicketsRoundTripJourneyHttpGetIn" />
+      <wsdl:output message="tns:CancelBlockedTicketsRoundTripJourneyHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="commonHttpPost">
+    <wsdl:operation name="GetSourceStations">
+      <wsdl:input message="tns:GetSourceStationsHttpPostIn" />
+      <wsdl:output message="tns:GetSourceStationsHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDestinationStations">
+      <wsdl:input message="tns:GetDestinationStationsHttpPostIn" />
+      <wsdl:output message="tns:GetDestinationStationsHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetServices">
+      <wsdl:input message="tns:GetServicesHttpPostIn" />
+      <wsdl:output message="tns:GetServicesHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetServicesDetails">
+      <wsdl:input message="tns:GetServicesDetailsHttpPostIn" />
+      <wsdl:output message="tns:GetServicesDetailsHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSchedules">
+      <wsdl:input message="tns:GetSchedulesHttpPostIn" />
+      <wsdl:output message="tns:GetSchedulesHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBoardingPoints">
+      <wsdl:input message="tns:GetBoardingPointsHttpPostIn" />
+      <wsdl:output message="tns:GetBoardingPointsHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDroppingPoints">
+      <wsdl:input message="tns:GetDroppingPointsHttpPostIn" />
+      <wsdl:output message="tns:GetDroppingPointsHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckFare">
+      <wsdl:input message="tns:CheckFareHttpPostIn" />
+      <wsdl:output message="tns:CheckFareHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSeatLayout">
+      <wsdl:input message="tns:GetSeatLayoutHttpPostIn" />
+      <wsdl:output message="tns:GetSeatLayoutHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BookTicketsOnwardJourney">
+      <wsdl:input message="tns:BookTicketsOnwardJourneyHttpPostIn" />
+      <wsdl:output message="tns:BookTicketsOnwardJourneyHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BookTicketsRoundTripJourney">
+      <wsdl:input message="tns:BookTicketsRoundTripJourneyHttpPostIn" />
+      <wsdl:output message="tns:BookTicketsRoundTripJourneyHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BookTicketsConfirmationOnwardJourney">
+      <wsdl:input message="tns:BookTicketsConfirmationOnwardJourneyHttpPostIn" />
+      <wsdl:output message="tns:BookTicketsConfirmationOnwardJourneyHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BookTicketsConfirmationRoundTripJourney">
+      <wsdl:input message="tns:BookTicketsConfirmationRoundTripJourneyHttpPostIn" />
+      <wsdl:output message="tns:BookTicketsConfirmationRoundTripJourneyHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ConfirmCancelTickets">
+      <wsdl:input message="tns:ConfirmCancelTicketsHttpPostIn" />
+      <wsdl:output message="tns:ConfirmCancelTicketsHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CancelTickets">
+      <wsdl:input message="tns:CancelTicketsHttpPostIn" />
+      <wsdl:output message="tns:CancelTicketsHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CancelBlockedTicketsOnwardJourney">
+      <wsdl:input message="tns:CancelBlockedTicketsOnwardJourneyHttpPostIn" />
+      <wsdl:output message="tns:CancelBlockedTicketsOnwardJourneyHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CancelBlockedTicketsRoundTripJourney">
+      <wsdl:input message="tns:CancelBlockedTicketsRoundTripJourneyHttpPostIn" />
+      <wsdl:output message="tns:CancelBlockedTicketsRoundTripJourneyHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="commonSoap" type="tns:commonSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetSourceStations">
+      <soap:operation soapAction="http://microsoft.com/webservices/GetSourceStations" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDestinationStations">
+      <soap:operation soapAction="http://microsoft.com/webservices/GetDestinationStations" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetServices">
+      <soap:operation soapAction="http://microsoft.com/webservices/GetServices" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetServicesDetails">
+      <soap:operation soapAction="http://microsoft.com/webservices/GetServicesDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSchedules">
+      <soap:operation soapAction="http://microsoft.com/webservices/GetSchedules" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBoardingPoints">
+      <soap:operation soapAction="http://microsoft.com/webservices/GetBoardingPoints" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDroppingPoints">
+      <soap:operation soapAction="http://microsoft.com/webservices/GetDroppingPoints" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckFare">
+      <soap:operation soapAction="http://microsoft.com/webservices/CheckFare" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSeatLayout">
+      <soap:operation soapAction="http://microsoft.com/webservices/GetSeatLayout" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BookTicketsOnwardJourney">
+      <soap:operation soapAction="http://microsoft.com/webservices/BookTicketsOnwardJourney" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BookTicketsRoundTripJourney">
+      <soap:operation soapAction="http://microsoft.com/webservices/BookTicketsRoundTripJourney" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BookTicketsConfirmationOnwardJourney">
+      <soap:operation soapAction="http://microsoft.com/webservices/BookTicketsConfirmationOnwardJourney" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BookTicketsConfirmationRoundTripJourney">
+      <soap:operation soapAction="http://microsoft.com/webservices/BookTicketsConfirmationRoundTripJourney" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConfirmCancelTickets">
+      <soap:operation soapAction="http://microsoft.com/webservices/ConfirmCancelTickets" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CancelTickets">
+      <soap:operation soapAction="http://microsoft.com/webservices/CancelTickets" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CancelBlockedTicketsOnwardJourney">
+      <soap:operation soapAction="http://microsoft.com/webservices/CancelBlockedTicketsOnwardJourney" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CancelBlockedTicketsRoundTripJourney">
+      <soap:operation soapAction="http://microsoft.com/webservices/CancelBlockedTicketsRoundTripJourney" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="commonSoap12" type="tns:commonSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetSourceStations">
+      <soap12:operation soapAction="http://microsoft.com/webservices/GetSourceStations" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDestinationStations">
+      <soap12:operation soapAction="http://microsoft.com/webservices/GetDestinationStations" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetServices">
+      <soap12:operation soapAction="http://microsoft.com/webservices/GetServices" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetServicesDetails">
+      <soap12:operation soapAction="http://microsoft.com/webservices/GetServicesDetails" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSchedules">
+      <soap12:operation soapAction="http://microsoft.com/webservices/GetSchedules" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBoardingPoints">
+      <soap12:operation soapAction="http://microsoft.com/webservices/GetBoardingPoints" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDroppingPoints">
+      <soap12:operation soapAction="http://microsoft.com/webservices/GetDroppingPoints" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckFare">
+      <soap12:operation soapAction="http://microsoft.com/webservices/CheckFare" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSeatLayout">
+      <soap12:operation soapAction="http://microsoft.com/webservices/GetSeatLayout" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BookTicketsOnwardJourney">
+      <soap12:operation soapAction="http://microsoft.com/webservices/BookTicketsOnwardJourney" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BookTicketsRoundTripJourney">
+      <soap12:operation soapAction="http://microsoft.com/webservices/BookTicketsRoundTripJourney" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BookTicketsConfirmationOnwardJourney">
+      <soap12:operation soapAction="http://microsoft.com/webservices/BookTicketsConfirmationOnwardJourney" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BookTicketsConfirmationRoundTripJourney">
+      <soap12:operation soapAction="http://microsoft.com/webservices/BookTicketsConfirmationRoundTripJourney" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConfirmCancelTickets">
+      <soap12:operation soapAction="http://microsoft.com/webservices/ConfirmCancelTickets" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CancelTickets">
+      <soap12:operation soapAction="http://microsoft.com/webservices/CancelTickets" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CancelBlockedTicketsOnwardJourney">
+      <soap12:operation soapAction="http://microsoft.com/webservices/CancelBlockedTicketsOnwardJourney" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CancelBlockedTicketsRoundTripJourney">
+      <soap12:operation soapAction="http://microsoft.com/webservices/CancelBlockedTicketsRoundTripJourney" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="commonHttpGet" type="tns:commonHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="GetSourceStations">
+      <http:operation location="/GetSourceStations" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDestinationStations">
+      <http:operation location="/GetDestinationStations" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetServices">
+      <http:operation location="/GetServices" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetServicesDetails">
+      <http:operation location="/GetServicesDetails" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSchedules">
+      <http:operation location="/GetSchedules" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBoardingPoints">
+      <http:operation location="/GetBoardingPoints" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDroppingPoints">
+      <http:operation location="/GetDroppingPoints" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckFare">
+      <http:operation location="/CheckFare" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSeatLayout">
+      <http:operation location="/GetSeatLayout" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BookTicketsOnwardJourney">
+      <http:operation location="/BookTicketsOnwardJourney" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BookTicketsRoundTripJourney">
+      <http:operation location="/BookTicketsRoundTripJourney" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BookTicketsConfirmationOnwardJourney">
+      <http:operation location="/BookTicketsConfirmationOnwardJourney" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BookTicketsConfirmationRoundTripJourney">
+      <http:operation location="/BookTicketsConfirmationRoundTripJourney" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConfirmCancelTickets">
+      <http:operation location="/ConfirmCancelTickets" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CancelTickets">
+      <http:operation location="/CancelTickets" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CancelBlockedTicketsOnwardJourney">
+      <http:operation location="/CancelBlockedTicketsOnwardJourney" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CancelBlockedTicketsRoundTripJourney">
+      <http:operation location="/CancelBlockedTicketsRoundTripJourney" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="commonHttpPost" type="tns:commonHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="GetSourceStations">
+      <http:operation location="/GetSourceStations" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDestinationStations">
+      <http:operation location="/GetDestinationStations" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetServices">
+      <http:operation location="/GetServices" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetServicesDetails">
+      <http:operation location="/GetServicesDetails" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSchedules">
+      <http:operation location="/GetSchedules" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBoardingPoints">
+      <http:operation location="/GetBoardingPoints" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDroppingPoints">
+      <http:operation location="/GetDroppingPoints" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckFare">
+      <http:operation location="/CheckFare" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSeatLayout">
+      <http:operation location="/GetSeatLayout" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BookTicketsOnwardJourney">
+      <http:operation location="/BookTicketsOnwardJourney" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BookTicketsRoundTripJourney">
+      <http:operation location="/BookTicketsRoundTripJourney" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BookTicketsConfirmationOnwardJourney">
+      <http:operation location="/BookTicketsConfirmationOnwardJourney" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BookTicketsConfirmationRoundTripJourney">
+      <http:operation location="/BookTicketsConfirmationRoundTripJourney" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConfirmCancelTickets">
+      <http:operation location="/ConfirmCancelTickets" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CancelTickets">
+      <http:operation location="/CancelTickets" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CancelBlockedTicketsOnwardJourney">
+      <http:operation location="/CancelBlockedTicketsOnwardJourney" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CancelBlockedTicketsRoundTripJourney">
+      <http:operation location="/CancelBlockedTicketsRoundTripJourney" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="common">
+    <wsdl:port name="commonSoap" binding="tns:commonSoap">
+      <soap:address location="http://kesinenitravels.com/kttapi/common.asmx" />
+    </wsdl:port>
+    <wsdl:port name="commonSoap12" binding="tns:commonSoap12">
+      <soap12:address location="http://kesinenitravels.com/kttapi/common.asmx" />
+    </wsdl:port>
+    <wsdl:port name="commonHttpGet" binding="tns:commonHttpGet">
+      <http:address location="http://kesinenitravels.com/kttapi/common.asmx" />
+    </wsdl:port>
+    <wsdl:port name="commonHttpPost" binding="tns:commonHttpPost">
+      <http:address location="http://kesinenitravels.com/kttapi/common.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

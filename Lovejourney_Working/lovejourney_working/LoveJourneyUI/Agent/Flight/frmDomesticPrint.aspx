@@ -1,0 +1,620 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Agent/Flight/MasterPage.master"
+    AutoEventWireup="true" CodeFile="frmDomesticPrint.aspx.cs" Inherits="Agent_Flight_frmDomesticPrint" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajax" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
+    <div>
+        <table width="100%">
+            <tr>
+                <td>
+                    <table width="900" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td>
+                                &nbsp;
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td valign="top" align="left">
+                                <asp:Panel ID="Panel1" Width="501" runat="server" DefaultButton="btnSignIn">
+                                    <%--<table width="501" cellspacing="0" cellpadding="0" align="center" style="background-color: White;">
+                                        
+                                        
+                                        <tr>
+                                            <td align="center">
+                                                <table width="400" border="0" cellspacing="0" cellpadding="0">
+                                                    <tr>
+                                                        <td width="50%" align="right">
+                                                            Reference No&nbsp;&nbsp;<span style="color: Red;">*</span>&nbsp;:&nbsp;
+                                                        </td>
+                                                        <td align="left" height="34" width="60%">
+                                                            
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="center" width="40%" class="p_nme">
+                                                            &nbsp;
+                                                        </td>
+                                                        <td align="left" width="60%">
+                                                            
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td height="20">
+                                                &nbsp;
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td height="20">
+                                                &nbsp;
+                                            </td>
+                                        </tr>
+                                    </table>--%>
+                                    <table width="400" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                            <td align="center">
+                                                <asp:Label ID="lblMainMSg" runat="server" />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td height="20" align="center">
+                                                <asp:Label ID="lblMsg" runat="server" />
+                                            </td>
+                                        </tr>
+  <tr>
+    <td align="right" valign="bottom" width="24" height="23"><img src="../../images/formtop_left.png" /></td>
+    <td class="form_top" width="347"></td>
+    <td align="left" valign="bottom" width="29" height="23"><img src="../../images/formright_top.png" /></td>
+  </tr>
+
+
+  <tr>
+    <td class="form_left"></td>
+    <td width="347" align="left" valign="top"  bgcolor="#ffffff" >
+    
+    <table width="347" cellpadding="0" cellspacing="0" border="0">
+     <tr>
+                                    <td valign="top" height="20" align="left">
+                                       <table width="347" height="45" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="50"><img src="../../images/cancel_tick.png" width="37" height="37" /></td>
+    <td align="center" valign="middle" class="online_booking">Print Ticket</td>
+  </tr>
+</table>
+                                    </td>
+                                </tr>
+
+
+       <tr>
+           <td height="12" colspan="2" class="border_top">
+                  &nbsp;</td>
+        </tr>
+        
+
+
+     
+     <tr>
+                                <td align="left" >
+                                <table width="300" cellpadding="0" cellspacing="0" border="0" >
+                               <tr>
+                                            <td colspan="3">
+                                                <asp:RadioButtonList ID="rbtnDomesticInt" RepeatDirection="Horizontal" runat="server"
+                                                    OnSelectedIndexChanged="rbtnDomesticInt_SelectedIndexChanged" AutoPostBack="True">
+                                                    <asp:ListItem Text="Domestic" Value="0" Selected="True"></asp:ListItem>
+                                                    <asp:ListItem Text="International" Value="1"></asp:ListItem>
+                                                </asp:RadioButtonList>
+                                            </td>
+                                        </tr>
+                                <tr>
+                                    <td height="28" align="left" width="100" class="lj_hd12" >
+                                        LoveJourney Ref No
+                                    </td>
+                                    <td width="5%" height="28" align="center" class="ft01">
+                                        :
+                                    </td>
+                                    <td height="28" align="left">
+                                       <asp:TextBox ID="txtRefNo" MaxLength="50" runat="server" CssClass="textfield_sleep" />
+                                                            <asp:RequiredFieldValidator ID="rfvUsername" ErrorMessage="Enter Reference No" ControlToValidate="txtRefNo"
+                                                                Display="None" runat="server" ValidationGroup="signin" />
+                                                            <ajax:ValidatorCalloutExtender ID="ValidatorCalloutExtender1" runat="server" TargetControlID="rfvUsername">
+                                                            </ajax:ValidatorCalloutExtender>
+                                    </td>
+                                </tr>
+                                
+
+                                <tr>
+                                    <td height="28" align="left" class="lj_hd12">
+                                        
+                                        
+                                                              
+                                    </td>
+                                </tr>
+                                 
+                                 <tr>
+                                 
+                                 
+
+
+                                    <td  height="40"  valign="middle"  align="center" colspan="3">
+                                      <asp:Button ID="btnSignIn" runat="server" Text="Submit" CssClass="buttonBook" ValidationGroup="signin"
+                                                                OnClick="btnSignIn_Click" />
+                                                            <asp:Button ID="btnSignInInt" runat="server" Text="Submit" CssClass="buttonBook"
+                                                                ValidationGroup="signin" OnClick="btnSignInInt_Click" Visible="False" />
+
+                                                        
+
+                                    </td>
+                                 </tr>
+
+                                 
+
+                                 
+
+                                 
+
+                                
+
+                                
+
+                                
+
+                                 </table>
+                                </td>
+                                </tr>
+
+
+   
+
+    </table>
+    </td>
+    <td class="form_right"></td>
+  </tr>
+
+
+
+  <tr>
+    <td align="center" valign="top" width="24" height="32"><img src="../../images/formbottom_left.png" /></td>
+    <td class="form_bottom" width="347"></td>
+    <td align="left" valign="top" width="29" height="32"><img src="../../images/formright_bottom.png" /></td>
+  </tr>
+
+</table>
+                                </asp:Panel>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="900" valign="top" align="left" style="background-color:White;">
+                                <asp:Panel ID="pnlViewticket" runat="server" Visible="false" Width="900">
+                                    <table width="900" border="0" align="center" cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td width="900" align="center">
+                                                <table width="900" align="center">
+                                                    <tr>
+                                                        <td width="523" align="left">
+                                                            <span class="actions">
+                                                                <asp:LinkButton ID="lbtnback" Text="Back" runat="server" OnClick="lbtnback_Click" /></span>
+                                                        </td>
+                                                        <td width="115" align="right">
+                                                            <span class="actions">
+                                                                <asp:LinkButton ID="lbtnmail" Text="Mail" runat="server" OnClick="lbtnmail_Click1" />&nbsp;&nbsp;|&nbsp;&nbsp;
+                                                                <input type="button" value="Print" onclick="printPage('printdiv');" class="buttonBook" />
+                                                                <%--<a onclick="printPage('printdiv');" target="_blank">Print</a></span>--%>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="900" align="center">
+                                                <asp:Panel ID="pnlmail" Width="900" runat="server">
+                                                    <div id="printdiv" style="float: left;">
+                                                        <table width="900" cellspacing="0" cellpadding="0" border="1px solid black;">
+                                                            <tr>
+                                                                <td>
+                                                                    <table width="900" border="0" cellspacing="0" cellpadding="0">
+                                                                        <tr>
+                                                                            <td align="left" width="300" height="96" valign="top">
+                                                                                <img src="../../Newimages/New_Logo.png" width="260" height="88" border="0"
+                                                                                    title="Love Journey" />&nbsp;&nbsp;
+                                                                            </td>
+                                                                            <td align="right">
+                                                                                <table width="200" border="0" cellspacing="0" cellpadding="0">
+                                                                                    <tr>
+                                                                                        <td width="40" align="left">
+                                                                                            <img src="http://Lovejourney.in/images/call.jpg" width="30" height="30" />
+                                                                                        </td>
+                                                                                        <td align="left">
+                                                                                            <b>(080) 32 56 17 27</b>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td width="40" align="left">
+                                                                                            <img src="http://Lovejourney.in/images/messenge.jpg" width="30" height="30" />
+                                                                                        </td>
+                                                                                        <td align="left">
+                                                                                            <a href="#">info@lovejourney.in</a>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </table>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td height="1" bgcolor="#979595">
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td height="5" align="left">
+                                                                    <table width="100%">
+                                                                    <tr>
+                                                                    <td width="40%" class="rightborder">
+                                                                    <table width="90%" >
+
+                                                                   
+                                                                        <tr>
+                                                                            <td>
+                                                                                Name :
+                                                                                <asp:Label ID="lblName" runat="server" Text=""></asp:Label>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                Tel :
+                                                                                <asp:Label ID="lblTel" runat="server" Text=""></asp:Label>
+                                                                            </td>
+                                                                            <%--  <td>
+                                                                                Mobile No :
+                                                                                <asp:Label ID="lblMobileNo" runat="server" Text=""></asp:Label>
+                                                                            </td>--%>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                Email ID :
+                                                                                <asp:Label ID="lblEmailAddress" runat="server" Text=""></asp:Label>
+                                                                            </td>
+                                                                        </tr>
+
+                                                                         </table>
+                                                                    </td>
+                                                                    <td  width="30%" class="rightborder">
+                                                
+                                                  <asp:Label ID="Label1" runat="server"   Text=" Your Airline PNR :" CssClass="pnrbold"></asp:Label>
+                                                            <asp:Label ID="lblAirlinePNR" runat="server"  CssClass="pnrbold"></asp:Label>
+                                                </td>
+                                                 <td  width="30%" style="padding-left:10px;">
+                                                 <table>
+                                                 <tr>
+                                                 
+                                                 <td>
+                                                  <img src="../../images/barcode.png" />
+                                                 </td>
+                                                 </tr>
+                                                 
+                                                 <tr>
+                                                 <td>
+                                                   <asp:Label ID="Label2" runat="server" Text="Love Journey Ref NO :" Visible="false"></asp:Label>
+                                             
+                                                            <asp:Label ID="lblPNR" runat="server"></asp:Label>
+                                                 </td>
+                                                 </tr>
+                                                 </table>
+                                               
+                                             
+                                                </td>
+                                                                    </tr>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                        <table width="100%">
+                                                            <tr>
+                                                                <td align="center">
+                                                                    
+                                                                    <asp:Label ID="lblEticket" runat="server" Text="Eticket" style="padding-left:200px;" ></asp:Label>
+                                                                     <asp:Label ID="lblBookingTimeDate" runat="server" Text="Booking Date:" style="padding-left:200px;"  ></asp:Label>
+                                                                    <asp:Label ID="lblBookingTime" runat="server" Text=""></asp:Label>
+                                                                </td>
+                                                            </tr>
+                                                            <%--<tr>
+                                                                <td>
+                                                                    <table width="100%" style="border: 1px solid; ">
+                                                                        <tr>
+                                                                            <td>
+                                                                                Your Airline PNR :
+                                                                                <asp:Label ID="lblPNR" runat="server"></asp:Label>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>--%>
+                                                            <tr>
+                                                                <td align="left">
+                                                                    <asp:Label ID="lblOrigin" runat="server" Text=""></asp:Label>
+                                                                    -
+                                                                    <asp:Label ID="lblDestination" runat="server" Text=""></asp:Label>
+                                                                   
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <table width="100%" border="1" >
+                                                                        <tr>
+                                                                            <th align="left">
+                                                                                Airline
+                                                                            </th>
+                                                                            <th align="left">
+                                                                                Flight No
+                                                                            </th>
+                                                                            <th colspan="2">
+                                                                                Departure Date & Time
+                                                                            </th>
+                                                                            <th colspan="2">
+                                                                                Arrival Date & Time
+                                                                            </th>
+                                                                            <%--   <th>
+                                                    PNR No
+                                                </th>--%>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <asp:Image ID="img" runat="server" />
+                                                                                -
+                                                                                <asp:Label ID="lblAirlineName" runat="server"></asp:Label>
+                                                                            </td>
+                                                                            <td>
+                                                                                <asp:Label ID="lblFlightNumber" runat="server"></asp:Label>
+                                                                            </td>
+                                                                            <td>
+                                                                                <asp:Label ID="lblDepartureDate" runat="server"></asp:Label>
+                                                                            </td>
+                                                                            <td>
+                                                                                <asp:Label ID="lblDepartureTime" runat="server"></asp:Label>
+                                                                            </td>
+                                                                            <td>
+                                                                                <asp:Label ID="lblArrivalDate" runat="server"></asp:Label>
+                                                                            </td>
+                                                                            <td>
+                                                                                <asp:Label ID="lblArrivalTime" runat="server"></asp:Label>
+                                                                            </td>
+                                                                            <%--   <td>
+                                                    <asp:Label ID="lblPNRNo" runat="server"></asp:Label>
+                                                </td>--%>
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                            <tr id="printroundtrip" runat="server" visible="false">
+                                                                <td>
+                                                                    <table width="100%">
+                                                                        <tr>
+                                                                            <td align="left">
+                                                                                <asp:Label ID="lblOriginRet" runat="server" Text=""></asp:Label>
+                                                                                -
+                                                                                <asp:Label ID="lblDestinationRet" runat="server" Text=""></asp:Label>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <table width="100%" border="1" >
+                                                                                    <tr>
+                                                                                        <th align="left">
+                                                                                            Return Airline
+                                                                                        </th>
+                                                                                        <th align="left">
+                                                                                            Return Flight No
+                                                                                        </th>
+                                                                                        <th colspan="2">
+                                                                                            Return Departure Date & Time
+                                                                                        </th>
+                                                                                        <th colspan="2">
+                                                                                            Return Arrival Date & Time
+                                                                                        </th>
+                                                                                        <%--   <th>
+                                                   Return PNR No
+                                                </th>--%>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td>
+                                                                                            <asp:Image ID="img1" runat="server" />
+                                                                                            -
+                                                                                            <asp:Label ID="lblAirlineNamereturn" runat="server"></asp:Label>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <asp:Label ID="lblFlightNumberreturn" runat="server"></asp:Label>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <asp:Label ID="lblDepartureDatereturn" runat="server"></asp:Label>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <asp:Label ID="lblDepartureTimereturn" runat="server"></asp:Label>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <asp:Label ID="lblArrivalDatereturn" runat="server"></asp:Label>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <asp:Label ID="lblArrivalTimereturn" runat="server"></asp:Label>
+                                                                                        </td>
+                                                                                        <%--   <td>
+                                                    <asp:Label ID="lblPNRNoreturn" runat="server"></asp:Label>
+                                                </td>--%>
+                                                                                    </tr>
+                                                                                </table>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="left">
+                                                                    Ticket Details
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <asp:GridView Width="100%" ID="gdvPassengerDetails" runat="server" AutoGenerateColumns="false">
+                                                                        <Columns>
+                                                                            <asp:TemplateField HeaderText="Sr No.">
+                                                                                <ItemTemplate>
+                                                                                    <%# Container.DataItemIndex + 1 %>
+                                                                                </ItemTemplate>
+                                                                            </asp:TemplateField>
+                                                                            <asp:TemplateField HeaderText="Passenger Name(s).">
+                                                                                <ItemTemplate>
+                                                                                    <asp:Label ID="lblPassengername" runat="server" Text='<%#Eval("Name") %>'></asp:Label>
+                                                                                </ItemTemplate>
+                                                                            </asp:TemplateField>
+                                                                            <%--<asp:TemplateField HeaderText="E-ticket No.">
+                                                                                <ItemTemplate>
+                                                                                    <asp:Label ID="lblEticketNo" runat="server"></asp:Label>
+                                                                                </ItemTemplate>
+                                                                            </asp:TemplateField>--%>
+                                                                            <asp:TemplateField HeaderText="Passenger Type">
+                                                                                <ItemTemplate>
+                                                                                    <asp:Label ID="lblPassengerType" runat="server" Text='<%#Eval("Type") %>'></asp:Label>
+                                                                                </ItemTemplate>
+                                                                            </asp:TemplateField>
+                                                                            <asp:TemplateField HeaderText="Age">
+                                                                                <ItemTemplate>
+                                                                                    <asp:Label ID="lblAge" runat="server" Text='<%#Eval("Age") %>'></asp:Label>
+                                                                                </ItemTemplate>
+                                                                            </asp:TemplateField>
+                                                                        </Columns>
+                                                                    </asp:GridView>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="left">
+                                                                    Passenger. Mobile :
+                                                                    <asp:Label ID="lblPsngrMobileNo" runat="server" Text=""></asp:Label>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="left">
+                                                                    Fare Details :
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="left">
+                                                                    <table border="1" width="100%">
+                                                                        <tr>
+                                                                            <td>
+                                                                                Passenger Type :
+                                                                                <asp:Label ID="lblPassengerType" runat="server" Text=""></asp:Label>
+                                                                            </td>
+                                                                            <td>
+                                                                                Passenger Count :
+                                                                                <asp:Label ID="lblPassengerCnt" runat="server" Text=""></asp:Label>
+                                                                            </td>
+                                                                            <td>
+                                                                                Basic Fare :
+                                                                                <asp:Label ID="lblBasicFare" runat="server" Text=""></asp:Label>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                            </td>
+                                                                            <td align="right">
+                                                                                Taxes :
+                                                                            </td>
+                                                                            <td>
+                                                                                <asp:Label ID="lblTaxes" runat="server" Text=""></asp:Label>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                            </td>
+                                                                            <td align="right">
+                                                                                Service Tax & Fees :
+                                                                            </td>
+                                                                            <td>
+                                                                                <asp:Label ID="lblServiceTax" runat="server" Text=""></asp:Label>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                            </td>
+                                                                            <td align="right">
+                                                                                Total :
+                                                                            </td>
+                                                                            <td>
+                                                                                <asp:Label ID="lblTotal" runat="server" Text=""></asp:Label>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td style="color: Red">
+                                                                    <p>
+                                                                        * Passenger is requested to check-in 2hrs prior to scheduled depature (flights departing
+                                                                        from international terminal check-in 3 hrs. prior to scheduled departure).
+                                                                    </p>
+                                                                    <p>
+                                                                        * All Passengers including children and infants, must present valid identity proof
+                                                                        ( Passport / Pan Card / election card or any photo identity proof ) at check-in.
+                                                                        It is your responsibility to ensure you have the appropriate travel documents at
+                                                                        all times.
+                                                                    </p>
+                                                                    <p>
+                                                                        * Changes/Cancellations to booking must be made at least 5 hours prior to scheduled
+                                                                        departure time or else should be cancelled directly from the respective airlines.</p>
+                                                                    <p>
+                                                                        &nbsp;* If any flight is cancelled or rescheduled by the airline authority, passenger
+                                                                        is requested to get a stamped/endorsed copy of the ticket to process the refund.
+                                                                    </p>
+                                                                    <p>
+                                                                        * Passenger travelling from Delhi on Indigo and Spice Jet will have to check-in
+                                                                        at new Terminal 1D.
+                                                                    </p>
+                                                                    <p>
+                                                                        * Passenger travelling on Air India Express from Delhi and Mumbai, will have to
+                                                                        check-in at International Airport.
+                                                                    </p>
+                                                                    <p>
+                                                                        * As per Government guidelines, check-in counters at all Airports will now close
+                                                                        45 minutes before departure with immediate effect. Passengers are informed to plan
+                                                                        their Airport arrival accordingly.
+                                                                    </p>
+                                                                    <p>
+                                                                        * From the midnight of 10th November 2010 (i.e. 0000 hrs of 11th November 2010),all
+                                                                        domestic and international arrivals/departures will be from T3, IGI Airport, Delhi.
+                                                                    </p>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </div>
+                                                </asp:Panel>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="900" align="center">
+                                                <table width="900" align="center">
+                                                    <tr>
+                                                        <td width="523">
+                                                        </td>
+                                                        <td width="115" align="right">
+                                                            <span class="actions">
+                                                                <asp:LinkButton ID="LinkButton1" Text="Mail" runat="server" OnClick="lbtnmail_Click1" />&nbsp;&nbsp;|&nbsp;&nbsp;<a
+                                                                    onclick="printPage('printdiv');" target="_blank">Print</a></span>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </asp:Panel>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+</asp:Content>

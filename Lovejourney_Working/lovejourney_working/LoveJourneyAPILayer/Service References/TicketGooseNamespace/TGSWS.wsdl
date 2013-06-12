@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:intf="http://staging.ticketgoose.com/bookbustickets/services/TGSWS" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns1="urn:com.efficsys.tgs.webservices" xmlns:tns2="urn:com.efficsys.tgs.dto" xmlns:impl="http://staging.ticketgoose.com/bookbustickets/services/TGSWS" targetNamespace="http://staging.ticketgoose.com/bookbustickets/services/TGSWS" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="urn:com.efficsys.tgs.webservices">
+      <xsd:import namespace="http://staging.ticketgoose.com/bookbustickets/services/TGSWS" />
+      <xsd:import namespace="urn:com.efficsys.tgs.dto" />
+      <xsd:import namespace="http://schemas.xmlsoap.org/soap/encoding/" />
+      <xsd:complexType name="Status">
+        <xsd:sequence>
+          <xsd:element name="code" nillable="true" type="soapenc:string" />
+          <xsd:element name="message" nillable="true" type="soapenc:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="Trip">
+        <xsd:sequence>
+          <xsd:element name="status" nillable="true" type="tns1:Status" />
+          <xsd:element name="tripList" nillable="true" type="impl:ArrayOf_tns2_TripDTO" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="BookingDetails">
+        <xsd:sequence>
+          <xsd:element name="bookingId" nillable="true" type="soapenc:string" />
+          <xsd:element name="cancellationDescList" nillable="true" type="impl:ArrayOf_soapenc_string" />
+          <xsd:element name="extraSeatInfoList" nillable="true" type="impl:ArrayOf_tns2_ExtraSeatInfoDTO" />
+          <xsd:element name="status" nillable="true" type="tns1:Status" />
+          <xsd:element name="travelsPhoneNbr" nillable="true" type="soapenc:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="Station">
+        <xsd:sequence>
+          <xsd:element name="stationList" nillable="true" type="impl:ArrayOf_tns2_StationDTO" />
+          <xsd:element name="status" nillable="true" type="tns1:Status" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="TripDetails">
+        <xsd:sequence>
+          <xsd:element name="status" nillable="true" type="tns1:Status" />
+          <xsd:element name="tripDetails" nillable="true" type="tns2:TripDetailsDTO" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="BlockedSeatsForBookingDetails">
+        <xsd:sequence>
+          <xsd:element name="bookingId" nillable="true" type="soapenc:string" />
+          <xsd:element name="cancellationDescList" nillable="true" type="impl:ArrayOf_soapenc_string" />
+          <xsd:element name="expireTime" nillable="true" type="soapenc:string" />
+          <xsd:element name="status" nillable="true" type="tns1:Status" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="CancellationChargeDetails">
+        <xsd:sequence>
+          <xsd:element name="cancellationChargeDetailsList" nillable="true" type="impl:ArrayOf_tns2_CancellationChargeDetailsDTO" />
+          <xsd:element name="status" nillable="true" type="tns1:Status" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="CancellationDetails">
+        <xsd:sequence>
+          <xsd:element name="refundAmount" nillable="true" type="soapenc:string" />
+          <xsd:element name="status" nillable="true" type="tns1:Status" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="FromToStation">
+        <xsd:sequence>
+          <xsd:element name="fromToStationList" nillable="true" type="impl:ArrayOf_tns2_FromToStationDTO" />
+          <xsd:element name="status" nillable="true" type="tns1:Status" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="TripData">
+        <xsd:sequence>
+          <xsd:element name="status" nillable="true" type="tns1:Status" />
+          <xsd:element name="tripList" nillable="true" type="impl:ArrayOf_tns2_TripDataDTO" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="TripWithArrival">
+        <xsd:sequence>
+          <xsd:element name="status" nillable="true" type="tns1:Status" />
+          <xsd:element name="tripList" nillable="true" type="impl:ArrayOf_tns2_TripWithArrivalDTO" />
+        </xsd:sequence>
+      </xsd:complexType>
+    </xsd:schema>
+    <xsd:schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="urn:com.efficsys.tgs.dto">
+      <xsd:import namespace="http://staging.ticketgoose.com/bookbustickets/services/TGSWS" />
+      <xsd:import namespace="urn:com.efficsys.tgs.webservices" />
+      <xsd:import namespace="http://schemas.xmlsoap.org/soap/encoding/" />
+      <xsd:complexType name="PickUpPointDTO">
+        <xsd:sequence>
+          <xsd:element name="description" nillable="true" type="soapenc:string" />
+          <xsd:element name="sequence" nillable="true" type="soapenc:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="TripDTO">
+        <xsd:sequence>
+          <xsd:element name="departureTime" nillable="true" type="soapenc:string" />
+          <xsd:element name="fare" nillable="true" type="soapenc:string" />
+          <xsd:element name="pickUpPointList" nillable="true" type="impl:ArrayOf_tns2_PickUpPointDTO" />
+          <xsd:element name="provider" nillable="true" type="soapenc:string" />
+          <xsd:element name="scheduleId" nillable="true" type="soapenc:string" />
+          <xsd:element name="ticketType" nillable="true" type="soapenc:string" />
+          <xsd:element name="type" nillable="true" type="soapenc:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ExtraSeatInfoDTO">
+        <xsd:sequence>
+          <xsd:element name="extraSeatInfo" nillable="true" type="soapenc:string" />
+          <xsd:element name="seatNbr" nillable="true" type="soapenc:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="StationDTO">
+        <xsd:sequence>
+          <xsd:element name="stationId" nillable="true" type="soapenc:string" />
+          <xsd:element name="stationName" nillable="true" type="soapenc:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="BoardingPointDTO">
+        <xsd:sequence>
+          <xsd:element name="boardingPointId" nillable="true" type="soapenc:string" />
+          <xsd:element name="boardingPointName" nillable="true" type="soapenc:string" />
+          <xsd:element name="time" nillable="true" type="soapenc:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="SeatDetailsDTO">
+        <xsd:sequence>
+          <xsd:element name="cellType" nillable="true" type="soapenc:string" />
+          <xsd:element name="columnNbr" type="xsd:int" />
+          <xsd:element name="rowNbr" type="xsd:int" />
+          <xsd:element name="seatNbr" nillable="true" type="soapenc:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="BusLayoutDTO">
+        <xsd:sequence>
+          <xsd:element name="level" type="xsd:int" />
+          <xsd:element name="nbrOfColumns" type="xsd:int" />
+          <xsd:element name="nbrOfRows" type="xsd:int" />
+          <xsd:element name="seatDetailsList" nillable="true" type="impl:ArrayOf_tns2_SeatDetailsDTO" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="SeatDetailDTO">
+        <xsd:sequence>
+          <xsd:element name="fare" nillable="true" type="soapenc:string" />
+          <xsd:element name="seatNbr" nillable="true" type="soapenc:string" />
+          <xsd:element name="seatStatus" nillable="true" type="soapenc:string" />
+          <xsd:element name="seatType" nillable="true" type="soapenc:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="TripDetailsDTO">
+        <xsd:sequence>
+          <xsd:element name="boardingPointList" nillable="true" type="impl:ArrayOf_tns2_BoardingPointDTO" />
+          <xsd:element name="busLayoutList" nillable="true" type="impl:ArrayOf_tns2_BusLayoutDTO" />
+          <xsd:element name="seatDetailList" nillable="true" type="impl:ArrayOf_tns2_SeatDetailDTO" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="PassengerDetailDTO">
+        <xsd:sequence>
+          <xsd:element name="age" nillable="true" type="soapenc:string" />
+          <xsd:element name="bookingByEmail" nillable="true" type="soapenc:string" />
+          <xsd:element name="bookingByFullName" nillable="true" type="soapenc:string" />
+          <xsd:element name="bookingId" nillable="true" type="soapenc:string" />
+          <xsd:element name="bookingStatus" nillable="true" type="soapenc:string" />
+          <xsd:element name="destinationStationName" nillable="true" type="soapenc:string" />
+          <xsd:element name="destinationStationPointName" nillable="true" type="soapenc:string" />
+          <xsd:element name="extraSeatFlagNotFound" type="xsd:boolean" />
+          <xsd:element name="extraSeatInfo" nillable="true" type="soapenc:string" />
+          <xsd:element name="fare" nillable="true" type="soapenc:string" />
+          <xsd:element name="mailId" nillable="true" type="soapenc:string" />
+          <xsd:element name="mobileNbr" nillable="true" type="soapenc:string" />
+          <xsd:element name="name" nillable="true" type="soapenc:string" />
+          <xsd:element name="operatorName" nillable="true" type="soapenc:string" />
+          <xsd:element name="originStationName" nillable="true" type="soapenc:string" />
+          <xsd:element name="originStationPointName" nillable="true" type="soapenc:string" />
+          <xsd:element name="passengerDetails" nillable="true" type="impl:ArrayOf_xsd_anyType" />
+          <xsd:element name="seatNbr" nillable="true" type="soapenc:string" />
+          <xsd:element name="sex" nillable="true" type="soapenc:string" />
+          <xsd:element name="sexDetails" nillable="true" type="soapenc:string" />
+          <xsd:element name="travelDate" nillable="true" type="soapenc:string" />
+          <xsd:element name="travelTime" nillable="true" type="soapenc:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="CancellationChargeDetailsDTO">
+        <xsd:sequence>
+          <xsd:element name="cancellationCharge" nillable="true" type="soapenc:string" />
+          <xsd:element name="seatFare" nillable="true" type="soapenc:string" />
+          <xsd:element name="seatNbr" nillable="true" type="soapenc:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="FromToStationDTO">
+        <xsd:sequence>
+          <xsd:element name="fromStationId" nillable="true" type="soapenc:string" />
+          <xsd:element name="toStationId" nillable="true" type="impl:ArrayOf_soapenc_string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="TripDataDTO">
+        <xsd:sequence>
+          <xsd:element name="availableSeats" nillable="true" type="soapenc:string" />
+          <xsd:element name="departureTime" nillable="true" type="soapenc:string" />
+          <xsd:element name="fare" nillable="true" type="soapenc:string" />
+          <xsd:element name="pickUpPointList" nillable="true" type="impl:ArrayOf_tns2_PickUpPointDTO" />
+          <xsd:element name="provider" nillable="true" type="soapenc:string" />
+          <xsd:element name="scheduleId" nillable="true" type="soapenc:string" />
+          <xsd:element name="ticketType" nillable="true" type="soapenc:string" />
+          <xsd:element name="type" nillable="true" type="soapenc:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="TripWithArrivalDTO">
+        <xsd:sequence>
+          <xsd:element name="arrivalTime" nillable="true" type="soapenc:string" />
+          <xsd:element name="availableSeats" nillable="true" type="soapenc:string" />
+          <xsd:element name="departureTime" nillable="true" type="soapenc:string" />
+          <xsd:element name="fare" nillable="true" type="soapenc:string" />
+          <xsd:element name="pickUpPointList" nillable="true" type="impl:ArrayOf_tns2_PickUpPointDTO" />
+          <xsd:element name="provider" nillable="true" type="soapenc:string" />
+          <xsd:element name="scheduleId" nillable="true" type="soapenc:string" />
+          <xsd:element name="ticketType" nillable="true" type="soapenc:string" />
+          <xsd:element name="type" nillable="true" type="soapenc:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+    </xsd:schema>
+    <xsd:schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://staging.ticketgoose.com/bookbustickets/services/TGSWS">
+      <xsd:import namespace="urn:com.efficsys.tgs.dto" />
+      <xsd:import namespace="urn:com.efficsys.tgs.webservices" />
+      <xsd:import namespace="http://schemas.xmlsoap.org/soap/encoding/" />
+      <xsd:complexType name="ArrayOf_tns2_PickUpPointDTO">
+        <xsd:complexContent mixed="false">
+          <xsd:restriction base="soapenc:Array">
+            <xsd:attribute wsdl:arrayType="tns2:PickUpPointDTO[]" ref="soapenc:arrayType" />
+          </xsd:restriction>
+        </xsd:complexContent>
+      </xsd:complexType>
+      <xsd:complexType name="ArrayOf_tns2_TripDTO">
+        <xsd:complexContent mixed="false">
+          <xsd:restriction base="soapenc:Array">
+            <xsd:attribute wsdl:arrayType="tns2:TripDTO[]" ref="soapenc:arrayType" />
+          </xsd:restriction>
+        </xsd:complexContent>
+      </xsd:complexType>
+      <xsd:complexType name="ArrayOf_soapenc_string">
+        <xsd:complexContent mixed="false">
+          <xsd:restriction base="soapenc:Array">
+            <xsd:attribute wsdl:arrayType="soapenc:string[]" ref="soapenc:arrayType" />
+          </xsd:restriction>
+        </xsd:complexContent>
+      </xsd:complexType>
+      <xsd:complexType name="ArrayOf_tns2_ExtraSeatInfoDTO">
+        <xsd:complexContent mixed="false">
+          <xsd:restriction base="soapenc:Array">
+            <xsd:attribute wsdl:arrayType="tns2:ExtraSeatInfoDTO[]" ref="soapenc:arrayType" />
+          </xsd:restriction>
+        </xsd:complexContent>
+      </xsd:complexType>
+      <xsd:complexType name="ArrayOf_tns2_StationDTO">
+        <xsd:complexContent mixed="false">
+          <xsd:restriction base="soapenc:Array">
+            <xsd:attribute wsdl:arrayType="tns2:StationDTO[]" ref="soapenc:arrayType" />
+          </xsd:restriction>
+        </xsd:complexContent>
+      </xsd:complexType>
+      <xsd:complexType name="ArrayOf_tns2_BoardingPointDTO">
+        <xsd:complexContent mixed="false">
+          <xsd:restriction base="soapenc:Array">
+            <xsd:attribute wsdl:arrayType="tns2:BoardingPointDTO[]" ref="soapenc:arrayType" />
+          </xsd:restriction>
+        </xsd:complexContent>
+      </xsd:complexType>
+      <xsd:complexType name="ArrayOf_tns2_SeatDetailsDTO">
+        <xsd:complexContent mixed="false">
+          <xsd:restriction base="soapenc:Array">
+            <xsd:attribute wsdl:arrayType="tns2:SeatDetailsDTO[]" ref="soapenc:arrayType" />
+          </xsd:restriction>
+        </xsd:complexContent>
+      </xsd:complexType>
+      <xsd:complexType name="ArrayOf_tns2_BusLayoutDTO">
+        <xsd:complexContent mixed="false">
+          <xsd:restriction base="soapenc:Array">
+            <xsd:attribute wsdl:arrayType="tns2:BusLayoutDTO[]" ref="soapenc:arrayType" />
+          </xsd:restriction>
+        </xsd:complexContent>
+      </xsd:complexType>
+      <xsd:complexType name="ArrayOf_tns2_SeatDetailDTO">
+        <xsd:complexContent mixed="false">
+          <xsd:restriction base="soapenc:Array">
+            <xsd:attribute wsdl:arrayType="tns2:SeatDetailDTO[]" ref="soapenc:arrayType" />
+          </xsd:restriction>
+        </xsd:complexContent>
+      </xsd:complexType>
+      <xsd:complexType name="ArrayOf_xsd_anyType">
+        <xsd:complexContent mixed="false">
+          <xsd:restriction base="soapenc:Array">
+            <xsd:attribute wsdl:arrayType="xsd:anyType[]" ref="soapenc:arrayType" />
+          </xsd:restriction>
+        </xsd:complexContent>
+      </xsd:complexType>
+      <xsd:complexType name="ArrayOf_tns2_PassengerDetailDTO">
+        <xsd:complexContent mixed="false">
+          <xsd:restriction base="soapenc:Array">
+            <xsd:attribute wsdl:arrayType="tns2:PassengerDetailDTO[]" ref="soapenc:arrayType" />
+          </xsd:restriction>
+        </xsd:complexContent>
+      </xsd:complexType>
+      <xsd:complexType name="ArrayOf_tns2_CancellationChargeDetailsDTO">
+        <xsd:complexContent mixed="false">
+          <xsd:restriction base="soapenc:Array">
+            <xsd:attribute wsdl:arrayType="tns2:CancellationChargeDetailsDTO[]" ref="soapenc:arrayType" />
+          </xsd:restriction>
+        </xsd:complexContent>
+      </xsd:complexType>
+      <xsd:complexType name="ArrayOf_tns2_FromToStationDTO">
+        <xsd:complexContent mixed="false">
+          <xsd:restriction base="soapenc:Array">
+            <xsd:attribute wsdl:arrayType="tns2:FromToStationDTO[]" ref="soapenc:arrayType" />
+          </xsd:restriction>
+        </xsd:complexContent>
+      </xsd:complexType>
+      <xsd:complexType name="ArrayOf_tns2_TripDataDTO">
+        <xsd:complexContent mixed="false">
+          <xsd:restriction base="soapenc:Array">
+            <xsd:attribute wsdl:arrayType="tns2:TripDataDTO[]" ref="soapenc:arrayType" />
+          </xsd:restriction>
+        </xsd:complexContent>
+      </xsd:complexType>
+      <xsd:complexType name="ArrayOf_tns2_TripWithArrivalDTO">
+        <xsd:complexContent mixed="false">
+          <xsd:restriction base="soapenc:Array">
+            <xsd:attribute wsdl:arrayType="tns2:TripWithArrivalDTO[]" ref="soapenc:arrayType" />
+          </xsd:restriction>
+        </xsd:complexContent>
+      </xsd:complexType>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="getTripListV2Response">
+    <wsdl:part name="getTripListV2Return" type="tns1:TripWithArrival" />
+  </wsdl:message>
+  <wsdl:message name="getStationListRequest">
+    <wsdl:part name="userId" type="soapenc:string" />
+    <wsdl:part name="pwd" type="soapenc:string" />
+  </wsdl:message>
+  <wsdl:message name="getStationListResponse">
+    <wsdl:part name="getStationListReturn" type="tns1:Station" />
+  </wsdl:message>
+  <wsdl:message name="getTripDetailsRequest">
+    <wsdl:part name="userId" type="soapenc:string" />
+    <wsdl:part name="pwd" type="soapenc:string" />
+    <wsdl:part name="originStationId" type="soapenc:string" />
+    <wsdl:part name="destinationStationId" type="soapenc:string" />
+    <wsdl:part name="travelDate" type="soapenc:string" />
+    <wsdl:part name="scheduleId" type="soapenc:string" />
+  </wsdl:message>
+  <wsdl:message name="bookTicketRequest">
+    <wsdl:part name="userId" type="soapenc:string" />
+    <wsdl:part name="pwd" type="soapenc:string" />
+    <wsdl:part name="bookingId" type="soapenc:string" />
+  </wsdl:message>
+  <wsdl:message name="getTripDetailsResponse">
+    <wsdl:part name="getTripDetailsReturn" type="tns1:TripDetails" />
+  </wsdl:message>
+  <wsdl:message name="getTripListResponse">
+    <wsdl:part name="getTripListReturn" type="tns1:Trip" />
+  </wsdl:message>
+  <wsdl:message name="getTripListRequest">
+    <wsdl:part name="userId" type="soapenc:string" />
+    <wsdl:part name="pwd" type="soapenc:string" />
+    <wsdl:part name="originStationId" type="soapenc:string" />
+    <wsdl:part name="destinationStationId" type="soapenc:string" />
+    <wsdl:part name="travelDate" type="soapenc:string" />
+  </wsdl:message>
+  <wsdl:message name="getTripDetailsV2Request">
+    <wsdl:part name="userId" type="soapenc:string" />
+    <wsdl:part name="pwd" type="soapenc:string" />
+    <wsdl:part name="originStationId" type="soapenc:string" />
+    <wsdl:part name="destinationStationId" type="soapenc:string" />
+    <wsdl:part name="travelDate" type="soapenc:string" />
+    <wsdl:part name="scheduleId" type="soapenc:string" />
+  </wsdl:message>
+  <wsdl:message name="processRequestRequest">
+    <wsdl:part name="userId" type="soapenc:string" />
+    <wsdl:part name="pwd" type="soapenc:string" />
+    <wsdl:part name="originStationId" type="soapenc:string" />
+    <wsdl:part name="destinationStationId" type="soapenc:string" />
+    <wsdl:part name="travelDate" type="soapenc:string" />
+    <wsdl:part name="scheduleId" type="soapenc:string" />
+    <wsdl:part name="name" type="soapenc:string" />
+    <wsdl:part name="contactNo" type="soapenc:string" />
+    <wsdl:part name="emailId" type="soapenc:string" />
+    <wsdl:part name="noOfSeats" type="soapenc:string" />
+    <wsdl:part name="comments" type="soapenc:string" />
+  </wsdl:message>
+  <wsdl:message name="getTripListWithAvailableSeatsResponse">
+    <wsdl:part name="getTripListWithAvailableSeatsReturn" type="tns1:TripData" />
+  </wsdl:message>
+  <wsdl:message name="bookTicketResponse">
+    <wsdl:part name="bookTicketReturn" type="tns1:BookingDetails" />
+  </wsdl:message>
+  <wsdl:message name="getFromToStationIdListResponse">
+    <wsdl:part name="getFromToStationIdListReturn" type="tns1:FromToStation" />
+  </wsdl:message>
+  <wsdl:message name="getBookingDetailsRequest">
+    <wsdl:part name="userId" type="soapenc:string" />
+    <wsdl:part name="pwd" type="soapenc:string" />
+    <wsdl:part name="bookingId" type="soapenc:string" />
+    <wsdl:part name="scheduleId" type="soapenc:string" />
+  </wsdl:message>
+  <wsdl:message name="confirmTicketCancellationRequest">
+    <wsdl:part name="userId" type="soapenc:string" />
+    <wsdl:part name="pwd" type="soapenc:string" />
+    <wsdl:part name="bookingId" type="soapenc:string" />
+    <wsdl:part name="seatNbr" type="impl:ArrayOf_soapenc_string" />
+  </wsdl:message>
+  <wsdl:message name="blockSeatsForBookingResponse">
+    <wsdl:part name="blockSeatsForBookingReturn" type="tns1:BlockedSeatsForBookingDetails" />
+  </wsdl:message>
+  <wsdl:message name="getTripDetailsV2Response">
+    <wsdl:part name="getTripDetailsV2Return" type="tns1:TripDetails" />
+  </wsdl:message>
+  <wsdl:message name="getTripListV2Request">
+    <wsdl:part name="userId" type="soapenc:string" />
+    <wsdl:part name="pwd" type="soapenc:string" />
+    <wsdl:part name="originStationId" type="soapenc:string" />
+    <wsdl:part name="destinationStationId" type="soapenc:string" />
+    <wsdl:part name="travelDate" type="soapenc:string" />
+  </wsdl:message>
+  <wsdl:message name="cancelTicketResponse">
+    <wsdl:part name="cancelTicketReturn" type="tns1:CancellationChargeDetails" />
+  </wsdl:message>
+  <wsdl:message name="processRequestResponse">
+    <wsdl:part name="processRequestReturn" type="tns1:Status" />
+  </wsdl:message>
+  <wsdl:message name="getBookingDetailsResponse">
+    <wsdl:part name="getBookingDetailsReturn" type="tns1:BookingDetails" />
+  </wsdl:message>
+  <wsdl:message name="getTripListWithAvailableSeatsRequest">
+    <wsdl:part name="userId" type="soapenc:string" />
+    <wsdl:part name="pwd" type="soapenc:string" />
+    <wsdl:part name="originStationId" type="soapenc:string" />
+    <wsdl:part name="destinationStationId" type="soapenc:string" />
+    <wsdl:part name="travelDate" type="soapenc:string" />
+  </wsdl:message>
+  <wsdl:message name="getFromToStationIdListRequest">
+    <wsdl:part name="userId" type="soapenc:string" />
+    <wsdl:part name="pwd" type="soapenc:string" />
+  </wsdl:message>
+  <wsdl:message name="cancelTicketRequest">
+    <wsdl:part name="userId" type="soapenc:string" />
+    <wsdl:part name="pwd" type="soapenc:string" />
+    <wsdl:part name="bookingId" type="soapenc:string" />
+    <wsdl:part name="seatNbr" type="impl:ArrayOf_soapenc_string" />
+  </wsdl:message>
+  <wsdl:message name="confirmTicketCancellationResponse">
+    <wsdl:part name="confirmTicketCancellationReturn" type="tns1:CancellationDetails" />
+  </wsdl:message>
+  <wsdl:message name="blockSeatsForBookingRequest">
+    <wsdl:part name="userId" type="soapenc:string" />
+    <wsdl:part name="pwd" type="soapenc:string" />
+    <wsdl:part name="scheduleId" type="soapenc:string" />
+    <wsdl:part name="travelDate" type="soapenc:string" />
+    <wsdl:part name="fromStationId" type="soapenc:string" />
+    <wsdl:part name="toStationId" type="soapenc:string" />
+    <wsdl:part name="boardingPointId" type="soapenc:string" />
+    <wsdl:part name="emailId" type="soapenc:string" />
+    <wsdl:part name="mobileNbr" type="soapenc:string" />
+    <wsdl:part name="address" type="soapenc:string" />
+    <wsdl:part name="passengerDetailDTO" type="impl:ArrayOf_tns2_PassengerDetailDTO" />
+  </wsdl:message>
+  <wsdl:portType name="TGTravelService">
+    <wsdl:operation name="processRequest" parameterOrder="userId pwd originStationId destinationStationId travelDate scheduleId name contactNo emailId noOfSeats comments">
+      <wsdl:input name="processRequestRequest" message="impl:processRequestRequest" />
+      <wsdl:output name="processRequestResponse" message="impl:processRequestResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getTripList" parameterOrder="userId pwd originStationId destinationStationId travelDate">
+      <wsdl:input name="getTripListRequest" message="impl:getTripListRequest" />
+      <wsdl:output name="getTripListResponse" message="impl:getTripListResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="bookTicket" parameterOrder="userId pwd bookingId">
+      <wsdl:input name="bookTicketRequest" message="impl:bookTicketRequest" />
+      <wsdl:output name="bookTicketResponse" message="impl:bookTicketResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getStationList" parameterOrder="userId pwd">
+      <wsdl:input name="getStationListRequest" message="impl:getStationListRequest" />
+      <wsdl:output name="getStationListResponse" message="impl:getStationListResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getTripDetails" parameterOrder="userId pwd originStationId destinationStationId travelDate scheduleId">
+      <wsdl:input name="getTripDetailsRequest" message="impl:getTripDetailsRequest" />
+      <wsdl:output name="getTripDetailsResponse" message="impl:getTripDetailsResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="blockSeatsForBooking" parameterOrder="userId pwd scheduleId travelDate fromStationId toStationId boardingPointId emailId mobileNbr address passengerDetailDTO">
+      <wsdl:input name="blockSeatsForBookingRequest" message="impl:blockSeatsForBookingRequest" />
+      <wsdl:output name="blockSeatsForBookingResponse" message="impl:blockSeatsForBookingResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="cancelTicket" parameterOrder="userId pwd bookingId seatNbr">
+      <wsdl:input name="cancelTicketRequest" message="impl:cancelTicketRequest" />
+      <wsdl:output name="cancelTicketResponse" message="impl:cancelTicketResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="confirmTicketCancellation" parameterOrder="userId pwd bookingId seatNbr">
+      <wsdl:input name="confirmTicketCancellationRequest" message="impl:confirmTicketCancellationRequest" />
+      <wsdl:output name="confirmTicketCancellationResponse" message="impl:confirmTicketCancellationResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getBookingDetails" parameterOrder="userId pwd bookingId scheduleId">
+      <wsdl:input name="getBookingDetailsRequest" message="impl:getBookingDetailsRequest" />
+      <wsdl:output name="getBookingDetailsResponse" message="impl:getBookingDetailsResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getFromToStationIdList" parameterOrder="userId pwd">
+      <wsdl:input name="getFromToStationIdListRequest" message="impl:getFromToStationIdListRequest" />
+      <wsdl:output name="getFromToStationIdListResponse" message="impl:getFromToStationIdListResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getTripListWithAvailableSeats" parameterOrder="userId pwd originStationId destinationStationId travelDate">
+      <wsdl:input name="getTripListWithAvailableSeatsRequest" message="impl:getTripListWithAvailableSeatsRequest" />
+      <wsdl:output name="getTripListWithAvailableSeatsResponse" message="impl:getTripListWithAvailableSeatsResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getTripListV2" parameterOrder="userId pwd originStationId destinationStationId travelDate">
+      <wsdl:input name="getTripListV2Request" message="impl:getTripListV2Request" />
+      <wsdl:output name="getTripListV2Response" message="impl:getTripListV2Response" />
+    </wsdl:operation>
+    <wsdl:operation name="getTripDetailsV2" parameterOrder="userId pwd originStationId destinationStationId travelDate scheduleId">
+      <wsdl:input name="getTripDetailsV2Request" message="impl:getTripDetailsV2Request" />
+      <wsdl:output name="getTripDetailsV2Response" message="impl:getTripDetailsV2Response" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="TGSWSSoapBinding" type="impl:TGTravelService">
+    <wsdlsoap:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc" />
+    <wsdl:operation name="processRequest">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="processRequestRequest">
+        <wsdlsoap:body use="encoded" namespace="http://webservices.tgs.efficsys.com" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="processRequestResponse">
+        <wsdlsoap:body use="encoded" namespace="http://staging.ticketgoose.com/bookbustickets/services/TGSWS" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTripList">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="getTripListRequest">
+        <wsdlsoap:body use="encoded" namespace="http://webservices.tgs.efficsys.com" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="getTripListResponse">
+        <wsdlsoap:body use="encoded" namespace="http://staging.ticketgoose.com/bookbustickets/services/TGSWS" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="bookTicket">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="bookTicketRequest">
+        <wsdlsoap:body use="encoded" namespace="http://webservices.tgs.efficsys.com" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="bookTicketResponse">
+        <wsdlsoap:body use="encoded" namespace="http://staging.ticketgoose.com/bookbustickets/services/TGSWS" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getStationList">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="getStationListRequest">
+        <wsdlsoap:body use="encoded" namespace="http://webservices.tgs.efficsys.com" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="getStationListResponse">
+        <wsdlsoap:body use="encoded" namespace="http://staging.ticketgoose.com/bookbustickets/services/TGSWS" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTripDetails">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="getTripDetailsRequest">
+        <wsdlsoap:body use="encoded" namespace="http://webservices.tgs.efficsys.com" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="getTripDetailsResponse">
+        <wsdlsoap:body use="encoded" namespace="http://staging.ticketgoose.com/bookbustickets/services/TGSWS" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="blockSeatsForBooking">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="blockSeatsForBookingRequest">
+        <wsdlsoap:body use="encoded" namespace="http://webservices.tgs.efficsys.com" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="blockSeatsForBookingResponse">
+        <wsdlsoap:body use="encoded" namespace="http://staging.ticketgoose.com/bookbustickets/services/TGSWS" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="cancelTicket">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="cancelTicketRequest">
+        <wsdlsoap:body use="encoded" namespace="http://webservices.tgs.efficsys.com" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="cancelTicketResponse">
+        <wsdlsoap:body use="encoded" namespace="http://staging.ticketgoose.com/bookbustickets/services/TGSWS" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="confirmTicketCancellation">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="confirmTicketCancellationRequest">
+        <wsdlsoap:body use="encoded" namespace="http://webservices.tgs.efficsys.com" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="confirmTicketCancellationResponse">
+        <wsdlsoap:body use="encoded" namespace="http://staging.ticketgoose.com/bookbustickets/services/TGSWS" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getBookingDetails">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="getBookingDetailsRequest">
+        <wsdlsoap:body use="encoded" namespace="http://webservices.tgs.efficsys.com" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="getBookingDetailsResponse">
+        <wsdlsoap:body use="encoded" namespace="http://staging.ticketgoose.com/bookbustickets/services/TGSWS" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getFromToStationIdList">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="getFromToStationIdListRequest">
+        <wsdlsoap:body use="encoded" namespace="http://webservices.tgs.efficsys.com" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="getFromToStationIdListResponse">
+        <wsdlsoap:body use="encoded" namespace="http://staging.ticketgoose.com/bookbustickets/services/TGSWS" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTripListWithAvailableSeats">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="getTripListWithAvailableSeatsRequest">
+        <wsdlsoap:body use="encoded" namespace="http://webservices.tgs.efficsys.com" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="getTripListWithAvailableSeatsResponse">
+        <wsdlsoap:body use="encoded" namespace="http://staging.ticketgoose.com/bookbustickets/services/TGSWS" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTripListV2">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="getTripListV2Request">
+        <wsdlsoap:body use="encoded" namespace="http://webservices.tgs.efficsys.com" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="getTripListV2Response">
+        <wsdlsoap:body use="encoded" namespace="http://staging.ticketgoose.com/bookbustickets/services/TGSWS" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTripDetailsV2">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="getTripDetailsV2Request">
+        <wsdlsoap:body use="encoded" namespace="http://webservices.tgs.efficsys.com" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="getTripDetailsV2Response">
+        <wsdlsoap:body use="encoded" namespace="http://staging.ticketgoose.com/bookbustickets/services/TGSWS" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="TGTravelServiceService">
+    <wsdl:port name="TGSWS" binding="impl:TGSWSSoapBinding">
+      <wsdlsoap:address location="http://staging.ticketgoose.com/bookbustickets/services/TGSWS" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

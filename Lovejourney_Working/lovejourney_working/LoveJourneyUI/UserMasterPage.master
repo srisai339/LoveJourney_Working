@@ -1,0 +1,1142 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="UserMasterPage.master.cs"
+    Inherits="UserMasterPage" %>
+    <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>LoveJourney</title>
+    <link href="css/love_%20journey.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="css/Agentstyle.css" />
+    <script type="text/javascript" src="dropdowntabfiles/dropdowntabs.js"></script>
+    <link rel="stylesheet" type="text/css" href="dropdowntabfiles/halfmoontabs.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js" type="text/javascript"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js"
+        type="text/javascript"></script>
+    <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/ui-lightness/jquery-ui.css"
+        rel="stylesheet" type="text/css" />
+    <link href="css/mak_style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="css/chromestyle.css" />
+    <script type="text/javascript" src="js/chrome.js"></script>
+    <link href="images/favicon.png" rel="Shortcut Icon" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js "></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+    <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css"
+        rel="stylesheet" type="text/css" />
+    <script src="Scripts/ajaxservice.js" type="text/javascript"></script>
+    <script src="Scripts/validationsscript.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        function printPage(id) {
+            var html = "<html>";
+            html += document.getElementById(id).innerHTML;
+            html += "</html>";
+            var printWin = window.open('', '', 'left=0,top=0,toolbar=0,scrollbars=0,status  =0');
+            printWin.document.write(html);
+            printWin.document.close();
+            printWin.focus();
+            printWin.print();
+        }
+    }
+    </script>
+    <link href="style/et_style.css" rel="stylesheet" type="text/css" />
+    <link href="style/style.css" rel="stylesheet" type="text/css" />
+
+
+
+    <link href="css/lj_style.css" rel="stylesheet" type="text/css" />
+    <script src="JS/chrome.js" type="text/javascript"></script>
+
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+    </asp:ContentPlaceHolder>
+    <script type="text/javascript">
+        function printPage(id) {
+
+            var html = "<html>";
+            if (document.getElementById("tblterms").style.display == "none") {
+                document.getElementById("tblterms").style.display = "block";
+            }
+            html += document.getElementById(id).innerHTML;
+            html += "</html>";
+
+            var printWin = window.open('', '', 'left=0,top=0,toolbar=0,scrollbars=0,status  =0');
+            printWin.document.write(html);
+            printWin.document.close();
+            printWin.focus();
+            printWin.print();
+            //printWin.close();
+            if (document.getElementById("tblterms").style.display == "block") {
+                document.getElementById("tblterms").style.display = "none";
+            }
+        }
+        function Load() {
+            Sys.WebForms.PageRequestManager.getInstance().add_endRequest(EndRequestHandler);
+
+            function EndRequestHandler(sender, args) {
+                var dateToday = new Date();
+                $(".datepicker").datepicker({
+                    dateFormat: 'dd-MM-yy',
+                    numberOfMonths: 2,
+                    showOn: "button",
+                    buttonImage: "../../images/calendar.jpg",
+                    buttonImageOnly: true,
+                    showAnim: 'fadeIn',
+                    minDate: dateToday
+                });
+                $("[id$='txtFromDate']").datepicker('setDate', 'today');
+                $(".datepicker1").datepicker({
+                    dateFormat: 'dd-MM-yy',
+                    showOn: "button",
+                    numberOfMonths: 2,
+                    buttonImage: "../../images/calendar.jpg",
+                    buttonImageOnly: true,
+                    showAnim: 'fadeIn',
+                    minDate: dateToday
+                });
+            }
+        }
+    </script>
+    <style type="text/css">
+        .modalContainer
+        {
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            position: fixed;
+            left: 25%;
+            top: 25%;
+            z-index: 750;
+            background-color: inherit;
+            padding: 0px;
+        }
+        .registerhead
+        {
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            color: #044cb5;
+            padding: 22px 0 10px 0;
+        }
+        .loadingBackground
+        {
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            filter: Alpha(Opacity=30);
+            -moz-opacity: 0.3;
+            opacity: 0.6;
+            width: 100%;
+            height: 1000px;
+            background-color: #000;
+            position: fixed;
+            z-index: 500;
+            top: 0px;
+            left: 0px;
+        }
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body onload="Load();">
+    <form id="form1" runat="server">
+    <asp:ToolkitScriptManager ID="ToolkitScriptManager1" runat="server">
+    </asp:ToolkitScriptManager>
+    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+            <td align="center" valign="top" height="90" width="1004px">
+                <table cellpadding="0" cellspacing="0" border="0" width="1004px">
+                    <%--<tr>
+            <td align="center" bgcolor="#013e7f">
+                <table width="990" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td width="250" height="75" align="left">
+                            <a href="../AdminDB/AdminDb.aspx">
+                                <img src="../../images/logo.gif" width="291" height="79" /></a>
+                        </td>
+                        <td width="740" valign="top">
+                            <table width="740" align="center" cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td align="right">
+                                        <asp:Label ID="lblUsername" runat="server" ForeColor="White" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                      &nbsp;
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center" valign="top" style="padding-bottom:8px;">
+                                        <div id="chromemenu1" class="chromestyle1">
+                                            <ul>
+                                              <li id="lidashboard" runat="server"><a href="../AdminDB/AdminDb.aspx" >Home</a></li>
+                                                <li id="libuses" runat="server"><a href="../Bus/Bus_Search.aspx">Buses</a></li>
+                                                <li id="liflights" runat="server"><a href="#" rel="drflights">Flights</a></li>
+                                                <li id="lihotels" runat="server"><a href="../Hotel/HotelSearch.aspx">Hotels</a></li>
+                                                <li id="lirecharge" runat="server"><a href="../Recharge/Recharge.aspx">Recharge</a></li>
+                                                <li id="licse" runat="server"><a href="../Bus/Users.aspx">CSE</a></li>
+                                                <li id="liagents" runat="server"><a href="#" rel="dragents">Agents</a></li>
+                                                <li id="liReports1" runat="server"><a href="#" rel="Reports1">Reports</a></li>
+                                                <li id="lipromocode" runat="server"><a href="../Flight/PromoCodes.aspx" rel="drpromo">Promocode</a></li>
+                                              
+                                                <li id="lifeedback" runat="server"><a href="../Bus/ViewFeedbacks.aspx">Feedback</a></li>
+                                                <li id="lichangepassword" runat="server"><a href="../Bus/ChangePassword.aspx">Change Password</a></li>
+                                          
+                                               <li> <asp:LinkButton ID="lbtnlogout" runat="server" Text="Logout"  
+                                                        OnClick="lbtnlogout_Click"  ></asp:LinkButton></li>
+                                            </ul>
+                                            <div id="drflights" class="dropmenudiv1">
+                                                <a href="../Flight/frmDomesticAvailability.aspx">Domestic Flights </a>
+                                                <a href="../Flight/frmInternationalAvailablity.aspx">
+                                                    International Flights </a>
+                                            </div>
+                                            <div id="dragents" class="dropmenudiv1">
+                                                <a href="../Bus/Agents.aspx">View </a><a href="../Bus/frmAgentsDeposits.aspx">
+                                                   Deposits </a>
+                                                   <a href="../Bus/AgentRequests.aspx">
+                                                  Register Requests </a>
+                                                   <a href="../Bus/FundTransferReport.aspx">
+                                                   Deposit Requests </a>
+                                                       <a href="../Bus/StopServices.aspx">
+                                                   Stop Services  </a>
+                                                    <a href="../AdminDB/RoleMaster.aspx">
+                                                  Role  Master  </a>
+                                            </div>
+                                               <div id="Reports1" class="dropmenudiv1">
+                                                <a  href="../AdminDashBoard/CommissionSlab.aspx">Commission Slab</a> 
+                                                <a href="../AdminDashBoard/AllReports.aspx">All Reports</a>                                              
+                                            </div>
+                                             <div id="drpromo" class="dropmenudiv1">
+                                                <a href="../Flight/CashCouponMaster.aspx">Cash Coupon </a>
+                                              
+                                            </div>
+                                            <script type="text/javascript">
+
+                                                cssdropdown.startchrome("chromemenu1")
+
+                                            </script>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>--%>
+                    <tr>
+                        <td align="left" height="85" valign="bottom">
+                            <table cellpadding="0" cellspacing="0" border="0" width="1004">
+                                <tr>
+                                    <td width="300" align="left">
+                                        <img src="Newimages/New_Logo.png" width="226" height="79"  />
+                                    </td>
+                                    <td align="right" width="704">
+                                        <table width="200" align="center" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                                <td align="right">
+                                                    <asp:Label ID="lblUsername" runat="server" ForeColor="Black" />
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                    <td align="right">
+                                       <asp:Label ID="lblDbBal" runat="server" ForeColor="Black" Font-Bold="true"/>
+                                    </td>
+                                </tr>
+                                        </table>
+                                        <table width="700" cellpadding="0" cellspacing="0" border="0">
+                                            <tr>
+                                                <td>
+                                                    <marquee scrollamount="3" onmouseover="stop()" onmouseout="start()"><asp:Label ID="lblno" runat="server" ForeColor="Black" Font-Bold="true" Text=" Contact Us : 080-32561727 / 080-25220265"></asp:Label></marquee>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right" valign="top" height="35">
+                            <table width="100" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <%--<td><img src="../../img/feedback.png" width="25" height="25"  /></td>
+    <td class="fli" align="left"><a href="#">Feedback   --%>
+                                    <td>
+                                        <img src="~/images/img/logout.png" width="25" height="25" />
+                                    </td>
+                                    <td class="fli" align="left">
+                                        <asp:LinkButton ID="lbtnlogout" runat="server" Text="Logout" OnClick="lbtnlogout_Click"></asp:LinkButton>
+                                    </td>
+                                </tr>
+                            </table>
+                            <!--------menustart----------->
+                            <!--------menuend----------->
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center">
+                            <table width="1004" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td width="100" align="left" id="lidashboard" runat="server">
+                                        <div id="divid" runat="server">
+                                            <table width="99" border="0" cellspacing="0" cellpadding="0">
+                                                <tr>
+                                                    <td height="38" width="5">
+                                                        <img src="~/images/img/l1.png" id="image3" runat="server" width="5" height="38" />
+                                                    </td>
+                                                    <td class="tmenu" align="center">
+                                                        <table width="89" border="0" cellspacing="0" cellpadding="0">
+                                                            <tr>
+                                                                <td valign="middle" align="center">
+                                                                    <img src="~/images/img/home.png" id="image2" runat="server" width="35" height="25" />
+                                                                </td>
+                                                                <td width="54" align="center">
+                                                                    <a href="Users/AdminDB/AdminDb.aspx">Home</a>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                    <td height="38" width="5">
+                                                        <img src="~/images/img/l3.png" id="image4" runat="server" width="5" height="38" />
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </td>
+                                    <td width="100" align="left" id="libuses" runat="server">
+                                        <table width="99" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td height="38" width="5">
+                                                    <img src="~/images/img/l1.png" id="image5" runat="server" width="5" height="38" />
+                                                </td>
+                                                <td class="tmenu" align="center">
+                                                    <table width="89" border="0" cellspacing="0" cellpadding="0">
+                                                        <tr>
+                                                            <td valign="middle" align="center">
+                                                                <img src="images/img/bus2.png" width="35" height="25" />
+                                                            </td>
+                                                            <td width="54" align="center">
+                                                                <a href="Default.aspx" id="bus" runat="server">Buses</a>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                                <td height="38" width="5">
+                                                    <img src="~/images/img/l3.png" id="image6" runat="server" width="5" height="38" />
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td width="100" align="left" id="liflights" runat="server">
+                                        <table width="99" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td height="38" width="5">
+                                                    <img src="~/images/img/l1.png" id="image7" runat="server" width="5" height="38" />
+                                                </td>
+                                                <td class="tmenu">
+                                                    <table width="89" border="0" cellspacing="0" cellpadding="0">
+                                                        <tr>
+                                                            <td valign="middle" align="center">
+                                                                <img src="~/images/img/bus1.png" id="image8" runat="server" width="35" height="25" />
+                                                            </td>
+                                                            <td width="54" align="left">
+                                                                <div id="moonmenu" class="halfmoon">
+                                                                    <ul>
+                                                                        <li><a href="#" rel="dropmenu2_d">Flights</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                                <div id="dropmenu2_d" class="dropmenudiv_e">
+                                                                    <a href="frmFlightsAvailability.aspx">Domestic Flights</a> <a href="frmIntFlightsAvailability.aspx">
+                                                                        International Flights</a>
+                                                                </div>
+                                                                <script type="text/javascript">
+                                                                    //SYNTAX: tabdropdown.init("menu_id", [integer OR "auto"])
+                                                                    tabdropdown.init("moonmenu", 3)
+                                                                </script>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                                <td height="38" width="5">
+                                                    <img src="~/images/img/l3.png" id="image9" runat="server" width="5" height="38" />
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td width="100" align="left" id="lihotels" runat="server">
+                                        <table width="99" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td height="38" width="5">
+                                                    <img src="~/images/img/l1.png" id="image10" runat="server" width="5" height="38" />
+                                                </td>
+                                                <td class="tmenu">
+                                                    <table width="89" border="0" cellspacing="0" cellpadding="0">
+                                                        <tr>
+                                                            <td valign="middle" align="center">
+                                                                <img src="~/images/img/hotel_i.png" id="image11" runat="server" width="35" height="25" />
+                                                            </td>
+                                                            <td width="54" align="center">
+                                                                <a href="HotelSearch.aspx">Hotels</a>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                                <td height="38" width="5">
+                                                    <img src="~/images/img/l3.png" id="image12" runat="server" width="5" height="38" />
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td width="100" align="left" id="lirecharge" runat="server">
+                                        <table width="99" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td height="38" width="5">
+                                                    <img src="~/images/img/l1.png" id="image13" runat="server" width="5" height="38" />
+                                                </td>
+                                                <td class="tmenu">
+                                                    <table width="89" border="0" cellspacing="0" cellpadding="0">
+                                                        <tr>
+                                                            <td valign="middle" align="center">
+                                                                <img src="~/images/img/recharge1.png" id="image14" runat="server" width="35" height="25" />
+                                                            </td>
+                                                            <td width="54" align="center">
+                                                                <a href="Users/Recharge/Recharge.aspx">Recharge</a>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                                <td height="38" width="5">
+                                                    <img src="~/images/img/l3.png" id="image15" runat="server" width="5" height="38" />
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td id="Tddmr" width="93" align="right" runat="server">
+                                        <table width="92" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td height="38" width="5">
+                                                    <img src="~/images/img/l1.png" id="image16" runat="server" width="5" height="38" />
+                                                </td>
+                                                <td class="tmenu">
+                                                    <table width="82" border="0" cellspacing="0" cellpadding="0">
+                                                        <tr>
+                                                            <td valign="middle" align="center">
+                                                                <img src="~/images/img/dmr1.png" id="image17" runat="server" width="35" height="25" />
+                                                            </td>
+                                                            <td width="47" align="left">
+                                                                <a href="Users/Bus/DMRReport.aspx">DMR </a>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                                <td height="38" width="5">
+                                                    <img src="~/images/img/l3.png" id="image18" runat="server" width="5" height="38" />
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td width="20"></td>
+                                    <td width="100" align="right" id="movietickets" runat="server" visible="false">
+                                        <table width="99" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td height="38" width="5">
+                                                    <img src="~/images/img/l1.png" id="image19" runat="server" width="5" height="38" />
+                                                </td>
+                                                <td class="tmenu">
+                                                    <table width="89" border="0" cellspacing="0" cellpadding="0">
+                                                        <tr>
+                                                            <td valign="middle" align="center">
+                                                                <img src="~/images/img/ticket1.png" id="image20" runat="server" width="35" height="25" />
+                                                            </td>
+                                                            <td valign="middle" width="54" align="center">
+                                                                <a href="#">Movie Tickets</a>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                                <td height="38" width="5">
+                                                    <img src="~/images/img/l3.png" id="image21" runat="server" width="5" height="38" />
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td width="96" align="center" id="Cars" runat="server" visible="false">
+                                        <table width="93" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td height="38" width="5">
+                                                    <img src="~/images/img/l1.png" id="image22" runat="server" width="5" height="38" />
+                                                </td>
+                                                <td class="tmenu">
+                                                    <table width="84" border="0" cellspacing="0" cellpadding="0">
+                                                        <tr>
+                                                            <td valign="middle" align="center">
+                                                                <img src="~/images/img/car_s.png" id="image23" runat="server" width="35" height="25" />
+                                                            </td>
+                                                            <td width="48" align="center">
+                                                                 <div id="cabs" class="halfmoon">
+                                                                <ul>
+                                                                        <li><a href="Cab.aspx" rel="dropmenucabs">Cabs</a></li>
+                                                                </ul>
+                                                             </div>
+                                                             <div id="dropmenucabs" class="dropmenudiv_e">
+                                                                    <a href="frmcity.aspx" id="city" runat="server">City Master</a> 
+                                                                          <a href="frmCarMaster.aspx" id="car" runat="server">Car Master</a>
+                                                                    <a href="frmCarDescriptionMaster.aspx" id="cardetails" runat="server">CarDetails Master</a>
+                                                               
+                                                                      
+                                                                </div>
+                                                                  <script type="text/javascript">
+                                                                      //SYNTAX: tabdropdown.init("menu_id", [integer OR "auto"])
+                                                                      tabdropdown.init("cabs", 3)
+                                                                </script>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                                <td height="38" width="5">
+                                                    <img src="~/images/img/l3.png" id="image24" runat="server" width="5" height="38" />
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td width="98" align="left" id="liReports1" runat="server">
+                                        <table width="97" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td height="38" width="5">
+                                                    <img src="~/images/img/l1.png" id="image25" runat="server" width="5" height="38" />
+                                                </td>
+                                                <td class="tmenu">
+                                                    <table width="87" border="0" cellspacing="0" cellpadding="0">
+                                                        <tr>
+                                                            <td valign="middle" align="center">
+                                                                <img src="~/images/img/reports.png" id="image26" runat="server" width="35" height="25" />
+                                                            </td>
+                                                            <td width="52" align="center">
+                                                                <div id="moonmenu3" class="halfmoon">
+                                                                    <ul>
+                                                                        <li><a href="#" rel="dropmenu2_r">Reports</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                                <div id="dropmenu2_r" class="dropmenudiv_e">
+                                                                    <a id="commissionslab" runat="server" href="../AdminDashBoard/CommissionSlab.aspx">Commission Slab</a> <a href="Users/AdminDashBoard/AllReports.aspx">
+                                                                        All Reports</a>
+                                                                        <a  id="Guestbookings" runat="server" href="Users/Flight/GuestReports.aspx" >Guest Bookings </a>
+                                                                </div>
+                                                                <script type="text/javascript">
+                                                                    //SYNTAX: tabdropdown.init("menu_id", [integer OR "auto"])
+                                                                    tabdropdown.init("moonmenu3", 3)
+                                                                </script>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                                <td height="38" width="5">
+                                                    <img src="~/images/img/l3.png" id="image27" runat="server" width="5" height="38" />
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td width="100" align="left" id="Td2" runat="server">
+                                        <table width="99" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td height="38" width="5">
+                                                    <img src="~/images/img/l1.png" id="image28" runat="server" width="5" height="38" />
+                                                </td>
+                                                <td class="tmenu">
+                                                    <table width="89" border="0" cellspacing="0" cellpadding="0">
+                                                        <tr>
+                                                            <td valign="middle" align="center">
+                                                                <img src="~/images/img/setting1.png" id="image29" runat="server" width="35" height="25" />
+                                                            </td>
+                                                            <td width="54" align="left">
+                                                                <div id="settings1" class="halfmoon">
+                                                                    <ul>
+                                                                        <li><a href="#" rel="dropmenu2_s">Settings</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                                <div id="dropmenu2_s" class="dropmenudiv_e">
+                                                                    <a href="Users/Bus/ViewUserInformation.aspx" id="liuserinfo" runat="server">View Users
+                                                                    </a><a href="Users/Bus/ChangePassword.aspx" id="lichangepassword" runat="server">Change
+                                                                        Password </a><a href="Users/Bus/CashCoupon.aspx" id="Cashcoupon" runat="server">Cash Coupon</a>
+                                                                    <a href="Users/Bus/PromoCode.aspx" rel="dropmenu2_p" id="lipromocode" runat="server">Promo Code</a>
+                                                                    <a href="Users/Bus/Users.aspx" id="licse" runat="server">CSE</a> <a href="Users/Bus/ViewFeedbacks.aspx"
+                                                                        id="lifeedback" runat="server">Feedback</a>
+                                                                        <a href="~/Users/Bus/EmpRequest.aspx"
+                                                                        id="emp" runat="server">Emp Requests</a>
+                                                                         <a href="~/Deposits.aspx"  id="DistDeposits" runat="server" visible="false">Deposits</a>
+                                                                           <a href="~/DMRReport.aspx"  id="DistDmr" runat="server" visible="false">DMR Requests</a>
+                                                                            <a href="~/Profile.aspx"  id="DistProfile" runat="server" visible="false">Profile</a>
+                                                                             <a href="~/LoginDetails.aspx"  id="DistLoginHistory" runat="server" visible="false">LoginHistory</a>
+                                                                </div>
+                                                                <script type="text/javascript">
+                                                                    //SYNTAX: tabdropdown.init("menu_id", [integer OR "auto"])
+                                                                    tabdropdown.init("settings1", 3)
+                                                                </script>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                                <td height="38" width="5">
+                                                    <img src="~/images/img/l3.png" id="image30" runat="server" width="5" height="38" />
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td width="100" align="left" id="utilities" runat="server" visible="false">
+                                        <table width="99" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td height="38" width="5">
+                                                    <img src="~/images/img/l1.png" id="image31" runat="server" width="5" height="38" />
+                                                </td>
+                                                <td class="tmenu">
+                                                    <table width="89" border="0" cellspacing="0" cellpadding="0">
+                                                        <tr>
+                                                            <td valign="middle" align="center">
+                                                                <img src="~/images/img/setting.png" id="image32" runat="server" width="35" height="25" />
+                                                            </td>
+                                                            <td width="54" align="center">
+                                                                <a href="#">Utilities</a>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                                <td height="38" width="5">
+                                                    <img src="~/images/img/l3.png" id="image33" runat="server" width="5" height="38" />
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td width="100" align="left" id="liagents" runat="server">
+                                        <table width="99" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td height="38" width="5">
+                                                    <img src="~/images/img/l1.png" id="image34" runat="server" width="5" height="38" />
+                                                </td>
+                                                <td class="tmenu">
+                                                    <table width="89" border="0" cellspacing="0" cellpadding="0">
+                                                        <tr>
+                                                            <td valign="middle" align="center">
+                                                                <img src="~/images/img/agent1.png" id="image35" runat="server" width="35" height="25" />
+                                                            </td>
+                                                            <td width="54" align="left">
+                                                                <div id="moonmenu1" class="halfmoon">
+                                                                    <ul>
+                                                                        <li><a href="#" rel="dropmenu2_a">Agents</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                                <div id="dropmenu2_a" class="dropmenudiv_e">
+                                                                    <a id="viewagents" runat="server" href="Users/Bus/Agents.aspx">View </a><a id="agentdeposits" runat="server" href="Users/Bus/frmAgentsDeposits.aspx">Deposits
+                                                                    </a><a id="agentrequests" runat="server" href="Users/Bus/AgentRequests.aspx">Register Requests </a><a id="fundtransferreport" runat="server" href="Users/Bus/FundTransferReport.aspx">
+                                                                        Deposit Requests </a><a id="stopservices" runat="server" href="Users/Bus/StopServices.aspx">Stop Services </a>
+                                                                        <a id="Rolemaster" visible="false" runat="server" href="Users/AdminDB/RoleMaster.aspx">
+                                                                            Role Master </a>
+
+                                                                            <a id="emprequest" runat="server" href="~/Users/Bus/MarketingRequest.aspx">Marketing Requests</a>
+                                                                        <a id="AgentRequests1" runat="server" visible="false" href="~/Users/Bus/BecomeAnAgent.aspx">Agent Requests</a>
+                                                                        <a id="pendingRequest" runat="server" visible="false" href="~/Users/Bus/PendingRequests.aspx">Pending Agent Requests from BSD</a>
+                                                                         <a id="empRequests" runat="server" visible="true" href="~/Users/Bus/EmpRequests.aspx">Emp Requests</a>
+                                                                          <a id="agentrequestsfromemp" runat="server" visible="false" href="~/Users/Bus/AgentRequests.aspx">View Agent Requests</a>
+                                                                </div>
+                                                                <script type="text/javascript">
+                                                                    //SYNTAX: tabdropdown.init("menu_id", [integer OR "auto"])
+                                                                    tabdropdown.init("moonmenu1", 3)
+                                                                </script>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                                <td height="38" width="5">
+                                                    <img src="~/images/img/l3.png" id="image36" runat="server" width="5" height="38" />
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td width="100" align="left" id="FeedBack" runat="server" visible="false">
+                                        <table width="99" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td height="38" width="5">
+                                                    <img src="~/images/img/l1.png" id="image37" runat="server" width="5" height="38" />
+                                                </td>
+                                                <td class="tmenu">
+                                                    <table width="89" border="0" cellspacing="0" cellpadding="0">
+                                                        <tr>
+                                                            <td valign="middle" align="center">
+                                                                <img src="~/images/img/ticket1.png" id="image38" runat="server" width="35" height="25" />
+                                                            </td>
+                                                            <td width="54" align="center">
+                                                                <a href="#">FeedBack</a>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                                <td height="38" width="5">
+                                                    <img src="~/images/img/l3.png" id="image39" runat="server" width="5" height="38" />
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" class="md_menu">
+                            <asp:Panel ID="pnl" runat="server">
+                                <table width="1000" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td class="md_menu" height="30">
+                                            <div id="chromemenu12" class="chromestyle12">
+                                                <ul>
+                                                    <li id="lisubmenuBooking" runat="server"><a href="#" rel="dropmenu12">ManageBooking</a></li>
+                                                    <li id="lisubmenuReports" runat="server"><a href="#" rel="dropmenu13">Reports</a></li>
+                                                    <li id="lisubmenusettings" runat="server"><a href="#" rel="dropmenu14">Settings</a></li>
+                                                    <li id="li1" runat="server" visible="false"><a href="Users/Bus/UserReport.aspx" rel="dropmenu4">
+                                                        Bookings</a></li>
+                                                    <li id="BookTicket" runat="server" visible="false"><a href="Default.aspx">Book Ticket</a></li>
+                                                    <li id="PrintTicket" runat="server" visible="false"><a href="Users/Bus/PrintTicket.aspx">Print
+                                                        Ticket</a></li>
+                                                    <li id="CancelTicket" runat="server" visible="false"><a href="CancelTicket.aspx"
+                                                        rel="dropmenu3">Cancel Ticket</a></li>
+                                                </ul>
+                                            </div>
+                                            <div id="dropmenu12" class="dropmenudiv12">
+                                                <a href="Default.aspx">Book Ticket </a><a href="Users/Bus/PrintTicket.aspx">Print Ticket
+                                                </a><a href="Users/Bus/CancelTicket.aspx">Cancel Ticket </a>
+                                            </div>
+                                            <div id="dropmenu13" class="dropmenudiv12">
+                                                <a href="Users/Bus/CustomerEnquiry.aspx">Bookings</a> <a href="Users/Bus/AgentReports.aspx">AgentBookings
+                                                </a>
+                                            </div>
+                                            <div id="dropmenu14" class="dropmenudiv12">
+                                                <a href="Users/Bus/Cities.aspx">Cities</a> <a href="Users/Bus/CancellationPolicy.aspx">Cancellation Policy
+                                                </a>
+                                                <a href="Users/Bus/BitlaRoutes.aspx">Bitla Routes </a>
+                                                <a href="Users/Bus/XmlPage.aspx">Update Buses</a>
+                                            </div>
+                                            <script type="text/javascript">
+
+                                                cssdropdown.startchrome("chromemenu12")
+
+                                            </script>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </asp:Panel>
+                        </td>
+                    </tr>
+                    <tr>
+            <td align="center"   class="md_menu" >
+             <asp:Panel ID="pnlflights" runat="server" visible="false">
+                <table width="1004px" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td  height="30" bgcolor="#4f91cd"align="center" width="1004px">
+                            <div id="chromemenu12" class="chromestyle12">
+                                <ul>                                  
+                                    <li id="li2" runat="server"><a href="#" rel="dropmenu4">Manage Booking</a></li>
+                                    <li id="li3" runat="server"><a href="#" rel="drreports5">Reports</a></li>
+                                    <li id="li4" runat="server"><a href="#" rel="dropmenu26">Settings</a></li>  
+                                      <li id="liuserreports" runat="server"><a href="Users/Flight/individualuserreports.aspx" >My Reports</a></li>  
+                                     <li id="li5" runat="server" visible="false"><a href="Users/Flight/UserReports.aspx" rel="dropmenu7">Bookings</a></li>                                   
+                                </ul>
+                            </div>
+                            <div id="dropmenu4" class="dropmenudiv12">
+                            <a href="frmFlightsAvailability.aspx">Domestic Tickets </a>
+                            <a href="frmIntFlightsAvailability.aspx">International Tickets </a>
+                            <a href="Users/Flight/frmPrint.aspx">Print Ticket </a>
+                              <a href="Users/Flight/frmCancelTicket.aspx">Cancel Ticket </a>
+                                <a id="aupdateflights" runat="server" href="Users/Flight/XmlPage.aspx">Update Flights</a>
+                            </div>
+                             <div id="dropmenu26" class="dropmenudiv12">
+                              
+                                  <a href="Users/Flight/Status.aspx">Check Status </a>
+                              
+                            </div>
+                               <div id="drreports5" class="dropmenudiv12">
+                                <a href="Users/Flight/frmBookingReports.aspx">Bookings </a>
+                                 <a href="Users/Flight/AgentReports.aspx" id="agentbookings" runat="server">Agent Bookings </a>
+                               
+                              
+                            </div>
+
+                            <script type="text/javascript">
+
+                                cssdropdown.startchrome("chromemenu12")
+
+                            </script>
+                        </td>
+                    </tr>
+                </table>
+                </asp:Panel>
+            </td>
+        </tr>
+         <tr>
+                        <td align="center"  class="md_menu">
+                        <asp:Panel ID="pnlhotels" runat="server" visible="false">
+                            <table width="1000" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td bgcolor="#4f91cd" height="30">
+                                        <div id="chromemenu" class="chromestyle">
+                                            <ul>
+                                                <li id="li6" runat="server"><a href="HotelSearch.aspx">Book Ticket</a></li>
+                                                <li id="lisubmenuprint" runat="server"><a href="PrintTicket.aspx">Print Ticket</a></li>
+                                                <li id="lisubmenucancel" runat="server"><a href="CancelTicket.aspx">Cancel Ticket</a></li>
+                                                <li id="li7" runat="server"><a href="Bookings.aspx">Bookings</a></li>
+                                                <li id="lisubmenuAgentReports" runat="server"><a href="Users/Flight/AgentReports.aspx">Agent Bookings</a></li>
+                                                <li id="li8" runat="server" visible="false"><a href="Users/Flight/UserReports.aspx" rel="dropmenu3">
+                                                    Bookings</a></li>
+                                                       <li id="users" runat="server" visible="false"><a href="Users/Hotel/Individualreports.aspx" >
+                                                  User Bookings</a></li>
+                                                     <li id="hotelPolicy" runat="server" visible="true" ><a href="Users/Bus/HotelPolicy.aspx" >
+                                                  Hotel Policy</a></li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                               </asp:Panel>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td align="center" class="md_menu">
+                            <asp:Panel ID="pnlCars" runat="server">
+                                <table width="1000" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td class="md_menu" height="30">
+                                            <div id="Div1" class="chromestyle12">
+                                                <ul>
+                                                    <li id="li9" runat="server"><a href="Cab.aspx" rel="dropmenu12">Booking</a></li>
+                                                    <li id="li10" runat="server"><a href="CarPrint.aspx" rel="dropmenu13">Print Ticket</a></li>
+                                                    <li id="li11" runat="server"><a href="Cab_Cancel.aspx" rel="dropmenu14">Cancel Ticket</a></li>
+                                                    <li id="liCabBooking" runat="server"><a href="CarBooking.aspx" rel="dropmenu4"> Bookings</a></li>
+                                                    <li id="liAgentCabBooking" runat="server"><a href="Cab_AgentBookins.aspx">Agent Bookings</a></li>
+                                                     <li id="liUserBooking" runat="server"><a href="Cabs_UserBookings.aspx">UserBookings</a></li>
+                                                      <li id="liGusetBooking" runat="server"><a href="Cabs_GuestBookings.aspx">Guest Bookings</a></li>
+                                                <%--     <li id="licabsettings" runat="server"><a href="#">Settings</a></li>--%>
+                                               <%--  <li id="licabsettings" runat="server"><a href="#" rel="dropmenu19">Settings</a></li>--%>
+
+                                                 
+                                                   
+                                                </ul>
+                                            </div>
+
+                                             <div id="dropmenu19" class="dropmenudiv12">
+                                                <a href="Default.aspx">Book Ticket </a><a href="Users/Bus/PrintTicket.aspx">Print Ticket
+                                                </a><a href="Users/Bus/CancelTicket.aspx">Cancel Ticket </a>
+                                            </div>
+                                          <script type="text/javascript">
+
+                                              cssdropdown.startchrome("Div1")
+
+                                            </script>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </asp:Panel>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="964" height="30" align="center" valign="top">
+                            <table width="964">
+                                <tr>
+                                    <td width="964" height="30" align="right">
+                                        <asp:Label ID="lblbalance" runat="server"></asp:Label>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center">
+                            <table width="964" border="0">
+                                <tr>
+                                    <td valign="top" height="420px">
+                                        <div>
+                                            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                            </asp:ContentPlaceHolder>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="100" align="center" valign="top">
+                            <!-------fotter-------->
+                            <table width="1004" height="100" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td height="59" colspan="2" align="center" valign="top" class="footer">
+                                        <%--<a href="#">Home</a>|<a href="#"> Print Ticket &nbsp;</a> |  <a href="#">Cancel Ticket &nbsp;</a>| <a href="#">Testimonial &nbsp;</a> | &nbsp;<a href="#">Become An Agent</a> | &nbsp;<a href="#">Login</a> | &nbsp;<a href="#">Contact Us</a><br> --%>
+                                        © Copyright 2012 - 2013 | <a href="#">www.Lovejourney.in.</a> All Rights Reserved.
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <%--<table width="964" border="0" class="container">
+        <tr>
+            <td align="left" valign="top">
+                <table width="964" border="0" height="82" class="header">
+                    <tr>
+                        <td align="left" valign="top" class="logo">
+                            <a href="Bus_Search.aspx">
+                                <img src="../../images/logo.gif" border="0" /></a>
+                        </td>
+                        <td align="left" valign="top">
+                            <table width="729" border="0">
+                                <tr>
+                                    <td width="729" height="41" align="left" valign="top">
+                                        <table width="729" height="41" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td width="103" align="left" valign="top">
+                                                    &nbsp;&nbsp;&nbsp;&nbsp;
+                                                    <asp:Label ID="lblUsername" runat="server" />
+                                                    <br />
+                                                    &nbsp;&nbsp;&nbsp;&nbsp;
+                                                </td>
+                                                <td width="10">
+                                                </td>
+                                                <td width="580" align="left" valign="top">
+                                                    <asp:Menu ID="Menu3" runat="server" Orientation="Horizontal" Width="100%" OnMenuItemClick="Menu3_MenuItemClick">
+                                                        <Items>
+                                                            <asp:MenuItem NavigateUrl="~/Users/Bus/Bus_Search.aspx" Text="Buses" Value="Buses">
+                                                            </asp:MenuItem>
+                                                            <asp:MenuItem Text="Flights" Value="Flights" NavigateUrl="~/Users/Flight/frmDomesticAvailability.aspx"></asp:MenuItem>
+                                                            <asp:MenuItem Text="Hotels" Value="Hotels" NavigateUrl="~/Users/Hotel/HotelSearch.aspx">
+                                                            </asp:MenuItem>
+                                                            <asp:MenuItem NavigateUrl="~/Users/Recharge/Recharge.aspx" Text="Recharge" Value="Recharge">
+                                                            </asp:MenuItem>
+                                                            <asp:MenuItem NavigateUrl="~/Users/Bus/Users.aspx" Text="CSE" Value="CSE"></asp:MenuItem>
+                                                            <asp:MenuItem Text="Agents" Value="Agents">
+                                                                <asp:MenuItem NavigateUrl="~/Users/Bus/Agents.aspx" Text="View" Value="View"></asp:MenuItem>
+                                                                <asp:MenuItem NavigateUrl="~/Users/Bus/frmAgentsDeposits.aspx" Text="Deposits" Value="Deposits">
+                                                                </asp:MenuItem>
+                                                                <asp:MenuItem NavigateUrl="~/Users/Bus/AgentRequests.aspx" Text="Register Requests"
+                                                                    Value="Register Requests"></asp:MenuItem>
+                                                                <asp:MenuItem NavigateUrl="~/Users/Bus/FundTransferReport.aspx" Text="Deposit Requests"
+                                                                    Value="Deposit Requests"></asp:MenuItem>
+                                                            </asp:MenuItem>
+                                                            <asp:MenuItem NavigateUrl="~/Users/Bus/PromoCode.aspx" Text="PromoCode" Value="PromoCode">
+                                                            </asp:MenuItem>
+                                                            <asp:MenuItem NavigateUrl="~/Users/Bus/ViewFeedbacks.aspx" Text="Feedbacks" Value="Feedbacks">
+                                                            </asp:MenuItem>
+                                                            <asp:MenuItem NavigateUrl="~/Users/Bus/ChangePassword.aspx" Text="ChangePwd" Value="ChangePwd">
+                                                            </asp:MenuItem>
+                                                            <asp:MenuItem Text="LogOut" Value="LogOut"></asp:MenuItem>
+                                                        </Items>
+                                                    </asp:Menu>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="729" height="41" align="left" valign="middle" class="menu">
+                                        <br />
+                                        <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal" Width="100%">
+                                            <Items>
+                                                <asp:MenuItem Text="ManageBooking" Value="ManageBooking">
+                                                    <asp:MenuItem NavigateUrl="~/Users/Bus/Bus_Search.aspx" Text="Book Ticket" Value="Book Ticket">
+                                                    </asp:MenuItem>
+                                                    <asp:MenuItem NavigateUrl="~/Users/Bus/PrintTicket.aspx" Text="Print Ticket" Value="Print Ticket">
+                                                    </asp:MenuItem>
+                                                    <asp:MenuItem NavigateUrl="~/Users/Bus/CancelTicket.aspx" Text="Cancel Ticket" Value="Cancel Ticket">
+                                                    </asp:MenuItem>
+                                                </asp:MenuItem>
+                                                <asp:MenuItem Text="Reports" Value="Reports">
+                                                    <asp:MenuItem Text="Bookings" Value="Bookings" NavigateUrl="~/Users/Bus/CustomerEnquiry.aspx">
+                                                    </asp:MenuItem>
+                                                    <asp:MenuItem NavigateUrl="~/Users/Bus/AgentReports.aspx" Text="AgentBookings" Value="AgentBookings">
+                                                    </asp:MenuItem>
+                                                </asp:MenuItem>
+                                                <asp:MenuItem Text="Settings" Value="Settings">
+                                                    <asp:MenuItem NavigateUrl="~/Users/Bus/CancellationPolicy.aspx" Text="Cancellation Policy"
+                                                        Value="Cancellation Policy"></asp:MenuItem>
+                                                    <asp:MenuItem NavigateUrl="~/Users/Bus/Rating.aspx" Text="Rating" Value="Rating">
+                                                    </asp:MenuItem>
+                                                    <asp:MenuItem NavigateUrl="~/Users/Bus/BitlaRoutes.aspx" Text="Bitla Routes" Value="Bitla Routes">
+                                                    </asp:MenuItem>
+                                                </asp:MenuItem>
+                                            </Items>
+                                        </asp:Menu>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+       
+        <tr>
+            <td width="964" height="30" align="left" valign="top">
+                <table width="964" style="border-bottom: 1px solid #669999;">
+                    <tr>
+                        <td width="964" height="30" align="center">
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td width="964" height="30" align="left" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table width="964" border="0">
+                    <tr>
+                        <td valign="top" height="250px">
+                            <div>
+                                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                </asp:ContentPlaceHolder>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td width="964" height="3" align="left" valign="top">
+                <table width="964" style="border-bottom: 1px solid #669999;">
+                    <tr>
+                        <td width="964" height="3" align="center">
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td width="964" align="center" valign="middle">
+                Copyright @ All Rights Reserved By LoveJourney.in
+            </td>
+        </tr>
+    </table>--%>
+    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+            <td>
+                <asp:ModalPopupExtender ID="mp3" runat="server" PopupControlID="Panel1" TargetControlID="FeedBack"
+                    X="350" Y="250" BackgroundCssClass="loadingBackground" OkControlID="btnMsg1">
+                    
+ </asp:ModalPopupExtender>
+                <asp:Panel ID="Panel1" runat="server" Style="display: none; color: Black; border: 5px solid #3e6cc4;
+                    border-radius: 5px; -moz-border-radius: 5px;" align="center">
+                    <table width="600" bgcolor="#ffffff" height="100">
+                        <tr>
+                            <td align="right" valign="top">
+                                <asp:Button ID="btnMsg1" runat="server" Text="X" CssClass="buttonclose" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center">
+                                <table width="300" cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                        <td width="50" colspan="2">
+                                            <img src="../../images/feed.png" width="37" height="37" />
+                                        </td>
+                                        <td align="center" valign="middle" class="online_booking" colspan="4">
+                                            Feed Back
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td height="12" colspan="4" class="border_top">
+                                            &nbsp;
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left" class="lj_hd12" height="28" width="100">
+                                            Name
+                                        </td>
+                                        <td align="center" class="ft01" height="28" width="5%">
+                                            :
+                                        </td>
+                                        <td align="left" height="28">
+                                            <asp:TextBox ID="txtName" runat="server" CssClass="lj_inp" MaxLength="50"></asp:TextBox>
+                                            <asp:RequiredFieldValidator ID="rfvname" runat="server" ControlToValidate="txtName"
+                                                Display="None" ErrorMessage="Please Enter Name" ValidationGroup="submit" />
+                                            <asp:ValidatorCalloutExtender ID="vceName" runat="server" TargetControlID="rfvname"></asp:ValidatorCalloutExtender>
+                                            <asp:FilteredTextBoxExtender ID="ftbename" runat="server" TargetControlID="txtName"
+                                                ValidChars="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "></asp:FilteredTextBoxExtender>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left" class="lj_hd12" height="28">
+                                            Email
+                                        </td>
+                                        <td align="center" class="ft01" height="28">
+                                            :
+                                        </td>
+                                        <td align="left" height="28">
+                                            <asp:TextBox ID="txtEmail" runat="server" CssClass="lj_inp" MaxLength="100"></asp:TextBox>
+                                            <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtEmail"
+                                                Display="None" ErrorMessage="Please Enter Email" ValidationGroup="submit" />
+                                            <asp:ValidatorCalloutExtender ID="vceEmail" runat="server" TargetControlID="RequiredFieldValidator1"></asp:ValidatorCalloutExtender>
+                                            <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="txtEmail"
+                                                Display="None" ErrorMessage="Invalid Email Id" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"
+                                                ValidationGroup="submit" />
+                                            <asp:ValidatorCalloutExtender ID="vceEmail1" runat="server" TargetControlID="RegularExpressionValidator1"></asp:ValidatorCalloutExtender>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left" class="lj_hd12" height="28">
+                                            Phone
+                                        </td>
+                                        <td align="center" class="ft01" height="28">
+                                            :
+                                        </td>
+                                        <td align="left" height="28">
+                                            <asp:TextBox ID="txtPhone" runat="server" CssClass="lj_inp" MaxLength="10"></asp:TextBox>
+                                            <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="txtPhone"
+                                                Display="None" ErrorMessage="Please Enter Phone No" ValidationGroup="submit" />
+                                            <asp:ValidatorCalloutExtender ID="vcePhone" runat="server" TargetControlID="RequiredFieldValidator2"></asp:ValidatorCalloutExtender>
+                                            <asp:FilteredTextBoxExtender ID="FilteredTextBoxExtender1" runat="server" TargetControlID="txtPhone"
+                                                ValidChars="0123456789"></asp:FilteredTextBoxExtender>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left" class="lj_hd12" height="28">
+                                            Comments
+                                        </td>
+                                        <td align="center" class="ft01" height="28">
+                                            :
+                                        </td>
+                                        <td align="left" height="28">
+                                            <asp:TextBox ID="txtComments" runat="server" CssClass="lj_inp" onkeypress="return validateLimit(this, 'Div2', 1000)"
+                                                TextMode="MultiLine"></asp:TextBox>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="center" colspan="4" height="40" valign="middle">
+                                            <asp:Button ID="btnsubmit" runat="server" CssClass="buttonBook " Text="Submit" OnClick="btnsubmit_Click"
+                                                ValidationGroup="submit" />
+                                            <asp:Label ID="lblmsg" runat="server"></asp:Label>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                &nbsp;
+                            </td>
+                        </tr>
+                    </table>
+                </asp:Panel>
+            </td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>

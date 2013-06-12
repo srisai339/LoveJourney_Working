@@ -1,0 +1,122 @@
+﻿ body
+{
+}
+
+.accordionHeader
+{
+    border: 1px solid #2F4F4F;
+    color: white;
+    background-color: #0062af;
+        font-family: Arial, Sans-Serif;
+        font-size: 12px;
+        font-weight: bold;
+    padding: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.accordionHeader a
+{
+        color: white;
+        background: none;
+        text-decoration: none;
+}
+
+.accordionHeader a:hover
+{
+        background: none;
+        text-decoration: underline;
+}
+
+.accordionHeaderSelected
+{
+    border: 1px solid #2F4F4F;
+    color: white;
+    background-color: #5078B3;
+        font-weight: bold;
+    cursor: pointer;
+}
+
+.accordionHeaderSelected a
+{
+        color: white;
+        text-decoration: none;
+}
+
+.accordionHeaderSelected a:hover
+{
+        background: none;
+        text-decoration: underline;
+}
+
+.accordionContent
+{
+    background-color: #D3DEEF;
+    border: 1px dashed #2F4F4F;
+    border-top: none;
+    padding: 5px;
+    padding-top: 10px;
+}
+
+.Accordion_SnowHeader
+{
+    direction: rtl;
+    
+    width: 250px;
+    cursor: pointer;
+    text-align: left;
+     padding: 7px 7px;
+    margin-top: 0px;
+    -moz-border-radius-bottomleft: 6;
+    -moz-border-radius-bottomright: 6;
+    -moz-border-radius-topleft: 6;
+    -moz-border-radius-topright: 6;
+    background: #315C80 url(images/highlight-hard.png) repeat-x;
+    border: 1px solid #D8DCDF;
+    color: #E1E1E0;
+    font-weight: bold;
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+.Accordion_SnowContent
+{
+      direction:rtl;
+    width: 250px;
+    text-align: left;
+    margin-bottom: 2px;
+    padding: 7px 7px;
+    -moz-border-radius-bottomleft: 6;
+    -moz-border-radius-bottomright: 6;
+    border-top: 0 none;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+    color: #E1E1E0;
+    font-family: Arial,Helvetica,sans-serif;
+    background-color: #5F97C5;
+}
+
+.Accordion_SnowHeaderSelected
+{
+      direction: rtl;
+   
+    width: 250px;
+    cursor: pointer;
+    text-align: left;
+    padding: 7px 7px;
+    margin-top: 0px;
+    -moz-border-radius-bottomleft: 6;
+    -moz-border-radius-bottomright: 6;
+    -moz-border-radius-topleft: 6;
+    -moz-border-radius-topright: 6;
+    background: #315C80 url(images/highlight-hard.png) repeat-x;
+    border: 1px solid #D8DCDF;
+    color: #E1E1E0;
+    font-weight: bold;
+    font-family: Arial,Helvetica,sans-serif;
+}
+.highlight 
+        {
+        text-decoration:none; font-weight:bold;
+        color:black; background:yellow;
+        }

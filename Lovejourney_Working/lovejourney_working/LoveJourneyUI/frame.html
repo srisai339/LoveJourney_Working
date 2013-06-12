@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+
+<link href="css/lj_style.css" type="text/css" rel="stylesheet"  />
+
+<!--slides-->
+<style type="text/css">
+.slideshowheader { height:372px; width:441px; margin:0px; }
+
+</style>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+
+<!-- include Cycle plugin -->
+<script type="text/javascript" src="js/jquery.cycle.all.2.74.js"></script>
+
+<!--  initialize the slideshow when the DOM is ready -->
+<script type="text/javascript">
+$(document).ready(function() {
+  
+
+
+    $('.slideshowheader').cycle({
+		fx: 'fade', // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+		autostop: false,
+		timeout:5000, 
+	});
+});
+</script>
+<!--slidesEnd-->
+
+</head>
+
+<body>
+
+
+<div width="457" class="lj_banner_bg" align="left">
+
+ <div class="slideshowheader">
+         <img src="Newimages/hotel1.png" width="441" height="372" /> 
+         <img src="Newimages/flight1.png" width="441" height="372" />
+         <img src="Newimages/car1.png" width="441" height="372" />
+        <img src="Newimages/bus1.png" width="441" height="372" />  
+  
+  </div><!-- slideshowheader -->
+</div>
+
+</body>
+</html>

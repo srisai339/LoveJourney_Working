@@ -1,0 +1,83 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="hotelpolicy.aspx.cs" Inherits="hotelpolicy" %>
+<%@ Register TagPrefix="htmlEditor" Namespace="Winthusiasm.HtmlEditor" Assembly="Winthusiasm.HtmlEditor" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+</head>
+<body>
+    <form id="form1" runat="server">
+   
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr><td align="right">
+                        
+                 </td></tr>
+        <tr>
+            <td width="990" align="center">
+                <table width="990" cellpadding="0" cellspacing="0" border="0">
+                    <tr>
+                        <td class="lj_dbrd_hd" valign="middle" align="center">
+                            &nbsp;&nbsp;
+                            <asp:Label ID="lblHead" runat="server" Font-Size="16px" Text="Hotel Policy" ></asp:Label>
+                        </td>
+                        
+                    </tr>
+                    <tr>
+                        <td align="center">
+                            <table>
+                                <tr id="trCCode1" runat="server">
+                                    <td class="labelboldleft" style="width: 40%" visible="true" align="right">
+                                        <asp:Label ID="lblNotices" runat="server" Text="HotelPolicy :"></asp:Label>
+                                        <strong style="color: Red">*</strong>
+                                    </td>
+                                    <td align="left">
+                                    <asp:ScriptManager ID="ScriptManager1" runat="server">
+        </asp:ScriptManager>
+                                       <%-- <asp:TextBox ID="txtAdminRemainders" runat="server" TextMode="MultiLine"></asp:TextBox>--%>
+                                        <htmlEditor:HtmlEditor ID="Editor1" runat="server" Height="327px" 
+             Width="500px"  />
+                                        
+                                            
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        &nbsp;
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    </td>
+                                    <td align="left">
+                                        <asp:Button ID="btnAdd" runat="server" Text="Add"   CausesValidation="false"
+                                            CssClass="lj_dbrd_link1" onclick="btnAdd_Click"  />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <asp:Label ID="lblid" runat="server" Visible="false"></asp:Label>
+                                       
+                                       
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <asp:Label ID="lblmsg" runat="server" Visible="false" Width="100%" ForeColor="Red"></asp:Label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center" colspan="2">
+                                        &nbsp;
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    
+                </table>
+            </td>
+        </tr>
+        
+    </table>
+   
+    </form>
+</body>
+</html>

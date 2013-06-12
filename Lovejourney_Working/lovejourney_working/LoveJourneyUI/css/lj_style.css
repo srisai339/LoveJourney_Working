@@ -1,0 +1,421 @@
+*
+{
+	margin:0px;
+	padding:0px;
+}
+
+body
+{
+	font-size:12px;
+	color:#7c7878;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	line-height:18px;
+	background:#fff;
+}
+
+img
+{
+	outline:none;
+	border:0px;
+}
+
+.lj_Tmenu
+{
+	margin:0px;
+	padding:0px;
+}
+
+.lj_Tmenu ul
+{
+	margin:0px;
+	padding:0px;
+	float:right;
+}
+
+.lj_Tmenu ul li
+{
+	margin:0px;
+	padding:0px;
+	float:left;
+	list-style:none;
+    height: 18px;
+}
+
+.lj_Tmenu ul li a
+{
+	font-size:14px;
+	font-family:arial;
+	border-right:1px solid #c6c6c6;
+	text-decoration:none;
+	line-height:18px;
+	color:#0092EC;
+	padding:0px 10px;
+	font-weight:bold
+}
+
+.lj_Tmenu ul li a:hover
+{
+	text-decoration:underline;
+	color:#0092EC;
+	padding:0px 10px;
+}
+
+.lj_cn
+{
+	font-weight:bold;
+color:#d24f00  ;
+}
+
+.lj_cn a
+{
+	font-weight:normal;
+	text-decoration:none;
+    color:#d24f00; 
+    font-weight:bold;
+}
+
+/*content*/
+
+
+.lj_ctnt
+{
+
+border-radius:10px;
+-moz-border-radius:10px;
+background:url(../Newimages/bg_curve.png) bottom left no-repeat #e30000;
+	
+}
+
+.lj_tab_bg
+{
+	background:url(../Newimages/lc.png) top repeat-x ;width:22px;
+}
+.lj_tab_bg_tour
+{
+	background:url(../Newimages/packages.jpg) top repeat-x ;width:32px; height:32px;
+}
+
+.lj_tab_bg a
+{
+	color:#fff;
+	font-weight:bold;
+	text-decoration:none;
+	font-size:13px;
+}
+
+.lj_tab_bg a:hover,.lj_tab_bg a.sel
+{
+	
+	font-weight:bold;
+}
+
+/*form*/
+
+.lj_srchGo
+{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:23px;
+	color:#fff;
+	font-weight:normal;
+}
+
+.lj_outDiv
+{
+	width:232px;
+	height:39px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	border:1px solid #a2a3a3;
+	line-height:18px;
+	background:#fff;
+}
+
+.lj_bdrit
+{
+	border-right:1px solid #ec5959;
+}
+
+.lj_inputbox
+{
+	border:none;
+	outline:none;
+	background:#fff;
+	width:159px;
+	padding:9px 5px;
+	font-size:14px;
+	color:#ba211a;
+	line-height:18px;
+}
+
+.lj_inputdropdown
+{
+	border:none;
+	outline:none;
+	background:#fff;
+	width:149px;
+	padding:9px 5px;
+	font-size:13px;
+	color:#ba211a;
+	line-height:18px;
+}
+
+.lj_rooms
+{
+	color:#fff;
+}
+
+.lj_outroom
+{
+	width:125px;
+	height:39px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	border:1px solid #a2a3a3;
+	line-height:18px;
+	background:#fff;
+}
+
+
+.lj_outroom_n
+{
+	width:50px;
+	height:25px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	border:1px solid #a2a3a3;
+	line-height:18px;
+	background:#fff;
+}
+
+
+.lj_inp1
+{
+	border:none;
+	outline:none;
+	background:#fff;
+	width:50px;
+	padding:9px 5px;
+	font-size:14px;
+	color:#ba211a;
+	line-height:18px;
+}
+
+.lj_button
+{
+	height:35px;
+	font-size:22px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	outline:none;
+	border:0px;
+	border:1px solid #fff;
+	padding:0px 15px;
+	background:url(../Newimages/bg_but.png) repeat-x top;
+	color:#fff;
+	border-radius:10px;
+	-moz-border-radius:10px;
+}
+
+.lj_button_chk
+{
+	height:35px;
+	font-size:22px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	outline:none;
+	border:0px;
+	border:1px solid #fff;
+	padding:0px 5px;
+	background:url(../Newimages/bg_but.png) repeat-x top;
+	color:#fff;
+	border-radius:10px;
+	-moz-border-radius:10px;
+}
+
+.lj_choice
+{
+	font-size:20px;
+	font-weight:bold;
+	font-family:candara, "myriad Pro";
+	color:#e30000;
+}
+
+.lj_offer
+{
+	border:1px solid #e77c7c;
+	border-radius:0px 15px 0px 0px;
+	-moz-border-radius:0px 15px 0px 0px;
+}
+
+.lj_hd
+{
+	
+	border-radius:0px 15px 0px 0px;
+	-moz-border-radius:0px 15px 0px 0px;
+	padding-left:30px;
+	font-size:18px;
+	font-weight:normal;
+	font-family:candara, "myriad Pro";
+	color:#ffffff;
+}
+
+.lj_end
+{
+	padding-left:30px;
+}
+
+.lj_end a
+{
+	color:red;
+	text-decoration:none;
+}
+
+/*footer*/
+
+.lj_foot
+{
+	margin:0px;
+	padding:0px;
+}
+
+.lj_foot ul
+{
+	margin-left:30px;
+	padding:0px;
+}
+
+.lj_foot ul li
+{
+	float:left;
+	list-style:none;
+}
+
+.lj_foot ul li a
+{
+	margin:0px;
+	padding:0px 6px;
+	font-size:12px;
+	font-weight:nonmal;
+	color:#0092EC;
+	text-decoration:none;
+	border-right:1px solid #0092EC;
+	}
+	
+	
+	.lj_banner_bg
+	{
+		background:url(../Newimages/banner_bg.jpg) no-repeat left top;
+	}
+	
+	
+	/*masterMenu*/
+	
+	.lj_men_bg
+{
+	background:url(../Newimages/mc.png) top repeat-x ;width:22px;
+}
+
+.lj_men_bg a
+{
+	color:#fff;
+	font-weight:bold;
+	text-decoration:none;
+	font-size:13px;
+}
+
+.lj_men_bg a:hover,.lj_men_bg a.sel
+{
+	color:#000;
+	font-weight:bold;
+}
+
+.lj_srchagt
+{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:22px;
+	color:#000;
+	font-weight:normal;
+}
+
+/*homePageDtyle*/
+
+.lj_n_bus a
+{
+    width:18px;
+    height:35px;
+    background:url(../Newimages/bus.png) no-repeat center left ;
+    display:block;
+    padding:0px 0px 0px 42px;
+    line-height:35px;
+   
+}
+
+.lj_n_flight a
+{
+    width:20px;
+    height:35px;
+    background:url(../Newimages/flight_i.png) no-repeat center left ;
+    display:block;
+    padding:0px 0px 0px 42px;
+    line-height:35px;
+   
+}
+
+.lj_n_hotel a
+{
+    width:20px;
+    height:35px;
+    background:url(../Newimages/hotel_i.png) no-repeat center left ;
+    display:block;
+    padding:0px 0px 0px 42px;
+    line-height:35px;
+   
+}
+
+.lj_n_car a
+{
+    width:20px;
+    height:35px;
+    background:url(../Newimages/car.png) no-repeat center left ;
+    display:block;
+    padding:0px 0px 0px 42px;
+    line-height:35px;
+   
+}
+
+
+
+.lj_trip
+{
+    color:#fff;
+    font-weight:normal;
+    font-family:Myriad Pro;
+    font-size:16px;
+}
+.lj_n_menuflight a
+{
+    width:50px;
+    height:35px;
+    background:url(../Newimages/flight_i.png) no-repeat center left ;
+    display:block;
+    padding:0px 0px 0px 42px;
+    line-height:35px;
+   
+}
+/*Menu*/
+
+.NewDate
+{
+    border: 1px solid #fff;
+	padding:2px;
+	border-radius:5px;
+	-moz-box-radius:5px;
+	font-size:12px;
+	color:#999;
+	background:#fff;
+
+}
+.lj_user
+{
+	color:#fff;
+	font-size:13px;
+}

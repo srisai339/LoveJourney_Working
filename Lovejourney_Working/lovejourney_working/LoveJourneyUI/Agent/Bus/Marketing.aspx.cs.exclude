@@ -1,0 +1,447 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using BAL;
+using System.Data;
+using System.Data.SqlClient;
+using System.Text;
+using System.IO;
+using System.Xml;
+using System.Net;
+using System.Data.OleDb;
+using System.Globalization;
+using System.Web.UI.HtmlControls;
+public partial class Agent_Bus_Marketing : System.Web.UI.Page
+{
+    ClsBAL objBal;
+    string Userid;
+    protected void Page_Load(object sender, EventArgs e)
+    {
+
+    }
+    protected void lbtnRegisterAgent_Click(object sender, EventArgs e)
+    {
+        try
+        {
+            divAgents.Visible = false; divAgentRegistration.Visible = true; divDeposits.Visible = false;
+            btnRegister.Text = "Register"; btnCancel.Visible = false; txtUsername.Enabled = true;
+            legendAgentRegistration.InnerHtml = "Registration";
+           // ClearVlaues();
+            //lbtnViewAgents.Font.Bold = false;
+            lbtnRegisterAgent.Font.Bold = true;
+            
+        }
+        catch (Exception ex)
+        {
+            lblMsg.InnerHtml = ex.Message;
+        }
+
+
+    }
+    protected void btnRegister_Click(object sender, EventArgs e)
+    {
+        try
+        {
+
+            objBal = new ClsBAL();
+
+            string message = "";
+            if (btnRegister.Text == "Register")
+            {
+                if (txtDateOfBirth.Text == "")
+                {
+                    txtDateOfBirth.Text = "1/1/1990";
+                }
+                if (txtCommissionPercentage.Text == "")
+                {
+                    txtCommissionPercentage.Text = "0";
+                }
+                if (chkDomesticFlights.Checked == false)
+                {
+                    lblDomesticFlights.Text = "0";
+
+                }
+                else
+                {
+                    lblDomesticFlights.Text = "1";
+                }
+                if (chkInternationalFlights.Checked == false)
+                {
+                    lblInterNationalFlights.Text = "0";
+                }
+                else
+                {
+                    lblInterNationalFlights.Text = "1";
+                }
+                if (chkInternationalFlights.Checked == false)
+                {
+                    lblInterNationalFlights.Text = "0";
+                }
+                else
+                {
+                    lblInterNationalFlights.Text = "1";
+                }
+                if (chkBuses.Checked == false)
+                {
+                    lblBuses.Text = "0";
+                }
+                else
+                {
+                    lblBuses.Text = "1";
+
+                }
+                if (chkHotels.Checked == false)
+                {
+                    lblHotels.Text = "0";
+                }
+                else
+                {
+                    lblHotels.Text = "1";
+                }
+                if (chkRecharge.Checked == false)
+                {
+                    lblRecharge.Text = "0";
+                }
+                else
+                {
+                    lblRecharge.Text = "1";
+
+
+                }
+               
+                message = objBal.AddAgent(txtAgentName.Text.Trim().ToString(),
+                    ddlType.SelectedItem.Text.ToString(),
+                    Convert.ToDateTime(txtDateOfBirth.Text.ToString()),
+                    txtCity.Text.Trim().ToString(),
+                    ddlState.SelectedItem.Text.ToString(),
+                    txtAddress.Text.Trim().ToString(),
+                    txtPinCode.Text.Trim().ToString(),
+                    txtMobileNo.Text.Trim().ToString(),
+                    txtAlternateMobileNo.Text.Trim().ToString(),
+                    txtLandlineNo.Text.Trim().ToString(),
+                    txtEmailId.Text.Trim().ToString(),
+                    txtPAN.Text.Trim().ToString(),
+                    txtDetails.Text.Trim().ToString(),
+                    ddlStatus.SelectedItem.Text.ToString(),
+
+                    txtUsername.Text.Trim().ToString(),
+                    txtPassword.Text.Trim().ToString(),
+                    Convert.ToInt32(Session["UserID"].ToString()),
+                    Convert.ToInt32(Session["UserID"].ToString()), Convert.ToInt32(txtCommissionPercentage.Text.ToString()), ddlRole.SelectedItem.Text, "",
+                    lblDomesticFlights.Text.ToString(),
+                    lblInterNationalFlights.Text.ToString(),
+                    lblBuses.Text.ToString(),
+                    lblHotels.Text.ToString(),
+                    lblRecharge.Text.ToString(),
+                      txtDistrict.Text.Trim().ToString()
+
+                    );
+
+                if (message == "Agent registration is completed successfully.")
+                {
+                    mail();
+
+                    lblDomesticFlights.Visible = false;
+                    lblInterNationalFlights.Visible = false;
+                    lblBuses.Visible = false;
+                    lblHotels.Visible = false;
+                    lblRecharge.Visible = false;
+                    lblMsg.InnerHtml = message;
+                    if (ddlRole.SelectedItem.Text == "Agent")
+                    {
+                        lblMsg.InnerHtml = message;
+                    }
+                    else if (ddlRole.SelectedItem.Text == "Distributor")
+                    {
+                        lblMsg.InnerHtml = "Distributor Registration  is completed successfully.";
+                    }
+
+                }
+
+
+            }
+            else if (btnRegister.Text == "Update")
+            {
+                if (txtDateOfBirth.Text == "")
+                {
+                    txtDateOfBirth.Text = "1/1/1990";
+                }
+
+                if (chkDomesticFlights.Checked == false)
+                {
+                    lblDomesticFlights.Text = "0";
+
+                }
+                else
+                {
+                    lblDomesticFlights.Text = "1";
+                }
+                if (chkInternationalFlights.Checked == false)
+                {
+                    lblInterNationalFlights.Text = "0";
+                }
+                else
+                {
+                    lblInterNationalFlights.Text = "1";
+                }
+                if (chkInternationalFlights.Checked == false)
+                {
+                    lblInterNationalFlights.Text = "0";
+                }
+                else
+                {
+                    lblInterNationalFlights.Text = "1";
+                }
+                if (chkBuses.Checked == false)
+                {
+                    lblBuses.Text = "0";
+                }
+                else
+                {
+                    lblBuses.Text = "1";
+
+                }
+                if (chkHotels.Checked == false)
+                {
+                    lblHotels.Text = "0";
+                }
+                else
+                {
+                    lblHotels.Text = "1";
+                }
+                if (chkRecharge.Checked == false)
+                {
+                    lblRecharge.Text = "0";
+                }
+                else
+                {
+                    lblRecharge.Text = "1";
+                }
+
+
+
+
+                message = objBal.UpdateAgent(txtAgentName.Text.Trim().ToString(),
+                    ddlType.SelectedItem.Text.ToString(),
+                    Convert.ToDateTime(txtDateOfBirth.Text.ToString()),
+                    txtCity.Text.Trim().ToString(),
+                    ddlState.SelectedItem.Text.ToString(),
+                    txtAddress.Text.Trim().ToString(),
+                    txtPinCode.Text.Trim().ToString(),
+                    txtMobileNo.Text.Trim().ToString(),
+                    txtAlternateMobileNo.Text.Trim().ToString(),
+                    txtLandlineNo.Text.Trim().ToString(),
+                    txtEmailId.Text.Trim().ToString(),
+                    txtPAN.Text.Trim().ToString(),
+                    txtDetails.Text.Trim().ToString(),
+                    ddlStatus.SelectedItem.Text.ToString(),
+                    txtPassword.Text.Trim().ToString(),
+                    Convert.ToInt32(btnRegister.CommandArgument.ToString()),
+                    Convert.ToInt32(Session["UserID"].ToString()), Convert.ToInt32(txtCommissionPercentage.Text.ToString()),
+                    lblDomesticFlights.Text.ToString(),
+                    lblInterNationalFlights.Text.ToString(),
+                    lblBuses.Text.ToString(),
+                    lblHotels.Text.ToString(),
+                    lblRecharge.Text.ToString()
+
+                    );
+            }
+            //  lblMsg.InnerHtml = message;
+            lblDomesticFlights.Visible = false;
+            lblInterNationalFlights.Visible = false;
+            lblBuses.Visible = false;
+            lblHotels.Visible = false;
+            lblRecharge.Visible = false;
+
+        }
+        catch (Exception ex)
+        {
+            lblMsg.InnerHtml = ex.Message;
+        }
+    }
+    protected void lbtnViewMarketing_Click(object sender, EventArgs e)
+    {
+        divAgents.Visible = true;
+        divAgentRegistration.Visible = false;
+
+    }
+    protected void lbtnViewAgents_Click(object sender, EventArgs e)
+    {
+        divAgents.Visible = true;
+        divAgentRegistration.Visible = false;
+
+
+    }
+    protected void mail()
+    {
+
+        //string Body = "Dear <b>" + txtAgentName.Text + "</b>," +
+        //"<br /><br />Let us welcome you  with lovejourney.in . " +
+        // "Following are your login details. <br/> <br/>" +
+        //" Email ID :<b>" + txtEmailId.Text.Trim() + "</b><br />" +
+        //" Password : <b>" + txtPassword.Text.Trim() + "</b><br/>" +
+        //"<br /><br />you have successfully registered in www.lovejourney.in by the admin  and please" +
+        //"do not hesitate<br /> to write to us at <a href='mailto:info@lovejourney.in'>Mail</a> " + " " +
+        //"should you have any questions. <br /><br />Best Regards,<br />Administrator <br /> <a href='http://info@lovejourney.in'> lovejourney.in</a>" +
+        //"<br /><br />";
+
+        //MailSender.SendEmail(txtEmailId.Text.Trim(), "info@lovejourney.in", "info@lovejourney.in", "lovejourney-login", Body);
+
+
+
+
+        string Body = "<html><head><title>LOVE JOURNEY - Registry Creation Account Mail</title></head><body><table width='100%' border='0' cellspacing='0' cellpadding='0' style='padding:0;       margin:0;font-family:Arial, Helvetica, sans-serif;font-size:12px;font-weight:normal;color:#000;'>" +
+                                         "<tr><td height='50' align='center' valign='top'>&nbsp;</td></tr><tr><td align='center' valign='top'><img src='http://lovejourney.in/images/logo.gif' width='214' height='53' /></td> </tr> <tr><td align='center' valign='top'><table width='860' border='0' cellspacing='0' cellpadding='0'>" +
+            //Add down this line to every tempuser
+                                         "<tr><td height='60' align='center' valign='middle' style='border-bottom: 1px solid #666;border-top: 1px solid #666; font-size: 14px; font-weight:bold;'>Welcome to <strong> <a href='www.lovejourney.in'>lovejourney.in</a></strong><br /><br />Love Journey Makes to Book OnLineTicket.<br />Enjoy discounts on all Festivels For<br /><br />Flights *Buses * Hotels * Recharge</td></tr>" +
+                                         "<tr><td align='left' valign='middle'>&nbsp;</td></tr><tr><td height='60' align='center' valign='middle' style='border-bottom:1px solid #666; border-top:1px solid #666; font-size:14px;'><strong>you have successfully registered in www.lovejourney.in by the admin  </strong></td></tr>" +
+                                         "<tr><td align='center' valign='middle'>&nbsp;</td></tr><tr><td align='center' valign='middle'><strong>Your New Agent Account Login Information</strong><br />Please keep the following information for your records:<br /><strong>User Name:</strong> <a href='#'>" + txtUsername.Text.Trim().ToString() + "</a><br /><strong>Password:</strong> " + txtPassword.Text.Trim().ToString() + "<br /></td></tr>" +
+                                         "<tr><td height='25' align='center' valign='middle'>&nbsp;</td></tr><tr><td height='60' align='center' valign='middle'>Please use this  username/password combination the next time you log on.<br />If you have questions about your <strong>LOVE JOURNEY</strong>&nbsp;account,  please email<strong> <a href='mailto:info@lovejourney.com'>info@lovejourney.com</a></strong><br />It is recommended that you print, then destroy this email afterwards for added  security.<br /></td></tr>" +
+                                         "<tr><td height='25' align='center' valign='middle'>&nbsp;</td></tr> <tr><td height='30' align='center' valign='middle'><strong>Login to your account  online using the following link:</strong></td></tr>" +
+                                         "<tr><td align='center' valign='middle'>&nbsp;</td></tr><tr><td height='40' align='center' valign='middle'><strong><a href='http://lovejourney.in/Login.aspx'>http://lovejourney.in/Login.aspx&nbsp;</a></strong><br /><br />Sincerely,<br /><br />        <strong><a href='http://WWW.LOVEJOURNEY.in'>WWW.LOVEJOURNEY.IN</a></strong></td>   </tr>" +
+                                         "<tr><td align='center' valign='middle'>&nbsp;</td> </tr>   <tr>     <td align='center' valign='middle'>&nbsp;</td>    </tr>     " +
+                                         "<tr>  <td align='center' valign='middle'>.........................................................................................................................................................................................................</td>  </tr>" +
+                                         "<tr>    <td align='center' valign='middle'>&nbsp;</td>    </tr>" +
+                                         "<tr>   <td align='center' valign='middle'>&nbsp;</td>   </tr>  </table></td> </tr></table></body></html><br /><br />";
+        MailSender.SendEmail(txtEmailId.Text.Trim(), "info@lovejourney.in", "info@lovejourney.in", "lovejourney-login", Body);
+
+
+
+
+
+    }
+
+    protected void gvAgents_PageIndexChanging(object sender, GridViewPageEventArgs e)
+    {
+        try
+        {
+            gvAgents.PageIndex = e.NewPageIndex; gvAgents.DataSource = GetAgents(); gvAgents.DataBind();
+        }
+        catch (Exception ex)
+        {
+            lblMsg.InnerHtml = ex.Message;
+        }
+    }
+    protected void gvAgents_Sorting(object sender, GridViewSortEventArgs e)
+    {
+        try
+        {
+            string strExpression = e.SortExpression;
+            string strDirection = ViewState["SortDirection"].ToString();
+            if (Session["Role"].ToString() == "Admin")
+            {
+
+                if (ViewState["Link"].ToString() == "View Distributors")
+                {
+
+                    ClsBAL obj = new ClsBAL();
+                    DataSet ds = (DataSet)obj.GetAllTYpes("Distributor");
+                    if (ds != null)
+                    {
+                        if (ds.Tables.Count > 0)
+                        {
+                            if (ds.Tables[0].Rows.Count > 0)
+                            {
+                                DataTable dt = ds.Tables[0];
+                                DataView dv = new DataView(dt);
+                                dv.Sort = strExpression + strDirection;
+                                gvAgents.DataSource = dv;
+                                gvAgents.DataBind();
+                            }
+                        }
+                    }
+                }
+
+                else
+                {
+                    DataTable dt = GetAgents().Tables[0];
+                    DataView dv = new DataView(dt);
+                    dv.Sort = strExpression + strDirection;
+                    gvAgents.DataSource = dv;
+                    gvAgents.DataBind();
+                }
+            }
+            else
+            {
+                ClsBAL obj = new ClsBAL();
+                DataSet ds = (DataSet)obj.GetAgentsbyDistributorID(Convert.ToInt32(Session["UserID"].ToString()));
+                DataTable dt = ds.Tables[0];
+                DataView dv = new DataView(dt);
+                dv.Sort = strExpression + strDirection;
+                gvAgents.DataSource = dv;
+                gvAgents.DataBind();
+
+            }
+            if (strDirection == " ASC") { ViewState["SortDirection"] = " DESC"; } else { ViewState["SortDirection"] = " ASC"; }
+        }
+        catch (Exception ex)
+        {
+            lblMsg.InnerHtml = ex.Message;
+        }
+    }
+    protected void gvAgents_RowDataBound(object sender, GridViewRowEventArgs e)
+    {
+        try
+        {
+            if (e.Row.RowType == DataControlRowType.DataRow)
+            {
+                Button btnViewAgent = (Button)e.Row.FindControl("btnViewAgent");
+                Label lblStatus = (Label)e.Row.FindControl("lblStatus");
+                RadioButton rbtnApproved = (RadioButton)e.Row.FindControl("rbtnApproved");
+                RadioButton rbtnHold = (RadioButton)e.Row.FindControl("rbtnHold");
+                //Label lblBalance = (Label)e.Row.FindControl("lblBalance");
+                //lblBalance.Text = Convert.ToDouble(lblBalance.Text).ToString("####0.00");
+
+                if (Session["Role"].ToString() == "Admin")
+                {
+                    btnViewAgent.Visible = true;
+
+                    rbtnApproved.Checked = rbtnHold.Checked = lblStatus.Visible = false;
+                    if (lblStatus.Text.ToString() == "Approved") { rbtnApproved.Checked = true; }
+                    else if (lblStatus.Text.ToString() == "Hold") { rbtnHold.Checked = true; }
+
+
+                }
+                else if (Session["Role"].ToString() == "Distributor")
+                {
+                    btnViewAgent.Visible = false;
+                    lblStatus.Visible = true;
+                    rbtnApproved.Visible = false;
+                    rbtnHold.Visible = false;
+                    if (lblStatus.Text.ToString() == "Approved")
+                    {
+                        lblStatus.ForeColor = System.Drawing.Color.Green;
+                    }
+                    else if (lblStatus.Text.ToString() == "Hold")
+                    {
+                        lblStatus.ForeColor = System.Drawing.Color.Red;
+                    }
+                }
+
+            }
+        }
+        catch (Exception ex)
+        {
+            lblMsg.InnerHtml = ex.Message;
+        }
+    }
+
+    DataSet GetAgents()
+    {
+        try
+        {
+            objBal = new ClsBAL();
+
+            return objBal.GetAgents();
+
+        }
+        catch (Exception ex)
+        {
+            lblMsg.InnerHtml = ex.Message;
+            throw;
+        }
+    }
+}
